@@ -209,6 +209,13 @@ h1, h2, h3, h4 { font-family: Manrope, sans-serif; }
   border-radius: 14px;
 }
 
+/* LISTA ORIGINAL DE UNIDADES */
+.unit-sidebar #unit-list {
+  display: block;
+  width: 100%;
+  overflow: visible;
+}
+
 .unit-button {
   display: block;
   width: 100%;
@@ -220,9 +227,14 @@ h1, h2, h3, h4 { font-family: Manrope, sans-serif; }
   background: none;
   color: var(--muted);
   font-size: 12px;
+  white-space: normal;
 }
 
-.unit-button.active { background: var(--pale); color: var(--blue); font-weight: 700; }
+.unit-button.active {
+  background: var(--pale);
+  color: var(--blue);
+  font-weight: 700;
+}
 
 .lesson-item {
   display: flex;
@@ -237,6 +249,7 @@ h1, h2, h3, h4 { font-family: Manrope, sans-serif; }
 
 .lesson-item h4 { margin: 0 0 6px; font-size: 13px; }
 .lesson-item p { margin: 0; color: var(--muted); font-size: 11px; }
+
 .lesson-item button {
   border: 0;
   padding: 9px 12px;
@@ -254,6 +267,7 @@ h1, h2, h3, h4 { font-family: Manrope, sans-serif; }
 }
 
 .lesson-detail p { font-size: 13px; line-height: 1.8; }
+
 .vocab, .question {
   padding: 13px;
   margin: 9px 0;
@@ -287,9 +301,26 @@ dialog {
 
 dialog::backdrop { background: #14243b88; }
 dialog label { display: block; margin: 15px 0; font-size: 12px; }
-dialog input { display: block; width: 100%; padding: 12px; margin-top: 7px; border: 1px solid var(--line); border-radius: 8px; }
+
+dialog input {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  margin-top: 7px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+}
+
 dialog .primary { width: 100%; }
-.close-button { float: right; border: 0; background: #f1f4f8; border-radius: 50%; font-size: 20px; }
+
+.close-button {
+  float: right;
+  border: 0;
+  background: #f1f4f8;
+  border-radius: 50%;
+  font-size: 20px;
+}
+
 .message { font-size: 12px; color: #b34d4d; }
 
 @media (max-width: 760px) {
@@ -299,8 +330,17 @@ dialog .primary { width: 100%; }
   .level-grid { grid-template-columns: 1fr; }
   .academy, .course { padding: 40px 17px; }
   .course-layout { grid-template-columns: 1fr; }
-  .unit-sidebar #unit-list { display: flex; overflow-x: auto; }
-  .unit-button { white-space: nowrap; }
+
+  /* En móvil, las unidades también aparecen en lista vertical. */
+  .unit-sidebar #unit-list {
+    display: block;
+    overflow-x: visible;
+  }
+
+  .unit-button {
+    white-space: normal;
+  }
+
   .progress-panel { gap: 10px; }
   footer { gap: 10px; line-height: 1.5; }
 }
@@ -526,59 +566,4 @@ dialog .primary { width: 100%; }
   .exam-card { padding: 20px; }
   .exam-navigation { flex-wrap: wrap; }
   .exam-toolbar h2 { font-size: 21px; }
-}
-/* English Academy B1/B2 — ajuste de las tarjetas de unidades Q1–Q12 */
-
-/* Las unidades se distribuyen en varias filas y no fuerzan desplazamiento horizontal. */
-#unit-list {
-  display: grid !important;
-  grid-template-columns: repeat(auto-fit, minmax(min(100%, 220px), 1fr));
-  gap: 14px;
-  width: 100%;
-  max-width: 100%;
-  min-width: 0;
-  box-sizing: border-box;
-  overflow-x: visible;
-  align-items: stretch;
-}
-
-#unit-list .unit-button {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  min-width: 0;
-  min-height: 64px;
-  box-sizing: border-box;
-  white-space: normal;
-  overflow-wrap: anywhere;
-  text-align: center;
-  line-height: 1.35;
-  padding: 14px 16px;
-}
-
-/* Evita que un contenedor padre limite el ancho de la cuadrícula. */
-#course-view,
-#unit-list,
-#unit-list * {
-  box-sizing: border-box;
-}
-
-@media (max-width: 640px) {
-  #unit-list {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 10px;
-  }
-
-  #unit-list .unit-button {
-    min-height: 58px;
-    padding: 12px 9px;
-    font-size: 0.95rem;
-  }
-}
-
-@media (max-width: 360px) {
-  #unit-list {
-    grid-template-columns: minmax(0, 1fr);
-  }
 }
