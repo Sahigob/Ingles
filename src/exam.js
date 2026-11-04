@@ -14,14 +14,14 @@ import {
   serverTimestamp
 } from "https://www.gstatic.com/firebasejs/10.14.1/firebase-firestore.js";
 
-// Utiliza aquí la MISMA configuración de Firebase que en src/main.js.
 const firebaseConfig = {
-  apiKey: "PEGA_AQUI_TU_API_KEY",
-  authDomain: "PEGA_AQUI_TU_PROYECTO.firebaseapp.com",
-  projectId: "PEGA_AQUI_TU_PROYECTO",
-  storageBucket: "PEGA_AQUI_TU_PROYECTO.appspot.com",
-  messagingSenderId: "PEGA_AQUI_TU_SENDER_ID",
-  appId: "PEGA_AQUI_TU_APP_ID"
+  apiKey: "AIzaSyCOlt2USTexZl1IJSYZreZ61npgdGEOpNk",
+  authDomain: "ingles-2905b.firebaseapp.com",
+  projectId: "ingles-2905b",
+  storageBucket: "ingles-2905b.firebasestorage.app",
+  messagingSenderId: "121961633395",
+  appId: "1:121961633395:web:88a89e3e3c6bd185d0fc06",
+  measurementId: "G-G992ZDLH12"
 };
 
 let auth = null;
@@ -214,42 +214,50 @@ let remainingSeconds = 20 * 60;
 let timerInterval = null;
 
 function configureFirebase() {
-  const configIsIncomplete = Object.values(firebaseConfig).some(value =>
-    typeof value !== "string" || value.includes("PEGA_AQUI")
-  );
-
-  if (configIsIncomplete) {
-    console.warn("Configura Firebase en src/exam.js antes de guardar resultados.");
-    return;
-  }
-
   try {
     const app = initializeApp(firebaseConfig);
+
     auth = getAuth(app);
     db = getFirestore(app);
 
-    // Espera a que Firebase determine si existe una sesión iniciada.
     authReady = new Promise(resolve => {
+      let firstStateResolved = false;
+
       onAuthStateChanged(
         auth,
         user => {
           currentUser = user;
-          resolve(user);
+
+          if (!firstStateResolved) {
+            firstStateResolved = true;
+            resolve(user);
+          }
         },
         error => {
           console.error("No se pudo comprobar la sesión de Firebase:", error);
           currentUser = null;
-          resolve(null);
+
+          if (!firstStateResolved) {
+            firstStateResolved = true;
+            resolve(null);
+          }
         }
       );
     });
   } catch (error) {
-    console.error("Firebase:", error);
+    console.error("Error inicializando Firebase:", error);
     authReady = Promise.resolve(null);
   }
 }
 
-function startExam() {
+async function startExam() {
+  await authReady;
+
+  if (!currentUser) {
+    alert("Debes iniciar sesión en la academia antes de comenzar el examen. Después, vuelve a esta página.");
+    return;
+  }
+
   level = $("exam-level").value;
   currentPart = 0;
   answers = {};
@@ -262,6 +270,7 @@ function startExam() {
   $("exam-work").classList.remove("hidden");
 
   $("exam-level-label").textContent = `${level} EXAM`;
+
   renderPart();
   startTimer();
 }
@@ -323,6 +332,7 @@ function renderPart() {
     });
 
     const speakButton = $("speak-prompt");
+
     if (speakButton) {
       speakButton.addEventListener("click", () => speak(part.prompt));
     }
@@ -364,14 +374,18 @@ function renderPart() {
     });
 
     const audioButton = $("play-audio");
+
     if (audioButton) {
       audioButton.addEventListener("click", () => speak(part.audio));
     }
   }
 
   $("previous-question").disabled = currentPart === 0;
+
   $("next-question").textContent =
-    currentPart === exams[level].length - 1 ? "Ver resultados →" : "Siguiente →";
+    currentPart === exams[level].length - 1
+      ? "Ver resultados →"
+      : "Siguiente →";
 }
 
 function speak(text) {
@@ -424,17 +438,17 @@ function calculateResults() {
 }
 
 async function finishExam() {
-  // Evita que el botón y el temporizador finalicen o guarden el examen dos veces.
   if (isFinishing) return;
+
   isFinishing = true;
 
   clearInterval(timerInterval);
   timerInterval = null;
   window.speechSynthesis?.cancel();
 
-  // No consultar currentUser hasta que Firebase haya comprobado la sesión.
   await authReady;
 
+  const userAtStart = currentUser;
   const result = calculateResults();
 
   $("exam-work").classList.add("hidden");
@@ -463,12 +477,12 @@ async function finishExam() {
     </div>
   `).join("");
 
-  if (currentUser && db) {
+  if (userAtStart && db) {
     try {
       const examId = `${level}-${Date.now()}`;
 
       await setDoc(
-        doc(db, "users", currentUser.uid, "examResults", examId),
+        doc(db, "users", userAtStart.uid, "examResults", examId),
         {
           level,
           percentage: result.percentage,
@@ -479,15 +493,17 @@ async function finishExam() {
         }
       );
 
-      $("result-message").textContent += " Resultado guardado en tu cuenta.";
+      $("result-message").textContent +=
+        " Resultado guardado en tu cuenta.";
     } catch (error) {
       console.error("No se pudo guardar el examen:", error);
+
       $("result-message").textContent +=
         " No se pudo guardar el resultado en Firebase.";
     }
   } else {
     $("result-message").textContent +=
-      " Inicia sesión y configura Firebase para guardar tus resultados.";
+      " No se ha podido identificar tu sesión. El resultado no se ha guardado.";
   }
 }
 
