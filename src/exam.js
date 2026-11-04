@@ -440,7 +440,7 @@ async function finishExam() {
       const examId = `${level}-${Date.now()}`;
 
       await setDoc(
-        doc(db, "users", currentUser.uid, "private", "exams", examId),
+        doc(db, "users", currentUser.uid, "examResults", examId)
         {
           level,
           percentage: result.percentage,
