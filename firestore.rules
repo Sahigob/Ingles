@@ -1,39 +1,21 @@
-
 rules_version = '2';
 
 service cloud.firestore {
   match /databases/{database}/documents {
 
-    // Lista de usuarios autorizados.
-    // Los documentos se crearán manualmente desde Firebase.
-    match /authorizedUsers/{userId} {
-      allow read: if request.auth != null
-                  && request.auth.uid == userId;
-
-      allow create, update, delete: if false;
-    }
-
-    // Progreso privado de cada usuario autorizado.
+    // Cada usuario solo puede leer y modificar su propio progreso.
     match /users/{userId}/private/{document=**} {
-      allow read, write:
-        if request.auth != null
-        && request.auth.uid == userId
-        && exists(
-          /databases/$(database)/documents/authorizedUsers/$(request.auth.uid)
-        );
+      allow read, write: if request.auth != null
+                         && request.auth.uid == userId;
     }
 
-    // Resultados de exámenes.
+    // Cada usuario solo puede leer y guardar sus propios resultados de examen.
     match /users/{userId}/examResults/{examId} {
-      allow read, write:
-        if request.auth != null
-        && request.auth.uid == userId
-        && exists(
-          /databases/$(database)/documents/authorizedUsers/$(request.auth.uid)
-        );
+      allow read, write: if request.auth != null
+                         && request.auth.uid == userId;
     }
 
-    // Denegar cualquier otro acceso.
+    // Cualquier otra ruta queda cerrada.
     match /{document=**} {
       allow read, write: if false;
     }
