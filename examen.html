@@ -1,0 +1,83 @@
+
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Exámenes | English Academy</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="./index.html">
+      <span class="brand-mark">EA</span>
+      <span><strong>ENGLISH ACADEMY</strong><small>B1 · B2</small></span>
+    </a>
+    <a href="./index.html" class="button outline">Volver a la academia</a>
+  </header>
+
+  <main class="exam-page">
+    <section id="exam-start" class="exam-card">
+      <p class="eyebrow">EXAM PRACTICE</p>
+      <h1>Exámenes de práctica</h1>
+      <p>Simula una prueba de inglés y trabaja las cuatro destrezas.</p>
+
+      <label for="exam-level">Nivel</label>
+      <select id="exam-level">
+        <option value="B1">B1 · Intermediate</option>
+        <option value="B2">B2 · Upper Intermediate</option>
+      </select>
+
+      <div class="exam-info">
+        <div><strong>20 min</strong><span>Tiempo orientativo</span></div>
+        <div><strong>4 skills</strong><span>Destrezas</span></div>
+        <div><strong>Test + tareas</strong><span>Formato de práctica</span></div>
+      </div>
+
+      <button id="begin-exam" class="button primary">Comenzar examen →</button>
+      <p class="exam-note">Este examen es una práctica didáctica, no una prueba oficial ni una certificación de nivel.</p>
+    </section>
+
+    <section id="exam-work" class="hidden">
+      <div class="exam-toolbar">
+        <div>
+          <p class="eyebrow" id="exam-level-label">B1 EXAM</p>
+          <h2 id="exam-section-title">Reading</h2>
+        </div>
+        <div class="timer" id="exam-timer">20:00</div>
+      </div>
+
+      <div class="exam-progress"><div id="exam-progress-bar"></div></div>
+
+      <article id="exam-content" class="exam-card"></article>
+
+      <div class="exam-navigation">
+        <button id="previous-question" class="button outline">← Anterior</button>
+        <span id="question-counter">Parte 1 de 5</span>
+        <button id="next-question" class="button primary">Siguiente →</button>
+      </div>
+      <button id="finish-exam" class="finish-button">Finalizar examen</button>
+    </section>
+
+    <section id="exam-results" class="exam-card hidden">
+      <p class="eyebrow">EXAMEN FINALIZADO</p>
+      <h1>Tu resultado</h1>
+      <div class="result-score">
+        <strong id="result-score">0%</strong>
+        <span>Preguntas tipo test correctas</span>
+      </div>
+      <p id="result-message"></p>
+      <div id="result-breakdown"></div>
+      <div class="writing-review">
+        <h3>Revisión de Writing y Speaking</h3>
+        <p>Estas tareas requieren valoración personal. No se incluyen en el porcentaje automático.</p>
+        <div id="result-writing"></div>
+      </div>
+      <button id="retry-exam" class="button primary">Hacer otro examen</button>
+      <a href="./index.html" class="button outline">Volver a la academia</a>
+    </section>
+  </main>
+
+  <script type="module" src="./src/exam.js"></script>
+</body>
+</html>
