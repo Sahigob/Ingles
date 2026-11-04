@@ -14,6 +14,7 @@ import {
   serverTimestamp
 } from "https://www.gstatic.com/firebasejs/10.14.1/firebase-firestore.js";
 
+// Utiliza aquí la MISMA configuración de Firebase que en src/main.js.
 const firebaseConfig = {
   apiKey: "AIzaSyCOlt2USTexZl1IJSYZreZ61npgdGEOpNk",
   authDomain: "ingles-2905b.firebaseapp.com",
@@ -27,7 +28,9 @@ const firebaseConfig = {
 let auth = null;
 let db = null;
 let currentUser = null;
-let authReady = Promise.resolve(null);
+let resolveAuthReady;
+let authReadyResolved = false;
+let authReady = new Promise(resolve => { resolveAuthReady = resolve; });
 let isFinishing = false;
 
 const $ = id => document.getElementById(id);
@@ -216,48 +219,52 @@ let timerInterval = null;
 function configureFirebase() {
   try {
     const app = initializeApp(firebaseConfig);
-
     auth = getAuth(app);
     db = getFirestore(app);
 
-    authReady = new Promise(resolve => {
-      let firstStateResolved = false;
-
-      onAuthStateChanged(
-        auth,
-        user => {
-          currentUser = user;
-
-          if (!firstStateResolved) {
-            firstStateResolved = true;
-            resolve(user);
-          }
-        },
-        error => {
-          console.error("No se pudo comprobar la sesión de Firebase:", error);
-          currentUser = null;
-
-          if (!firstStateResolved) {
-            firstStateResolved = true;
-            resolve(null);
-          }
+    onAuthStateChanged(
+      auth,
+      user => {
+        currentUser = user;
+        if (!authReadyResolved) {
+          authReadyResolved = true;
+          resolveAuthReady(user);
         }
-      );
-    });
+        if (!user && authReadyResolved && !isFinishing) {
+          clearInterval(timerInterval);
+          timerInterval = null;
+          window.location.replace("./index.html");
+        }
+      },
+      error => {
+        console.error("No se pudo comprobar la sesión de Firebase:", error);
+        currentUser = null;
+        if (!authReadyResolved) {
+          authReadyResolved = true;
+          resolveAuthReady(null);
+        }
+      }
+    );
   } catch (error) {
     console.error("Error inicializando Firebase:", error);
-    authReady = Promise.resolve(null);
+    currentUser = null;
+    if (!authReadyResolved) {
+      authReadyResolved = true;
+      resolveAuthReady(null);
+    }
   }
 }
 
-async function startExam() {
+async function requireSignedIn() {
   await authReady;
+  if (currentUser && db) return true;
+  alert("Para realizar un examen, primero debes iniciar sesión en la academia.");
+  window.location.href = "./index.html";
+  return false;
+}
 
-  if (!currentUser) {
-    alert("Debes iniciar sesión en la academia antes de comenzar el examen. Después, vuelve a esta página.");
-    return;
-  }
-
+async function startExam() {
+  if (!(await requireSignedIn())) return;
   level = $("exam-level").value;
   currentPart = 0;
   answers = {};
@@ -270,7 +277,6 @@ async function startExam() {
   $("exam-work").classList.remove("hidden");
 
   $("exam-level-label").textContent = `${level} EXAM`;
-
   renderPart();
   startTimer();
 }
@@ -332,7 +338,6 @@ function renderPart() {
     });
 
     const speakButton = $("speak-prompt");
-
     if (speakButton) {
       speakButton.addEventListener("click", () => speak(part.prompt));
     }
@@ -374,18 +379,14 @@ function renderPart() {
     });
 
     const audioButton = $("play-audio");
-
     if (audioButton) {
       audioButton.addEventListener("click", () => speak(part.audio));
     }
   }
 
   $("previous-question").disabled = currentPart === 0;
-
   $("next-question").textContent =
-    currentPart === exams[level].length - 1
-      ? "Ver resultados →"
-      : "Siguiente →";
+    currentPart === exams[level].length - 1 ? "Ver resultados →" : "Siguiente →";
 }
 
 function speak(text) {
@@ -438,15 +439,22 @@ function calculateResults() {
 }
 
 async function finishExam() {
+  // Evita que el botón y el temporizador finalicen o guarden el examen dos veces.
   if (isFinishing) return;
-
   isFinishing = true;
 
   clearInterval(timerInterval);
   timerInterval = null;
   window.speechSynthesis?.cancel();
 
+  // No mostrar ni guardar resultados si la sesión ya no está activa.
   await authReady;
+  if (!currentUser || !db) {
+    isFinishing = false;
+    alert("Tu sesión ha terminado. Inicia sesión de nuevo para continuar.");
+    window.location.href = "./index.html";
+    return;
+  }
 
   const userAtStart = currentUser;
   const result = calculateResults();
@@ -477,12 +485,12 @@ async function finishExam() {
     </div>
   `).join("");
 
-  if (userAtStart && db) {
+  if (currentUser && db) {
     try {
       const examId = `${level}-${Date.now()}`;
 
       await setDoc(
-        doc(db, "users", userAtStart.uid, "examResults", examId),
+        doc(db, "users", currentUser.uid, "examResults", examId),
         {
           level,
           percentage: result.percentage,
@@ -493,21 +501,19 @@ async function finishExam() {
         }
       );
 
-      $("result-message").textContent +=
-        " Resultado guardado en tu cuenta.";
+      $("result-message").textContent += " Resultado guardado en tu cuenta.";
     } catch (error) {
       console.error("No se pudo guardar el examen:", error);
-
       $("result-message").textContent +=
         " No se pudo guardar el resultado en Firebase.";
     }
   } else {
     $("result-message").textContent +=
-      " No se ha podido identificar tu sesión. El resultado no se ha guardado.";
+      " La sesión ha cambiado y el resultado no se ha guardado.";
   }
 }
 
-$("begin-exam").addEventListener("click", startExam);
+$("begin-exam").addEventListener("click", () => { startExam(); });
 
 $("previous-question").addEventListener("click", () => {
   if (currentPart > 0) {
