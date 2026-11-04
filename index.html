@@ -1,0 +1,136 @@
+
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#14243b">
+  <title>English Academy B1/B2</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#">
+      <span class="brand-mark">EA</span>
+      <span><strong>ENGLISH ACADEMY</strong><small>B1 · B2</small></span>
+    </a>
+    <button id="auth-button" class="button outline">Acceder</button>
+  </header>
+
+  <main>
+    <section id="welcome-view" class="hero">
+      <div>
+        <p class="eyebrow">TU CAMINO HACIA EL INGLÉS</p>
+        <h1>Aprende inglés.<br><span>Avanza a tu ritmo.</span></h1>
+        <p class="lead">
+          Un itinerario organizado para preparar los niveles B1 y B2,
+          practicar las cuatro destrezas y comprobar tu progreso.
+        </p>
+        <button id="start-button" class="button primary">
+          Explorar los cursos →
+        </button>
+      </div>
+      <div class="hero-art">
+        <div class="book">
+          <small>ENGLISH</small>
+          <strong>Make<br>progress.</strong>
+          <span>B1 / B2</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="academy-view" class="academy hidden">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">TU ACADEMIA</p>
+          <h2>Elige tu nivel</h2>
+          <p>Selecciona el nivel que quieres estudiar.</p>
+        </div>
+        <button id="back-home" class="button outline">Inicio</button>
+      </div>
+
+      <div class="level-grid">
+        <article class="level-card b1">
+          <span>INTERMEDIATE</span>
+          <h3>B1</h3>
+          <h4>Independent user</h4>
+          <p>
+            Gana confianza en situaciones cotidianas, viajes,
+            trabajo y experiencias personales.
+          </p>
+          <button class="button light" data-level="B1">Entrar en B1 →</button>
+        </article>
+
+        <article class="level-card b2">
+          <span>UPPER INTERMEDIATE</span>
+          <h3>B2</h3>
+          <h4>Confident user</h4>
+          <p>
+            Desarrolla argumentos, comprende textos complejos
+            y comunícate con más naturalidad.
+          </p>
+          <button class="button light" data-level="B2">Entrar en B2 →</button>
+        </article>
+      </div>
+
+      <div class="progress-panel">
+        <div>
+          <h3>Tu progreso</h3>
+          <p id="progress-summary">Completa una lección para empezar.</p>
+        </div>
+        <div class="progress-number">
+          <strong id="progress-count">0</strong>
+          <span>lecciones completadas</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="course-view" class="course hidden">
+      <button id="back-levels" class="text-button">← Todos los niveles</button>
+      <p class="eyebrow" id="course-eyebrow">ENGLISH ACADEMY</p>
+      <h2 id="course-title">B1</h2>
+      <p id="course-description"></p>
+
+      <div class="course-layout">
+        <aside class="unit-sidebar">
+          <h3>Contenido del nivel</h3>
+          <div id="unit-list"></div>
+        </aside>
+
+        <div class="lesson-area">
+          <div id="lesson-list"></div>
+          <article id="lesson-detail" class="lesson-detail hidden"></article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>ENGLISH ACADEMY B1/B2</span>
+    <span>Learn with purpose. Progress with confidence.</span>
+  </footer>
+
+  <dialog id="auth-dialog">
+    <button id="close-auth" class="close-button">×</button>
+    <h2 id="auth-title">Accede a tu academia</h2>
+    <p>Inicia sesión o crea tu cuenta personal.</p>
+    <form id="auth-form">
+      <label>Correo electrónico
+        <input type="email" id="auth-email" required>
+      </label>
+      <label>Contraseña
+        <input type="password" id="auth-password" required minlength="6">
+      </label>
+      <button class="button primary" id="auth-submit" type="submit">
+        Iniciar sesión
+      </button>
+    </form>
+    <button id="auth-toggle" class="text-button">
+      ¿No tienes cuenta? Crear una
+    </button>
+    <p id="auth-message" class="message"></p>
+  </dialog>
+
+  <script type="module" src="./src/main.js"></script>
+</body>
+</html>
