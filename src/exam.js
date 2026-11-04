@@ -11,7 +11,6 @@ import {
   getFirestore,
   doc,
   setDoc,
-  getDoc,
   serverTimestamp
 } from "https://www.gstatic.com/firebasejs/10.14.1/firebase-firestore.js";
 
@@ -28,6 +27,8 @@ const firebaseConfig = {
 let auth = null;
 let db = null;
 let currentUser = null;
+let authReady = Promise.resolve(null);
+let isFinishing = false;
 
 const $ = id => document.getElementById(id);
 
@@ -213,7 +214,12 @@ let remainingSeconds = 20 * 60;
 let timerInterval = null;
 
 function configureFirebase() {
-  if (Object.values(firebaseConfig).some(value => value.includes("PEGA_AQUI"))) {
+  const configIsIncomplete = Object.values(firebaseConfig).some(value =>
+    typeof value !== "string" || value.includes("PEGA_AQUI")
+  );
+
+  if (configIsIncomplete) {
+    console.warn("Configura Firebase en src/exam.js antes de guardar resultados.");
     return;
   }
 
@@ -222,11 +228,24 @@ function configureFirebase() {
     auth = getAuth(app);
     db = getFirestore(app);
 
-    onAuthStateChanged(auth, user => {
-      currentUser = user;
+    // Espera a que Firebase determine si existe una sesión iniciada.
+    authReady = new Promise(resolve => {
+      onAuthStateChanged(
+        auth,
+        user => {
+          currentUser = user;
+          resolve(user);
+        },
+        error => {
+          console.error("No se pudo comprobar la sesión de Firebase:", error);
+          currentUser = null;
+          resolve(null);
+        }
+      );
     });
   } catch (error) {
     console.error("Firebase:", error);
+    authReady = Promise.resolve(null);
   }
 }
 
@@ -236,6 +255,7 @@ function startExam() {
   answers = {};
   writtenWork = {};
   remainingSeconds = 20 * 60;
+  isFinishing = false;
 
   $("exam-start").classList.add("hidden");
   $("exam-results").classList.add("hidden");
@@ -404,8 +424,16 @@ function calculateResults() {
 }
 
 async function finishExam() {
+  // Evita que el botón y el temporizador finalicen o guarden el examen dos veces.
+  if (isFinishing) return;
+  isFinishing = true;
+
   clearInterval(timerInterval);
+  timerInterval = null;
   window.speechSynthesis?.cancel();
+
+  // No consultar currentUser hasta que Firebase haya comprobado la sesión.
+  await authReady;
 
   const result = calculateResults();
 
