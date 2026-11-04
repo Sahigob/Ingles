@@ -527,3 +527,58 @@ dialog .primary { width: 100%; }
   .exam-navigation { flex-wrap: wrap; }
   .exam-toolbar h2 { font-size: 21px; }
 }
+/* English Academy B1/B2 — ajuste de las tarjetas de unidades Q1–Q12 */
+
+/* Las unidades se distribuyen en varias filas y no fuerzan desplazamiento horizontal. */
+#unit-list {
+  display: grid !important;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 220px), 1fr));
+  gap: 14px;
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+  box-sizing: border-box;
+  overflow-x: visible;
+  align-items: stretch;
+}
+
+#unit-list .unit-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-width: 0;
+  min-height: 64px;
+  box-sizing: border-box;
+  white-space: normal;
+  overflow-wrap: anywhere;
+  text-align: center;
+  line-height: 1.35;
+  padding: 14px 16px;
+}
+
+/* Evita que un contenedor padre limite el ancho de la cuadrícula. */
+#course-view,
+#unit-list,
+#unit-list * {
+  box-sizing: border-box;
+}
+
+@media (max-width: 640px) {
+  #unit-list {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 10px;
+  }
+
+  #unit-list .unit-button {
+    min-height: 58px;
+    padding: 12px 9px;
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 360px) {
+  #unit-list {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
