@@ -22,18 +22,14 @@ import { courseData } from "./course-data.js";
 const $ = id => document.getElementById(id);
 
 const firebaseConfig = {
-  apiKey: "PEGA_AQUI_TU_API_KEY",
-  authDomain: "PEGA_AQUI_TU_PROYECTO.firebaseapp.com",
-  projectId: "PEGA_AQUI_TU_PROYECTO",
-  storageBucket: "PEGA_AQUI_TU_PROYECTO.appspot.com",
-  messagingSenderId: "PEGA_AQUI_TU_SENDER_ID",
-  appId: "PEGA_AQUI_TU_APP_ID"
+  apiKey: "AIzaSyCOlt2USTexZl1IJSYZreZ61npgdGEOpNk",
+  authDomain: "ingles-2905b.firebaseapp.com",
+  projectId: "ingles-2905b",
+  storageBucket: "ingles-2905b.firebasestorage.app",
+  messagingSenderId: "121961633395",
+  appId: "1:121961633395:web:88a89e3e3c6bd185d0fc06",
+  measurementId: "G-G992ZDLH12"
 };
-
-const configured =
-  !Object.values(firebaseConfig).some(value =>
-    typeof value !== "string" || value.includes("PEGA_AQUI")
-  );
 
 let auth = null;
 let db = null;
@@ -52,7 +48,6 @@ function showView(id) {
 
 function updateProgress() {
   $("progress-count").textContent = progress.completed.length;
-
   $("progress-summary").textContent =
     `Has completado ${progress.completed.length} lecciones.`;
 }
@@ -77,7 +72,6 @@ async function loadProgress() {
 
     const snapshot = await getDoc(reference);
 
-    // Evita aplicar datos de una sesión anterior si cambia el usuario.
     if (!currentUser || currentUser.uid !== userAtStart.uid) {
       return;
     }
@@ -104,7 +98,6 @@ async function saveProgress(id) {
   }
 
   const userAtStart = currentUser;
-
   const previousCompleted = [...progress.completed];
 
   if (!progress.completed.includes(id)) {
@@ -132,7 +125,6 @@ async function saveProgress(id) {
 
     progress.completed = previousCompleted;
     updateProgress();
-
     alert("No se pudo guardar el progreso en Firebase.");
   }
 }
@@ -168,7 +160,6 @@ function renderUnits() {
 
       renderUnits();
       renderLessons();
-
       $("lesson-detail").classList.add("hidden");
     });
   });
@@ -219,7 +210,6 @@ function renderLesson(lesson) {
     <p>${lesson.intro}</p>
 
     <h4>Useful language</h4>
-
     ${lesson.vocab.map(item => `
       <div class="vocab">
         <b>${item[0]}</b> — ${item[1]}
@@ -320,8 +310,8 @@ $("close-auth").addEventListener("click", () => {
   $("auth-dialog").close();
 });
 
-// Desactivar el registro público en la interfaz.
-// Se conserva el elemento HTML para no tener que modificar index.html.
+// Acceso mediante correo y contraseña.
+// El registro público permanece desactivado.
 
 $("auth-title").textContent = "Accede a tu academia";
 $("auth-submit").textContent = "Iniciar sesión";
@@ -329,14 +319,12 @@ $("auth-submit").textContent = "Iniciar sesión";
 $("auth-toggle").classList.add("hidden");
 $("auth-toggle").setAttribute("hidden", "");
 
-// Inicio de sesión exclusivamente con email y contraseña.
-
 $("auth-form").addEventListener("submit", async event => {
   event.preventDefault();
 
-  if (!auth || !configured) {
+  if (!auth) {
     $("auth-message").textContent =
-      "Firebase todavía no está configurado.";
+      "Firebase no está disponible. Comprueba la configuración.";
     return;
   }
 
@@ -351,7 +339,6 @@ $("auth-form").addEventListener("submit", async event => {
 
     $("auth-message").textContent = "";
     $("auth-dialog").close();
-
     $("auth-form").reset();
   } catch (error) {
     console.error("Error de acceso:", error);
@@ -365,34 +352,30 @@ $("auth-form").addEventListener("submit", async event => {
 
 // Inicialización de Firebase
 
-if (configured) {
-  try {
-    const app = initializeApp(firebaseConfig);
+try {
+  const app = initializeApp(firebaseConfig);
 
-    auth = getAuth(app);
-    db = getFirestore(app);
+  auth = getAuth(app);
+  db = getFirestore(app);
 
-    onAuthStateChanged(auth, async user => {
-      currentUser = user;
+  onAuthStateChanged(auth, async user => {
+    currentUser = user;
 
-      $("auth-button").textContent = user
-        ? "Salir"
-        : "Acceder";
+    $("auth-button").textContent = user
+      ? "Salir"
+      : "Acceder";
 
-      await loadProgress();
+    await loadProgress();
 
-      if (!$("course-view").classList.contains("hidden")) {
-        renderLessons();
-      }
-    });
-  } catch (error) {
-    console.error("Error inicializando Firebase:", error);
+    if (!$("course-view").classList.contains("hidden")) {
+      renderLessons();
+    }
+  });
+} catch (error) {
+  console.error("Error inicializando Firebase:", error);
 
-    $("auth-message").textContent =
-      "No se pudo conectar con Firebase.";
-  }
-} else {
-  console.info("Firebase pendiente de configuración.");
+  $("auth-message").textContent =
+    "No se pudo conectar con Firebase.";
 }
 
 updateProgress();
