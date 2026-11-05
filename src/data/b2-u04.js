@@ -1,5 +1,5 @@
-// B2 Unit 4 · Science and technology
-// 25 grammar + 25 vocabulary + 3x5 reading + 3x5 listening + 5 writing + 5 speaking = 90 actividades.
+// B2 Unit 4 · Expanded practice
+// Correct-answer positions are distributed to avoid predictable answer patterns.
 export default [
   {
     "id": "b2-4",
@@ -38,34 +38,34 @@ export default [
       {
         "q": "The device is new. It ___ have been used before.",
         "options": [
-          "can't",
           "must",
           "should",
-          "needn't"
+          "needn't",
+          "can't"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "Can't have is a negative past deduction."
       },
       {
         "q": "The team ___ have tested the update more thoroughly.",
         "options": [
-          "should",
           "must",
           "can't",
+          "should",
           "may"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "Should have criticises an action."
       },
       {
         "q": "You ___ have downloaded the file; I sent a printed copy.",
         "options": [
-          "needn't",
           "mustn't",
+          "needn't",
           "can't",
           "should"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "Needn't have means unnecessary completed action."
       },
       {
@@ -82,34 +82,34 @@ export default [
       {
         "q": "The data ___ be incomplete because two sensors were offline.",
         "options": [
-          "may",
           "can't have",
           "mustn't",
-          "should have"
+          "should have",
+          "may"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "May expresses present possibility."
       },
       {
         "q": "The software works smoothly. The patch ___ have fixed the bug.",
         "options": [
-          "must",
           "can't",
           "needn't",
+          "must",
           "should"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "Must have is a strong deduction."
       },
       {
         "q": "The sample was contaminated, so the result ___ be accurate.",
         "options": [
-          "can't",
           "must",
+          "can't",
           "should",
           "might"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "Can't is a negative deduction."
       },
       {
@@ -126,34 +126,34 @@ export default [
       {
         "q": "The system is offline. There ___ be a power failure.",
         "options": [
-          "might",
           "must have",
           "can't have",
-          "should have"
+          "should have",
+          "might"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "Might be is present possibility."
       },
       {
         "q": "You ___ have changed the settings; the default was correct.",
         "options": [
-          "needn't",
           "mustn't",
           "can't",
+          "needn't",
           "should"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "Needn't have means it was unnecessary."
       },
       {
         "q": "The laboratory is locked. The staff ___ have left.",
         "options": [
-          "must",
           "can't",
+          "must",
           "might not to",
           "should"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "Must have is a strong past deduction."
       },
       {
@@ -170,34 +170,34 @@ export default [
       {
         "q": "The scientists ___ have predicted the outcome; evidence was limited.",
         "options": [
-          "couldn't",
           "must",
           "needn't",
-          "should"
+          "should",
+          "couldn't"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "Couldn't have expresses past impossibility."
       },
       {
         "q": "The data ___ have been altered; the audit trail is missing.",
         "options": [
-          "may",
           "can't",
           "mustn't",
+          "may",
           "should"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "May have expresses possibility."
       },
       {
         "q": "The device ___ have been damaged in transit; packaging was intact.",
         "options": [
-          "might not",
           "must",
+          "might not",
           "should",
           "can't"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "Might not have is a possible negative deduction."
       },
       {
@@ -214,34 +214,34 @@ export default [
       {
         "q": "There is no signal, so the sensor ___ be connected properly.",
         "options": [
-          "can't",
           "must",
           "should",
-          "needn't"
+          "needn't",
+          "can't"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "Can't be is a negative present deduction."
       },
       {
         "q": "The researcher ___ have repeated the test; the first result was conclusive.",
         "options": [
-          "needn't",
           "mustn't",
           "can't",
+          "needn't",
           "should"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "Needn't have means an unnecessary action."
       },
       {
         "q": "The results are being analysed. They ___ be ready by Friday.",
         "options": [
-          "may",
           "can't have",
+          "may",
           "must have",
           "needn't have"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "May be expresses future possibility."
       },
       {
@@ -258,34 +258,34 @@ export default [
       {
         "q": "The scientists ___ have ignored the warning.",
         "options": [
-          "shouldn't",
           "mustn't",
           "needn't",
-          "can't"
+          "can't",
+          "shouldn't"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "Shouldn't have expresses criticism."
       },
       {
         "q": "The discovery ___ transform the field.",
         "options": [
-          "could",
           "can't have",
           "must have",
+          "could",
           "needn't"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "Could expresses possible future effect."
       },
       {
         "q": "The figures match the source file. They ___ have been copied correctly.",
         "options": [
-          "must",
           "can't",
+          "must",
           "might not",
           "needn't"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "Must have expresses a strong deduction."
       },
       {
@@ -414,34 +414,34 @@ export default [
       {
         "q": "What does \"breakthrough\" mean?",
         "options": [
-          "an important discovery or development",
           "a set of rules a computer follows",
           "ability to provide dependable results",
-          "systems learning patterns from data"
+          "systems learning patterns from data",
+          "an important discovery or development"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "\"breakthrough\" means an important discovery or development."
       },
       {
         "q": "What does \"prototype\" mean?",
         "options": [
-          "an early model used to test a design",
           "using technology to perform tasks",
           "extent to which a method measures what it claims",
+          "an early model used to test a design",
           "check that something is accurate"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "\"prototype\" means an early model used to test a design."
       },
       {
         "q": "What does \"hypothesis\" mean?",
         "options": [
-          "a proposed explanation that can be tested",
           "a systematic error or unfair preference",
+          "a proposed explanation that can be tested",
           "a factor that can change in an experiment",
           "fail to work correctly"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "\"hypothesis\" means a proposed explanation that can be tested."
       },
       {
@@ -458,34 +458,34 @@ export default [
       {
         "q": "What does \"replicate\" mean?",
         "options": [
-          "repeat an experiment to check results",
           "whether something can be done",
           "protection of personal information",
-          "imitate a real process"
+          "imitate a real process",
+          "repeat an experiment to check results"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "\"replicate\" means repeat an experiment to check results."
       },
       {
         "q": "What does \"dataset\" mean?",
         "options": [
-          "a collection of related information",
           "a conclusion based on evidence",
           "computer systems performing human-like tasks",
+          "a collection of related information",
           "improve through small changes"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "\"dataset\" means a collection of related information."
       },
       {
         "q": "What does \"algorithm\" mean?",
         "options": [
-          "a set of rules a computer follows",
           "ability to provide dependable results",
+          "a set of rules a computer follows",
           "systems learning patterns from data",
           "using the most advanced technology"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "\"algorithm\" means a set of rules a computer follows."
       },
       {
@@ -502,34 +502,34 @@ export default [
       {
         "q": "What does \"bias\" mean?",
         "options": [
-          "a systematic error or unfair preference",
           "a factor that can change in an experiment",
           "fail to work correctly",
-          "an early model used to test a design"
+          "an early model used to test a design",
+          "a systematic error or unfair preference"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "\"bias\" means a systematic error or unfair preference."
       },
       {
         "q": "What does \"constraint\" mean?",
         "options": [
-          "a limit or restriction",
           "possible effects relating to right and wrong",
           "discover or identify something",
+          "a limit or restriction",
           "a proposed explanation that can be tested"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "\"constraint\" means a limit or restriction."
       },
       {
         "q": "What does \"feasibility\" mean?",
         "options": [
-          "whether something can be done",
           "protection of personal information",
+          "whether something can be done",
           "imitate a real process",
           "evaluation of research by other experts"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "\"feasibility\" means whether something can be done."
       },
       {
@@ -546,34 +546,34 @@ export default [
       {
         "q": "What does \"reliability\" mean?",
         "options": [
-          "ability to provide dependable results",
           "systems learning patterns from data",
           "using the most advanced technology",
-          "a collection of related information"
+          "a collection of related information",
+          "ability to provide dependable results"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "\"reliability\" means ability to provide dependable results."
       },
       {
         "q": "What does \"validity\" mean?",
         "options": [
-          "extent to which a method measures what it claims",
           "check that something is accurate",
           "an important discovery or development",
+          "extent to which a method measures what it claims",
           "a set of rules a computer follows"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "\"validity\" means extent to which a method measures what it claims."
       },
       {
         "q": "What does \"variable\" mean?",
         "options": [
-          "a factor that can change in an experiment",
           "fail to work correctly",
+          "a factor that can change in an experiment",
           "an early model used to test a design",
           "using technology to perform tasks"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "\"variable\" means a factor that can change in an experiment."
       },
       {
@@ -590,34 +590,34 @@ export default [
       {
         "q": "What does \"data privacy\" mean?",
         "options": [
-          "protection of personal information",
           "imitate a real process",
           "evaluation of research by other experts",
-          "a limit or restriction"
+          "a limit or restriction",
+          "protection of personal information"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "\"data privacy\" means protection of personal information."
       },
       {
         "q": "What does \"artificial intelligence\" mean?",
         "options": [
-          "computer systems performing human-like tasks",
           "improve through small changes",
           "repeat an experiment to check results",
+          "computer systems performing human-like tasks",
           "whether something can be done"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "\"artificial intelligence\" means computer systems performing human-like tasks."
       },
       {
         "q": "What does \"machine learning\" mean?",
         "options": [
-          "systems learning patterns from data",
           "using the most advanced technology",
+          "systems learning patterns from data",
           "a collection of related information",
           "a conclusion based on evidence"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "\"machine learning\" means systems learning patterns from data."
       },
       {
@@ -634,34 +634,34 @@ export default [
       {
         "q": "What does \"malfunction\" mean?",
         "options": [
-          "fail to work correctly",
           "an early model used to test a design",
           "using technology to perform tasks",
-          "extent to which a method measures what it claims"
+          "extent to which a method measures what it claims",
+          "fail to work correctly"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "\"malfunction\" means fail to work correctly."
       },
       {
         "q": "What does \"detect\" mean?",
         "options": [
-          "discover or identify something",
           "a proposed explanation that can be tested",
           "a systematic error or unfair preference",
+          "discover or identify something",
           "a factor that can change in an experiment"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "\"detect\" means discover or identify something."
       },
       {
         "q": "What does \"simulate\" mean?",
         "options": [
-          "imitate a real process",
           "evaluation of research by other experts",
+          "imitate a real process",
           "a limit or restriction",
           "possible effects relating to right and wrong"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "\"simulate\" means imitate a real process."
       },
       {
@@ -678,12 +678,12 @@ export default [
       {
         "q": "What does \"state-of-the-art\" mean?",
         "options": [
-          "using the most advanced technology",
           "a collection of related information",
           "a conclusion based on evidence",
-          "computer systems performing human-like tasks"
+          "computer systems performing human-like tasks",
+          "using the most advanced technology"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "\"state-of-the-art\" means using the most advanced technology."
       }
     ]
@@ -703,51 +703,51 @@ export default [
           {
             "q": "What is the central issue?",
             "options": [
-              "How scientific or technological claims should be tested and evaluated",
               "How to advertise a product",
+              "How scientific or technological claims should be tested and evaluated",
               "A personal holiday"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "The text examines evidence, reliability or ethics."
           },
           {
             "q": "Which limitation is identified?",
             "options": [
-              "A possible weakness in data, methods or implementation",
               "There are no uncertainties",
+              "A possible weakness in data, methods or implementation",
               "The matter is fully settled"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "The text identifies a limitation."
           },
           {
             "q": "What response is described?",
             "options": [
-              "Further testing, transparency or safeguards",
               "Ignoring the results",
+              "Further testing, transparency or safeguards",
               "Hiding the methods"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "The response is cautious and evidence-based."
           },
           {
             "q": "What can be inferred?",
             "options": [
-              "Innovation requires scrutiny as well as technical performance",
               "Every new technology is automatically safe",
+              "Innovation requires scrutiny as well as technical performance",
               "One test is always sufficient"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "The conclusion stresses evaluation."
           },
           {
             "q": "What is the writer's tone?",
             "options": [
-              "Analytical and cautious",
               "Dismissive",
+              "Analytical and cautious",
               "Entirely promotional"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "The writer recognises potential and limitations."
           }
         ]
@@ -759,51 +759,51 @@ export default [
           {
             "q": "What is the central issue?",
             "options": [
-              "How scientific or technological claims should be tested and evaluated",
               "How to advertise a product",
+              "How scientific or technological claims should be tested and evaluated",
               "A personal holiday"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "The text examines evidence, reliability or ethics."
           },
           {
             "q": "Which limitation is identified?",
             "options": [
-              "A possible weakness in data, methods or implementation",
               "There are no uncertainties",
+              "A possible weakness in data, methods or implementation",
               "The matter is fully settled"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "The text identifies a limitation."
           },
           {
             "q": "What response is described?",
             "options": [
-              "Further testing, transparency or safeguards",
               "Ignoring the results",
+              "Further testing, transparency or safeguards",
               "Hiding the methods"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "The response is cautious and evidence-based."
           },
           {
             "q": "What can be inferred?",
             "options": [
-              "Innovation requires scrutiny as well as technical performance",
               "Every new technology is automatically safe",
+              "Innovation requires scrutiny as well as technical performance",
               "One test is always sufficient"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "The conclusion stresses evaluation."
           },
           {
             "q": "What is the writer's tone?",
             "options": [
-              "Analytical and cautious",
               "Dismissive",
+              "Analytical and cautious",
               "Entirely promotional"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "The writer recognises potential and limitations."
           }
         ]
@@ -815,51 +815,51 @@ export default [
           {
             "q": "What is the central issue?",
             "options": [
-              "How scientific or technological claims should be tested and evaluated",
               "How to advertise a product",
+              "How scientific or technological claims should be tested and evaluated",
               "A personal holiday"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "The text examines evidence, reliability or ethics."
           },
           {
             "q": "Which limitation is identified?",
             "options": [
-              "A possible weakness in data, methods or implementation",
               "There are no uncertainties",
+              "A possible weakness in data, methods or implementation",
               "The matter is fully settled"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "The text identifies a limitation."
           },
           {
             "q": "What response is described?",
             "options": [
-              "Further testing, transparency or safeguards",
               "Ignoring the results",
+              "Further testing, transparency or safeguards",
               "Hiding the methods"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "The response is cautious and evidence-based."
           },
           {
             "q": "What can be inferred?",
             "options": [
-              "Innovation requires scrutiny as well as technical performance",
               "Every new technology is automatically safe",
+              "Innovation requires scrutiny as well as technical performance",
               "One test is always sufficient"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "The conclusion stresses evaluation."
           },
           {
             "q": "What is the writer's tone?",
             "options": [
-              "Analytical and cautious",
               "Dismissive",
+              "Analytical and cautious",
               "Entirely promotional"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "The writer recognises potential and limitations."
           }
         ]
@@ -881,51 +881,51 @@ export default [
           {
             "q": "What is the central issue?",
             "options": [
-              "How scientific or technological claims should be tested and evaluated",
               "How to advertise a product",
+              "How scientific or technological claims should be tested and evaluated",
               "A personal holiday"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "The text examines evidence, reliability or ethics."
           },
           {
             "q": "Which limitation is identified?",
             "options": [
-              "A possible weakness in data, methods or implementation",
               "There are no uncertainties",
+              "A possible weakness in data, methods or implementation",
               "The matter is fully settled"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "The text identifies a limitation."
           },
           {
             "q": "What response is described?",
             "options": [
-              "Further testing, transparency or safeguards",
               "Ignoring the results",
+              "Further testing, transparency or safeguards",
               "Hiding the methods"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "The response is cautious and evidence-based."
           },
           {
             "q": "What can be inferred?",
             "options": [
-              "Innovation requires scrutiny as well as technical performance",
               "Every new technology is automatically safe",
+              "Innovation requires scrutiny as well as technical performance",
               "One test is always sufficient"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "The conclusion stresses evaluation."
           },
           {
             "q": "What is the writer's tone?",
             "options": [
-              "Analytical and cautious",
               "Dismissive",
+              "Analytical and cautious",
               "Entirely promotional"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "The writer recognises potential and limitations."
           }
         ]
@@ -937,51 +937,51 @@ export default [
           {
             "q": "What is the central issue?",
             "options": [
-              "How scientific or technological claims should be tested and evaluated",
               "How to advertise a product",
+              "How scientific or technological claims should be tested and evaluated",
               "A personal holiday"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "The text examines evidence, reliability or ethics."
           },
           {
             "q": "Which limitation is identified?",
             "options": [
-              "A possible weakness in data, methods or implementation",
               "There are no uncertainties",
+              "A possible weakness in data, methods or implementation",
               "The matter is fully settled"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "The text identifies a limitation."
           },
           {
             "q": "What response is described?",
             "options": [
-              "Further testing, transparency or safeguards",
               "Ignoring the results",
+              "Further testing, transparency or safeguards",
               "Hiding the methods"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "The response is cautious and evidence-based."
           },
           {
             "q": "What can be inferred?",
             "options": [
-              "Innovation requires scrutiny as well as technical performance",
               "Every new technology is automatically safe",
+              "Innovation requires scrutiny as well as technical performance",
               "One test is always sufficient"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "The conclusion stresses evaluation."
           },
           {
             "q": "What is the writer's tone?",
             "options": [
-              "Analytical and cautious",
               "Dismissive",
+              "Analytical and cautious",
               "Entirely promotional"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "The writer recognises potential and limitations."
           }
         ]
@@ -993,51 +993,51 @@ export default [
           {
             "q": "What is the central issue?",
             "options": [
-              "How scientific or technological claims should be tested and evaluated",
               "How to advertise a product",
+              "How scientific or technological claims should be tested and evaluated",
               "A personal holiday"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "The text examines evidence, reliability or ethics."
           },
           {
             "q": "Which limitation is identified?",
             "options": [
-              "A possible weakness in data, methods or implementation",
               "There are no uncertainties",
+              "A possible weakness in data, methods or implementation",
               "The matter is fully settled"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "The text identifies a limitation."
           },
           {
             "q": "What response is described?",
             "options": [
-              "Further testing, transparency or safeguards",
               "Ignoring the results",
+              "Further testing, transparency or safeguards",
               "Hiding the methods"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "The response is cautious and evidence-based."
           },
           {
             "q": "What can be inferred?",
             "options": [
-              "Innovation requires scrutiny as well as technical performance",
               "Every new technology is automatically safe",
+              "Innovation requires scrutiny as well as technical performance",
               "One test is always sufficient"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "The conclusion stresses evaluation."
           },
           {
             "q": "What is the writer's tone?",
             "options": [
-              "Analytical and cautious",
               "Dismissive",
+              "Analytical and cautious",
               "Entirely promotional"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "The writer recognises potential and limitations."
           }
         ]
