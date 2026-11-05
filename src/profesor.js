@@ -1,6 +1,6 @@
 import { CreateMLCEngine } from "https://esm.run/@mlc-ai/web-llm@0.2.87";
 
-const MODEL_ID = "Qwen2.5-1.5B-Instruct-q4f16_1-MLC";
+const MODEL_ID = "Qwen2.5-1.5B-Instruct-q4f32_1-MLC";
 const $ = id => document.getElementById(id);
 let engine = null;
 let busy = false;
@@ -70,7 +70,7 @@ async function teacherReply(userText) {
   messages.push({ role: "user", content: userText });
   try {
     const result = await engine.chat.completions.create({
-      messages: [{ role: "system", content: systemPrompt() }, ...messages.slice(-12)],
+      messages: [{ role: "system", content: systemPrompt() }, ...messages.slice(-10)],
       temperature: 0.7,
       top_p: 0.9,
       max_tokens: 220
