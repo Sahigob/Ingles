@@ -2,7 +2,7 @@
 // 25 grammar + 25 vocabulary + 3x5 reading + 3x5 listening + 5 writing + 5 speaking = 90 actividades.
 export default [
   {
-    "id": "b1-u12-grammar",
+    "id": "b1-12",
     "title": "Future forms and future continuous",
     "skill": "Grammar",
     "type": "grammar",
