@@ -2,7 +2,7 @@
 // 25 grammar + 25 vocabulary + 3x5 reading + 3x5 listening + 5 writing + 5 speaking = 90 actividades.
 export default [
   {
-    "id": "b1-u07-grammar",
+    "id": "b1-7",
     "title": "Second conditional and wish / if only",
     "skill": "Grammar",
     "type": "grammar",
