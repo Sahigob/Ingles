@@ -2,7 +2,7 @@
 // 25 grammar + 25 vocabulary + 3x5 reading + 3x5 listening + 5 writing + 5 speaking = 90 actividades.
 export default [
   {
-    "id": "b1-u10-grammar",
+    "id": "b1-10",
     "title": "Present perfect simple and continuous",
     "skill": "Grammar",
     "type": "grammar",
