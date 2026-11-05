@@ -6,11 +6,16 @@ import b1u05 from "./b1-u05.js";
 import b1u06 from "./b1-u06.js";
 import b1u07 from "./b1-u07.js";
 import b1u08 from "./b1-u08.js";
+import b1u09 from "./b1-u09.js";
+import b1u10 from "./b1-u10.js";
+import b1u11 from "./b1-u11.js";
+import b1u12 from "./b1-u12.js";
 
 export const expansions = {
   B1: {
     0: b1u01, 1: b1u02, 2: b1u03, 3: b1u04,
-    4: b1u05, 5: b1u06, 6: b1u07, 7: b1u08
+    4: b1u05, 5: b1u06, 6: b1u07, 7: b1u08,
+    8: b1u09, 9: b1u10, 10: b1u11, 11: b1u12
   },
   B2: {}
 };
