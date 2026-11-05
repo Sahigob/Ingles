@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#14243b">
+  <title>Elige tu dispositivo · English Academy</title>
+  <link rel="stylesheet" href="./styles.css">
+  <style>
+    .device-main{max-width:760px;margin:4rem auto;padding:0 1.2rem}
+    .device-heading{text-align:center;margin-bottom:2rem}
+    .device-options{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1rem}
+    .device-option{display:flex;flex-direction:column;align-items:center;text-align:center;gap:.8rem;padding:2rem 1.3rem;border:1px solid var(--border,#dbe2ea);border-radius:18px;background:var(--card,#fff);text-decoration:none;color:inherit;transition:transform .2s,border-color .2s}
+    .device-option:hover{transform:translateY(-3px);border-color:var(--primary,#3769c8)}
+    .device-icon{font-size:3rem}.device-option h2{margin:0}.device-option p{margin:0;opacity:.78}
+    .device-back{text-align:center;margin-top:1.5rem}
+    @media(max-width:560px){.device-options{grid-template-columns:1fr}.device-main{margin:2rem auto}.device-option{padding:1.5rem}}
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="./index.html"><span class="brand-mark">EA</span><span><strong>ENGLISH ACADEMY</strong><small>B1 · B2</small></span></a>
+    <a class="button outline" href="./index.html">← Volver a la academia</a>
+  </header>
+  <main class="device-main">
+    <section class="device-heading">
+      <p class="eyebrow">SPEAKING · LISTENING · CONVERSATION</p>
+      <h1>¿Desde qué dispositivo quieres practicar?</h1>
+      <p>Elige la opción que corresponda para abrir el profesor adecuado.</p>
+    </section>
+    <section class="device-options">
+      <a class="device-option" id="computer-option" href="./profesor.html">
+        <span class="device-icon" aria-hidden="true">💻</span>
+        <h2>Ordenador</h2>
+        <p>Abre el profesor de IA local Qwen que ya has probado y funciona en tu ordenador.</p>
+        <strong>Usar profesor local →</strong>
+      </a>
+      <a class="device-option" id="mobile-option" href="https://chatgpt.com/">
+        <span class="device-icon" aria-hidden="true">📱</span>
+        <h2>Móvil</h2>
+        <p>Abre ChatGPT con las instrucciones para practicar inglés. Después puedes activar el modo de voz.</p>
+        <strong>Practicar con ChatGPT →</strong>
+      </a>
+    </section>
+    <p class="device-back"><a href="./index.html">Volver a English Academy</a></p>
+  </main>
+  <script>
+    const params = new URLSearchParams(location.search);
+    const topic = params.get('topic') || 'free';
+    const topics = {
+      travel: 'viajes y vacaciones',
+      work: 'entrevistas de trabajo y situaciones profesionales',
+      daily: 'vida cotidiana',
+      free: 'conversación libre'
+    };
+    const topicName = topics[topic] || topics.free;
+    const prompt = 'Actúa como mi profesor particular de inglés y compañero de conversación. Mi nivel es B1-B2. Quiero practicar inglés hablando sobre ' + topicName + '. Mantén una conversación natural, hazme una sola pregunta cada vez y espera mi respuesta. Responde principalmente en inglés, adapta el vocabulario a mi nivel y corrige de forma breve y amable mis errores importantes, explicándolos en español cuando sea útil. Anímame a hablar y no conviertas la conversación en una clase teórica. Comienza ahora con una pregunta sencilla en inglés.';
+    document.getElementById('computer-option').href = './profesor.html?topic=' + encodeURIComponent(topic);
+    document.getElementById('mobile-option').href = 'https://chatgpt.com/?q=' + encodeURIComponent(prompt);
+  </script>
+</body>
+</html>
