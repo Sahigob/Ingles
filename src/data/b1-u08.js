@@ -2,7 +2,7 @@
 // 25 grammar + 25 vocabulary + 3x5 reading + 3x5 listening + 5 writing + 5 speaking = 90 actividades.
 export default [
   {
-    "id": "b1-8",
+    "id": "b1-u08-grammar,
     "title": "Gerunds and infinitives",
     "skill": "Grammar",
     "type": "grammar",
