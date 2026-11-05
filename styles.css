@@ -615,3 +615,21 @@ dialog .primary { width: 100%; }
  .exam-toolbar { align-items: flex-start; gap: 12px; }
  .history-row { align-items: flex-start; }
 }
+
+
+/* Informe personal de evolución */
+.evolution-page { max-width: 1050px; }
+.evolution-grid { display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px;margin:22px 0; }
+.evolution-kpi { background:white;border:1px solid var(--line);border-radius:12px;padding:18px;display:flex;flex-direction:column;gap:8px; }
+.evolution-kpi span,.evolution-kpi small { color:var(--muted);font-size:11px; }
+.evolution-kpi strong { color:var(--navy);font-size:26px; }
+.evolution-section { margin:18px 0; }
+.evolution-section h2 { font-size:20px;color:var(--navy); }
+.evolution-bar-row { margin:17px 0; }
+.evolution-bar-label { display:flex;justify-content:space-between;gap:12px;font-size:12px;margin-bottom:7px; }
+.evolution-bar { height:9px;background:#e9edf5;border-radius:20px;overflow:hidden; }
+.evolution-bar span { display:block;height:100%;background:var(--blue);border-radius:20px; }
+.exam-trend-list { display:grid;gap:8px; }
+.exam-trend-item { display:flex;justify-content:space-between;padding:12px;border-bottom:1px solid var(--line);font-size:13px; }
+@media(max-width:700px){.evolution-grid{grid-template-columns:repeat(2,minmax(0,1fr));}.evolution-kpi strong{font-size:21px;}}
+@media(max-width:420px){.evolution-grid{grid-template-columns:1fr 1fr;gap:8px;}.evolution-kpi{padding:12px;}}
