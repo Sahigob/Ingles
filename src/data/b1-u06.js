@@ -1,5 +1,5 @@
-// B1 Unit 6 · Technology and communication
-// 25 grammar + 25 vocabulary + 3x5 reading + 3x5 listening + 5 writing + 5 speaking = 90 actividades.
+// B1 Unit 6 · Expanded practice
+// Correct-answer positions are distributed to avoid predictable answer patterns.
 export default [
   {
     "id": "b1-u06-grammar",
@@ -39,34 +39,34 @@ export default [
       {
         "q": "The technician, ___ fixed my laptop, explained the problem clearly.",
         "options": [
-          "who",
           "which",
           "where",
-          "whose"
+          "whose",
+          "who"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "Who refers to a person."
       },
       {
         "q": "This is the website ___ I found the safety guide.",
         "options": [
-          "where",
           "who",
           "whose",
+          "where",
           "what"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "Where refers to a place or website as a location."
       },
       {
         "q": "The woman ___ phone was stolen contacted the bank.",
         "options": [
-          "whose",
           "who",
+          "whose",
           "which",
           "where"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "Whose expresses possession."
       },
       {
@@ -83,34 +83,34 @@ export default [
       {
         "q": "The files ___ you sent me are encrypted.",
         "options": [
-          "that",
           "who",
           "whose",
-          "where"
+          "where",
+          "that"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "The pronoun is the object and can be omitted, but that is also correct."
       },
       {
         "q": "A router is a device ___ connects several computers to a network.",
         "options": [
-          "that",
           "whose",
           "where",
+          "that",
           "who"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "That is the subject referring to a thing."
       },
       {
         "q": "The engineer to ___ I spoke recommended a password manager.",
         "options": [
-          "whom",
           "which",
+          "whom",
           "whose",
           "where"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "Whom is used after a preposition for a person."
       },
       {
@@ -127,34 +127,34 @@ export default [
       {
         "q": "I prefer platforms ___ allow users to control their privacy.",
         "options": [
-          "that",
           "whose",
           "where",
-          "who"
+          "who",
+          "that"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "That introduces a defining clause about platforms."
       },
       {
         "q": "The company ___ products we tested has improved its security.",
         "options": [
-          "whose",
           "who",
           "which",
+          "whose",
           "where"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "Whose shows the relationship between company and products."
       },
       {
         "q": "The café ___ we usually connect to the Wi-Fi is closed.",
         "options": [
-          "where",
           "which",
+          "where",
           "whose",
           "who"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "Where introduces a place."
       },
       {
@@ -171,34 +171,34 @@ export default [
       {
         "q": "My headphones, ___ were quite expensive, stopped working yesterday.",
         "options": [
-          "which",
           "that",
           "who",
-          "whose"
+          "whose",
+          "which"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "Non-defining relative clause uses which."
       },
       {
         "q": "The person ___ account was hacked changed every password.",
         "options": [
-          "whose",
           "who",
           "which",
+          "whose",
           "where"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "Whose indicates possession."
       },
       {
         "q": "The technician ___ you recommended is available today.",
         "options": [
-          "who",
           "where",
+          "who",
           "whose",
           "which"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "Who refers to the person as the object of the clause."
       },
       {
@@ -215,34 +215,34 @@ export default [
       {
         "q": "The lab, ___ students test new devices, has strict safety rules.",
         "options": [
-          "where",
           "who",
           "whose",
-          "what"
+          "what",
+          "where"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "Where refers to the place in which something happens."
       },
       {
         "q": "The camera ___ lens was damaged has been returned.",
         "options": [
-          "whose",
           "which",
           "who",
+          "whose",
           "where"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "Whose can refer to things as well as people."
       },
       {
         "q": "The update, ___ took only two minutes, fixed the security issue.",
         "options": [
-          "which",
           "that",
+          "which",
           "who",
           "whose"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "Non-defining clauses require which."
       },
       {
@@ -259,34 +259,34 @@ export default [
       {
         "q": "The website ___ you mentioned is temporarily unavailable.",
         "options": [
-          "that",
           "who",
           "whose",
-          "where"
+          "where",
+          "that"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "That is appropriate for a defining clause about a website."
       },
       {
         "q": "The company, ___ headquarters are in Dublin, employs remote developers.",
         "options": [
-          "whose",
           "which",
           "who",
+          "whose",
           "where"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "Whose expresses possession: the company's headquarters."
       },
       {
         "q": "The password manager ___ I use stores encrypted information.",
         "options": [
-          "that",
           "who",
+          "that",
           "whose",
           "where"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "That refers to a thing in a defining clause."
       },
       {
@@ -415,34 +415,34 @@ export default [
       {
         "q": "What does \"device\" mean?",
         "options": [
-          "a piece of electronic equipment",
           "a file sent with an email",
           "the process of protecting information by coding it",
-          "to look through websites or information"
+          "to look through websites or information",
+          "a piece of electronic equipment"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "\"device\" means a piece of electronic equipment."
       },
       {
         "q": "What does \"software\" mean?",
         "options": [
-          "programs used by a computer",
           "working without physical cables",
           "a copy of data kept in case the original is lost",
+          "programs used by a computer",
           "to move content up or down on a screen"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "\"software\" means programs used by a computer."
       },
       {
         "q": "What does \"hardware\" mean?",
         "options": [
-          "the physical parts of a computer",
           "the amount of data a connection can transfer",
+          "the physical parts of a computer",
           "online space for saving files",
           "to turn off sound"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "\"hardware\" means the physical parts of a computer."
       },
       {
@@ -459,34 +459,34 @@ export default [
       {
         "q": "What does \"upgrade\" mean?",
         "options": [
-          "to improve a device or system",
           "controls over who can see personal information",
           "working well and unlikely to fail",
-          "a trick used to steal personal information online"
+          "a trick used to steal personal information online",
+          "to improve a device or system"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "\"upgrade\" means to improve a device or system."
       },
       {
         "q": "What does \"download\" mean?",
         "options": [
-          "to copy data from the internet to a device",
           "an incident in which private information is exposed",
           "a small unexpected problem in a system",
+          "to copy data from the internet to a device",
           "the information about someone left by online activity"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "\"download\" means to copy data from the internet to a device."
       },
       {
         "q": "What does \"upload\" mean?",
         "options": [
-          "to send data from a device to the internet",
           "the process of protecting information by coding it",
+          "to send data from a device to the internet",
           "to look through websites or information",
           "a piece of electronic equipment"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "\"upload\" means to send data from a device to the internet."
       },
       {
@@ -503,34 +503,34 @@ export default [
       {
         "q": "What does \"wireless\" mean?",
         "options": [
-          "working without physical cables",
           "online space for saving files",
           "to turn off sound",
-          "the physical parts of a computer"
+          "the physical parts of a computer",
+          "working without physical cables"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "\"wireless\" means working without physical cables."
       },
       {
         "q": "What does \"bandwidth\" mean?",
         "options": [
-          "the amount of data a connection can transfer",
           "easy to understand and operate",
           "to enter a system using account details",
+          "the amount of data a connection can transfer",
           "a newer version of software"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "\"bandwidth\" means the amount of data a connection can transfer."
       },
       {
         "q": "What does \"outage\" mean?",
         "options": [
-          "a period when a service is unavailable",
           "working well and unlikely to fail",
+          "a period when a service is unavailable",
           "a trick used to steal personal information online",
           "to improve a device or system"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "\"outage\" means a period when a service is unavailable."
       },
       {
@@ -547,34 +547,34 @@ export default [
       {
         "q": "What does \"data breach\" mean?",
         "options": [
-          "an incident in which private information is exposed",
           "to look through websites or information",
           "a piece of electronic equipment",
-          "to send data from a device to the internet"
+          "to send data from a device to the internet",
+          "an incident in which private information is exposed"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "\"data breach\" means an incident in which private information is exposed."
       },
       {
         "q": "What does \"encryption\" mean?",
         "options": [
-          "the process of protecting information by coding it",
           "to move content up or down on a screen",
           "programs used by a computer",
+          "the process of protecting information by coding it",
           "a file sent with an email"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "\"encryption\" means the process of protecting information by coding it."
       },
       {
         "q": "What does \"backup\" mean?",
         "options": [
-          "a copy of data kept in case the original is lost",
           "to turn off sound",
+          "a copy of data kept in case the original is lost",
           "the physical parts of a computer",
           "working without physical cables"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "\"backup\" means a copy of data kept in case the original is lost."
       },
       {
@@ -591,34 +591,34 @@ export default [
       {
         "q": "What does \"user-friendly\" mean?",
         "options": [
-          "easy to understand and operate",
           "a trick used to steal personal information online",
           "to improve a device or system",
-          "a period when a service is unavailable"
+          "a period when a service is unavailable",
+          "easy to understand and operate"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "\"user-friendly\" means easy to understand and operate."
       },
       {
         "q": "What does \"reliable\" mean?",
         "options": [
-          "working well and unlikely to fail",
           "the information about someone left by online activity",
           "to copy data from the internet to a device",
+          "working well and unlikely to fail",
           "controls over who can see personal information"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "\"reliable\" means working well and unlikely to fail."
       },
       {
         "q": "What does \"glitch\" mean?",
         "options": [
-          "a small unexpected problem in a system",
           "a piece of electronic equipment",
+          "a small unexpected problem in a system",
           "to send data from a device to the internet",
           "an incident in which private information is exposed"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "\"glitch\" means a small unexpected problem in a system."
       },
       {
@@ -635,34 +635,34 @@ export default [
       {
         "q": "What does \"scroll\" mean?",
         "options": [
-          "to move content up or down on a screen",
           "the physical parts of a computer",
           "working without physical cables",
-          "a copy of data kept in case the original is lost"
+          "a copy of data kept in case the original is lost",
+          "to move content up or down on a screen"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "\"scroll\" means to move content up or down on a screen."
       },
       {
         "q": "What does \"mute\" mean?",
         "options": [
-          "to turn off sound",
           "a newer version of software",
           "the amount of data a connection can transfer",
+          "to turn off sound",
           "online space for saving files"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "\"mute\" means to turn off sound."
       },
       {
         "q": "What does \"log in\" mean?",
         "options": [
-          "to enter a system using account details",
           "to improve a device or system",
+          "to enter a system using account details",
           "a period when a service is unavailable",
           "easy to understand and operate"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "\"log in\" means to enter a system using account details."
       },
       {
@@ -679,12 +679,12 @@ export default [
       {
         "q": "What does \"digital footprint\" mean?",
         "options": [
-          "the information about someone left by online activity",
           "to send data from a device to the internet",
           "an incident in which private information is exposed",
-          "a small unexpected problem in a system"
+          "a small unexpected problem in a system",
+          "the information about someone left by online activity"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "\"digital footprint\" means the information about someone left by online activity."
       }
     ]
