@@ -1,5 +1,5 @@
-// B2 Unit 10 · Psychology and relationships
-// 25 grammar + 25 vocabulary + 3x5 reading + 3x5 listening + 5 writing + 5 speaking = 90 actividades.
+// B2 Unit 10 · Expanded practice
+// Correct-answer positions are distributed to avoid predictable answer patterns.
 export default [
   {
     "id": "b2-10",
@@ -38,34 +38,34 @@ export default [
       {
         "q": "We agreed ___ the issue privately.",
         "options": [
-          "to discuss",
           "discussing",
           "discuss",
-          "discussed"
+          "discussed",
+          "to discuss"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "Agree is followed by a to-infinitive."
       },
       {
         "q": "I remember ___ him at the conference last year.",
         "options": [
-          "meeting",
           "to meet",
           "meet",
+          "meeting",
           "met"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "Remember doing refers to a past memory."
       },
       {
         "q": "Please remember ___ the appointment tomorrow.",
         "options": [
-          "to confirm",
           "confirming",
+          "to confirm",
           "confirm",
           "confirmed"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "Remember to do means do not forget."
       },
       {
@@ -82,34 +82,34 @@ export default [
       {
         "q": "He stopped ___ because it was affecting his health.",
         "options": [
-          "smoking",
           "to smoke",
           "smoke",
-          "smoked"
+          "smoked",
+          "smoking"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "Stop doing means give up an activity."
       },
       {
         "q": "The adviser encouraged us ___ for the programme.",
         "options": [
-          "to apply",
           "applying",
           "apply",
+          "to apply",
           "applied"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "Encourage + object + to-infinitive."
       },
       {
         "q": "I regret ___ you that your application was unsuccessful.",
         "options": [
-          "to inform",
           "informing",
+          "to inform",
           "inform",
           "informed"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "Regret to do introduces unwelcome information."
       },
       {
@@ -126,34 +126,34 @@ export default [
       {
         "q": "They considered ___ the meeting until Friday.",
         "options": [
-          "postponing",
           "to postpone",
           "postpone",
-          "postponed"
+          "postponed",
+          "postponing"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "Consider is followed by a gerund."
       },
       {
         "q": "He managed ___ calm during the disagreement.",
         "options": [
-          "to remain",
           "remaining",
           "remain",
+          "to remain",
           "remained"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "Manage is followed by a to-infinitive."
       },
       {
         "q": "I am looking forward to ___ the team.",
         "options": [
-          "meeting",
           "meet",
+          "meeting",
           "to meet",
           "met"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "Look forward to + gerund."
       },
       {
@@ -170,34 +170,34 @@ export default [
       {
         "q": "She admitted ___ the wrong file.",
         "options": [
-          "sending",
           "to send",
           "send",
-          "sent"
+          "sent",
+          "sending"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "Admit is followed by a gerund."
       },
       {
         "q": "We expect the new system ___ time.",
         "options": [
-          "to save",
           "saving",
           "save",
+          "to save",
           "saved"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "Expect + object + to-infinitive."
       },
       {
         "q": "He denied ___ the confidential message.",
         "options": [
-          "sharing",
           "to share",
+          "sharing",
           "share",
           "shared"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "Deny is followed by a gerund."
       },
       {
@@ -214,34 +214,34 @@ export default [
       {
         "q": "I cannot help ___ about the consequences.",
         "options": [
-          "worrying",
           "to worry",
           "worry",
-          "worried"
+          "worried",
+          "worrying"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "Cannot help is followed by a gerund."
       },
       {
         "q": "The team postponed ___ a final decision.",
         "options": [
-          "making",
           "to make",
           "make",
+          "making",
           "made"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "Postpone is followed by a gerund."
       },
       {
         "q": "She appears ___ the situation clearly.",
         "options": [
-          "to understand",
           "understanding",
+          "to understand",
           "understand",
           "understood"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "Appear is followed by a to-infinitive."
       },
       {
@@ -258,34 +258,34 @@ export default [
       {
         "q": "The therapist suggested ___ a daily journal.",
         "options": [
-          "keeping",
           "to keep",
           "keep",
-          "kept"
+          "kept",
+          "keeping"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "Suggest is followed by a gerund."
       },
       {
         "q": "I would prefer ___ this in person.",
         "options": [
-          "to discuss",
           "discussing",
           "discuss",
+          "to discuss",
           "discussed"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "Prefer can be followed by a to-infinitive."
       },
       {
         "q": "She is used to ___ under pressure.",
         "options": [
-          "working",
           "work",
+          "working",
           "to work",
           "worked"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "Be used to + gerund."
       },
       {
@@ -414,34 +414,34 @@ export default [
       {
         "q": "What does \"empathy\" mean?",
         "options": [
-          "the ability to understand another person's feelings",
           "a particular way of viewing a situation",
           "the act of becoming less involved",
-          "a systematic pattern of inaccurate thinking"
+          "a systematic pattern of inaccurate thinking",
+          "the ability to understand another person's feelings"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "\"empathy\" means the ability to understand another person's feelings."
       },
       {
         "q": "What does \"resilience\" mean?",
         "options": [
-          "the ability to recover from difficulty",
           "managing emotional responses",
           "the state of being comfortable, healthy and happy",
+          "the ability to recover from difficulty",
           "an event that causes a particular emotional response"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "\"resilience\" means the ability to recover from difficulty."
       },
       {
         "q": "What does \"self-awareness\" mean?",
         "options": [
-          "understanding one's own emotions and behaviour",
           "influence from people of a similar age or group",
+          "understanding one's own emotions and behaviour",
           "a method of managing stress or difficulty",
           "restoring a relationship after disagreement"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "\"self-awareness\" means understanding one's own emotions and behaviour."
       },
       {
@@ -458,34 +458,34 @@ export default [
       {
         "q": "What does \"boundaries\" mean?",
         "options": [
-          "limits that protect personal needs and wellbeing",
           "concern for another person's suffering",
           "state a personal limit clearly",
-          "involving relationships between people"
+          "involving relationships between people",
+          "limits that protect personal needs and wellbeing"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "\"boundaries\" means limits that protect personal needs and wellbeing."
       },
       {
         "q": "What does \"assertiveness\" mean?",
         "options": [
-          "expressing needs confidently and respectfully",
           "confidence in another person's reliability",
           "help received from other people",
+          "expressing needs confidently and respectfully",
           "the ability to understand another person's feelings"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "\"assertiveness\" means expressing needs confidently and respectfully."
       },
       {
         "q": "What does \"conflict resolution\" mean?",
         "options": [
-          "methods for dealing with disagreement",
           "the act of becoming less involved",
+          "methods for dealing with disagreement",
           "a systematic pattern of inaccurate thinking",
           "the ability to recover from difficulty"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "\"conflict resolution\" means methods for dealing with disagreement."
       },
       {
@@ -502,34 +502,34 @@ export default [
       {
         "q": "What does \"perspective\" mean?",
         "options": [
-          "a particular way of viewing a situation",
           "a method of managing stress or difficulty",
           "restoring a relationship after disagreement",
-          "an emotional bond between people"
+          "an emotional bond between people",
+          "a particular way of viewing a situation"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "\"perspective\" means a particular way of viewing a situation."
       },
       {
         "q": "What does \"emotional regulation\" mean?",
         "options": [
-          "managing emotional responses",
           "giving full attention and responding thoughtfully",
           "careful thought about one's own actions",
+          "managing emotional responses",
           "limits that protect personal needs and wellbeing"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "\"emotional regulation\" means managing emotional responses."
       },
       {
         "q": "What does \"peer pressure\" mean?",
         "options": [
-          "influence from people of a similar age or group",
           "state a personal limit clearly",
+          "influence from people of a similar age or group",
           "involving relationships between people",
           "expressing needs confidently and respectfully"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "\"peer pressure\" means influence from people of a similar age or group."
       },
       {
@@ -546,34 +546,34 @@ export default [
       {
         "q": "What does \"compassion\" mean?",
         "options": [
-          "concern for another person's suffering",
           "a systematic pattern of inaccurate thinking",
           "the ability to recover from difficulty",
-          "failure to communicate a message clearly"
+          "failure to communicate a message clearly",
+          "concern for another person's suffering"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "\"compassion\" means concern for another person's suffering."
       },
       {
         "q": "What does \"trust\" mean?",
         "options": [
-          "confidence in another person's reliability",
           "an event that causes a particular emotional response",
           "understanding one's own emotions and behaviour",
+          "confidence in another person's reliability",
           "a particular way of viewing a situation"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "\"trust\" means confidence in another person's reliability."
       },
       {
         "q": "What does \"withdrawal\" mean?",
         "options": [
-          "the act of becoming less involved",
           "restoring a relationship after disagreement",
+          "the act of becoming less involved",
           "an emotional bond between people",
           "managing emotional responses"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "\"withdrawal\" means the act of becoming less involved."
       },
       {
@@ -590,34 +590,34 @@ export default [
       {
         "q": "What does \"coping strategy\" mean?",
         "options": [
-          "a method of managing stress or difficulty",
           "involving relationships between people",
           "expressing needs confidently and respectfully",
-          "a person's sense of their own value"
+          "a person's sense of their own value",
+          "a method of managing stress or difficulty"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "\"coping strategy\" means a method of managing stress or difficulty."
       },
       {
         "q": "What does \"active listening\" mean?",
         "options": [
-          "giving full attention and responding thoughtfully",
           "the ability to understand another person's feelings",
           "methods for dealing with disagreement",
+          "giving full attention and responding thoughtfully",
           "concern for another person's suffering"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "\"active listening\" means giving full attention and responding thoughtfully."
       },
       {
         "q": "What does \"assert a boundary\" mean?",
         "options": [
-          "state a personal limit clearly",
           "the ability to recover from difficulty",
+          "state a personal limit clearly",
           "failure to communicate a message clearly",
           "confidence in another person's reliability"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "\"assert a boundary\" means state a personal limit clearly."
       },
       {
@@ -634,34 +634,34 @@ export default [
       {
         "q": "What does \"cognitive bias\" mean?",
         "options": [
-          "a systematic pattern of inaccurate thinking",
           "an emotional bond between people",
           "managing emotional responses",
-          "the state of being comfortable, healthy and happy"
+          "the state of being comfortable, healthy and happy",
+          "a systematic pattern of inaccurate thinking"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "\"cognitive bias\" means a systematic pattern of inaccurate thinking."
       },
       {
         "q": "What does \"trigger\" mean?",
         "options": [
-          "an event that causes a particular emotional response",
           "limits that protect personal needs and wellbeing",
           "influence from people of a similar age or group",
+          "an event that causes a particular emotional response",
           "a method of managing stress or difficulty"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "\"trigger\" means an event that causes a particular emotional response."
       },
       {
         "q": "What does \"reconciliation\" mean?",
         "options": [
-          "restoring a relationship after disagreement",
           "expressing needs confidently and respectfully",
+          "restoring a relationship after disagreement",
           "a person's sense of their own value",
           "giving full attention and responding thoughtfully"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "\"reconciliation\" means restoring a relationship after disagreement."
       },
       {
@@ -678,12 +678,12 @@ export default [
       {
         "q": "What does \"interpersonal\" mean?",
         "options": [
-          "involving relationships between people",
           "failure to communicate a message clearly",
           "confidence in another person's reliability",
-          "help received from other people"
+          "help received from other people",
+          "involving relationships between people"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "\"interpersonal\" means involving relationships between people."
       }
     ]
@@ -703,51 +703,51 @@ export default [
           {
             "q": "What is the main purpose of the text?",
             "options": [
-              "To examine an issue, its consequences and possible responses",
               "To advertise a service",
+              "To examine an issue, its consequences and possible responses",
               "To describe an unrelated personal event"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "The text about listening is not the same as agreeing presents an issue and considers its implications."
           },
           {
             "q": "Which difficulty is highlighted?",
             "options": [
-              "A practical or structural limitation",
               "The complete absence of any challenge",
+              "A practical or structural limitation",
               "A problem that has already disappeared"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "The writer identifies a limitation rather than claiming the issue is solved."
           },
           {
             "q": "What approach is recommended or described?",
             "options": [
-              "A measured response based on evidence and review",
               "An immediate decision without consultation",
+              "A measured response based on evidence and review",
               "Ignoring the people affected"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "The text favours a considered approach."
           },
           {
             "q": "What can be inferred?",
             "options": [
-              "Outcomes depend on context and implementation",
               "One solution will work everywhere",
+              "Outcomes depend on context and implementation",
               "Further information is never necessary"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "The conclusion recognises that context matters."
           },
           {
             "q": "What is the writer's tone?",
             "options": [
-              "Balanced and analytical",
               "Aggressive and sarcastic",
+              "Balanced and analytical",
               "Entirely promotional"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "The text weighs different considerations."
           }
         ]
@@ -759,51 +759,51 @@ export default [
           {
             "q": "What is the main purpose of the text?",
             "options": [
-              "To examine an issue, its consequences and possible responses",
               "To advertise a service",
+              "To examine an issue, its consequences and possible responses",
               "To describe an unrelated personal event"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "The text about the pressure to stay connected presents an issue and considers its implications."
           },
           {
             "q": "Which difficulty is highlighted?",
             "options": [
-              "A practical or structural limitation",
               "The complete absence of any challenge",
+              "A practical or structural limitation",
               "A problem that has already disappeared"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "The writer identifies a limitation rather than claiming the issue is solved."
           },
           {
             "q": "What approach is recommended or described?",
             "options": [
-              "A measured response based on evidence and review",
               "An immediate decision without consultation",
+              "A measured response based on evidence and review",
               "Ignoring the people affected"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "The text favours a considered approach."
           },
           {
             "q": "What can be inferred?",
             "options": [
-              "Outcomes depend on context and implementation",
               "One solution will work everywhere",
+              "Outcomes depend on context and implementation",
               "Further information is never necessary"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "The conclusion recognises that context matters."
           },
           {
             "q": "What is the writer's tone?",
             "options": [
-              "Balanced and analytical",
               "Aggressive and sarcastic",
+              "Balanced and analytical",
               "Entirely promotional"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "The text weighs different considerations."
           }
         ]
@@ -815,51 +815,51 @@ export default [
           {
             "q": "What is the main purpose of the text?",
             "options": [
-              "To examine an issue, its consequences and possible responses",
               "To advertise a service",
+              "To examine an issue, its consequences and possible responses",
               "To describe an unrelated personal event"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "The text about learning to set boundaries presents an issue and considers its implications."
           },
           {
             "q": "Which difficulty is highlighted?",
             "options": [
-              "A practical or structural limitation",
               "The complete absence of any challenge",
+              "A practical or structural limitation",
               "A problem that has already disappeared"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "The writer identifies a limitation rather than claiming the issue is solved."
           },
           {
             "q": "What approach is recommended or described?",
             "options": [
-              "A measured response based on evidence and review",
               "An immediate decision without consultation",
+              "A measured response based on evidence and review",
               "Ignoring the people affected"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "The text favours a considered approach."
           },
           {
             "q": "What can be inferred?",
             "options": [
-              "Outcomes depend on context and implementation",
               "One solution will work everywhere",
+              "Outcomes depend on context and implementation",
               "Further information is never necessary"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "The conclusion recognises that context matters."
           },
           {
             "q": "What is the writer's tone?",
             "options": [
-              "Balanced and analytical",
               "Aggressive and sarcastic",
+              "Balanced and analytical",
               "Entirely promotional"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "The text weighs different considerations."
           }
         ]
@@ -881,51 +881,51 @@ export default [
           {
             "q": "What are the speakers mainly discussing?",
             "options": [
-              "A practical issue and how it should be handled",
               "An unrelated leisure activity",
+              "A practical issue and how it should be handled",
               "A product advertisement"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "The conversation focuses on a decision or problem."
           },
           {
             "q": "What concern is raised?",
             "options": [
-              "A limitation or possible unintended consequence",
               "The fact that no action is needed",
+              "A limitation or possible unintended consequence",
               "A problem that has already been resolved"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "One speaker identifies a concern."
           },
           {
             "q": "What next step is mentioned?",
             "options": [
-              "Further checking, consultation or a review",
               "Ending communication",
+              "Further checking, consultation or a review",
               "Publishing unverified information"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "The speakers identify a follow-up action."
           },
           {
             "q": "What is the likely outcome?",
             "options": [
-              "The decision will be informed by additional evidence",
               "Success is guaranteed immediately",
+              "The decision will be informed by additional evidence",
               "No review will take place"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "The discussion suggests a continuing process."
           },
           {
             "q": "How do the speakers interact?",
             "options": [
-              "They exchange views and seek a workable response",
               "They refuse to listen",
+              "They exchange views and seek a workable response",
               "They change to an unrelated subject"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "Their exchange is cooperative."
           }
         ]
@@ -937,51 +937,51 @@ export default [
           {
             "q": "What are the speakers mainly discussing?",
             "options": [
-              "A practical issue and how it should be handled",
               "An unrelated leisure activity",
+              "A practical issue and how it should be handled",
               "A product advertisement"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "The conversation focuses on a decision or problem."
           },
           {
             "q": "What concern is raised?",
             "options": [
-              "A limitation or possible unintended consequence",
               "The fact that no action is needed",
+              "A limitation or possible unintended consequence",
               "A problem that has already been resolved"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "One speaker identifies a concern."
           },
           {
             "q": "What next step is mentioned?",
             "options": [
-              "Further checking, consultation or a review",
               "Ending communication",
+              "Further checking, consultation or a review",
               "Publishing unverified information"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "The speakers identify a follow-up action."
           },
           {
             "q": "What is the likely outcome?",
             "options": [
-              "The decision will be informed by additional evidence",
               "Success is guaranteed immediately",
+              "The decision will be informed by additional evidence",
               "No review will take place"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "The discussion suggests a continuing process."
           },
           {
             "q": "How do the speakers interact?",
             "options": [
-              "They exchange views and seek a workable response",
               "They refuse to listen",
+              "They exchange views and seek a workable response",
               "They change to an unrelated subject"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "Their exchange is cooperative."
           }
         ]
@@ -993,51 +993,51 @@ export default [
           {
             "q": "What are the speakers mainly discussing?",
             "options": [
-              "A practical issue and how it should be handled",
               "An unrelated leisure activity",
+              "A practical issue and how it should be handled",
               "A product advertisement"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "The conversation focuses on a decision or problem."
           },
           {
             "q": "What concern is raised?",
             "options": [
-              "A limitation or possible unintended consequence",
               "The fact that no action is needed",
+              "A limitation or possible unintended consequence",
               "A problem that has already been resolved"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "One speaker identifies a concern."
           },
           {
             "q": "What next step is mentioned?",
             "options": [
-              "Further checking, consultation or a review",
               "Ending communication",
+              "Further checking, consultation or a review",
               "Publishing unverified information"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "The speakers identify a follow-up action."
           },
           {
             "q": "What is the likely outcome?",
             "options": [
-              "The decision will be informed by additional evidence",
               "Success is guaranteed immediately",
+              "The decision will be informed by additional evidence",
               "No review will take place"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "The discussion suggests a continuing process."
           },
           {
             "q": "How do the speakers interact?",
             "options": [
-              "They exchange views and seek a workable response",
               "They refuse to listen",
+              "They exchange views and seek a workable response",
               "They change to an unrelated subject"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "Their exchange is cooperative."
           }
         ]
