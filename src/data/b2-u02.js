@@ -1,5 +1,5 @@
-// B2 Unit 2 · Work and professional life
-// 25 grammar + 25 vocabulary + 3x5 reading + 3x5 listening + 5 writing + 5 speaking = 90 actividades.
+// B2 Unit 2 · Expanded practice
+// Correct-answer positions are distributed to avoid predictable answer patterns.
 export default [
   {
     "id": "b2-2",
@@ -38,34 +38,34 @@ export default [
       {
         "q": "The report is thought ___ before the board meeting.",
         "options": [
-          "to have been completed",
           "to complete",
           "being completed",
-          "to be completing"
+          "to be completing",
+          "to have been completed"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "Perfect passive infinitive."
       },
       {
         "q": "The company had the office ___.",
         "options": [
-          "refurbished",
           "to refurbish",
           "refurbishing",
+          "refurbished",
           "refurbish"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "Have + object + past participle."
       },
       {
         "q": "It ___ that flexible hours improve productivity.",
         "options": [
-          "is widely argued",
           "widely argues",
+          "is widely argued",
           "is widely arguing",
           "has widely argue"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "It is + past participle + that."
       },
       {
@@ -82,34 +82,34 @@ export default [
       {
         "q": "The employee ___ to have breached the policy.",
         "options": [
-          "is alleged",
           "alleges",
           "is alleging",
-          "has allege"
+          "has allege",
+          "is alleged"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "Reporting passive."
       },
       {
         "q": "The new system ___ tested when the power failed.",
         "options": [
-          "was being",
           "has been",
           "is being",
+          "was being",
           "had"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "Past continuous passive."
       },
       {
         "q": "The contract needs ___ by a legal adviser.",
         "options": [
-          "to be examined",
           "examining",
+          "to be examined",
           "examine",
           "to examining"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "Passive infinitive."
       },
       {
@@ -126,34 +126,34 @@ export default [
       {
         "q": "The final decision ___ by the director tomorrow.",
         "options": [
-          "will be made",
           "will make",
           "is making",
-          "has made"
+          "has made",
+          "will be made"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "Future passive."
       },
       {
         "q": "The staff are having their performance ___.",
         "options": [
-          "assessed",
           "assess",
           "to assess",
+          "assessed",
           "assessing"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "Have + object + past participle."
       },
       {
         "q": "The issue is reported ___ during the night shift.",
         "options": [
-          "to have occurred",
           "occur",
+          "to have occurred",
           "occurring",
           "to be occur"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "Perfect infinitive after reporting passive."
       },
       {
@@ -170,34 +170,34 @@ export default [
       {
         "q": "The proposal ___ discussed at the moment.",
         "options": [
-          "is being",
           "has being",
           "is been",
-          "was"
+          "was",
+          "is being"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "Present continuous passive auxiliary."
       },
       {
         "q": "The merger is expected ___ completed next year.",
         "options": [
-          "to be",
           "be",
           "being",
+          "to be",
           "been"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "Passive infinitive."
       },
       {
         "q": "The manager is said ___ several departments.",
         "options": [
-          "to oversee",
           "overseeing",
+          "to oversee",
           "overseen",
           "to overseeing"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "Reporting passive + infinitive."
       },
       {
@@ -214,34 +214,34 @@ export default [
       {
         "q": "The employee got his qualifications ___.",
         "options": [
-          "verified",
           "verify",
           "to verify",
-          "verifying"
+          "verifying",
+          "verified"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "Get + object + past participle."
       },
       {
         "q": "The results ___ independently before publication.",
         "options": [
-          "were checked",
           "checked",
           "were checking",
+          "were checked",
           "have check"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "Past simple passive."
       },
       {
         "q": "The vacancy ___ advertised yet.",
         "options": [
-          "hasn't been",
           "wasn't",
+          "hasn't been",
           "hasn't",
           "isn't being"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "Present perfect passive."
       },
       {
@@ -258,34 +258,34 @@ export default [
       {
         "q": "The new procedures are expected ___ costs.",
         "options": [
-          "to reduce",
           "reducing",
           "reduced",
-          "to reducing"
+          "to reducing",
+          "to reduce"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "Expected + to-infinitive."
       },
       {
         "q": "The training programme ___ redesigned since the review.",
         "options": [
-          "has been",
           "has",
           "is",
+          "has been",
           "was being"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "Present perfect passive."
       },
       {
         "q": "The policy ___ implemented in three offices last year.",
         "options": [
-          "was",
           "has",
+          "was",
           "is being",
           "had"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "Past passive auxiliary."
       },
       {
@@ -414,34 +414,34 @@ export default [
       {
         "q": "What does \"accountability\" mean?",
         "options": [
-          "responsibility for decisions and actions",
           "a difference that should not exist",
           "required by a rule",
-          "person or group affected by an organisation"
+          "person or group affected by an organisation",
+          "responsibility for decisions and actions"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "\"accountability\" means responsibility for decisions and actions."
       },
       {
         "q": "What does \"appraisal\" mean?",
         "options": [
-          "formal assessment of someone's work",
           "possible and practical",
           "discuss to reach an agreement",
+          "formal assessment of someone's work",
           "make a process simpler"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "\"appraisal\" means formal assessment of someone's work."
       },
       {
         "q": "What does \"attrition\" mean?",
         "options": [
-          "gradual reduction of staff numbers",
           "system with different levels of authority",
+          "gradual reduction of staff numbers",
           "pay another organisation to do work",
           "amount of work someone has"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "\"attrition\" means gradual reduction of staff numbers."
       },
       {
@@ -458,34 +458,34 @@ export default [
       {
         "q": "What does \"compliance\" mean?",
         "options": [
-          "acting according to rules or standards",
           "ability to act independently or a new plan",
           "payment for work",
-          "training to improve work skills"
+          "training to improve work skills",
+          "acting according to rules or standards"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "\"compliance\" means acting according to rules or standards."
       },
       {
         "q": "What does \"delegate\" mean?",
         "options": [
-          "give a task to another person",
           "communicate and cooperate",
           "ability to keep employees",
+          "give a task to another person",
           "measure used to assess results"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "\"delegate\" means give a task to another person."
       },
       {
         "q": "What does \"discrepancy\" mean?",
         "options": [
-          "a difference that should not exist",
           "required by a rule",
+          "a difference that should not exist",
           "person or group affected by an organisation",
           "personal interests affecting a professional decision"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "\"discrepancy\" means a difference that should not exist."
       },
       {
@@ -502,34 +502,34 @@ export default [
       {
         "q": "What does \"hierarchy\" mean?",
         "options": [
-          "system with different levels of authority",
           "pay another organisation to do work",
           "amount of work someone has",
-          "formal assessment of someone's work"
+          "formal assessment of someone's work",
+          "system with different levels of authority"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "\"hierarchy\" means system with different levels of authority."
       },
       {
         "q": "What does \"incentive\" mean?",
         "options": [
-          "something that encourages an action",
           "a job no longer being needed",
           "working away from the employer's premises",
+          "something that encourages an action",
           "gradual reduction of staff numbers"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "\"incentive\" means something that encourages an action."
       },
       {
         "q": "What does \"initiative\" mean?",
         "options": [
-          "ability to act independently or a new plan",
           "payment for work",
+          "ability to act independently or a new plan",
           "training to improve work skills",
           "involving people working together"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "\"initiative\" means ability to act independently or a new plan."
       },
       {
@@ -546,34 +546,34 @@ export default [
       {
         "q": "What does \"mandatory\" mean?",
         "options": [
-          "required by a rule",
           "person or group affected by an organisation",
           "personal interests affecting a professional decision",
-          "give a task to another person"
+          "give a task to another person",
+          "required by a rule"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "\"mandatory\" means required by a rule."
       },
       {
         "q": "What does \"negotiate\" mean?",
         "options": [
-          "discuss to reach an agreement",
           "make a process simpler",
           "responsibility for decisions and actions",
+          "discuss to reach an agreement",
           "a difference that should not exist"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "\"negotiate\" means discuss to reach an agreement."
       },
       {
         "q": "What does \"outsource\" mean?",
         "options": [
-          "pay another organisation to do work",
           "amount of work someone has",
+          "pay another organisation to do work",
           "formal assessment of someone's work",
           "possible and practical"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "\"outsource\" means pay another organisation to do work."
       },
       {
@@ -590,34 +590,34 @@ export default [
       {
         "q": "What does \"remuneration\" mean?",
         "options": [
-          "payment for work",
           "training to improve work skills",
           "involving people working together",
-          "something that encourages an action"
+          "something that encourages an action",
+          "payment for work"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "\"remuneration\" means payment for work."
       },
       {
         "q": "What does \"retention\" mean?",
         "options": [
-          "ability to keep employees",
           "measure used to assess results",
           "acting according to rules or standards",
+          "ability to keep employees",
           "ability to act independently or a new plan"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "\"retention\" means ability to keep employees."
       },
       {
         "q": "What does \"stakeholder\" mean?",
         "options": [
-          "person or group affected by an organisation",
           "personal interests affecting a professional decision",
+          "person or group affected by an organisation",
           "give a task to another person",
           "communicate and cooperate"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "\"stakeholder\" means person or group affected by an organisation."
       },
       {
@@ -634,34 +634,34 @@ export default [
       {
         "q": "What does \"workload\" mean?",
         "options": [
-          "amount of work someone has",
           "formal assessment of someone's work",
           "possible and practical",
-          "discuss to reach an agreement"
+          "discuss to reach an agreement",
+          "amount of work someone has"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "\"workload\" means amount of work someone has."
       },
       {
         "q": "What does \"remote working\" mean?",
         "options": [
-          "working away from the employer's premises",
           "gradual reduction of staff numbers",
           "system with different levels of authority",
+          "working away from the employer's premises",
           "pay another organisation to do work"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "\"remote working\" means working away from the employer's premises."
       },
       {
         "q": "What does \"professional development\" mean?",
         "options": [
-          "training to improve work skills",
           "involving people working together",
+          "training to improve work skills",
           "something that encourages an action",
           "a job no longer being needed"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "\"professional development\" means training to improve work skills."
       },
       {
@@ -678,12 +678,12 @@ export default [
       {
         "q": "What does \"conflict of interest\" mean?",
         "options": [
-          "personal interests affecting a professional decision",
           "give a task to another person",
           "communicate and cooperate",
-          "ability to keep employees"
+          "ability to keep employees",
+          "personal interests affecting a professional decision"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "\"conflict of interest\" means personal interests affecting a professional decision."
       }
     ]
@@ -703,51 +703,51 @@ export default [
           {
             "q": "What is the central issue?",
             "options": [
-              "How a workplace policy or process affects employees",
               "How to advertise a product",
-              "Why an individual became famous"
+              "Why an individual became famous",
+              "How a workplace policy or process affects employees"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The text focuses on working practices."
           },
           {
             "q": "Which challenge is identified?",
             "options": [
-              "A limitation or competing need",
               "There are no constraints",
-              "The issue is fully resolved"
+              "The issue is fully resolved",
+              "A limitation or competing need"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "A practical challenge is described."
           },
           {
             "q": "What response is described?",
             "options": [
-              "A review and a more transparent approach",
               "Ignoring staff feedback",
-              "Removing all procedures"
+              "Removing all procedures",
+              "A review and a more transparent approach"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The response involves review and consultation."
           },
           {
             "q": "What can be inferred?",
             "options": [
-              "Good management requires ongoing evaluation",
               "One policy suits everyone",
-              "Consultation is unnecessary"
+              "Consultation is unnecessary",
+              "Good management requires ongoing evaluation"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The outcome is qualified."
           },
           {
             "q": "What is the writer's tone?",
             "options": [
-              "Analytical and balanced",
               "Dismissive",
-              "Entirely promotional"
+              "Entirely promotional",
+              "Analytical and balanced"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The writer recognises strengths and limitations."
           }
         ]
@@ -759,51 +759,51 @@ export default [
           {
             "q": "What is the central issue?",
             "options": [
-              "How a workplace policy or process affects employees",
               "How to advertise a product",
-              "Why an individual became famous"
+              "Why an individual became famous",
+              "How a workplace policy or process affects employees"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The text focuses on working practices."
           },
           {
             "q": "Which challenge is identified?",
             "options": [
-              "A limitation or competing need",
               "There are no constraints",
-              "The issue is fully resolved"
+              "The issue is fully resolved",
+              "A limitation or competing need"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "A practical challenge is described."
           },
           {
             "q": "What response is described?",
             "options": [
-              "A review and a more transparent approach",
               "Ignoring staff feedback",
-              "Removing all procedures"
+              "Removing all procedures",
+              "A review and a more transparent approach"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The response involves review and consultation."
           },
           {
             "q": "What can be inferred?",
             "options": [
-              "Good management requires ongoing evaluation",
               "One policy suits everyone",
-              "Consultation is unnecessary"
+              "Consultation is unnecessary",
+              "Good management requires ongoing evaluation"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The outcome is qualified."
           },
           {
             "q": "What is the writer's tone?",
             "options": [
-              "Analytical and balanced",
               "Dismissive",
-              "Entirely promotional"
+              "Entirely promotional",
+              "Analytical and balanced"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The writer recognises strengths and limitations."
           }
         ]
@@ -815,51 +815,51 @@ export default [
           {
             "q": "What is the central issue?",
             "options": [
-              "How a workplace policy or process affects employees",
               "How to advertise a product",
-              "Why an individual became famous"
+              "Why an individual became famous",
+              "How a workplace policy or process affects employees"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The text focuses on working practices."
           },
           {
             "q": "Which challenge is identified?",
             "options": [
-              "A limitation or competing need",
               "There are no constraints",
-              "The issue is fully resolved"
+              "The issue is fully resolved",
+              "A limitation or competing need"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "A practical challenge is described."
           },
           {
             "q": "What response is described?",
             "options": [
-              "A review and a more transparent approach",
               "Ignoring staff feedback",
-              "Removing all procedures"
+              "Removing all procedures",
+              "A review and a more transparent approach"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The response involves review and consultation."
           },
           {
             "q": "What can be inferred?",
             "options": [
-              "Good management requires ongoing evaluation",
               "One policy suits everyone",
-              "Consultation is unnecessary"
+              "Consultation is unnecessary",
+              "Good management requires ongoing evaluation"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The outcome is qualified."
           },
           {
             "q": "What is the writer's tone?",
             "options": [
-              "Analytical and balanced",
               "Dismissive",
-              "Entirely promotional"
+              "Entirely promotional",
+              "Analytical and balanced"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The writer recognises strengths and limitations."
           }
         ]
@@ -881,51 +881,51 @@ export default [
           {
             "q": "What is the central issue?",
             "options": [
-              "How a workplace policy or process affects employees",
               "How to advertise a product",
-              "Why an individual became famous"
+              "Why an individual became famous",
+              "How a workplace policy or process affects employees"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The text focuses on working practices."
           },
           {
             "q": "Which challenge is identified?",
             "options": [
-              "A limitation or competing need",
               "There are no constraints",
-              "The issue is fully resolved"
+              "The issue is fully resolved",
+              "A limitation or competing need"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "A practical challenge is described."
           },
           {
             "q": "What response is described?",
             "options": [
-              "A review and a more transparent approach",
               "Ignoring staff feedback",
-              "Removing all procedures"
+              "Removing all procedures",
+              "A review and a more transparent approach"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The response involves review and consultation."
           },
           {
             "q": "What can be inferred?",
             "options": [
-              "Good management requires ongoing evaluation",
               "One policy suits everyone",
-              "Consultation is unnecessary"
+              "Consultation is unnecessary",
+              "Good management requires ongoing evaluation"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The outcome is qualified."
           },
           {
             "q": "What is the writer's tone?",
             "options": [
-              "Analytical and balanced",
               "Dismissive",
-              "Entirely promotional"
+              "Entirely promotional",
+              "Analytical and balanced"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The writer recognises strengths and limitations."
           }
         ]
@@ -937,51 +937,51 @@ export default [
           {
             "q": "What is the central issue?",
             "options": [
-              "How a workplace policy or process affects employees",
               "How to advertise a product",
-              "Why an individual became famous"
+              "Why an individual became famous",
+              "How a workplace policy or process affects employees"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The text focuses on working practices."
           },
           {
             "q": "Which challenge is identified?",
             "options": [
-              "A limitation or competing need",
               "There are no constraints",
-              "The issue is fully resolved"
+              "The issue is fully resolved",
+              "A limitation or competing need"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "A practical challenge is described."
           },
           {
             "q": "What response is described?",
             "options": [
-              "A review and a more transparent approach",
               "Ignoring staff feedback",
-              "Removing all procedures"
+              "Removing all procedures",
+              "A review and a more transparent approach"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The response involves review and consultation."
           },
           {
             "q": "What can be inferred?",
             "options": [
-              "Good management requires ongoing evaluation",
               "One policy suits everyone",
-              "Consultation is unnecessary"
+              "Consultation is unnecessary",
+              "Good management requires ongoing evaluation"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The outcome is qualified."
           },
           {
             "q": "What is the writer's tone?",
             "options": [
-              "Analytical and balanced",
               "Dismissive",
-              "Entirely promotional"
+              "Entirely promotional",
+              "Analytical and balanced"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The writer recognises strengths and limitations."
           }
         ]
@@ -993,51 +993,51 @@ export default [
           {
             "q": "What is the central issue?",
             "options": [
-              "How a workplace policy or process affects employees",
               "How to advertise a product",
-              "Why an individual became famous"
+              "Why an individual became famous",
+              "How a workplace policy or process affects employees"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The text focuses on working practices."
           },
           {
             "q": "Which challenge is identified?",
             "options": [
-              "A limitation or competing need",
               "There are no constraints",
-              "The issue is fully resolved"
+              "The issue is fully resolved",
+              "A limitation or competing need"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "A practical challenge is described."
           },
           {
             "q": "What response is described?",
             "options": [
-              "A review and a more transparent approach",
               "Ignoring staff feedback",
-              "Removing all procedures"
+              "Removing all procedures",
+              "A review and a more transparent approach"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The response involves review and consultation."
           },
           {
             "q": "What can be inferred?",
             "options": [
-              "Good management requires ongoing evaluation",
               "One policy suits everyone",
-              "Consultation is unnecessary"
+              "Consultation is unnecessary",
+              "Good management requires ongoing evaluation"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The outcome is qualified."
           },
           {
             "q": "What is the writer's tone?",
             "options": [
-              "Analytical and balanced",
               "Dismissive",
-              "Entirely promotional"
+              "Entirely promotional",
+              "Analytical and balanced"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The writer recognises strengths and limitations."
           }
         ]
