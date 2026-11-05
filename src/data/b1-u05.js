@@ -1,5 +1,5 @@
-// B1 Unit 5 · Education and learning
-// 25 grammar + 25 vocabulary + 3x5 reading + 3x5 listening + 5 writing + 5 speaking = 90 actividades.
+// B1 Unit 5 · Expanded practice
+// Correct-answer positions are distributed to avoid predictable answer patterns.
 export default [
   {
     "id": "b1-u05-grammar",
@@ -39,34 +39,34 @@ export default [
       {
         "q": "“I have finished the assignment,” Leo said. Leo said he ___ the assignment.",
         "options": [
-          "had finished",
           "has finished",
           "was finishing",
-          "would finish"
+          "would finish",
+          "had finished"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "Present perfect moves back to past perfect."
       },
       {
         "q": "The teacher said, “You must submit it by Friday.” The teacher said we ___ it by Friday.",
         "options": [
-          "had to submit",
           "must submitted",
           "have submit",
+          "had to submit",
           "would submitting"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "Must often changes to had to in reported speech."
       },
       {
         "q": "“Where do you study?” she asked me. She asked me where I ___.",
         "options": [
-          "studied",
           "did I study",
+          "studied",
           "do I studied",
           "was I study"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "Reported questions use statement word order."
       },
       {
@@ -83,34 +83,34 @@ export default [
       {
         "q": "“I will apply for a scholarship,” Ana said. Ana said she ___ for a scholarship.",
         "options": [
-          "would apply",
           "will apply",
           "applies",
-          "has applied"
+          "has applied",
+          "would apply"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "Will changes to would."
       },
       {
         "q": "“Can you explain this rule?” he asked. He asked me if I ___ that rule.",
         "options": [
-          "could explain",
           "can explained",
           "could to explain",
+          "could explain",
           "explained can"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "Can changes to could."
       },
       {
         "q": "“Don't copy the essay,” the tutor said. The tutor told us ___ the essay.",
         "options": [
-          "not to copy",
           "to not copied",
+          "not to copy",
           "don't copy",
           "not copying"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "Negative reported commands use not to + infinitive."
       },
       {
@@ -127,34 +127,34 @@ export default [
       {
         "q": "“I saw the results yesterday,” Ben said. Ben said he had seen the results ___.",
         "options": [
-          "the day before",
           "tomorrow",
           "next day",
-          "today"
+          "today",
+          "the day before"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "Yesterday normally changes to the day before."
       },
       {
         "q": "“We are taking an exam now,” they said. They said they were taking an exam ___.",
         "options": [
-          "then",
           "tomorrow",
           "next week",
+          "then",
           "last year"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "Now usually changes to then."
       },
       {
         "q": "“I can help you,” Jo said. Jo said that she ___ help me.",
         "options": [
-          "could",
           "can",
+          "could",
           "will",
           "has"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "Can changes to could."
       },
       {
@@ -171,34 +171,34 @@ export default [
       {
         "q": "“I don't understand this chapter,” he said. He said he ___ that chapter.",
         "options": [
-          "didn't understand",
           "doesn't understand",
           "hasn't understood",
-          "won't understand"
+          "won't understand",
+          "didn't understand"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "Present simple commonly moves back to past simple."
       },
       {
         "q": "“You should check your sources,” she said. She said I ___ my sources.",
         "options": [
-          "should check",
           "should checked",
           "must checking",
+          "should check",
           "would checked"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "Should usually remains unchanged."
       },
       {
         "q": "“We may have a test,” they said. They said they ___ have a test.",
         "options": [
-          "might",
           "must to",
+          "might",
           "may to",
           "can"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "May often changes to might."
       },
       {
@@ -215,34 +215,34 @@ export default [
       {
         "q": "“I bought this dictionary last week,” he said. He said he had bought that dictionary ___.",
         "options": [
-          "the week before",
           "next week",
           "tomorrow",
-          "that week ago"
+          "that week ago",
+          "the week before"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "Last week changes to the week before."
       },
       {
         "q": "“Don't be late,” the coach said to us. The coach told us ___ late.",
         "options": [
-          "not to be",
           "to not being",
           "don't be",
+          "not to be",
           "not be"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "Reported commands use told + object + infinitive."
       },
       {
         "q": "“Why are you leaving early?” she asked. She asked why I ___ early.",
         "options": [
-          "was leaving",
           "am I leaving",
+          "was leaving",
           "did I leave",
           "will leave"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "Wh- questions keep the question word but use statement order."
       },
       {
@@ -259,34 +259,34 @@ export default [
       {
         "q": "“We will finish the project tomorrow,” they said. They said they would finish the project ___.",
         "options": [
-          "the following day",
           "yesterday",
           "the day before",
-          "last day"
+          "last day",
+          "the following day"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "Tomorrow changes to the following day."
       },
       {
         "q": "“Do not forget your student card,” she said. She reminded me ___ my student card.",
         "options": [
-          "not to forget",
           "to not forgot",
           "don't forget",
+          "not to forget",
           "not forgetting"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "Remind + object + not to-infinitive."
       },
       {
         "q": "“I need more time,” the student said. The student said that he ___ more time.",
         "options": [
-          "needed",
           "needs",
+          "needed",
           "has need",
           "will needing"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "Need in present simple backshifts to needed."
       },
       {
@@ -415,34 +415,34 @@ export default [
       {
         "q": "What does \"assignment\" mean?",
         "options": [
-          "a piece of work given to students",
           "the subjects included in a course of study",
           "to leave a course before finishing it",
-          "to write down important information"
+          "to write down important information",
+          "a piece of work given to students"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "\"assignment\" means a piece of work given to students."
       },
       {
         "q": "What does \"assessment\" mean?",
         "options": [
-          "a way of measuring learning or progress",
           "required by a rule or law",
           "to complete a university degree",
+          "a way of measuring learning or progress",
           "studying without attending a school or campus"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "\"assessment\" means a way of measuring learning or progress."
       },
       {
         "q": "What does \"deadline\" mean?",
         "options": [
-          "the latest time or date for completing something",
           "not required; you can choose",
+          "the latest time or date for completing something",
           "an official document or achievement showing ability",
           "a scheme allowing students to study in another country"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "\"deadline\" means the latest time or date for completing something."
       },
       {
@@ -459,34 +459,34 @@ export default [
       {
         "q": "What does \"seminar\" mean?",
         "options": [
-          "a small class for discussion",
           "to give work to a teacher or organisation",
           "to give all your attention to something",
-          "students giving feedback on one another's work"
+          "students giving feedback on one another's work",
+          "a small class for discussion"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "\"seminar\" means a small class for discussion."
       },
       {
         "q": "What does \"scholarship\" mean?",
         "options": [
-          "money given to support someone's studies",
           "to be present at a lesson or event",
           "to improve or develop",
+          "money given to support someone's studies",
           "using another person's work without giving credit"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "\"scholarship\" means money given to support someone's studies."
       },
       {
         "q": "What does \"tuition fees\" mean?",
         "options": [
-          "money paid for a course or university education",
           "to leave a course before finishing it",
+          "money paid for a course or university education",
           "to write down important information",
           "a piece of work given to students"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "\"tuition fees\" means money paid for a course or university education."
       },
       {
@@ -503,34 +503,34 @@ export default [
       {
         "q": "What does \"compulsory\" mean?",
         "options": [
-          "required by a rule or law",
           "an official document or achievement showing ability",
           "a scheme allowing students to study in another country",
-          "the latest time or date for completing something"
+          "the latest time or date for completing something",
+          "required by a rule or law"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "\"compulsory\" means required by a rule or law."
       },
       {
         "q": "What does \"optional\" mean?",
         "options": [
-          "not required; you can choose",
           "connected with education or study",
           "a skill or piece of knowledge gained from a course",
+          "not required; you can choose",
           "a talk given to a group of students"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "\"optional\" means not required; you can choose."
       },
       {
         "q": "What does \"revise\" mean?",
         "options": [
-          "to study something again before an exam",
           "to give all your attention to something",
+          "to study something again before an exam",
           "students giving feedback on one another's work",
           "a small class for discussion"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "\"revise\" means to study something again before an exam."
       },
       {
@@ -547,34 +547,34 @@ export default [
       {
         "q": "What does \"attend\" mean?",
         "options": [
-          "to be present at a lesson or event",
           "to write down important information",
           "a piece of work given to students",
-          "money paid for a course or university education"
+          "money paid for a course or university education",
+          "to be present at a lesson or event"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "\"attend\" means to be present at a lesson or event."
       },
       {
         "q": "What does \"drop out\" mean?",
         "options": [
-          "to leave a course before finishing it",
           "studying without attending a school or campus",
           "a way of measuring learning or progress",
+          "to leave a course before finishing it",
           "the subjects included in a course of study"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "\"drop out\" means to leave a course before finishing it."
       },
       {
         "q": "What does \"graduate\" mean?",
         "options": [
-          "to complete a university degree",
           "a scheme allowing students to study in another country",
+          "to complete a university degree",
           "the latest time or date for completing something",
           "required by a rule or law"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "\"graduate\" means to complete a university degree."
       },
       {
@@ -591,34 +591,34 @@ export default [
       {
         "q": "What does \"academic\" mean?",
         "options": [
-          "connected with education or study",
           "students giving feedback on one another's work",
           "a small class for discussion",
-          "to study something again before an exam"
+          "to study something again before an exam",
+          "connected with education or study"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "\"academic\" means connected with education or study."
       },
       {
         "q": "What does \"concentrate\" mean?",
         "options": [
-          "to give all your attention to something",
           "using another person's work without giving credit",
           "money given to support someone's studies",
+          "to give all your attention to something",
           "to give work to a teacher or organisation"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "\"concentrate\" means to give all your attention to something."
       },
       {
         "q": "What does \"make progress\" mean?",
         "options": [
-          "to improve or develop",
           "a piece of work given to students",
+          "to improve or develop",
           "money paid for a course or university education",
           "to be present at a lesson or event"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "\"make progress\" means to improve or develop."
       },
       {
@@ -635,34 +635,34 @@ export default [
       {
         "q": "What does \"distance learning\" mean?",
         "options": [
-          "studying without attending a school or campus",
           "the latest time or date for completing something",
           "required by a rule or law",
-          "to complete a university degree"
+          "to complete a university degree",
+          "studying without attending a school or campus"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "\"distance learning\" means studying without attending a school or campus."
       },
       {
         "q": "What does \"exchange programme\" mean?",
         "options": [
-          "a scheme allowing students to study in another country",
           "a talk given to a group of students",
           "not required; you can choose",
+          "a scheme allowing students to study in another country",
           "an official document or achievement showing ability"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "\"exchange programme\" means a scheme allowing students to study in another country."
       },
       {
         "q": "What does \"learning outcome\" mean?",
         "options": [
-          "a skill or piece of knowledge gained from a course",
           "a small class for discussion",
+          "a skill or piece of knowledge gained from a course",
           "to study something again before an exam",
           "connected with education or study"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "\"learning outcome\" means a skill or piece of knowledge gained from a course."
       },
       {
@@ -679,12 +679,12 @@ export default [
       {
         "q": "What does \"plagiarism\" mean?",
         "options": [
-          "using another person's work without giving credit",
           "money paid for a course or university education",
           "to be present at a lesson or event",
-          "to improve or develop"
+          "to improve or develop",
+          "using another person's work without giving credit"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "\"plagiarism\" means using another person's work without giving credit."
       }
     ]
@@ -704,51 +704,51 @@ export default [
           {
             "q": "What is the main purpose of the text?",
             "options": [
-              "To explain a practical change and its effects",
               "To advertise a product",
-              "To describe a competition"
+              "To describe a competition",
+              "To explain a practical change and its effects"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The text focuses on a real initiative and what it achieved."
           },
           {
             "q": "What difficulty is mentioned?",
             "options": [
-              "People had different needs or expectations",
               "There was no interest at all",
-              "The project had unlimited funding"
+              "The project had unlimited funding",
+              "People had different needs or expectations"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The text identifies a practical challenge."
           },
           {
             "q": "What did the people involved do?",
             "options": [
-              "They introduced a structured way to respond",
               "They ignored the problem",
-              "They stopped communicating"
+              "They stopped communicating",
+              "They introduced a structured way to respond"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The response is described in the middle of the text."
           },
           {
             "q": "What is suggested about the outcome?",
             "options": [
-              "Progress was useful but not perfect",
               "Every problem disappeared",
-              "The project had no effect"
+              "The project had no effect",
+              "Progress was useful but not perfect"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The writer avoids claiming that one action solved everything."
           },
           {
             "q": "Which statement best summarises the writer's attitude?",
             "options": [
-              "Positive but realistic",
               "Completely negative",
-              "Uncritically enthusiastic"
+              "Uncritically enthusiastic",
+              "Positive but realistic"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The text recognises benefits and limitations."
           }
         ]
@@ -760,51 +760,51 @@ export default [
           {
             "q": "What is the main purpose of the text?",
             "options": [
-              "To explain a practical change and its effects",
               "To advertise a product",
-              "To describe a competition"
+              "To describe a competition",
+              "To explain a practical change and its effects"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The text focuses on a real initiative and what it achieved."
           },
           {
             "q": "What difficulty is mentioned?",
             "options": [
-              "People had different needs or expectations",
               "There was no interest at all",
-              "The project had unlimited funding"
+              "The project had unlimited funding",
+              "People had different needs or expectations"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The text identifies a practical challenge."
           },
           {
             "q": "What did the people involved do?",
             "options": [
-              "They introduced a structured way to respond",
               "They ignored the problem",
-              "They stopped communicating"
+              "They stopped communicating",
+              "They introduced a structured way to respond"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The response is described in the middle of the text."
           },
           {
             "q": "What is suggested about the outcome?",
             "options": [
-              "Progress was useful but not perfect",
               "Every problem disappeared",
-              "The project had no effect"
+              "The project had no effect",
+              "Progress was useful but not perfect"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The writer avoids claiming that one action solved everything."
           },
           {
             "q": "Which statement best summarises the writer's attitude?",
             "options": [
-              "Positive but realistic",
               "Completely negative",
-              "Uncritically enthusiastic"
+              "Uncritically enthusiastic",
+              "Positive but realistic"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The text recognises benefits and limitations."
           }
         ]
@@ -816,51 +816,51 @@ export default [
           {
             "q": "What is the main purpose of the text?",
             "options": [
-              "To explain a practical change and its effects",
               "To advertise a product",
-              "To describe a competition"
+              "To describe a competition",
+              "To explain a practical change and its effects"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The text focuses on a real initiative and what it achieved."
           },
           {
             "q": "What difficulty is mentioned?",
             "options": [
-              "People had different needs or expectations",
               "There was no interest at all",
-              "The project had unlimited funding"
+              "The project had unlimited funding",
+              "People had different needs or expectations"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The text identifies a practical challenge."
           },
           {
             "q": "What did the people involved do?",
             "options": [
-              "They introduced a structured way to respond",
               "They ignored the problem",
-              "They stopped communicating"
+              "They stopped communicating",
+              "They introduced a structured way to respond"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The response is described in the middle of the text."
           },
           {
             "q": "What is suggested about the outcome?",
             "options": [
-              "Progress was useful but not perfect",
               "Every problem disappeared",
-              "The project had no effect"
+              "The project had no effect",
+              "Progress was useful but not perfect"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The writer avoids claiming that one action solved everything."
           },
           {
             "q": "Which statement best summarises the writer's attitude?",
             "options": [
-              "Positive but realistic",
               "Completely negative",
-              "Uncritically enthusiastic"
+              "Uncritically enthusiastic",
+              "Positive but realistic"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The text recognises benefits and limitations."
           }
         ]
@@ -882,51 +882,51 @@ export default [
           {
             "q": "What is the conversation mainly about?",
             "options": [
-              "A practical problem and possible solutions",
               "A personal celebration",
-              "A historical event"
+              "A historical event",
+              "A practical problem and possible solutions"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The speakers discuss an issue and how to deal with it."
           },
           {
             "q": "What does the first speaker explain?",
             "options": [
-              "A difficulty they have experienced",
               "A plan that has already failed",
-              "A new job offer"
+              "A new job offer",
+              "A difficulty they have experienced"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "This is introduced at the start of the conversation."
           },
           {
             "q": "What suggestion is made?",
             "options": [
-              "Try a specific action before taking further steps",
               "Ignore the situation",
-              "Cancel the activity immediately"
+              "Cancel the activity immediately",
+              "Try a specific action before taking further steps"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The advice is to test a manageable solution."
           },
           {
             "q": "What does the speaker say about the next step?",
             "options": [
-              "Ask for help if the problem continues",
               "There is no need to check again",
-              "The issue cannot be solved"
+              "The issue cannot be solved",
+              "Ask for help if the problem continues"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The speaker offers a follow-up if needed."
           },
           {
             "q": "What is the overall message?",
             "options": [
-              "Make informed decisions and communicate clearly",
               "Act without checking details",
-              "Avoid asking questions"
+              "Avoid asking questions",
+              "Make informed decisions and communicate clearly"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The exchange values clear information and communication."
           }
         ]
@@ -938,51 +938,51 @@ export default [
           {
             "q": "What is the conversation mainly about?",
             "options": [
-              "A practical problem and possible solutions",
               "A personal celebration",
-              "A historical event"
+              "A historical event",
+              "A practical problem and possible solutions"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The speakers discuss an issue and how to deal with it."
           },
           {
             "q": "What does the first speaker explain?",
             "options": [
-              "A difficulty they have experienced",
               "A plan that has already failed",
-              "A new job offer"
+              "A new job offer",
+              "A difficulty they have experienced"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "This is introduced at the start of the conversation."
           },
           {
             "q": "What suggestion is made?",
             "options": [
-              "Try a specific action before taking further steps",
               "Ignore the situation",
-              "Cancel the activity immediately"
+              "Cancel the activity immediately",
+              "Try a specific action before taking further steps"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The advice is to test a manageable solution."
           },
           {
             "q": "What does the speaker say about the next step?",
             "options": [
-              "Ask for help if the problem continues",
               "There is no need to check again",
-              "The issue cannot be solved"
+              "The issue cannot be solved",
+              "Ask for help if the problem continues"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The speaker offers a follow-up if needed."
           },
           {
             "q": "What is the overall message?",
             "options": [
-              "Make informed decisions and communicate clearly",
               "Act without checking details",
-              "Avoid asking questions"
+              "Avoid asking questions",
+              "Make informed decisions and communicate clearly"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The exchange values clear information and communication."
           }
         ]
@@ -994,51 +994,51 @@ export default [
           {
             "q": "What is the conversation mainly about?",
             "options": [
-              "A practical problem and possible solutions",
               "A personal celebration",
-              "A historical event"
+              "A historical event",
+              "A practical problem and possible solutions"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The speakers discuss an issue and how to deal with it."
           },
           {
             "q": "What does the first speaker explain?",
             "options": [
-              "A difficulty they have experienced",
               "A plan that has already failed",
-              "A new job offer"
+              "A new job offer",
+              "A difficulty they have experienced"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "This is introduced at the start of the conversation."
           },
           {
             "q": "What suggestion is made?",
             "options": [
-              "Try a specific action before taking further steps",
               "Ignore the situation",
-              "Cancel the activity immediately"
+              "Cancel the activity immediately",
+              "Try a specific action before taking further steps"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The advice is to test a manageable solution."
           },
           {
             "q": "What does the speaker say about the next step?",
             "options": [
-              "Ask for help if the problem continues",
               "There is no need to check again",
-              "The issue cannot be solved"
+              "The issue cannot be solved",
+              "Ask for help if the problem continues"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The speaker offers a follow-up if needed."
           },
           {
             "q": "What is the overall message?",
             "options": [
-              "Make informed decisions and communicate clearly",
               "Act without checking details",
-              "Avoid asking questions"
+              "Avoid asking questions",
+              "Make informed decisions and communicate clearly"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The exchange values clear information and communication."
           }
         ]
