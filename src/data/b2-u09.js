@@ -1,5 +1,5 @@
-// B2 Unit 9 · Economics and business
-// 25 grammar + 25 vocabulary + 3x5 reading + 3x5 listening + 5 writing + 5 speaking = 90 actividades.
+// B2 Unit 9 · Expanded practice
+// Correct-answer positions are distributed to avoid predictable answer patterns.
 export default [
   {
     "id": "b2-9",
@@ -38,34 +38,34 @@ export default [
       {
         "q": "By the end of the quarter, we ___ the new accounting system.",
         "options": [
-          "will have installed",
           "will install",
           "are installing",
-          "have installed"
+          "have installed",
+          "will have installed"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "Future perfect for completion before a future point."
       },
       {
         "q": "This time tomorrow, the finance team ___ the annual forecast.",
         "options": [
-          "will be preparing",
           "will have prepared",
           "prepares",
+          "will be preparing",
           "has prepared"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "Future continuous for an action in progress."
       },
       {
         "q": "Look at those figures. Costs ___ rise again.",
         "options": [
-          "are going to",
           "will have",
+          "are going to",
           "are",
           "would"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "Going to for an evidence-based prediction."
       },
       {
@@ -82,34 +82,34 @@ export default [
       {
         "q": "By 2030, the company ___ in five new markets.",
         "options": [
-          "will have expanded",
           "will expand",
           "expands",
-          "is expanding"
+          "is expanding",
+          "will have expanded"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "Future perfect."
       },
       {
         "q": "I think demand ___ recover gradually.",
         "options": [
-          "will",
           "is going",
           "would have",
+          "will",
           "has"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "Will for a prediction."
       },
       {
         "q": "We ___ the supplier on Thursday; the appointment is confirmed.",
         "options": [
-          "are meeting",
           "will have met",
+          "are meeting",
           "meet yesterday",
           "have meet"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "Present continuous for an arrangement."
       },
       {
@@ -126,34 +126,34 @@ export default [
       {
         "q": "By the time the audit begins, the team ___ all the invoices.",
         "options": [
-          "will have checked",
           "will check",
           "is checking",
-          "checked"
+          "checked",
+          "will have checked"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "Future perfect."
       },
       {
         "q": "The board ___ a decision after the final report arrives.",
         "options": [
-          "will make",
           "will have making",
           "makes yesterday",
+          "will make",
           "is made"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "Future simple."
       },
       {
         "q": "The new branch ___ next Monday, as advertised.",
         "options": [
-          "opens",
           "will opening",
+          "opens",
           "has open",
           "is opened yesterday"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "Present simple timetable."
       },
       {
@@ -170,34 +170,34 @@ export default [
       {
         "q": "They ___ a new product; the launch date has been announced.",
         "options": [
-          "are going to launch",
           "launch yesterday",
           "will have launch",
-          "are launch"
+          "are launch",
+          "are going to launch"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "Going to for an intention."
       },
       {
         "q": "Don't worry, I ___ the client this afternoon.",
         "options": [
-          "will call",
           "am called",
           "have call",
+          "will call",
           "would calling"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "Will for a spontaneous decision or promise."
       },
       {
         "q": "At six, the sales team ___ with potential investors.",
         "options": [
-          "will be meeting",
           "will have met",
+          "will be meeting",
           "meets yesterday",
           "has meet"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "Future continuous."
       },
       {
@@ -214,34 +214,34 @@ export default [
       {
         "q": "The train to the business park ___ every twenty minutes.",
         "options": [
-          "leaves",
           "will leaving",
           "is leave",
-          "has left tomorrow"
+          "has left tomorrow",
+          "leaves"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "Present simple timetable."
       },
       {
         "q": "The company ___ its annual results tomorrow morning.",
         "options": [
-          "is publishing",
           "publish yesterday",
           "has publish",
+          "is publishing",
           "will have publishing"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "Present continuous arrangement."
       },
       {
         "q": "By the end of the year, costs ___ for six consecutive quarters.",
         "options": [
-          "will have been falling",
           "will fall",
+          "will have been falling",
           "are falling",
           "have fallen"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "Future perfect continuous."
       },
       {
@@ -258,34 +258,34 @@ export default [
       {
         "q": "The directors ___ the proposal at 10 a.m. tomorrow.",
         "options": [
-          "are reviewing",
           "reviewed",
           "have review",
-          "will have reviewing"
+          "will have reviewing",
+          "are reviewing"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "Present continuous arrangement."
       },
       {
         "q": "By 2028, the firm ___ its digital transition.",
         "options": [
-          "will have completed",
           "will complete yesterday",
           "is complete",
+          "will have completed",
           "has completing"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "Future perfect."
       },
       {
         "q": "The market ___ more competitive over the next few years.",
         "options": [
-          "will become",
           "becomes yesterday",
+          "will become",
           "is become",
           "will have becoming"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "Will for prediction."
       },
       {
@@ -414,34 +414,34 @@ export default [
       {
         "q": "What does \"assets\" mean?",
         "options": [
-          "things owned by a person or organisation",
           "a person or group affected by a business",
           "inability to pay debts when due",
-          "a person who starts and manages a business"
+          "a person who starts and manages a business",
+          "things owned by a person or organisation"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "\"assets\" means things owned by a person or organisation."
       },
       {
         "q": "What does \"liabilities\" mean?",
         "options": [
-          "debts or financial obligations",
           "the percentage of sales held by a company",
           "the total value of sales over a period",
+          "debts or financial obligations",
           "the level where income equals costs"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "\"liabilities\" means debts or financial obligations."
       },
       {
         "q": "What does \"cash flow\" mean?",
         "options": [
-          "money moving into and out of a business",
           "expanding into different products or markets",
+          "money moving into and out of a business",
           "the process of buying goods or services",
           "producing good results for the money spent"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "\"cash flow\" means money moving into and out of a business."
       },
       {
@@ -458,34 +458,34 @@ export default [
       {
         "q": "What does \"profit margin\" mean?",
         "options": [
-          "the proportion of revenue kept as profit",
           "money committed to produce future returns",
           "a feature that makes a business more successful than rivals",
-          "estimating future trends or results"
+          "estimating future trends or results",
+          "the proportion of revenue kept as profit"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "\"profit margin\" means the proportion of revenue kept as profit."
       },
       {
         "q": "What does \"overheads\" mean?",
         "options": [
-          "regular costs of running a business",
           "ability to meet short-term financial obligations",
           "able to grow without costs rising at the same rate",
+          "regular costs of running a business",
           "things owned by a person or organisation"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "\"overheads\" means regular costs of running a business."
       },
       {
         "q": "What does \"merger\" mean?",
         "options": [
-          "the joining of two companies",
           "inability to pay debts when due",
+          "the joining of two companies",
           "a person who starts and manages a business",
           "debts or financial obligations"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "\"merger\" means the joining of two companies."
       },
       {
@@ -502,34 +502,34 @@ export default [
       {
         "q": "What does \"stakeholder\" mean?",
         "options": [
-          "a person or group affected by a business",
           "the process of buying goods or services",
           "producing good results for the money spent",
-          "income generated by sales or services"
+          "income generated by sales or services",
+          "a person or group affected by a business"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "\"stakeholder\" means a person or group affected by a business."
       },
       {
         "q": "What does \"market share\" mean?",
         "options": [
-          "the percentage of sales held by a company",
           "the network involved in producing and delivering goods",
           "careful checks before a business agreement",
+          "the percentage of sales held by a company",
           "the proportion of revenue kept as profit"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "\"market share\" means the percentage of sales held by a company."
       },
       {
         "q": "What does \"diversification\" mean?",
         "options": [
-          "expanding into different products or markets",
           "a feature that makes a business more successful than rivals",
+          "expanding into different products or markets",
           "estimating future trends or results",
           "regular costs of running a business"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "\"diversification\" means expanding into different products or markets."
       },
       {
@@ -546,34 +546,34 @@ export default [
       {
         "q": "What does \"investment\" mean?",
         "options": [
-          "money committed to produce future returns",
           "a person who starts and manages a business",
           "debts or financial obligations",
-          "the purchase of one company by another"
+          "the purchase of one company by another",
+          "money committed to produce future returns"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "\"investment\" means money committed to produce future returns."
       },
       {
         "q": "What does \"liquidity\" mean?",
         "options": [
-          "ability to meet short-term financial obligations",
           "the level where income equals costs",
           "money moving into and out of a business",
+          "ability to meet short-term financial obligations",
           "a person or group affected by a business"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "\"liquidity\" means ability to meet short-term financial obligations."
       },
       {
         "q": "What does \"insolvency\" mean?",
         "options": [
-          "inability to pay debts when due",
           "producing good results for the money spent",
+          "inability to pay debts when due",
           "income generated by sales or services",
           "the percentage of sales held by a company"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "\"insolvency\" means inability to pay debts when due."
       },
       {
@@ -590,34 +590,34 @@ export default [
       {
         "q": "What does \"procurement\" mean?",
         "options": [
-          "the process of buying goods or services",
           "estimating future trends or results",
           "regular costs of running a business",
-          "an estimate of future performance"
+          "an estimate of future performance",
+          "the process of buying goods or services"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "\"procurement\" means the process of buying goods or services."
       },
       {
         "q": "What does \"supply chain\" mean?",
         "options": [
-          "the network involved in producing and delivering goods",
           "things owned by a person or organisation",
           "the joining of two companies",
+          "the network involved in producing and delivering goods",
           "money committed to produce future returns"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "\"supply chain\" means the network involved in producing and delivering goods."
       },
       {
         "q": "What does \"competitive advantage\" mean?",
         "options": [
-          "a feature that makes a business more successful than rivals",
           "debts or financial obligations",
+          "a feature that makes a business more successful than rivals",
           "the purchase of one company by another",
           "ability to meet short-term financial obligations"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "\"competitive advantage\" means a feature that makes a business more successful than rivals."
       },
       {
@@ -634,34 +634,34 @@ export default [
       {
         "q": "What does \"entrepreneur\" mean?",
         "options": [
-          "a person who starts and manages a business",
           "income generated by sales or services",
           "the percentage of sales held by a company",
-          "the total value of sales over a period"
+          "the total value of sales over a period",
+          "a person who starts and manages a business"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "\"entrepreneur\" means a person who starts and manages a business."
       },
       {
         "q": "What does \"break-even point\" mean?",
         "options": [
-          "the level where income equals costs",
           "the proportion of revenue kept as profit",
           "expanding into different products or markets",
+          "the level where income equals costs",
           "the process of buying goods or services"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "\"break-even point\" means the level where income equals costs."
       },
       {
         "q": "What does \"cost-effective\" mean?",
         "options": [
-          "producing good results for the money spent",
           "regular costs of running a business",
+          "producing good results for the money spent",
           "an estimate of future performance",
           "the network involved in producing and delivering goods"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "\"cost-effective\" means producing good results for the money spent."
       },
       {
@@ -678,12 +678,12 @@ export default [
       {
         "q": "What does \"forecasting\" mean?",
         "options": [
-          "estimating future trends or results",
           "the purchase of one company by another",
           "ability to meet short-term financial obligations",
-          "able to grow without costs rising at the same rate"
+          "able to grow without costs rising at the same rate",
+          "estimating future trends or results"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "\"forecasting\" means estimating future trends or results."
       }
     ]
