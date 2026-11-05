@@ -1,5 +1,5 @@
-// B2 Unit 12 · Advanced communication
-// 25 grammar + 25 vocabulary + 3x5 reading + 3x5 listening + 5 writing + 5 speaking = 90 actividades.
+// B2 Unit 12 · Expanded practice
+// Correct-answer positions are distributed to avoid predictable answer patterns.
 export default [
   {
     "id": "b2-12",
@@ -38,34 +38,34 @@ export default [
       {
         "q": "She said she would call, and she did ___.",
         "options": [
-          "so",
           "one",
           "it",
-          "too"
+          "too",
+          "so"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "Do so substitutes for a previously mentioned action."
       },
       {
         "q": "I prefer the blue report to the red ___.",
         "options": [
-          "one",
           "ones",
           "it",
+          "one",
           "so"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "One substitutes for a singular countable noun."
       },
       {
         "q": "Some teams prefer written feedback; others prefer ___.",
         "options": [
-          "it",
           "ones",
+          "it",
           "one",
           "do"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "It can refer to a specific uncountable or singular thing."
       },
       {
@@ -82,34 +82,34 @@ export default [
       {
         "q": "I thought the proposal would work, and it did ___.",
         "options": [
-          "so",
           "one",
           "ones",
-          "too"
+          "too",
+          "so"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "Do so substitutes for work."
       },
       {
         "q": "If you need support, I certainly ___.",
         "options": [
-          "do",
           "am",
           "have",
+          "do",
           "will be"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "Do can substitute for a verb phrase."
       },
       {
         "q": "The first solution is practical, but the second ___ not.",
         "options": [
-          "is",
           "does",
+          "is",
           "has",
           "will"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "The auxiliary is repeated to avoid repeating the complement."
       },
       {
@@ -126,34 +126,34 @@ export default [
       {
         "q": "The newer model is more efficient than the old ___.",
         "options": [
-          "one",
           "ones",
           "so",
-          "do"
+          "do",
+          "one"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "One replaces a singular countable noun."
       },
       {
         "q": "We expected delays, and there were ___.",
         "options": [
-          "some",
           "one",
           "so",
+          "some",
           "do"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "Some substitutes for a plural or uncountable quantity."
       },
       {
         "q": "She can explain the process better than I ___.",
         "options": [
-          "can",
           "do",
+          "can",
           "am",
           "have"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "Can is repeated as the auxiliary."
       },
       {
@@ -170,34 +170,34 @@ export default [
       {
         "q": "The policy applies to large firms, but not to small ___.",
         "options": [
-          "ones",
           "one",
           "it",
-          "so"
+          "so",
+          "ones"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "Ones replaces plural countable nouns."
       },
       {
         "q": "He promised to help, and he did ___.",
         "options": [
-          "so",
           "one",
           "it",
+          "so",
           "too"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "Do so substitutes for help."
       },
       {
         "q": "I am not sure the plan will succeed, but I hope ___.",
         "options": [
-          "so",
           "one",
+          "so",
           "do",
           "it"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "Hope so substitutes for a positive clause."
       },
       {
@@ -214,34 +214,34 @@ export default [
       {
         "q": "They have completed the task, and we have ___.",
         "options": [
-          "too",
           "so",
           "one",
-          "ones"
+          "ones",
+          "too"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "Too is used at the end for affirmative agreement."
       },
       {
         "q": "I would prefer the earlier train to the later ___.",
         "options": [
-          "one",
           "ones",
           "it",
+          "one",
           "do"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "One substitutes for a singular countable noun."
       },
       {
         "q": "She believes the evidence is strong, but I do not think ___.",
         "options": [
-          "so",
           "one",
+          "so",
           "it",
           "do"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "Think so is a common clause substitute."
       },
       {
@@ -258,34 +258,34 @@ export default [
       {
         "q": "Some participants agreed; others did ___.",
         "options": [
-          "not",
           "no",
           "none",
-          "neither"
+          "neither",
+          "not"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "Did not substitutes for the negative verb phrase."
       },
       {
         "q": "I have read the first chapter, but not the second ___.",
         "options": [
-          "one",
           "ones",
           "so",
+          "one",
           "do"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "One replaces chapter."
       },
       {
         "q": "If the manager can approve it, so ___ the director.",
         "options": [
-          "can",
           "does",
+          "can",
           "is",
           "has"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "So + modal + subject."
       },
       {
@@ -414,34 +414,34 @@ export default [
       {
         "q": "What does \"qualify a statement\" mean?",
         "options": [
-          "make a claim more precise or limited",
           "a technique used to make communication effective",
           "a response that challenges an argument",
-          "a word that limits the strength of a claim"
+          "a word that limits the strength of a claim",
+          "make a claim more precise or limited"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "\"qualify a statement\" means make a claim more precise or limited."
       },
       {
         "q": "What does \"concede a point\" mean?",
         "options": [
-          "accept that part of an opposing argument is valid",
           "language that makes a claim less absolute",
           "a person's position or attitude",
+          "accept that part of an opposing argument is valid",
           "a judgement reached after considering evidence"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "\"concede a point\" means accept that part of an opposing argument is valid."
       },
       {
         "q": "What does \"counterargument\" mean?",
         "options": [
-          "an argument against a position",
           "special importance given to an idea",
+          "an argument against a position",
           "an additional meaning or association",
           "able to convince someone"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "\"counterargument\" means an argument against a position."
       },
       {
@@ -458,34 +458,34 @@ export default [
       {
         "q": "What does \"nuance\" mean?",
         "options": [
-          "a subtle difference in meaning",
           "express the same meaning using different words",
           "a word or phrase linking ideas",
-          "careful not to offend or create conflict"
+          "careful not to offend or create conflict",
+          "a subtle difference in meaning"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "\"nuance\" means a subtle difference in meaning."
       },
       {
         "q": "What does \"coherence\" mean?",
         "options": [
-          "the quality of being logically connected",
           "combine ideas from different sources",
           "language that guides an audience through a talk",
+          "the quality of being logically connected",
           "make a claim more precise or limited"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "\"coherence\" means the quality of being logically connected."
       },
       {
         "q": "What does \"cohesion\" mean?",
         "options": [
-          "the way parts of a text are linked",
           "a response that challenges an argument",
+          "the way parts of a text are linked",
           "a word that limits the strength of a claim",
           "accept that part of an opposing argument is valid"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "\"cohesion\" means the way parts of a text are linked."
       },
       {
@@ -502,34 +502,34 @@ export default [
       {
         "q": "What does \"rhetorical device\" mean?",
         "options": [
-          "a technique used to make communication effective",
           "an additional meaning or association",
           "able to convince someone",
-          "a possible effect or conclusion"
+          "a possible effect or conclusion",
+          "a technique used to make communication effective"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "\"rhetorical device\" means a technique used to make communication effective."
       },
       {
         "q": "What does \"hedging\" mean?",
         "options": [
-          "language that makes a claim less absolute",
           "the possibility of more than one interpretation",
           "brief but clear and complete",
+          "language that makes a claim less absolute",
           "a subtle difference in meaning"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "\"hedging\" means language that makes a claim less absolute."
       },
       {
         "q": "What does \"emphasis\" mean?",
         "options": [
-          "special importance given to an idea",
           "a word or phrase linking ideas",
+          "special importance given to an idea",
           "careful not to offend or create conflict",
           "the quality of being logically connected"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "\"emphasis\" means special importance given to an idea."
       },
       {
@@ -546,34 +546,34 @@ export default [
       {
         "q": "What does \"paraphrase\" mean?",
         "options": [
-          "express the same meaning using different words",
           "a word that limits the strength of a claim",
           "accept that part of an opposing argument is valid",
-          "the level of formality in language"
+          "the level of formality in language",
+          "express the same meaning using different words"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "\"paraphrase\" means express the same meaning using different words."
       },
       {
         "q": "What does \"synthesise\" mean?",
         "options": [
-          "combine ideas from different sources",
           "a judgement reached after considering evidence",
           "an argument against a position",
+          "combine ideas from different sources",
           "a technique used to make communication effective"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "\"synthesise\" means combine ideas from different sources."
       },
       {
         "q": "What does \"rebuttal\" mean?",
         "options": [
-          "a response that challenges an argument",
           "able to convince someone",
+          "a response that challenges an argument",
           "a possible effect or conclusion",
           "language that makes a claim less absolute"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "\"rebuttal\" means a response that challenges an argument."
       },
       {
@@ -590,34 +590,34 @@ export default [
       {
         "q": "What does \"connotation\" mean?",
         "options": [
-          "an additional meaning or association",
           "careful not to offend or create conflict",
           "the quality of being logically connected",
-          "an explanation that makes something clearer"
+          "an explanation that makes something clearer",
+          "an additional meaning or association"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "\"connotation\" means an additional meaning or association."
       },
       {
         "q": "What does \"ambiguity\" mean?",
         "options": [
-          "the possibility of more than one interpretation",
           "make a claim more precise or limited",
           "the way parts of a text are linked",
+          "the possibility of more than one interpretation",
           "express the same meaning using different words"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "\"ambiguity\" means the possibility of more than one interpretation."
       },
       {
         "q": "What does \"transition\" mean?",
         "options": [
-          "a word or phrase linking ideas",
           "accept that part of an opposing argument is valid",
+          "a word or phrase linking ideas",
           "the level of formality in language",
           "combine ideas from different sources"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "\"transition\" means a word or phrase linking ideas."
       },
       {
@@ -634,34 +634,34 @@ export default [
       {
         "q": "What does \"qualifier\" mean?",
         "options": [
-          "a word that limits the strength of a claim",
           "a possible effect or conclusion",
           "language that makes a claim less absolute",
-          "a person's position or attitude"
+          "a person's position or attitude",
+          "a word that limits the strength of a claim"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "\"qualifier\" means a word that limits the strength of a claim."
       },
       {
         "q": "What does \"conclusion\" mean?",
         "options": [
-          "a judgement reached after considering evidence",
           "a subtle difference in meaning",
           "special importance given to an idea",
+          "a judgement reached after considering evidence",
           "an additional meaning or association"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "\"conclusion\" means a judgement reached after considering evidence."
       },
       {
         "q": "What does \"persuasive\" mean?",
         "options": [
-          "able to convince someone",
           "the quality of being logically connected",
+          "able to convince someone",
           "an explanation that makes something clearer",
           "the possibility of more than one interpretation"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "\"persuasive\" means able to convince someone."
       },
       {
@@ -678,12 +678,12 @@ export default [
       {
         "q": "What does \"diplomatic\" mean?",
         "options": [
-          "careful not to offend or create conflict",
           "the level of formality in language",
           "combine ideas from different sources",
-          "language that guides an audience through a talk"
+          "language that guides an audience through a talk",
+          "careful not to offend or create conflict"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "\"diplomatic\" means careful not to offend or create conflict."
       }
     ]
