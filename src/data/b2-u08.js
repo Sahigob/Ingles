@@ -1,5 +1,5 @@
-// B2 Unit 8 · Media and information
-// 25 grammar + 25 vocabulary + 3x5 reading + 3x5 listening + 5 writing + 5 speaking = 90 actividades.
+// B2 Unit 8 · Expanded practice
+// Correct-answer positions are distributed to avoid predictable answer patterns.
 export default [
   {
     "id": "b2-8",
@@ -38,34 +38,34 @@ export default [
       {
         "q": "The report is believed ___ by an independent team.",
         "options": [
-          "to have been checked",
           "checking",
           "to check",
-          "being check"
+          "being check",
+          "to have been checked"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "Reporting passive + perfect passive infinitive."
       },
       {
         "q": "The journalist was accused ___ confidential information.",
         "options": [
-          "of leaking",
           "to leak",
           "for leak",
+          "of leaking",
           "that leaked"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "Accuse + object + of + -ing."
       },
       {
         "q": "The spokesperson admitted ___ the figures incorrectly.",
         "options": [
-          "quoting",
           "to quote",
+          "quoting",
           "quote",
           "quoted"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "Admit is followed by -ing."
       },
       {
@@ -82,34 +82,34 @@ export default [
       {
         "q": "It ___ that the video was recorded several years ago.",
         "options": [
-          "is claimed",
           "claims",
           "is claiming",
-          "has claim"
+          "has claim",
+          "is claimed"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "It is claimed that reporting passive."
       },
       {
         "q": "The organisation denied ___ the article removed.",
         "options": [
-          "having requested",
           "to have request",
           "request",
+          "having requested",
           "requested"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "Deny + -ing; perfect form shows earlier action."
       },
       {
         "q": "The witness was persuaded ___ an interview.",
         "options": [
-          "to give",
           "giving",
+          "to give",
           "give",
           "that give"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "Persuade + object + to-infinitive."
       },
       {
@@ -126,34 +126,34 @@ export default [
       {
         "q": "The newspaper apologised for ___ the wrong date.",
         "options": [
-          "printing",
           "to print",
           "print",
-          "printed"
+          "printed",
+          "printing"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "Apologise for + -ing."
       },
       {
         "q": "The editor accused the website ___ misleading readers.",
         "options": [
-          "of",
           "to",
           "for",
+          "of",
           "with"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "Accuse someone of something."
       },
       {
         "q": "The minister is reported ___ the statement.",
         "options": [
-          "to have withdrawn",
           "withdrawing",
+          "to have withdrawn",
           "to withdraws",
           "having withdraw"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "Reporting passive + perfect infinitive."
       },
       {
@@ -170,34 +170,34 @@ export default [
       {
         "q": "The company was alleged ___ user data without consent.",
         "options": [
-          "to have collected",
           "collecting",
           "to collect",
-          "having collect"
+          "having collect",
+          "to have collected"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "Alleged + perfect infinitive."
       },
       {
         "q": "The editor reminded staff ___ sources independently.",
         "options": [
-          "to verify",
           "verifying",
           "verify",
+          "to verify",
           "that verify"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "Remind + object + to-infinitive."
       },
       {
         "q": "The witness denied ___ the message.",
         "options": [
-          "sending",
           "to send",
+          "sending",
           "send",
           "sent"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "Deny + -ing."
       },
       {
@@ -214,34 +214,34 @@ export default [
       {
         "q": "The presenter admitted that the headline ___ too strong.",
         "options": [
-          "was",
           "be",
           "being",
-          "were"
+          "were",
+          "was"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "Past reporting verb with backshift."
       },
       {
         "q": "The organisation warned readers ___ unverified posts.",
         "options": [
-          "not to share",
           "not sharing",
           "to not shared",
+          "not to share",
           "don't share"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "Warn + object + not to-infinitive."
       },
       {
         "q": "The editor insisted that the correction ___ immediately.",
         "options": [
-          "be published",
           "is publish",
+          "be published",
           "publishing",
           "to published"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "Mandative subjunctive in formal English."
       },
       {
@@ -258,34 +258,34 @@ export default [
       {
         "q": "The reporter thanked the researcher for ___ the figures.",
         "options": [
-          "clarifying",
           "to clarify",
           "clarify",
-          "clarified"
+          "clarified",
+          "clarifying"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "Thank someone for + -ing."
       },
       {
         "q": "The company denied ___ the public.",
         "options": [
-          "to deceive",
           "deceiving",
           "deceive",
+          "to deceive",
           "deceived"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "Deny + -ing."
       },
       {
         "q": "It has been suggested that the rules ___ revised.",
         "options": [
-          "should be",
           "are be",
+          "should be",
           "being",
           "to be"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "Suggested that + should + passive."
       },
       {
@@ -414,34 +414,34 @@ export default [
       {
         "q": "What does \"misinformation\" mean?",
         "options": [
-          "false or inaccurate information shared regardless of intent",
           "the title of a news story",
           "content selected automatically by an algorithm",
-          "make information available to the public"
+          "make information available to the public",
+          "false or inaccurate information shared regardless of intent"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "\"misinformation\" means false or inaccurate information shared regardless of intent."
       },
       {
         "q": "What does \"disinformation\" mean?",
         "options": [
-          "false information deliberately created to mislead",
           "the number of copies distributed",
           "an environment where similar views are repeated",
+          "false information deliberately created to mislead",
           "remove a published report"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "\"disinformation\" means false information deliberately created to mislead."
       },
       {
         "q": "What does \"verification\" mean?",
         "options": [
-          "the process of checking whether information is true",
           "what matters to the community",
+          "the process of checking whether information is true",
           "content designed to attract clicks with a sensational title",
           "freedom from improper influence over editorial decisions"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "\"verification\" means the process of checking whether information is true."
       },
       {
@@ -458,34 +458,34 @@ export default [
       {
         "q": "What does \"editorial\" mean?",
         "options": [
-          "an article expressing a publication's opinion",
           "information about an event just reported",
           "in-depth reporting that uncovers hidden information",
-          "openness about methods, decisions or interests"
+          "openness about methods, decisions or interests",
+          "an article expressing a publication's opinion"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "\"editorial\" means an article expressing a publication's opinion."
       },
       {
         "q": "What does \"bias\" mean?",
         "options": [
-          "a preference that affects fair judgement",
           "the ability to analyse and evaluate media",
           "confirm information using another source",
+          "a preference that affects fair judgement",
           "who controls or owns media organisations"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "\"bias\" means a preference that affects fair judgement."
       },
       {
         "q": "What does \"fact-checking\" mean?",
         "options": [
-          "checking claims against reliable evidence",
           "content selected automatically by an algorithm",
+          "checking claims against reliable evidence",
           "make information available to the public",
           "false or inaccurate information shared regardless of intent"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "\"fact-checking\" means checking claims against reliable evidence."
       },
       {
@@ -502,34 +502,34 @@ export default [
       {
         "q": "What does \"circulation\" mean?",
         "options": [
-          "the number of copies distributed",
           "content designed to attract clicks with a sensational title",
           "freedom from improper influence over editorial decisions",
-          "the process of checking whether information is true"
+          "the process of checking whether information is true",
+          "the number of copies distributed"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "\"circulation\" means the number of copies distributed."
       },
       {
         "q": "What does \"public interest\" mean?",
         "options": [
-          "what matters to the community",
           "a false statement that damages someone's reputation",
           "the right to keep personal information or life private",
+          "what matters to the community",
           "where information originates"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "\"public interest\" means what matters to the community."
       },
       {
         "q": "What does \"anonymous source\" mean?",
         "options": [
-          "a source whose identity is not revealed",
           "in-depth reporting that uncovers hidden information",
+          "a source whose identity is not revealed",
           "openness about methods, decisions or interests",
           "an article expressing a publication's opinion"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "\"anonymous source\" means a source whose identity is not revealed."
       },
       {
@@ -546,34 +546,34 @@ export default [
       {
         "q": "What does \"media literacy\" mean?",
         "options": [
-          "the ability to analyse and evaluate media",
           "make information available to the public",
           "false or inaccurate information shared regardless of intent",
-          "checking claims against reliable evidence"
+          "checking claims against reliable evidence",
+          "the ability to analyse and evaluate media"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "\"media literacy\" means the ability to analyse and evaluate media."
       },
       {
         "q": "What does \"algorithmic feed\" mean?",
         "options": [
-          "content selected automatically by an algorithm",
           "remove a published report",
           "false information deliberately created to mislead",
+          "content selected automatically by an algorithm",
           "the title of a news story"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "\"algorithmic feed\" means content selected automatically by an algorithm."
       },
       {
         "q": "What does \"echo chamber\" mean?",
         "options": [
-          "an environment where similar views are repeated",
           "freedom from improper influence over editorial decisions",
+          "an environment where similar views are repeated",
           "the process of checking whether information is true",
           "the number of copies distributed"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "\"echo chamber\" means an environment where similar views are repeated."
       },
       {
@@ -590,34 +590,34 @@ export default [
       {
         "q": "What does \"defamation\" mean?",
         "options": [
-          "a false statement that damages someone's reputation",
           "openness about methods, decisions or interests",
           "an article expressing a publication's opinion",
-          "a source whose identity is not revealed"
+          "a source whose identity is not revealed",
+          "a false statement that damages someone's reputation"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "\"defamation\" means a false statement that damages someone's reputation."
       },
       {
         "q": "What does \"investigative journalism\" mean?",
         "options": [
-          "in-depth reporting that uncovers hidden information",
           "who controls or owns media organisations",
           "a preference that affects fair judgement",
+          "in-depth reporting that uncovers hidden information",
           "information about an event just reported"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "\"investigative journalism\" means in-depth reporting that uncovers hidden information."
       },
       {
         "q": "What does \"corroborate\" mean?",
         "options": [
-          "confirm information using another source",
           "false or inaccurate information shared regardless of intent",
+          "confirm information using another source",
           "checking claims against reliable evidence",
           "the ability to analyse and evaluate media"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "\"corroborate\" means confirm information using another source."
       },
       {
@@ -634,34 +634,34 @@ export default [
       {
         "q": "What does \"withdraw a report\" mean?",
         "options": [
-          "remove a published report",
           "the process of checking whether information is true",
           "the number of copies distributed",
-          "an environment where similar views are repeated"
+          "an environment where similar views are repeated",
+          "remove a published report"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "\"withdraw a report\" means remove a published report."
       },
       {
         "q": "What does \"editorial independence\" mean?",
         "options": [
-          "freedom from improper influence over editorial decisions",
           "where information originates",
           "what matters to the community",
+          "freedom from improper influence over editorial decisions",
           "content designed to attract clicks with a sensational title"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "\"editorial independence\" means freedom from improper influence over editorial decisions."
       },
       {
         "q": "What does \"privacy\" mean?",
         "options": [
-          "the right to keep personal information or life private",
           "an article expressing a publication's opinion",
+          "the right to keep personal information or life private",
           "a source whose identity is not revealed",
           "a false statement that damages someone's reputation"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "\"privacy\" means the right to keep personal information or life private."
       },
       {
@@ -678,12 +678,12 @@ export default [
       {
         "q": "What does \"media ownership\" mean?",
         "options": [
-          "who controls or owns media organisations",
           "checking claims against reliable evidence",
           "the ability to analyse and evaluate media",
-          "confirm information using another source"
+          "confirm information using another source",
+          "who controls or owns media organisations"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "\"media ownership\" means who controls or owns media organisations."
       }
     ]
@@ -703,51 +703,51 @@ export default [
           {
             "q": "What is the main purpose of the text?",
             "options": [
-              "To examine a specific issue and the response to it",
               "To advertise a commercial product",
-              "To tell an unrelated personal story"
+              "To tell an unrelated personal story",
+              "To examine a specific issue and the response to it"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The passage about a photograph without a date presents an issue and evaluates a response."
           },
           {
             "q": "Which limitation is acknowledged?",
             "options": [
-              "The solution has limits and requires further attention",
               "The problem has disappeared completely",
-              "No evidence or practical difficulty is mentioned"
+              "No evidence or practical difficulty is mentioned",
+              "The solution has limits and requires further attention"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The passage avoids presenting the response as a complete solution."
           },
           {
             "q": "What does the text suggest about effective action?",
             "options": [
-              "It depends on evidence, context and continued evaluation",
               "It can be copied without considering local circumstances",
-              "It should be introduced without consultation"
+              "It should be introduced without consultation",
+              "It depends on evidence, context and continued evaluation"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The text highlights context and evaluation."
           },
           {
             "q": "Which statement best reflects the writer's position?",
             "options": [
-              "The issue requires a balanced and informed approach",
               "There is only one simple answer",
-              "The issue is not worth examining"
+              "The issue is not worth examining",
+              "The issue requires a balanced and informed approach"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The writer considers benefits as well as constraints."
           },
           {
             "q": "What is the tone of the text?",
             "options": [
-              "Analytical and measured",
               "Sarcastic and dismissive",
-              "Unreservedly promotional"
+              "Unreservedly promotional",
+              "Analytical and measured"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The writer presents evidence and recognises limitations."
           }
         ]
@@ -759,51 +759,51 @@ export default [
           {
             "q": "What is the main purpose of the text?",
             "options": [
-              "To examine a specific issue and the response to it",
               "To advertise a commercial product",
-              "To tell an unrelated personal story"
+              "To tell an unrelated personal story",
+              "To examine a specific issue and the response to it"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The passage about the recommendation system presents an issue and evaluates a response."
           },
           {
             "q": "Which limitation is acknowledged?",
             "options": [
-              "The solution has limits and requires further attention",
               "The problem has disappeared completely",
-              "No evidence or practical difficulty is mentioned"
+              "No evidence or practical difficulty is mentioned",
+              "The solution has limits and requires further attention"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The passage avoids presenting the response as a complete solution."
           },
           {
             "q": "What does the text suggest about effective action?",
             "options": [
-              "It depends on evidence, context and continued evaluation",
               "It can be copied without considering local circumstances",
-              "It should be introduced without consultation"
+              "It should be introduced without consultation",
+              "It depends on evidence, context and continued evaluation"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The text highlights context and evaluation."
           },
           {
             "q": "Which statement best reflects the writer's position?",
             "options": [
-              "The issue requires a balanced and informed approach",
               "There is only one simple answer",
-              "The issue is not worth examining"
+              "The issue is not worth examining",
+              "The issue requires a balanced and informed approach"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The writer considers benefits as well as constraints."
           },
           {
             "q": "What is the tone of the text?",
             "options": [
-              "Analytical and measured",
               "Sarcastic and dismissive",
-              "Unreservedly promotional"
+              "Unreservedly promotional",
+              "Analytical and measured"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The writer presents evidence and recognises limitations."
           }
         ]
@@ -815,51 +815,51 @@ export default [
           {
             "q": "What is the main purpose of the text?",
             "options": [
-              "To examine a specific issue and the response to it",
               "To advertise a commercial product",
-              "To tell an unrelated personal story"
+              "To tell an unrelated personal story",
+              "To examine a specific issue and the response to it"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The passage about protecting a confidential source presents an issue and evaluates a response."
           },
           {
             "q": "Which limitation is acknowledged?",
             "options": [
-              "The solution has limits and requires further attention",
               "The problem has disappeared completely",
-              "No evidence or practical difficulty is mentioned"
+              "No evidence or practical difficulty is mentioned",
+              "The solution has limits and requires further attention"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The passage avoids presenting the response as a complete solution."
           },
           {
             "q": "What does the text suggest about effective action?",
             "options": [
-              "It depends on evidence, context and continued evaluation",
               "It can be copied without considering local circumstances",
-              "It should be introduced without consultation"
+              "It should be introduced without consultation",
+              "It depends on evidence, context and continued evaluation"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The text highlights context and evaluation."
           },
           {
             "q": "Which statement best reflects the writer's position?",
             "options": [
-              "The issue requires a balanced and informed approach",
               "There is only one simple answer",
-              "The issue is not worth examining"
+              "The issue is not worth examining",
+              "The issue requires a balanced and informed approach"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The writer considers benefits as well as constraints."
           },
           {
             "q": "What is the tone of the text?",
             "options": [
-              "Analytical and measured",
               "Sarcastic and dismissive",
-              "Unreservedly promotional"
+              "Unreservedly promotional",
+              "Analytical and measured"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The writer presents evidence and recognises limitations."
           }
         ]
@@ -881,51 +881,51 @@ export default [
           {
             "q": "What is the speakers' main concern?",
             "options": [
-              "How to make the proposed action effective in practice",
               "How to promote an unrelated event",
-              "How to avoid sharing any information"
+              "How to avoid sharing any information",
+              "How to make the proposed action effective in practice"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The speakers discuss implementation and practical outcomes."
           },
           {
             "q": "What difficulty is mentioned?",
             "options": [
-              "A limitation that needs to be addressed",
               "There are no challenges",
-              "The plan has already solved every problem"
+              "The plan has already solved every problem",
+              "A limitation that needs to be addressed"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "One speaker identifies a practical limitation."
           },
           {
             "q": "What action is proposed?",
             "options": [
-              "Reviewing the approach and providing clearer information",
               "Cancelling all future discussion",
-              "Ignoring the available evidence"
+              "Ignoring the available evidence",
+              "Reviewing the approach and providing clearer information"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The speakers agree on a practical next step."
           },
           {
             "q": "What can be inferred?",
             "options": [
-              "The decision will depend on further information",
               "The outcome is guaranteed",
-              "No further review is necessary"
+              "No further review is necessary",
+              "The decision will depend on further information"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The conversation leaves room for evaluation."
           },
           {
             "q": "How do the speakers approach the issue?",
             "options": [
-              "Cooperatively and cautiously",
               "Aggressively",
-              "Without considering consequences"
+              "Without considering consequences",
+              "Cooperatively and cautiously"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "They exchange concerns and possible solutions."
           }
         ]
@@ -937,51 +937,51 @@ export default [
           {
             "q": "What is the speakers' main concern?",
             "options": [
-              "How to make the proposed action effective in practice",
               "How to promote an unrelated event",
-              "How to avoid sharing any information"
+              "How to avoid sharing any information",
+              "How to make the proposed action effective in practice"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The speakers discuss implementation and practical outcomes."
           },
           {
             "q": "What difficulty is mentioned?",
             "options": [
-              "A limitation that needs to be addressed",
               "There are no challenges",
-              "The plan has already solved every problem"
+              "The plan has already solved every problem",
+              "A limitation that needs to be addressed"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "One speaker identifies a practical limitation."
           },
           {
             "q": "What action is proposed?",
             "options": [
-              "Reviewing the approach and providing clearer information",
               "Cancelling all future discussion",
-              "Ignoring the available evidence"
+              "Ignoring the available evidence",
+              "Reviewing the approach and providing clearer information"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The speakers agree on a practical next step."
           },
           {
             "q": "What can be inferred?",
             "options": [
-              "The decision will depend on further information",
               "The outcome is guaranteed",
-              "No further review is necessary"
+              "No further review is necessary",
+              "The decision will depend on further information"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The conversation leaves room for evaluation."
           },
           {
             "q": "How do the speakers approach the issue?",
             "options": [
-              "Cooperatively and cautiously",
               "Aggressively",
-              "Without considering consequences"
+              "Without considering consequences",
+              "Cooperatively and cautiously"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "They exchange concerns and possible solutions."
           }
         ]
@@ -993,51 +993,51 @@ export default [
           {
             "q": "What is the speakers' main concern?",
             "options": [
-              "How to make the proposed action effective in practice",
               "How to promote an unrelated event",
-              "How to avoid sharing any information"
+              "How to avoid sharing any information",
+              "How to make the proposed action effective in practice"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The speakers discuss implementation and practical outcomes."
           },
           {
             "q": "What difficulty is mentioned?",
             "options": [
-              "A limitation that needs to be addressed",
               "There are no challenges",
-              "The plan has already solved every problem"
+              "The plan has already solved every problem",
+              "A limitation that needs to be addressed"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "One speaker identifies a practical limitation."
           },
           {
             "q": "What action is proposed?",
             "options": [
-              "Reviewing the approach and providing clearer information",
               "Cancelling all future discussion",
-              "Ignoring the available evidence"
+              "Ignoring the available evidence",
+              "Reviewing the approach and providing clearer information"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The speakers agree on a practical next step."
           },
           {
             "q": "What can be inferred?",
             "options": [
-              "The decision will depend on further information",
               "The outcome is guaranteed",
-              "No further review is necessary"
+              "No further review is necessary",
+              "The decision will depend on further information"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The conversation leaves room for evaluation."
           },
           {
             "q": "How do the speakers approach the issue?",
             "options": [
-              "Cooperatively and cautiously",
               "Aggressively",
-              "Without considering consequences"
+              "Without considering consequences",
+              "Cooperatively and cautiously"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "They exchange concerns and possible solutions."
           }
         ]
