@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#14243b">
+  <title>Profesor de conversación · English Academy</title>
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="./profesor.css">
+</head>
+<body class="teacher-page">
+  <header class="topbar">
+    <a class="brand" href="./index.html">
+      <span class="brand-mark">EA</span>
+      <span><strong>ENGLISH ACADEMY</strong><small>B1 · B2</small></span>
+    </a>
+    <a class="button outline" href="./index.html">← Volver a la academia</a>
+  </header>
+
+  <main class="teacher-main">
+    <section class="teacher-heading">
+      <p class="eyebrow">SPEAKING · LISTENING · CONVERSATION</p>
+      <h1>Tu profesor de inglés</h1>
+      <p>Una IA que se ejecuta en tu navegador. Habla o escribe, recibe respuestas habladas y practica conversaciones adaptadas a B1 o B2.</p>
+    </section>
+
+    <section class="teacher-settings">
+      <label>Nivel
+        <select id="teacher-level"><option value="B1">B1 · Intermediate</option><option value="B2">B2 · Upper-intermediate</option></select>
+      </label>
+      <label>Tema
+        <select id="teacher-topic">
+          <option value="free">Conversación libre</option>
+          <option value="travel">Viajes y vacaciones</option>
+          <option value="work">Trabajo y entrevistas</option>
+          <option value="daily">Vida cotidiana</option>
+          <option value="food">Comida y restaurantes</option>
+          <option value="study">Estudios y aprendizaje</option>
+          <option value="health">Salud y deporte</option>
+          <option value="technology">Tecnología</option>
+        </select>
+      </label>
+    </section>
+
+    <section class="teacher-card">
+      <div class="teacher-status">
+        <div><span class="teacher-dot" id="teacher-dot"></span><strong id="teacher-status">Preparado para iniciar</strong></div>
+        <span id="model-label">Modelo local · Qwen 1.5B</span>
+      </div>
+
+      <div class="model-load" id="model-load">
+        <h2>Primera preparación</h2>
+        <p>El profesor utiliza un modelo de IA gratuito que se descarga una vez en este navegador. La descarga inicial es de aproximadamente 1,6 GB. Después se reutiliza la copia en caché, si el navegador la conserva.</p>
+        <div class="model-progress"><div id="model-progress-bar"></div></div>
+        <p id="model-progress-text" class="teacher-help">Necesitas Chrome o Edge actualizado y un dispositivo compatible con WebGPU.</p>
+        <button id="start-teacher" class="button primary">Cargar el profesor y comenzar</button>
+      </div>
+
+      <div id="teacher-chat" class="teacher-chat hidden" aria-live="polite">
+        <div id="chat-messages" class="chat-messages">
+          <div class="chat-empty">Cuando el profesor esté listo, comenzará la conversación.</div>
+        </div>
+        <div class="teacher-input-area">
+          <textarea id="student-input" rows="2" placeholder="Write your answer in English..."></textarea>
+          <div class="teacher-controls">
+            <button id="mic-button" class="button outline" type="button">🎙️ Hablar</button>
+            <button id="send-button" class="button primary" type="button">Enviar respuesta</button>
+            <button id="stop-speech" class="button outline" type="button">Detener voz</button>
+          </div>
+          <p id="mic-status" class="teacher-help">Pulsa «Hablar» y responde en inglés, o escribe tu respuesta.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="teacher-notes">
+      <h2>Qué debes saber</h2>
+      <ul>
+        <li><strong>Sin cuotas de IA:</strong> el modelo se ejecuta en el ordenador; no utiliza una API de pago.</li>
+        <li><strong>Descarga inicial:</strong> aproximadamente 1,6 GB y requiere espacio y memoria gráfica suficientes.</li>
+        <li><strong>Compatibilidad:</strong> requiere Chrome o Edge con WebGPU. Si el equipo no es compatible, no podrá cargar el profesor local.</li>
+        <li><strong>Voz:</strong> utiliza el reconocimiento y la voz disponibles en el navegador. El reconocimiento de voz puede depender de servicios del navegador y no está garantizado en todos los equipos. También puedes escribir.</li>
+        <li><strong>Privacidad:</strong> las respuestas se procesan localmente por el modelo. No se guardará el historial de esta conversación en Firebase.</li>
+      </ul>
+    </section>
+  </main>
+
+  <script type="module" src="./src/profesor.js"></script>
+</body>
+</html>
