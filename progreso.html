@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mi evolución | English Academy</title><link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+<header class="topbar"><a class="brand" href="./index.html"><span class="brand-mark">EA</span><span><strong>ENGLISH ACADEMY</strong><small>B1 · B2</small></span></a><a href="./index.html" class="button outline">Volver a la academia</a></header>
+<main class="exam-page evolution-page">
+<section class="exam-card">
+<p class="eyebrow">TU APRENDIZAJE</p><h1>Mi evolución</h1>
+<p>Consulta las actividades completadas, tus resultados de examen y las destrezas que conviene reforzar.</p>
+<div id="evolution-status" class="exam-note">Comprobando tu sesión…</div>
+</section>
+<div id="evolution-content" class="hidden">
+<section class="evolution-grid" id="evolution-kpis"></section>
+<section class="exam-card evolution-section"><h2>Progreso del curso</h2><p class="exam-note">Se calcula a partir de las lecciones marcadas como completadas en tu cuenta.</p><div id="course-progress"></div></section>
+<section class="exam-card evolution-section"><h2>Resultados por destreza</h2><p class="exam-note">Media de los exámenes guardados. Solo se muestran destrezas con resultados disponibles.</p><div id="skill-progress"></div></section>
+<section class="exam-card evolution-section"><h2>Qué conviene repasar</h2><div id="study-recommendations"></div></section>
+<section class="exam-card evolution-section"><h2>Evolución de los exámenes</h2><div id="exam-trend"></div></section>
+<section class="exam-card evolution-section"><h2>Últimos intentos</h2><div id="exam-list"></div></section>
+</div>
+</main>
+<script type="module" src="./src/progress.js"></script>
+</body></html>
