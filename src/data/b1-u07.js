@@ -1,5 +1,5 @@
-// B1 Unit 7 · Environment and nature
-// 25 grammar + 25 vocabulary + 3x5 reading + 3x5 listening + 5 writing + 5 speaking = 90 actividades.
+// B1 Unit 7 · Expanded practice
+// Correct-answer positions are distributed to avoid predictable answer patterns.
 export default [
   {
     "id": "b1-u07-grammar",
@@ -39,34 +39,34 @@ export default [
       {
         "q": "If people used fewer plastic bags, oceans ___ cleaner.",
         "options": [
-          "would be",
           "will be",
           "are",
-          "would have"
+          "would have",
+          "would be"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "The result clause uses would + infinitive."
       },
       {
         "q": "If I were the mayor, I ___ more cycle lanes.",
         "options": [
-          "would build",
           "will build",
           "built",
+          "would build",
           "would built"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "Would is followed by the base form."
       },
       {
         "q": "We would save energy if everyone ___ lights off.",
         "options": [
-          "turned",
           "will turn",
+          "turned",
           "would turn",
           "turns"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "The if-clause takes past simple."
       },
       {
@@ -83,34 +83,34 @@ export default [
       {
         "q": "I wish the river ___ so polluted.",
         "options": [
-          "weren't",
           "isn't",
           "wouldn't be",
-          "hasn't been"
+          "hasn't been",
+          "weren't"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "Wish + past simple expresses a present situation we want to change."
       },
       {
         "q": "If I ___ you, I'd take the train instead of driving.",
         "options": [
-          "were",
           "am",
           "will be",
+          "were",
           "would be"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "The conventional advice phrase is If I were you."
       },
       {
         "q": "They would recycle more if the council ___ more collection points.",
         "options": [
-          "provided",
           "provides",
+          "provided",
           "will provide",
           "would provide"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "Second conditional uses past simple in the if-clause."
       },
       {
@@ -127,34 +127,34 @@ export default [
       {
         "q": "I wish our school ___ a garden for outdoor lessons.",
         "options": [
-          "had",
           "has",
           "would have",
-          "will have"
+          "will have",
+          "had"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "Wish + past simple describes a desired present situation."
       },
       {
         "q": "If everyone walked short journeys, air pollution ___ lower.",
         "options": [
-          "would be",
           "will be",
           "is",
+          "would be",
           "would being"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "The result of the hypothetical condition uses would be."
       },
       {
         "q": "If I ___ closer to the coast, I would go walking there every day.",
         "options": [
-          "lived",
           "live",
+          "lived",
           "would live",
           "will live"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "Past simple follows if in the second conditional."
       },
       {
@@ -171,34 +171,34 @@ export default [
       {
         "q": "I wish people ___ public transport more often.",
         "options": [
-          "used",
           "use",
           "will use",
-          "would used"
+          "would used",
+          "used"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "Wish + past simple expresses a wish about current habits."
       },
       {
         "q": "If we protected wetlands, more birds ___ there.",
         "options": [
-          "would live",
           "will live",
           "lived",
+          "would live",
           "would lived"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "Would + infinitive gives the imagined consequence."
       },
       {
         "q": "If the weather ___ warmer, we could grow more local food.",
         "options": [
-          "were",
           "is",
+          "were",
           "will be",
           "would be"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "The if-clause uses past simple; were is common with be."
       },
       {
@@ -215,34 +215,34 @@ export default [
       {
         "q": "I wish the supermarket ___ food in reusable containers.",
         "options": [
-          "sold",
           "sells",
           "will sell",
-          "would sold"
+          "would sold",
+          "sold"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "Wish + past simple for a desired present change."
       },
       {
         "q": "If factories filtered their emissions, air quality ___ improve.",
         "options": [
-          "would",
           "will",
           "does",
+          "would",
           "has"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "Would + base verb expresses a hypothetical result."
       },
       {
         "q": "If I had a garden, I ___ my own vegetables.",
         "options": [
-          "would grow",
           "will grow",
+          "would grow",
           "grew",
           "would grew"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "Would grow is the correct result clause."
       },
       {
@@ -259,34 +259,34 @@ export default [
       {
         "q": "I wish there ___ less noise near the nature reserve.",
         "options": [
-          "were",
           "is",
           "will be",
-          "would be"
+          "would be",
+          "were"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "Wish + were expresses a desired present situation."
       },
       {
         "q": "If tourists respected marked paths, they ___ wildlife habitats.",
         "options": [
-          "would protect",
           "will protect",
           "protected",
+          "would protect",
           "would protected"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "The hypothetical result uses would protect."
       },
       {
         "q": "If we didn't waste water, reservoirs ___ under less pressure.",
         "options": [
-          "would be",
           "will be",
+          "would be",
           "are",
           "would been"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "Would be describes the imagined result."
       },
       {
@@ -415,34 +415,34 @@ export default [
       {
         "q": "What does \"biodiversity\" mean?",
         "options": [
-          "the variety of plant and animal life in an area",
           "the greenhouse gas emissions caused by a person or activity",
           "animals and plants living in natural conditions",
-          "decayed organic material used to improve soil"
+          "decayed organic material used to improve soil",
+          "the variety of plant and animal life in an area"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "\"biodiversity\" means the variety of plant and animal life in an area."
       },
       {
         "q": "What does \"habitat\" mean?",
         "options": [
-          "the natural home of an animal or plant",
           "gases that trap heat in the atmosphere",
           "able to continue without damaging future resources",
+          "the natural home of an animal or plant",
           "designed to be used once and thrown away"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "\"habitat\" means the natural home of an animal or plant."
       },
       {
         "q": "What does \"endangered species\" mean?",
         "options": [
-          "a type of animal or plant at risk of extinction",
           "the rise in the Earth's average temperature",
+          "a type of animal or plant at risk of extinction",
           "able to be used more than once",
           "a situation where there is not enough water"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "\"endangered species\" means a type of animal or plant at risk of extinction."
       },
       {
@@ -459,34 +459,34 @@ export default [
       {
         "q": "What does \"deforestation\" mean?",
         "options": [
-          "the removal of large areas of forest",
           "a long period with very little rain",
           "gases or substances released into the air",
-          "an area with turbines that generate electricity"
+          "an area with turbines that generate electricity",
+          "the removal of large areas of forest"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "\"deforestation\" means the removal of large areas of forest."
       },
       {
         "q": "What does \"renewable energy\" mean?",
         "options": [
-          "energy from sources that are naturally replaced",
           "a situation in which water covers normally dry land",
           "living things and their environment interacting",
+          "energy from sources that are naturally replaced",
           "buses, trains and other shared passenger services"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "\"renewable energy\" means energy from sources that are naturally replaced."
       },
       {
         "q": "What does \"fossil fuels\" mean?",
         "options": [
-          "coal, oil and gas used for energy",
           "animals and plants living in natural conditions",
+          "coal, oil and gas used for energy",
           "decayed organic material used to improve soil",
           "the variety of plant and animal life in an area"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "\"fossil fuels\" means coal, oil and gas used for energy."
       },
       {
@@ -503,34 +503,34 @@ export default [
       {
         "q": "What does \"greenhouse gases\" mean?",
         "options": [
-          "gases that trap heat in the atmosphere",
           "able to be used more than once",
           "a situation where there is not enough water",
-          "a type of animal or plant at risk of extinction"
+          "a type of animal or plant at risk of extinction",
+          "gases that trap heat in the atmosphere"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "\"greenhouse gases\" means gases that trap heat in the atmosphere."
       },
       {
         "q": "What does \"global warming\" mean?",
         "options": [
-          "the rise in the Earth's average temperature",
           "a place where rubbish is buried",
           "equipment that turns sunlight into electricity",
+          "the rise in the Earth's average temperature",
           "the protection of nature and resources"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "\"global warming\" means the rise in the Earth's average temperature."
       },
       {
         "q": "What does \"climate change\" mean?",
         "options": [
-          "long-term changes in climate patterns",
           "gases or substances released into the air",
+          "long-term changes in climate patterns",
           "an area with turbines that generate electricity",
           "the removal of large areas of forest"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "\"climate change\" means long-term changes in climate patterns."
       },
       {
@@ -547,34 +547,34 @@ export default [
       {
         "q": "What does \"flood\" mean?",
         "options": [
-          "a situation in which water covers normally dry land",
           "decayed organic material used to improve soil",
           "the variety of plant and animal life in an area",
-          "coal, oil and gas used for energy"
+          "coal, oil and gas used for energy",
+          "a situation in which water covers normally dry land"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "\"flood\" means a situation in which water covers normally dry land."
       },
       {
         "q": "What does \"wildlife\" mean?",
         "options": [
-          "animals and plants living in natural conditions",
           "designed to be used once and thrown away",
           "the natural home of an animal or plant",
+          "animals and plants living in natural conditions",
           "the greenhouse gas emissions caused by a person or activity"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "\"wildlife\" means animals and plants living in natural conditions."
       },
       {
         "q": "What does \"sustainable\" mean?",
         "options": [
-          "able to continue without damaging future resources",
           "a situation where there is not enough water",
+          "able to continue without damaging future resources",
           "a type of animal or plant at risk of extinction",
           "gases that trap heat in the atmosphere"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "\"sustainable\" means able to continue without damaging future resources."
       },
       {
@@ -591,34 +591,34 @@ export default [
       {
         "q": "What does \"landfill\" mean?",
         "options": [
-          "a place where rubbish is buried",
           "an area with turbines that generate electricity",
           "the removal of large areas of forest",
-          "long-term changes in climate patterns"
+          "long-term changes in climate patterns",
+          "a place where rubbish is buried"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "\"landfill\" means a place where rubbish is buried."
       },
       {
         "q": "What does \"emissions\" mean?",
         "options": [
-          "gases or substances released into the air",
           "buses, trains and other shared passenger services",
           "energy from sources that are naturally replaced",
+          "gases or substances released into the air",
           "a long period with very little rain"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "\"emissions\" means gases or substances released into the air."
       },
       {
         "q": "What does \"ecosystem\" mean?",
         "options": [
-          "living things and their environment interacting",
           "the variety of plant and animal life in an area",
+          "living things and their environment interacting",
           "coal, oil and gas used for energy",
           "a situation in which water covers normally dry land"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "\"ecosystem\" means living things and their environment interacting."
       },
       {
@@ -635,34 +635,34 @@ export default [
       {
         "q": "What does \"single-use\" mean?",
         "options": [
-          "designed to be used once and thrown away",
           "a type of animal or plant at risk of extinction",
           "gases that trap heat in the atmosphere",
-          "able to continue without damaging future resources"
+          "able to continue without damaging future resources",
+          "designed to be used once and thrown away"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "\"single-use\" means designed to be used once and thrown away."
       },
       {
         "q": "What does \"water shortage\" mean?",
         "options": [
-          "a situation where there is not enough water",
           "the protection of nature and resources",
           "the rise in the Earth's average temperature",
+          "a situation where there is not enough water",
           "able to be used more than once"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "\"water shortage\" means a situation where there is not enough water."
       },
       {
         "q": "What does \"solar panel\" mean?",
         "options": [
-          "equipment that turns sunlight into electricity",
           "the removal of large areas of forest",
+          "equipment that turns sunlight into electricity",
           "long-term changes in climate patterns",
           "a place where rubbish is buried"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "\"solar panel\" means equipment that turns sunlight into electricity."
       },
       {
@@ -679,12 +679,12 @@ export default [
       {
         "q": "What does \"public transport\" mean?",
         "options": [
-          "buses, trains and other shared passenger services",
           "coal, oil and gas used for energy",
           "a situation in which water covers normally dry land",
-          "living things and their environment interacting"
+          "living things and their environment interacting",
+          "buses, trains and other shared passenger services"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "\"public transport\" means buses, trains and other shared passenger services."
       }
     ]
@@ -704,51 +704,51 @@ export default [
           {
             "q": "What is the main purpose of the text?",
             "options": [
-              "To explain a practical change and its effects",
               "To advertise a product",
+              "To explain a practical change and its effects",
               "To describe a competition"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "The text focuses on a real initiative and what it achieved."
           },
           {
             "q": "What difficulty is mentioned?",
             "options": [
-              "People had different needs or expectations",
               "There was no interest at all",
+              "People had different needs or expectations",
               "The project had unlimited funding"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "The text identifies a practical challenge."
           },
           {
             "q": "What did the people involved do?",
             "options": [
-              "They introduced a structured way to respond",
               "They ignored the problem",
+              "They introduced a structured way to respond",
               "They stopped communicating"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "The response is described in the middle of the text."
           },
           {
             "q": "What is suggested about the outcome?",
             "options": [
-              "Progress was useful but not perfect",
               "Every problem disappeared",
+              "Progress was useful but not perfect",
               "The project had no effect"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "The writer avoids claiming that one action solved everything."
           },
           {
             "q": "Which statement best summarises the writer's attitude?",
             "options": [
-              "Positive but realistic",
               "Completely negative",
+              "Positive but realistic",
               "Uncritically enthusiastic"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "The text recognises benefits and limitations."
           }
         ]
@@ -760,51 +760,51 @@ export default [
           {
             "q": "What is the main purpose of the text?",
             "options": [
-              "To explain a practical change and its effects",
               "To advertise a product",
+              "To explain a practical change and its effects",
               "To describe a competition"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "The text focuses on a real initiative and what it achieved."
           },
           {
             "q": "What difficulty is mentioned?",
             "options": [
-              "People had different needs or expectations",
               "There was no interest at all",
+              "People had different needs or expectations",
               "The project had unlimited funding"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "The text identifies a practical challenge."
           },
           {
             "q": "What did the people involved do?",
             "options": [
-              "They introduced a structured way to respond",
               "They ignored the problem",
+              "They introduced a structured way to respond",
               "They stopped communicating"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "The response is described in the middle of the text."
           },
           {
             "q": "What is suggested about the outcome?",
             "options": [
-              "Progress was useful but not perfect",
               "Every problem disappeared",
+              "Progress was useful but not perfect",
               "The project had no effect"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "The writer avoids claiming that one action solved everything."
           },
           {
             "q": "Which statement best summarises the writer's attitude?",
             "options": [
-              "Positive but realistic",
               "Completely negative",
+              "Positive but realistic",
               "Uncritically enthusiastic"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "The text recognises benefits and limitations."
           }
         ]
@@ -816,51 +816,51 @@ export default [
           {
             "q": "What is the main purpose of the text?",
             "options": [
-              "To explain a practical change and its effects",
               "To advertise a product",
+              "To explain a practical change and its effects",
               "To describe a competition"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "The text focuses on a real initiative and what it achieved."
           },
           {
             "q": "What difficulty is mentioned?",
             "options": [
-              "People had different needs or expectations",
               "There was no interest at all",
+              "People had different needs or expectations",
               "The project had unlimited funding"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "The text identifies a practical challenge."
           },
           {
             "q": "What did the people involved do?",
             "options": [
-              "They introduced a structured way to respond",
               "They ignored the problem",
+              "They introduced a structured way to respond",
               "They stopped communicating"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "The response is described in the middle of the text."
           },
           {
             "q": "What is suggested about the outcome?",
             "options": [
-              "Progress was useful but not perfect",
               "Every problem disappeared",
+              "Progress was useful but not perfect",
               "The project had no effect"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "The writer avoids claiming that one action solved everything."
           },
           {
             "q": "Which statement best summarises the writer's attitude?",
             "options": [
-              "Positive but realistic",
               "Completely negative",
+              "Positive but realistic",
               "Uncritically enthusiastic"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "The text recognises benefits and limitations."
           }
         ]
@@ -882,51 +882,51 @@ export default [
           {
             "q": "What is the conversation mainly about?",
             "options": [
-              "A practical problem and possible solutions",
               "A personal celebration",
+              "A practical problem and possible solutions",
               "A historical event"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "The speakers discuss an issue and how to deal with it."
           },
           {
             "q": "What does the first speaker explain?",
             "options": [
-              "A difficulty they have experienced",
               "A plan that has already failed",
+              "A difficulty they have experienced",
               "A new job offer"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "This is introduced at the start of the conversation."
           },
           {
             "q": "What suggestion is made?",
             "options": [
-              "Try a specific action before taking further steps",
               "Ignore the situation",
+              "Try a specific action before taking further steps",
               "Cancel the activity immediately"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "The advice is to test a manageable solution."
           },
           {
             "q": "What does the speaker say about the next step?",
             "options": [
-              "Ask for help if the problem continues",
               "There is no need to check again",
+              "Ask for help if the problem continues",
               "The issue cannot be solved"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "The speaker offers a follow-up if needed."
           },
           {
             "q": "What is the overall message?",
             "options": [
-              "Make informed decisions and communicate clearly",
               "Act without checking details",
+              "Make informed decisions and communicate clearly",
               "Avoid asking questions"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "The exchange values clear information and communication."
           }
         ]
@@ -938,51 +938,51 @@ export default [
           {
             "q": "What is the conversation mainly about?",
             "options": [
-              "A practical problem and possible solutions",
               "A personal celebration",
+              "A practical problem and possible solutions",
               "A historical event"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "The speakers discuss an issue and how to deal with it."
           },
           {
             "q": "What does the first speaker explain?",
             "options": [
-              "A difficulty they have experienced",
               "A plan that has already failed",
+              "A difficulty they have experienced",
               "A new job offer"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "This is introduced at the start of the conversation."
           },
           {
             "q": "What suggestion is made?",
             "options": [
-              "Try a specific action before taking further steps",
               "Ignore the situation",
+              "Try a specific action before taking further steps",
               "Cancel the activity immediately"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "The advice is to test a manageable solution."
           },
           {
             "q": "What does the speaker say about the next step?",
             "options": [
-              "Ask for help if the problem continues",
               "There is no need to check again",
+              "Ask for help if the problem continues",
               "The issue cannot be solved"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "The speaker offers a follow-up if needed."
           },
           {
             "q": "What is the overall message?",
             "options": [
-              "Make informed decisions and communicate clearly",
               "Act without checking details",
+              "Make informed decisions and communicate clearly",
               "Avoid asking questions"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "The exchange values clear information and communication."
           }
         ]
@@ -994,51 +994,51 @@ export default [
           {
             "q": "What is the conversation mainly about?",
             "options": [
-              "A practical problem and possible solutions",
               "A personal celebration",
+              "A practical problem and possible solutions",
               "A historical event"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "The speakers discuss an issue and how to deal with it."
           },
           {
             "q": "What does the first speaker explain?",
             "options": [
-              "A difficulty they have experienced",
               "A plan that has already failed",
+              "A difficulty they have experienced",
               "A new job offer"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "This is introduced at the start of the conversation."
           },
           {
             "q": "What suggestion is made?",
             "options": [
-              "Try a specific action before taking further steps",
               "Ignore the situation",
+              "Try a specific action before taking further steps",
               "Cancel the activity immediately"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "The advice is to test a manageable solution."
           },
           {
             "q": "What does the speaker say about the next step?",
             "options": [
-              "Ask for help if the problem continues",
               "There is no need to check again",
+              "Ask for help if the problem continues",
               "The issue cannot be solved"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "The speaker offers a follow-up if needed."
           },
           {
             "q": "What is the overall message?",
             "options": [
-              "Make informed decisions and communicate clearly",
               "Act without checking details",
+              "Make informed decisions and communicate clearly",
               "Avoid asking questions"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "The exchange values clear information and communication."
           }
         ]
