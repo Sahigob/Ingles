@@ -1,5 +1,5 @@
-// B1 Unit 10 · Media and entertainment
-// 25 grammar + 25 vocabulary + 3x5 reading + 3x5 listening + 5 writing + 5 speaking = 90 actividades.
+// B1 Unit 10 · Expanded practice
+// Correct-answer positions are distributed to avoid predictable answer patterns.
 export default [
   {
     "id": "b1-u10-grammar",
@@ -39,34 +39,34 @@ export default [
       {
         "q": "She ___ on the review all morning.",
         "options": [
-          "has been working",
           "has worked yesterday",
           "is work",
-          "worked since"
+          "worked since",
+          "has been working"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "Present perfect continuous emphasises duration."
       },
       {
         "q": "We ___ this documentary twice.",
         "options": [
-          "have seen",
           "are seeing since",
           "saw tomorrow",
+          "have seen",
           "have seeing"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "Present perfect for life experience or repeated experience."
       },
       {
         "q": "The journalist ___ articles for this magazine since 2022.",
         "options": [
-          "has been writing",
           "writes since",
+          "has been writing",
           "is writing since",
           "has wrote"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "Since + starting point with present perfect continuous."
       },
       {
@@ -83,34 +83,34 @@ export default [
       {
         "q": "The newspaper ___ its online edition already.",
         "options": [
-          "has published",
           "published tomorrow",
           "is publish",
-          "has publishing"
+          "has publishing",
+          "has published"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "Present perfect simple for a completed action with present relevance."
       },
       {
         "q": "I ___ the presenter for years.",
         "options": [
-          "have known",
           "have been knowing",
           "know since",
+          "have known",
           "am knowing"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "Know is a stative verb and is not normally continuous."
       },
       {
         "q": "They ___ the same story all afternoon.",
         "options": [
-          "have been discussing",
           "discussed tomorrow",
+          "have been discussing",
           "are discuss",
           "have discuss"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "Continuous form emphasises ongoing activity."
       },
       {
@@ -127,34 +127,34 @@ export default [
       {
         "q": "The film-makers ___ the soundtrack for several weeks.",
         "options": [
-          "have been recording",
           "recorded since",
           "are record",
-          "have recorded since three weeks"
+          "have recorded since three weeks",
+          "have been recording"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "For a duration, present perfect continuous is suitable."
       },
       {
         "q": "I ___ that actor in person before.",
         "options": [
-          "have never met",
           "never meet",
           "never met tomorrow",
+          "have never met",
           "am never meeting"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "Present perfect describes experience up to now."
       },
       {
         "q": "The channel ___ its schedule recently.",
         "options": [
-          "has changed",
           "changes yesterday",
+          "has changed",
           "is change",
           "has changing"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "Recently often accompanies the present perfect."
       },
       {
@@ -171,34 +171,34 @@ export default [
       {
         "q": "How many articles ___ the editor ___ today?",
         "options": [
-          "has / checked",
           "did / checks",
           "is / checking yesterday",
-          "have / check"
+          "have / check",
+          "has / checked"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "How many asks for a completed quantity."
       },
       {
         "q": "The website ___ a lot of traffic lately.",
         "options": [
-          "has been receiving",
           "receives since",
           "is received",
+          "has been receiving",
           "have receive"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "Lately can describe a recent ongoing pattern."
       },
       {
         "q": "We ___ each other since primary school.",
         "options": [
-          "have known",
           "are knowing",
+          "have known",
           "knew since",
           "have been know"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "Know is stative; use present perfect simple."
       },
       {
@@ -215,34 +215,34 @@ export default [
       {
         "q": "The reporter ___ live from the scene for two hours.",
         "options": [
-          "has been broadcasting",
           "broadcasts since",
           "is broadcast",
-          "has broadcasted since two hours"
+          "has broadcasted since two hours",
+          "has been broadcasting"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "Duration of an ongoing activity."
       },
       {
         "q": "I ___ the article yet.",
         "options": [
-          "haven't finished",
           "didn't finish tomorrow",
           "am not finish",
+          "haven't finished",
           "haven't finishing"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "Yet is common in present perfect negatives."
       },
       {
         "q": "They ___ the same programme since April.",
         "options": [
-          "have been producing",
           "produced since",
+          "have been producing",
           "are produce",
           "has been producing"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "They takes have; continuous emphasises ongoing production."
       },
       {
@@ -259,34 +259,34 @@ export default [
       {
         "q": "The critics ___ the performance so far.",
         "options": [
-          "have praised",
           "praised tomorrow",
           "are praise",
-          "has praising"
+          "has praising",
+          "have praised"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "So far refers to a period up to now."
       },
       {
         "q": "I ___ for the subscription for six months.",
         "options": [
-          "have been paying",
           "pay since",
           "am paid",
+          "have been paying",
           "have pay"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "Present perfect continuous emphasises repeated ongoing payments."
       },
       {
         "q": "The presenter ___ this programme since 2019.",
         "options": [
-          "has hosted",
           "is hosting since",
+          "has hosted",
           "host",
           "have host"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "Host can describe a continuing state/role with present perfect simple."
       },
       {
@@ -415,34 +415,34 @@ export default [
       {
         "q": "What does \"headline\" mean?",
         "options": [
-          "the title of a news story",
           "giving the wrong idea or impression",
           "the music and sounds in a film",
-          "shared very widely online in a short time"
+          "shared very widely online in a short time",
+          "the title of a news story"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "\"headline\" means the title of a news story."
       },
       {
         "q": "What does \"broadcast\" mean?",
         "options": [
-          "a programme sent out by radio or television",
           "unfair support for one point of view",
           "the actors in a film or play",
+          "a programme sent out by radio or television",
           "an official statement sent to the media"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "\"broadcast\" means a programme sent out by radio or television."
       },
       {
         "q": "What does \"streaming service\" mean?",
         "options": [
-          "a platform that delivers films or music online",
           "the people who watch, read or listen",
+          "a platform that delivers films or music online",
           "the way an actor, musician or artist presents their work",
           "controlling or removing information or expression"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "\"streaming service\" means a platform that delivers films or music online."
       },
       {
@@ -459,34 +459,34 @@ export default [
       {
         "q": "What does \"review\" mean?",
         "options": [
-          "an article giving an opinion about something",
           "one part of a series",
           "to investigate whether information is true",
-          "a particular way of thinking about an issue"
+          "a particular way of thinking about an issue",
+          "an article giving an opinion about something"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "\"review\" means an article giving an opinion about something."
       },
       {
         "q": "What does \"editor\" mean?",
         "options": [
-          "a person responsible for preparing content for publication",
           "the events that make up a story",
           "information that may not be true and is passed between people",
+          "a person responsible for preparing content for publication",
           "the legal right to control copying of creative work"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "\"editor\" means a person responsible for preparing content for publication."
       },
       {
         "q": "What does \"source\" mean?",
         "options": [
-          "where information comes from",
           "the music and sounds in a film",
+          "where information comes from",
           "shared very widely online in a short time",
           "the title of a news story"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "\"source\" means where information comes from."
       },
       {
@@ -503,34 +503,34 @@ export default [
       {
         "q": "What does \"bias\" mean?",
         "options": [
-          "unfair support for one point of view",
           "the way an actor, musician or artist presents their work",
           "controlling or removing information or expression",
-          "a platform that delivers films or music online"
+          "a platform that delivers films or music online",
+          "unfair support for one point of view"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "\"bias\" means unfair support for one point of view."
       },
       {
         "q": "What does \"audience\" mean?",
         "options": [
-          "the people who watch, read or listen",
           "reporting an event while it is happening",
           "a source that can be trusted",
+          "the people who watch, read or listen",
           "a film or programme about real events"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "\"audience\" means the people who watch, read or listen."
       },
       {
         "q": "What does \"subscriber\" mean?",
         "options": [
-          "someone who pays or signs up to receive content",
           "to investigate whether information is true",
+          "someone who pays or signs up to receive content",
           "a particular way of thinking about an issue",
           "an article giving an opinion about something"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "\"subscriber\" means someone who pays or signs up to receive content."
       },
       {
@@ -547,34 +547,34 @@ export default [
       {
         "q": "What does \"plot\" mean?",
         "options": [
-          "the events that make up a story",
           "shared very widely online in a short time",
           "the title of a news story",
-          "where information comes from"
+          "where information comes from",
+          "the events that make up a story"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "\"plot\" means the events that make up a story."
       },
       {
         "q": "What does \"soundtrack\" mean?",
         "options": [
-          "the music and sounds in a film",
           "an official statement sent to the media",
           "a programme sent out by radio or television",
+          "the music and sounds in a film",
           "giving the wrong idea or impression"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "\"soundtrack\" means the music and sounds in a film."
       },
       {
         "q": "What does \"cast\" mean?",
         "options": [
-          "the actors in a film or play",
           "controlling or removing information or expression",
+          "the actors in a film or play",
           "a platform that delivers films or music online",
           "unfair support for one point of view"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "\"cast\" means the actors in a film or play."
       },
       {
@@ -591,34 +591,34 @@ export default [
       {
         "q": "What does \"live coverage\" mean?",
         "options": [
-          "reporting an event while it is happening",
           "a particular way of thinking about an issue",
           "an article giving an opinion about something",
-          "someone who pays or signs up to receive content"
+          "someone who pays or signs up to receive content",
+          "reporting an event while it is happening"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "\"live coverage\" means reporting an event while it is happening."
       },
       {
         "q": "What does \"fact-check\" mean?",
         "options": [
-          "to investigate whether information is true",
           "the legal right to control copying of creative work",
           "a person responsible for preparing content for publication",
+          "to investigate whether information is true",
           "one part of a series"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "\"fact-check\" means to investigate whether information is true."
       },
       {
         "q": "What does \"rumour\" mean?",
         "options": [
-          "information that may not be true and is passed between people",
           "the title of a news story",
+          "information that may not be true and is passed between people",
           "where information comes from",
           "the events that make up a story"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "\"rumour\" means information that may not be true and is passed between people."
       },
       {
@@ -635,34 +635,34 @@ export default [
       {
         "q": "What does \"press release\" mean?",
         "options": [
-          "an official statement sent to the media",
           "a platform that delivers films or music online",
           "unfair support for one point of view",
-          "the actors in a film or play"
+          "the actors in a film or play",
+          "an official statement sent to the media"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "\"press release\" means an official statement sent to the media."
       },
       {
         "q": "What does \"censorship\" mean?",
         "options": [
-          "controlling or removing information or expression",
           "a film or programme about real events",
           "the people who watch, read or listen",
+          "controlling or removing information or expression",
           "the way an actor, musician or artist presents their work"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "\"censorship\" means controlling or removing information or expression."
       },
       {
         "q": "What does \"reliable source\" mean?",
         "options": [
-          "a source that can be trusted",
           "an article giving an opinion about something",
+          "a source that can be trusted",
           "someone who pays or signs up to receive content",
           "reporting an event while it is happening"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "\"reliable source\" means a source that can be trusted."
       },
       {
@@ -679,12 +679,12 @@ export default [
       {
         "q": "What does \"copyright\" mean?",
         "options": [
-          "the legal right to control copying of creative work",
           "where information comes from",
           "the events that make up a story",
-          "information that may not be true and is passed between people"
+          "information that may not be true and is passed between people",
+          "the legal right to control copying of creative work"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "\"copyright\" means the legal right to control copying of creative work."
       }
     ]
@@ -704,51 +704,51 @@ export default [
           {
             "q": "What is the main purpose of the text?",
             "options": [
-              "To explain an issue and a considered response",
               "To advertise a product",
+              "To explain an issue and a considered response",
               "To tell an imaginary adventure"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "The text presents an issue and explains how people responded."
           },
           {
             "q": "Which challenge is mentioned?",
             "options": [
-              "There are practical limits or competing needs",
               "There are no possible solutions",
+              "There are practical limits or competing needs",
               "Everyone has exactly the same opinion"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "A real-world difficulty is identified."
           },
           {
             "q": "What action was taken?",
             "options": [
-              "People gathered information before making changes",
               "They acted without checking facts",
+              "People gathered information before making changes",
               "They ignored the situation"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "The text describes a measured response."
           },
           {
             "q": "What does the text suggest about the result?",
             "options": [
-              "There was progress, although some challenges remain",
               "Every difficulty disappeared immediately",
+              "There was progress, although some challenges remain",
               "The effort had no value"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "The conclusion is balanced."
           },
           {
             "q": "Which description best matches the writer's attitude?",
             "options": [
-              "Informative and cautiously positive",
               "Entirely dismissive",
+              "Informative and cautiously positive",
               "Uncritically enthusiastic"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "The writer recognises both benefits and limitations."
           }
         ]
@@ -760,51 +760,51 @@ export default [
           {
             "q": "What is the main purpose of the text?",
             "options": [
-              "To explain an issue and a considered response",
               "To advertise a product",
+              "To explain an issue and a considered response",
               "To tell an imaginary adventure"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "The text presents an issue and explains how people responded."
           },
           {
             "q": "Which challenge is mentioned?",
             "options": [
-              "There are practical limits or competing needs",
               "There are no possible solutions",
+              "There are practical limits or competing needs",
               "Everyone has exactly the same opinion"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "A real-world difficulty is identified."
           },
           {
             "q": "What action was taken?",
             "options": [
-              "People gathered information before making changes",
               "They acted without checking facts",
+              "People gathered information before making changes",
               "They ignored the situation"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "The text describes a measured response."
           },
           {
             "q": "What does the text suggest about the result?",
             "options": [
-              "There was progress, although some challenges remain",
               "Every difficulty disappeared immediately",
+              "There was progress, although some challenges remain",
               "The effort had no value"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "The conclusion is balanced."
           },
           {
             "q": "Which description best matches the writer's attitude?",
             "options": [
-              "Informative and cautiously positive",
               "Entirely dismissive",
+              "Informative and cautiously positive",
               "Uncritically enthusiastic"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "The writer recognises both benefits and limitations."
           }
         ]
@@ -816,51 +816,51 @@ export default [
           {
             "q": "What is the main purpose of the text?",
             "options": [
-              "To explain an issue and a considered response",
               "To advertise a product",
+              "To explain an issue and a considered response",
               "To tell an imaginary adventure"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "The text presents an issue and explains how people responded."
           },
           {
             "q": "Which challenge is mentioned?",
             "options": [
-              "There are practical limits or competing needs",
               "There are no possible solutions",
+              "There are practical limits or competing needs",
               "Everyone has exactly the same opinion"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "A real-world difficulty is identified."
           },
           {
             "q": "What action was taken?",
             "options": [
-              "People gathered information before making changes",
               "They acted without checking facts",
+              "People gathered information before making changes",
               "They ignored the situation"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "The text describes a measured response."
           },
           {
             "q": "What does the text suggest about the result?",
             "options": [
-              "There was progress, although some challenges remain",
               "Every difficulty disappeared immediately",
+              "There was progress, although some challenges remain",
               "The effort had no value"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "The conclusion is balanced."
           },
           {
             "q": "Which description best matches the writer's attitude?",
             "options": [
-              "Informative and cautiously positive",
               "Entirely dismissive",
+              "Informative and cautiously positive",
               "Uncritically enthusiastic"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "The writer recognises both benefits and limitations."
           }
         ]
@@ -882,51 +882,51 @@ export default [
           {
             "q": "What are the speakers mainly discussing?",
             "options": [
-              "A practical situation and a possible response",
               "A fictional story",
+              "A practical situation and a possible response",
               "A sporting result"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "The speakers focus on a real decision or issue."
           },
           {
             "q": "What problem or need is mentioned?",
             "options": [
-              "A specific difficulty that requires attention",
               "A completed celebration",
+              "A specific difficulty that requires attention",
               "A holiday destination"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "The issue is introduced in the exchange."
           },
           {
             "q": "What does one speaker suggest?",
             "options": [
-              "A realistic next step",
               "Ignoring the matter",
+              "A realistic next step",
               "Making an immediate unsupported decision"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "The suggestion is practical."
           },
           {
             "q": "What do the speakers decide or recommend?",
             "options": [
-              "To check information or communicate before proceeding",
               "To avoid any further discussion",
+              "To check information or communicate before proceeding",
               "To abandon every option"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "Their response involves a clear next step."
           },
           {
             "q": "What is the overall tone?",
             "options": [
-              "Practical and cooperative",
               "Hostile and insulting",
+              "Practical and cooperative",
               "Uninterested"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "The speakers exchange information constructively."
           }
         ]
@@ -938,51 +938,51 @@ export default [
           {
             "q": "What are the speakers mainly discussing?",
             "options": [
-              "A practical situation and a possible response",
               "A fictional story",
+              "A practical situation and a possible response",
               "A sporting result"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "The speakers focus on a real decision or issue."
           },
           {
             "q": "What problem or need is mentioned?",
             "options": [
-              "A specific difficulty that requires attention",
               "A completed celebration",
+              "A specific difficulty that requires attention",
               "A holiday destination"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "The issue is introduced in the exchange."
           },
           {
             "q": "What does one speaker suggest?",
             "options": [
-              "A realistic next step",
               "Ignoring the matter",
+              "A realistic next step",
               "Making an immediate unsupported decision"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "The suggestion is practical."
           },
           {
             "q": "What do the speakers decide or recommend?",
             "options": [
-              "To check information or communicate before proceeding",
               "To avoid any further discussion",
+              "To check information or communicate before proceeding",
               "To abandon every option"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "Their response involves a clear next step."
           },
           {
             "q": "What is the overall tone?",
             "options": [
-              "Practical and cooperative",
               "Hostile and insulting",
+              "Practical and cooperative",
               "Uninterested"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "The speakers exchange information constructively."
           }
         ]
@@ -994,51 +994,51 @@ export default [
           {
             "q": "What are the speakers mainly discussing?",
             "options": [
-              "A practical situation and a possible response",
               "A fictional story",
+              "A practical situation and a possible response",
               "A sporting result"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "The speakers focus on a real decision or issue."
           },
           {
             "q": "What problem or need is mentioned?",
             "options": [
-              "A specific difficulty that requires attention",
               "A completed celebration",
+              "A specific difficulty that requires attention",
               "A holiday destination"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "The issue is introduced in the exchange."
           },
           {
             "q": "What does one speaker suggest?",
             "options": [
-              "A realistic next step",
               "Ignoring the matter",
+              "A realistic next step",
               "Making an immediate unsupported decision"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "The suggestion is practical."
           },
           {
             "q": "What do the speakers decide or recommend?",
             "options": [
-              "To check information or communicate before proceeding",
               "To avoid any further discussion",
+              "To check information or communicate before proceeding",
               "To abandon every option"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "Their response involves a clear next step."
           },
           {
             "q": "What is the overall tone?",
             "options": [
-              "Practical and cooperative",
               "Hostile and insulting",
+              "Practical and cooperative",
               "Uninterested"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "The speakers exchange information constructively."
           }
         ]
