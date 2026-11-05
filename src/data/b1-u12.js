@@ -1,5 +1,5 @@
-// B1 Unit 12 · Future plans and ambitions
-// 25 grammar + 25 vocabulary + 3x5 reading + 3x5 listening + 5 writing + 5 speaking = 90 actividades.
+// B1 Unit 12 · Expanded practice
+// Correct-answer positions are distributed to avoid predictable answer patterns.
 export default [
   {
     "id": "b1-u12-grammar",
@@ -39,34 +39,34 @@ export default [
       {
         "q": "Look at those dark clouds. It ___ rain.",
         "options": [
-          "is going to",
           "will have",
           "is",
-          "going"
+          "going",
+          "is going to"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "Going to is used for a prediction based on present evidence."
       },
       {
         "q": "We ___ the careers adviser at ten tomorrow; the appointment is booked.",
         "options": [
-          "are meeting",
           "meet yesterday",
           "will meeting",
+          "are meeting",
           "have meet"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "Present continuous can express a fixed arrangement."
       },
       {
         "q": "The train ___ at 07:45 tomorrow morning.",
         "options": [
-          "leaves",
           "will leaving",
+          "leaves",
           "is leave",
           "leave"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "Present simple is used for timetables."
       },
       {
@@ -83,34 +83,34 @@ export default [
       {
         "q": "Don't worry. I ___ you with the application.",
         "options": [
-          "will help",
           "am help",
           "helped",
-          "will helping"
+          "will helping",
+          "will help"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "Will can express an offer made at the moment."
       },
       {
         "q": "She has saved enough money. She ___ her own business.",
         "options": [
-          "is going to start",
           "will starting",
           "starts yesterday",
+          "is going to start",
           "going start"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "Going to expresses an intention or plan."
       },
       {
         "q": "When I ___ home, I'll send you the details.",
         "options": [
-          "get",
           "will get",
+          "get",
           "got",
           "am getting to"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "After when referring to the future, use present simple."
       },
       {
@@ -127,34 +127,34 @@ export default [
       {
         "q": "I expect the cost of living ___ continue to rise.",
         "options": [
-          "will",
           "is",
           "going",
-          "has"
+          "has",
+          "will"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "Will is used for a prediction."
       },
       {
         "q": "At eight tomorrow, we ___ our final presentation.",
         "options": [
-          "will be giving",
           "give yesterday",
           "are give",
+          "will be giving",
           "will have gave"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "Future continuous for an action in progress at a future time."
       },
       {
         "q": "As soon as the results ___, I'll call you.",
         "options": [
-          "arrive",
           "will arrive",
+          "arrive",
           "arrived",
           "are arriving to"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "Use present simple after as soon as."
       },
       {
@@ -171,34 +171,34 @@ export default [
       {
         "q": "They have bought paint because they ___ the kitchen this weekend.",
         "options": [
-          "are going to decorate",
           "will decorating",
           "decorate yesterday",
-          "going decorate"
+          "going decorate",
+          "are going to decorate"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "Going to shows an intention supported by preparation."
       },
       {
         "q": "The conference ___ at nine and finishes at five.",
         "options": [
-          "starts",
           "will starting",
           "is start",
+          "starts",
           "start yesterday"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "Present simple for a scheduled event."
       },
       {
         "q": "This time next year, he ___ for his degree.",
         "options": [
-          "will be studying",
           "studies yesterday",
+          "will be studying",
           "is study",
           "will studied"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "Future continuous describes a future activity in progress."
       },
       {
@@ -215,34 +215,34 @@ export default [
       {
         "q": "Before you ___ the form, read the instructions carefully.",
         "options": [
-          "complete",
           "will complete",
           "completed tomorrow",
-          "are complete"
+          "are complete",
+          "complete"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "Before + present simple for a future time clause."
       },
       {
         "q": "We ___ dinner with the new neighbours on Friday; it's arranged.",
         "options": [
-          "are having",
           "have yesterday",
           "will having",
+          "are having",
           "are have"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "Present continuous for an arrangement."
       },
       {
         "q": "Perhaps I ___ a year abroad after graduation.",
         "options": [
-          "will spend",
           "am spend",
+          "will spend",
           "spent",
           "will spending"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "Will can express a prediction or possibility."
       },
       {
@@ -259,34 +259,34 @@ export default [
       {
         "q": "If you need advice, I ___ happy to help.",
         "options": [
-          "will be",
           "am being yesterday",
           "was",
-          "will being"
+          "will being",
+          "will be"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "Will expresses willingness."
       },
       {
         "q": "The shop ___ at ten on Sundays.",
         "options": [
-          "opens",
           "will opening",
           "is open yesterday",
+          "opens",
           "open"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "Present simple describes a timetable."
       },
       {
         "q": "When the course ___, we are going to celebrate.",
         "options": [
-          "ends",
           "will end",
+          "ends",
           "ended tomorrow",
           "is ending to"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "Use present simple in the future time clause."
       },
       {
@@ -415,34 +415,34 @@ export default [
       {
         "q": "What does \"ambition\" mean?",
         "options": [
-          "a strong desire to achieve something",
           "training that combines work and study",
           "choose after considering possibilities",
-          "sensible and possible to achieve"
+          "sensible and possible to achieve",
+          "a strong desire to achieve something"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "\"ambition\" means a strong desire to achieve something."
       },
       {
         "q": "What does \"career path\" mean?",
         "options": [
-          "the series of jobs and roles in someone's working life",
           "being moved to a higher position at work",
           "do something that may have an uncertain result",
+          "the series of jobs and roles in someone's working life",
           "an official achievement showing knowledge or ability"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "\"career path\" means the series of jobs and roles in someone's working life."
       },
       {
         "q": "What does \"goal\" mean?",
         "options": [
-          "something you want to achieve",
           "abilities useful in different jobs or situations",
+          "something you want to achieve",
           "succeed in doing or reaching something",
           "future opportunities for progress in a job"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "\"goal\" means something you want to achieve."
       },
       {
@@ -459,34 +459,34 @@ export default [
       {
         "q": "What does \"application\" mean?",
         "options": [
-          "a formal request to join or receive something",
           "continuing or planned over a long period",
           "a problem that delays progress",
-          "meeting people who may help with work or opportunities"
+          "meeting people who may help with work or opportunities",
+          "a formal request to join or receive something"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "\"application\" means a formal request to join or receive something."
       },
       {
         "q": "What does \"interview\" mean?",
         "options": [
-          "a formal meeting to assess a candidate",
           "relating to the near future",
           "having a strong intention not to give up",
+          "a formal meeting to assess a candidate",
           "the relationship between time spent working and living"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "\"interview\" means a formal meeting to assess a candidate."
       },
       {
         "q": "What does \"internship\" mean?",
         "options": [
-          "a short period of work experience, often for students",
           "choose after considering possibilities",
+          "a short period of work experience, often for students",
           "sensible and possible to achieve",
           "a strong desire to achieve something"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "\"internship\" means a short period of work experience, often for students."
       },
       {
@@ -503,34 +503,34 @@ export default [
       {
         "q": "What does \"promotion\" mean?",
         "options": [
-          "being moved to a higher position at work",
           "succeed in doing or reaching something",
           "future opportunities for progress in a job",
-          "something you want to achieve"
+          "something you want to achieve",
+          "being moved to a higher position at work"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "\"promotion\" means being moved to a higher position at work."
       },
       {
         "q": "What does \"transferable skills\" mean?",
         "options": [
-          "abilities useful in different jobs or situations",
           "succeed in dealing with a problem",
           "working for yourself rather than an employer",
+          "abilities useful in different jobs or situations",
           "an important stage in a process"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "\"transferable skills\" means abilities useful in different jobs or situations."
       },
       {
         "q": "What does \"deadline\" mean?",
         "options": [
-          "the latest time by which something must be completed",
           "a problem that delays progress",
+          "the latest time by which something must be completed",
           "meeting people who may help with work or opportunities",
           "a formal request to join or receive something"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "\"deadline\" means the latest time by which something must be completed."
       },
       {
@@ -547,34 +547,34 @@ export default [
       {
         "q": "What does \"short-term\" mean?",
         "options": [
-          "relating to the near future",
           "sensible and possible to achieve",
           "a strong desire to achieve something",
-          "a short period of work experience, often for students"
+          "a short period of work experience, often for students",
+          "relating to the near future"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "\"short-term\" means relating to the near future."
       },
       {
         "q": "What does \"make a decision\" mean?",
         "options": [
-          "choose after considering possibilities",
           "an official achievement showing knowledge or ability",
           "the series of jobs and roles in someone's working life",
+          "choose after considering possibilities",
           "training that combines work and study"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "\"make a decision\" means choose after considering possibilities."
       },
       {
         "q": "What does \"take a risk\" mean?",
         "options": [
-          "do something that may have an uncertain result",
           "future opportunities for progress in a job",
+          "do something that may have an uncertain result",
           "something you want to achieve",
           "being moved to a higher position at work"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "\"take a risk\" means do something that may have an uncertain result."
       },
       {
@@ -591,34 +591,34 @@ export default [
       {
         "q": "What does \"overcome\" mean?",
         "options": [
-          "succeed in dealing with a problem",
           "meeting people who may help with work or opportunities",
           "a formal request to join or receive something",
-          "the latest time by which something must be completed"
+          "the latest time by which something must be completed",
+          "succeed in dealing with a problem"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "\"overcome\" means succeed in dealing with a problem."
       },
       {
         "q": "What does \"setback\" mean?",
         "options": [
-          "a problem that delays progress",
           "the relationship between time spent working and living",
           "a formal meeting to assess a candidate",
+          "a problem that delays progress",
           "continuing or planned over a long period"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "\"setback\" means a problem that delays progress."
       },
       {
         "q": "What does \"determined\" mean?",
         "options": [
-          "having a strong intention not to give up",
           "a strong desire to achieve something",
+          "having a strong intention not to give up",
           "a short period of work experience, often for students",
           "relating to the near future"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "\"determined\" means having a strong intention not to give up."
       },
       {
@@ -635,34 +635,34 @@ export default [
       {
         "q": "What does \"qualification\" mean?",
         "options": [
-          "an official achievement showing knowledge or ability",
           "something you want to achieve",
           "being moved to a higher position at work",
-          "do something that may have an uncertain result"
+          "do something that may have an uncertain result",
+          "an official achievement showing knowledge or ability"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "\"qualification\" means an official achievement showing knowledge or ability."
       },
       {
         "q": "What does \"career prospects\" mean?",
         "options": [
-          "future opportunities for progress in a job",
           "an important stage in a process",
           "abilities useful in different jobs or situations",
+          "future opportunities for progress in a job",
           "succeed in doing or reaching something"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "\"career prospects\" means future opportunities for progress in a job."
       },
       {
         "q": "What does \"self-employed\" mean?",
         "options": [
-          "working for yourself rather than an employer",
           "a formal request to join or receive something",
+          "working for yourself rather than an employer",
           "the latest time by which something must be completed",
           "succeed in dealing with a problem"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "\"self-employed\" means working for yourself rather than an employer."
       },
       {
@@ -679,12 +679,12 @@ export default [
       {
         "q": "What does \"work-life balance\" mean?",
         "options": [
-          "the relationship between time spent working and living",
           "a short period of work experience, often for students",
           "relating to the near future",
-          "having a strong intention not to give up"
+          "having a strong intention not to give up",
+          "the relationship between time spent working and living"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "\"work-life balance\" means the relationship between time spent working and living."
       }
     ]
