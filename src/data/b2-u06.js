@@ -287,6 +287,17 @@ export default [
         ],
         "answer": 0,
         "explanation": "Active participle clause."
+      },
+      {
+        "q": "The conclusions ___ in the final section are based on the full dataset.",
+        "options": [
+          "presented",
+          "presenting",
+          "to present",
+          "present"
+        ],
+        "answer": 0,
+        "explanation": "A past participle reduces the passive relative clause 'which are presented'."
       }
     ]
   },
