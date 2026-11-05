@@ -1,5 +1,5 @@
-// B2 Unit 7 · Culture and identity
-// 25 grammar + 25 vocabulary + 3x5 reading + 3x5 listening + 5 writing + 5 speaking = 90 actividades.
+// B2 Unit 7 · Expanded practice
+// Correct-answer positions are distributed to avoid predictable answer patterns.
 export default [
   {
     "id": "b2-7",
@@ -38,34 +38,34 @@ export default [
       {
         "q": "There is ___ evidence to support that claim.",
         "options": [
-          "little",
           "few",
           "many",
-          "a number"
+          "a number",
+          "little"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "Little is used with uncountable nouns."
       },
       {
         "q": "___ of the two proposals would be acceptable.",
         "options": [
-          "Either",
           "Neither of",
           "Every",
+          "Either",
           "All"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "Either refers to one of two."
       },
       {
         "q": "___ participant received an information sheet.",
         "options": [
-          "Each",
           "All",
+          "Each",
           "Both",
           "Many"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "Each + singular countable noun."
       },
       {
@@ -82,34 +82,34 @@ export default [
       {
         "q": "___ the information was checked before publication.",
         "options": [
-          "All",
           "Every",
           "Each",
-          "Both of"
+          "Both of",
+          "All"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "All can be used with uncountable nouns."
       },
       {
         "q": "We have ___ time left, so we must prioritise.",
         "options": [
-          "very little",
           "very few",
           "many",
+          "very little",
           "a number"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "Time is uncountable."
       },
       {
         "q": "___ traditions are shared by the whole community.",
         "options": [
-          "Some",
           "Much",
+          "Some",
           "Every of",
           "A little"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "Some works with plural countable nouns."
       },
       {
@@ -126,34 +126,34 @@ export default [
       {
         "q": "Both museums ___ free entry on Sundays.",
         "options": [
-          "offer",
           "offers",
           "offering",
-          "is offer"
+          "is offer",
+          "offer"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "Both + plural verb."
       },
       {
         "q": "There was ___ interest in the exhibition than expected.",
         "options": [
-          "less",
           "fewer",
           "few",
+          "less",
           "many"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "Less is used with uncountable nouns."
       },
       {
         "q": "The survey included ___ of the local schools.",
         "options": [
-          "most",
           "much",
+          "most",
           "every",
           "a little"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "Most of + plural noun."
       },
       {
@@ -170,34 +170,34 @@ export default [
       {
         "q": "We interviewed ___ older residents and young adults.",
         "options": [
-          "both",
           "neither",
           "every",
-          "much"
+          "much",
+          "both"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "Both joins two groups."
       },
       {
         "q": "There are ___ opportunities to learn the language than before.",
         "options": [
-          "more",
           "much",
           "less",
+          "more",
           "little"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "More is used with countable plural nouns."
       },
       {
         "q": "___ of the information was available in translation.",
         "options": [
-          "Much",
           "Many",
+          "Much",
           "Few",
           "Several"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "Much is used with uncountable nouns."
       },
       {
@@ -214,34 +214,34 @@ export default [
       {
         "q": "The two explanations are possible; ___ is fully convincing.",
         "options": [
-          "neither",
           "both",
           "all",
-          "every"
+          "every",
+          "neither"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "Neither means not one nor the other."
       },
       {
         "q": "A great deal of research ___ been carried out.",
         "options": [
-          "has",
           "have",
           "are",
+          "has",
           "were"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "A great deal of + uncountable noun takes singular verb."
       },
       {
         "q": "___ of these objects has a different story.",
         "options": [
-          "Each",
           "All",
+          "Each",
           "Both",
           "Several"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "Each + singular verb."
       },
       {
@@ -258,34 +258,34 @@ export default [
       {
         "q": "We need ___ more time to consult the community.",
         "options": [
-          "a little",
           "a few",
           "many",
-          "several"
+          "several",
+          "a little"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "A little with uncountable time."
       },
       {
         "q": "___ people identify with more than one culture.",
         "options": [
-          "Many",
           "Much",
           "Every",
+          "Many",
           "A little"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "Many with plural countable nouns."
       },
       {
         "q": "The archive contains ___ documents than the catalogue suggests.",
         "options": [
-          "fewer",
           "less",
+          "fewer",
           "little",
           "much"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "Fewer with plural countable nouns."
       },
       {
@@ -414,34 +414,34 @@ export default [
       {
         "q": "What does \"heritage\" mean?",
         "options": [
-          "traditions and features passed down through generations",
           "becoming part of a wider community",
           "the presence of different languages",
-          "a place valued for its cultural or historical importance"
+          "a place valued for its cultural or historical importance",
+          "traditions and features passed down through generations"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "\"heritage\" means traditions and features passed down through generations."
       },
       {
         "q": "What does \"identity\" mean?",
         "options": [
-          "the qualities that make a person or group distinct",
           "a traditional way of behaving",
           "stories and knowledge passed on by speaking",
+          "the qualities that make a person or group distinct",
           "people who have moved to live in another place"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "\"identity\" means the qualities that make a person or group distinct."
       },
       {
         "q": "What does \"assimilation\" mean?",
         "options": [
-          "adopting the culture of a dominant group",
           "family or ethnic origins",
+          "adopting the culture of a dominant group",
           "a traditional or symbolic action",
           "sharing ideas and practices between cultures"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "\"assimilation\" means adopting the culture of a dominant group."
       },
       {
@@ -458,34 +458,34 @@ export default [
       {
         "q": "What does \"diaspora\" mean?",
         "options": [
-          "a population living outside its ancestral homeland",
           "involving different generations",
           "unfair treatment based on group membership",
-          "the process of treating a group as less important"
+          "the process of treating a group as less important",
+          "a population living outside its ancestral homeland"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "\"diaspora\" means a population living outside its ancestral homeland."
       },
       {
         "q": "What does \"stereotype\" mean?",
         "options": [
-          "a fixed and oversimplified idea about a group",
           "originating naturally in a particular place",
           "involving interaction between cultures",
+          "a fixed and oversimplified idea about a group",
           "the acceptance of different groups and beliefs"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "\"stereotype\" means a fixed and oversimplified idea about a group."
       },
       {
         "q": "What does \"cultural appropriation\" mean?",
         "options": [
-          "using elements of another culture without proper understanding or respect",
           "the presence of different languages",
+          "using elements of another culture without proper understanding or respect",
           "a place valued for its cultural or historical importance",
           "traditions and features passed down through generations"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "\"cultural appropriation\" means using elements of another culture without proper understanding or respect."
       },
       {
@@ -502,34 +502,34 @@ export default [
       {
         "q": "What does \"custom\" mean?",
         "options": [
-          "a traditional way of behaving",
           "a traditional or symbolic action",
           "sharing ideas and practices between cultures",
-          "adopting the culture of a dominant group"
+          "adopting the culture of a dominant group",
+          "a traditional way of behaving"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "\"custom\" means a traditional way of behaving."
       },
       {
         "q": "What does \"ancestry\" mean?",
         "options": [
-          "family or ethnic origins",
           "the act of keeping something in existence",
           "making people feel welcome and represented",
+          "family or ethnic origins",
           "the presence of several cultures in a society"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "\"ancestry\" means family or ethnic origins."
       },
       {
         "q": "What does \"belonging\" mean?",
         "options": [
-          "the feeling of being accepted as part of a group",
           "unfair treatment based on group membership",
+          "the feeling of being accepted as part of a group",
           "the process of treating a group as less important",
           "a population living outside its ancestral homeland"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "\"belonging\" means the feeling of being accepted as part of a group."
       },
       {
@@ -546,34 +546,34 @@ export default [
       {
         "q": "What does \"indigenous\" mean?",
         "options": [
-          "originating naturally in a particular place",
           "a place valued for its cultural or historical importance",
           "traditions and features passed down through generations",
-          "using elements of another culture without proper understanding or respect"
+          "using elements of another culture without proper understanding or respect",
+          "originating naturally in a particular place"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "\"indigenous\" means originating naturally in a particular place."
       },
       {
         "q": "What does \"linguistic diversity\" mean?",
         "options": [
-          "the presence of different languages",
           "people who have moved to live in another place",
           "the qualities that make a person or group distinct",
+          "the presence of different languages",
           "becoming part of a wider community"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "\"linguistic diversity\" means the presence of different languages."
       },
       {
         "q": "What does \"oral tradition\" mean?",
         "options": [
-          "stories and knowledge passed on by speaking",
           "sharing ideas and practices between cultures",
+          "stories and knowledge passed on by speaking",
           "adopting the culture of a dominant group",
           "a traditional way of behaving"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "\"oral tradition\" means stories and knowledge passed on by speaking."
       },
       {
@@ -590,34 +590,34 @@ export default [
       {
         "q": "What does \"preservation\" mean?",
         "options": [
-          "the act of keeping something in existence",
           "the process of treating a group as less important",
           "a population living outside its ancestral homeland",
-          "the feeling of being accepted as part of a group"
+          "the feeling of being accepted as part of a group",
+          "the act of keeping something in existence"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "\"preservation\" means the act of keeping something in existence."
       },
       {
         "q": "What does \"discrimination\" mean?",
         "options": [
-          "unfair treatment based on group membership",
           "the acceptance of different groups and beliefs",
           "a fixed and oversimplified idea about a group",
+          "unfair treatment based on group membership",
           "involving different generations"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "\"discrimination\" means unfair treatment based on group membership."
       },
       {
         "q": "What does \"intercultural\" mean?",
         "options": [
-          "involving interaction between cultures",
           "traditions and features passed down through generations",
+          "involving interaction between cultures",
           "using elements of another culture without proper understanding or respect",
           "originating naturally in a particular place"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "\"intercultural\" means involving interaction between cultures."
       },
       {
@@ -634,34 +634,34 @@ export default [
       {
         "q": "What does \"migrant community\" mean?",
         "options": [
-          "people who have moved to live in another place",
           "adopting the culture of a dominant group",
           "a traditional way of behaving",
-          "stories and knowledge passed on by speaking"
+          "stories and knowledge passed on by speaking",
+          "people who have moved to live in another place"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "\"migrant community\" means people who have moved to live in another place."
       },
       {
         "q": "What does \"cultural exchange\" mean?",
         "options": [
-          "sharing ideas and practices between cultures",
           "the presence of several cultures in a society",
           "family or ethnic origins",
+          "sharing ideas and practices between cultures",
           "a traditional or symbolic action"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "\"cultural exchange\" means sharing ideas and practices between cultures."
       },
       {
         "q": "What does \"inclusive\" mean?",
         "options": [
-          "making people feel welcome and represented",
           "a population living outside its ancestral homeland",
+          "making people feel welcome and represented",
           "the feeling of being accepted as part of a group",
           "the act of keeping something in existence"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "\"inclusive\" means making people feel welcome and represented."
       },
       {
@@ -678,12 +678,12 @@ export default [
       {
         "q": "What does \"pluralism\" mean?",
         "options": [
-          "the acceptance of different groups and beliefs",
           "using elements of another culture without proper understanding or respect",
           "originating naturally in a particular place",
-          "involving interaction between cultures"
+          "involving interaction between cultures",
+          "the acceptance of different groups and beliefs"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "\"pluralism\" means the acceptance of different groups and beliefs."
       }
     ]
@@ -703,51 +703,51 @@ export default [
           {
             "q": "What is the main purpose of the text?",
             "options": [
-              "To examine a specific issue and the response to it",
               "To advertise a commercial product",
+              "To examine a specific issue and the response to it",
               "To tell an unrelated personal story"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "The passage about a language carried across generations presents an issue and evaluates a response."
           },
           {
             "q": "Which limitation is acknowledged?",
             "options": [
-              "The solution has limits and requires further attention",
               "The problem has disappeared completely",
+              "The solution has limits and requires further attention",
               "No evidence or practical difficulty is mentioned"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "The passage avoids presenting the response as a complete solution."
           },
           {
             "q": "What does the text suggest about effective action?",
             "options": [
-              "It depends on evidence, context and continued evaluation",
               "It can be copied without considering local circumstances",
+              "It depends on evidence, context and continued evaluation",
               "It should be introduced without consultation"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "The text highlights context and evaluation."
           },
           {
             "q": "Which statement best reflects the writer's position?",
             "options": [
-              "The issue requires a balanced and informed approach",
               "There is only one simple answer",
+              "The issue requires a balanced and informed approach",
               "The issue is not worth examining"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "The writer considers benefits as well as constraints."
           },
           {
             "q": "What is the tone of the text?",
             "options": [
-              "Analytical and measured",
               "Sarcastic and dismissive",
+              "Analytical and measured",
               "Unreservedly promotional"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "The writer presents evidence and recognises limitations."
           }
         ]
@@ -759,51 +759,51 @@ export default [
           {
             "q": "What is the main purpose of the text?",
             "options": [
-              "To examine a specific issue and the response to it",
               "To advertise a commercial product",
+              "To examine a specific issue and the response to it",
               "To tell an unrelated personal story"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "The passage about who owns a cultural symbol? presents an issue and evaluates a response."
           },
           {
             "q": "Which limitation is acknowledged?",
             "options": [
-              "The solution has limits and requires further attention",
               "The problem has disappeared completely",
+              "The solution has limits and requires further attention",
               "No evidence or practical difficulty is mentioned"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "The passage avoids presenting the response as a complete solution."
           },
           {
             "q": "What does the text suggest about effective action?",
             "options": [
-              "It depends on evidence, context and continued evaluation",
               "It can be copied without considering local circumstances",
+              "It depends on evidence, context and continued evaluation",
               "It should be introduced without consultation"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "The text highlights context and evaluation."
           },
           {
             "q": "Which statement best reflects the writer's position?",
             "options": [
-              "The issue requires a balanced and informed approach",
               "There is only one simple answer",
+              "The issue requires a balanced and informed approach",
               "The issue is not worth examining"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "The writer considers benefits as well as constraints."
           },
           {
             "q": "What is the tone of the text?",
             "options": [
-              "Analytical and measured",
               "Sarcastic and dismissive",
+              "Analytical and measured",
               "Unreservedly promotional"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "The writer presents evidence and recognises limitations."
           }
         ]
@@ -815,51 +815,51 @@ export default [
           {
             "q": "What is the main purpose of the text?",
             "options": [
-              "To examine a specific issue and the response to it",
               "To advertise a commercial product",
+              "To examine a specific issue and the response to it",
               "To tell an unrelated personal story"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "The passage about museums and living heritage presents an issue and evaluates a response."
           },
           {
             "q": "Which limitation is acknowledged?",
             "options": [
-              "The solution has limits and requires further attention",
               "The problem has disappeared completely",
+              "The solution has limits and requires further attention",
               "No evidence or practical difficulty is mentioned"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "The passage avoids presenting the response as a complete solution."
           },
           {
             "q": "What does the text suggest about effective action?",
             "options": [
-              "It depends on evidence, context and continued evaluation",
               "It can be copied without considering local circumstances",
+              "It depends on evidence, context and continued evaluation",
               "It should be introduced without consultation"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "The text highlights context and evaluation."
           },
           {
             "q": "Which statement best reflects the writer's position?",
             "options": [
-              "The issue requires a balanced and informed approach",
               "There is only one simple answer",
+              "The issue requires a balanced and informed approach",
               "The issue is not worth examining"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "The writer considers benefits as well as constraints."
           },
           {
             "q": "What is the tone of the text?",
             "options": [
-              "Analytical and measured",
               "Sarcastic and dismissive",
+              "Analytical and measured",
               "Unreservedly promotional"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "The writer presents evidence and recognises limitations."
           }
         ]
@@ -881,51 +881,51 @@ export default [
           {
             "q": "What is the speakers' main concern?",
             "options": [
-              "How to make the proposed action effective in practice",
               "How to promote an unrelated event",
+              "How to make the proposed action effective in practice",
               "How to avoid sharing any information"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "The speakers discuss implementation and practical outcomes."
           },
           {
             "q": "What difficulty is mentioned?",
             "options": [
-              "A limitation that needs to be addressed",
               "There are no challenges",
+              "A limitation that needs to be addressed",
               "The plan has already solved every problem"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "One speaker identifies a practical limitation."
           },
           {
             "q": "What action is proposed?",
             "options": [
-              "Reviewing the approach and providing clearer information",
               "Cancelling all future discussion",
+              "Reviewing the approach and providing clearer information",
               "Ignoring the available evidence"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "The speakers agree on a practical next step."
           },
           {
             "q": "What can be inferred?",
             "options": [
-              "The decision will depend on further information",
               "The outcome is guaranteed",
+              "The decision will depend on further information",
               "No further review is necessary"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "The conversation leaves room for evaluation."
           },
           {
             "q": "How do the speakers approach the issue?",
             "options": [
-              "Cooperatively and cautiously",
               "Aggressively",
+              "Cooperatively and cautiously",
               "Without considering consequences"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "They exchange concerns and possible solutions."
           }
         ]
@@ -937,51 +937,51 @@ export default [
           {
             "q": "What is the speakers' main concern?",
             "options": [
-              "How to make the proposed action effective in practice",
               "How to promote an unrelated event",
+              "How to make the proposed action effective in practice",
               "How to avoid sharing any information"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "The speakers discuss implementation and practical outcomes."
           },
           {
             "q": "What difficulty is mentioned?",
             "options": [
-              "A limitation that needs to be addressed",
               "There are no challenges",
+              "A limitation that needs to be addressed",
               "The plan has already solved every problem"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "One speaker identifies a practical limitation."
           },
           {
             "q": "What action is proposed?",
             "options": [
-              "Reviewing the approach and providing clearer information",
               "Cancelling all future discussion",
+              "Reviewing the approach and providing clearer information",
               "Ignoring the available evidence"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "The speakers agree on a practical next step."
           },
           {
             "q": "What can be inferred?",
             "options": [
-              "The decision will depend on further information",
               "The outcome is guaranteed",
+              "The decision will depend on further information",
               "No further review is necessary"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "The conversation leaves room for evaluation."
           },
           {
             "q": "How do the speakers approach the issue?",
             "options": [
-              "Cooperatively and cautiously",
               "Aggressively",
+              "Cooperatively and cautiously",
               "Without considering consequences"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "They exchange concerns and possible solutions."
           }
         ]
@@ -993,51 +993,51 @@ export default [
           {
             "q": "What is the speakers' main concern?",
             "options": [
-              "How to make the proposed action effective in practice",
               "How to promote an unrelated event",
+              "How to make the proposed action effective in practice",
               "How to avoid sharing any information"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "The speakers discuss implementation and practical outcomes."
           },
           {
             "q": "What difficulty is mentioned?",
             "options": [
-              "A limitation that needs to be addressed",
               "There are no challenges",
+              "A limitation that needs to be addressed",
               "The plan has already solved every problem"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "One speaker identifies a practical limitation."
           },
           {
             "q": "What action is proposed?",
             "options": [
-              "Reviewing the approach and providing clearer information",
               "Cancelling all future discussion",
+              "Reviewing the approach and providing clearer information",
               "Ignoring the available evidence"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "The speakers agree on a practical next step."
           },
           {
             "q": "What can be inferred?",
             "options": [
-              "The decision will depend on further information",
               "The outcome is guaranteed",
+              "The decision will depend on further information",
               "No further review is necessary"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "The conversation leaves room for evaluation."
           },
           {
             "q": "How do the speakers approach the issue?",
             "options": [
-              "Cooperatively and cautiously",
               "Aggressively",
+              "Cooperatively and cautiously",
               "Without considering consequences"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "They exchange concerns and possible solutions."
           }
         ]
