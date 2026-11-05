@@ -2,7 +2,7 @@
 // 25 grammar + 25 vocabulary + 3x5 reading + 3x5 listening + 5 writing + 5 speaking = 90 actividades.
 export default [
   {
-    "id": "b2-u04-grammar",
+    "id": "b2-4",
     "title": "Modals of deduction and speculation",
     "skill": "Grammar",
     "type": "grammar",
