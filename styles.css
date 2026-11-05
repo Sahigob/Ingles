@@ -567,3 +567,22 @@ dialog .primary { width: 100%; }
   .exam-navigation { flex-wrap: wrap; }
   .exam-toolbar h2 { font-size: 21px; }
 }
+
+
+/* SPEAKING & AI PRACTICE */
+.speaking-entry {
+  margin-top: 28px; padding: 26px; display: grid;
+  grid-template-columns: 1.2fr .8fr; gap: 28px; align-items: center;
+  background: linear-gradient(135deg, #eef3ff, #ffffff);
+  border: 1px solid #dfe7f5; border-radius: 15px;
+}
+.speaking-entry h3 { margin: 0 0 10px; color: var(--navy); font-size: 21px; }
+.speaking-entry p:not(.eyebrow) { max-width: 620px; color: var(--muted); font-size: 12px; line-height: 1.7; }
+.speaking-entry-main > .button { display: inline-block; margin-top: 8px; text-decoration: none; }
+.speaking-entry .speaking-note { margin-bottom: 0; font-size: 10px !important; }
+.speaking-topics { padding: 17px; background: white; border: 1px solid var(--line); border-radius: 12px; }
+.speaking-topics h4 { margin: 0 0 10px; font-size: 13px; }
+.speaking-topic { display: flex; justify-content: space-between; gap: 12px; padding: 10px 2px; border-top: 1px solid var(--line); color: var(--ink); font-size: 12px; font-weight: 600; text-decoration: none; }
+.speaking-topic span { color: var(--blue); }
+.speaking-topic:hover { color: var(--blue); }
+@media (max-width: 760px) { .speaking-entry { grid-template-columns: 1fr; padding: 20px; gap: 16px; } }
