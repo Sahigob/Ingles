@@ -2,7 +2,7 @@
 // 25 grammar + 25 vocabulary + 3x5 reading + 3x5 listening + 5 writing + 5 speaking = 90 actividades.
 export default [
   {
-    "id": "b1-u06-grammar,
+    "id": "b1-u06-grammar",
     "title": "Relative clauses and defining / non-defining clauses",
     "skill": "Grammar",
     "type": "grammar",
