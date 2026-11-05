@@ -1,5 +1,5 @@
-// B2 Unit 5 · Environment and sustainability
-// 25 grammar + 25 vocabulary + 3x5 reading + 3x5 listening + 5 writing + 5 speaking = 90 actividades.
+// B2 Unit 5 · Expanded practice
+// Correct-answer positions are distributed to avoid predictable answer patterns.
 export default [
   {
     "id": "b2-5",
@@ -38,34 +38,34 @@ export default [
       {
         "q": "If people used public transport more often, emissions ___ lower.",
         "options": [
-          "would be",
           "will be",
           "would have been",
-          "are"
+          "are",
+          "would be"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "Second conditional describes a hypothetical present result."
       },
       {
         "q": "Unless waste ___ correctly, recycling rates will remain low.",
         "options": [
-          "is sorted",
           "will sort",
           "sorted",
+          "is sorted",
           "has sorting"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "Unless means if it is not."
       },
       {
         "q": "If the company had measured its footprint, it ___ the largest source of emissions.",
         "options": [
-          "would have identified",
           "will identify",
+          "would have identified",
           "would identify",
           "identifies"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "Third conditional refers to an unreal past."
       },
       {
@@ -82,34 +82,34 @@ export default [
       {
         "q": "If the drought continues, water supplies ___ under pressure.",
         "options": [
-          "will remain",
           "would remain",
           "remained",
-          "would have remained"
+          "would have remained",
+          "will remain"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "First conditional."
       },
       {
         "q": "If I ___ more about the scheme, I would support it.",
         "options": [
-          "knew",
           "know",
           "had known",
+          "knew",
           "will know"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "Second conditional."
       },
       {
         "q": "Had the warning been issued earlier, fewer homes ___ flooded.",
         "options": [
-          "might have been",
           "might be",
+          "might have been",
           "will be",
           "were"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "Inverted third conditional."
       },
       {
@@ -126,34 +126,34 @@ export default [
       {
         "q": "If energy were cheaper, more households ___ heat pumps.",
         "options": [
-          "would install",
           "will install",
           "installed",
-          "would have installed"
+          "would have installed",
+          "would install"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "Second conditional."
       },
       {
         "q": "If the river had been monitored, the pollution ___ sooner.",
         "options": [
-          "would have been detected",
           "will detect",
           "would be detecting",
+          "would have been detected",
           "is detected"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "Third conditional passive."
       },
       {
         "q": "Even if the target is ambitious, it ___ achievable.",
         "options": [
-          "may be",
           "would have been",
+          "may be",
           "was",
           "had been"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "Even if introduces a possible condition."
       },
       {
@@ -170,34 +170,34 @@ export default [
       {
         "q": "We can reduce waste provided that packaging ___ reusable.",
         "options": [
-          "is",
           "will be",
           "was",
-          "being"
+          "being",
+          "is"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "Present simple after provided that."
       },
       {
         "q": "If consumers bought fewer disposable products, landfill sites ___ less quickly.",
         "options": [
-          "would fill",
           "will fill",
           "filled",
+          "would fill",
           "would have filled"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "Second conditional."
       },
       {
         "q": "Were the project to expand, additional funding ___ necessary.",
         "options": [
-          "would be",
           "will be",
+          "would be",
           "is",
           "would have been"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "Formal inverted conditional."
       },
       {
@@ -214,34 +214,34 @@ export default [
       {
         "q": "Unless governments act, biodiversity ___ at risk.",
         "options": [
-          "will remain",
           "would remain",
           "remained",
-          "would have remained"
+          "would have remained",
+          "will remain"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "First conditional with unless."
       },
       {
         "q": "If the report were clearer, more people ___ its recommendations.",
         "options": [
-          "would understand",
           "will understand",
           "understood",
+          "would understand",
           "would have understood"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "Second conditional."
       },
       {
         "q": "Should the river level rise, the warning system ___ automatically.",
         "options": [
-          "will activate",
           "would have activated",
+          "will activate",
           "activated",
           "would be activated yesterday"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "Formal first conditional inversion."
       },
       {
@@ -258,34 +258,34 @@ export default [
       {
         "q": "The scheme is viable only if local businesses ___ part.",
         "options": [
-          "take",
           "will take",
           "took",
-          "would take"
+          "would take",
+          "take"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "Only if + present simple."
       },
       {
         "q": "If the data had been checked, the mistake ___ published.",
         "options": [
-          "would not have been",
           "will not be",
           "would not be",
+          "would not have been",
           "is not"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "Third conditional passive negative."
       },
       {
         "q": "If every household saved a little water, the city ___ a significant amount.",
         "options": [
-          "would conserve",
           "will conserve",
+          "would conserve",
           "conserved",
           "would have conserved"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "Second conditional."
       },
       {
@@ -414,34 +414,34 @@ export default [
       {
         "q": "What does \"biodiversity\" mean?",
         "options": [
-          "the variety of plant and animal life in an area",
           "energy from sources that are naturally replaced",
           "planting trees in an area where forests were lost",
-          "using more resources than are needed"
+          "using more resources than are needed",
+          "the variety of plant and animal life in an area"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "\"biodiversity\" means the variety of plant and animal life in an area."
       },
       {
         "q": "What does \"carbon footprint\" mean?",
         "options": [
-          "the total greenhouse gases caused by an activity",
           "able to continue without exhausting resources",
           "a situation in which something is insufficient",
+          "the total greenhouse gases caused by an activity",
           "a site where waste is buried"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "\"carbon footprint\" means the total greenhouse gases caused by an activity."
       },
       {
         "q": "What does \"conservation\" mean?",
         "options": [
-          "protection of nature and resources",
           "the collection and treatment of waste",
+          "protection of nature and resources",
           "compensate for an environmental impact",
           "using little water for a task"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "\"conservation\" means protection of nature and resources."
       },
       {
@@ -458,34 +458,34 @@ export default [
       {
         "q": "What does \"emissions\" mean?",
         "options": [
-          "gases released into the atmosphere",
           "organisms and their physical environment",
           "action to reduce the severity of a problem",
-          "the effect an activity has on nature"
+          "the effect an activity has on nature",
+          "gases released into the atmosphere"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "\"emissions\" means gases released into the atmosphere."
       },
       {
         "q": "What does \"fossil fuels\" mean?",
         "options": [
-          "coal, oil and natural gas",
           "a long period with very little rainfall",
           "adjustment to changing conditions",
+          "coal, oil and natural gas",
           "a balance between greenhouse gases emitted and removed"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "\"fossil fuels\" means coal, oil and natural gas."
       },
       {
         "q": "What does \"habitat\" mean?",
         "options": [
-          "the natural home of a species",
           "planting trees in an area where forests were lost",
+          "the natural home of a species",
           "using more resources than are needed",
           "the variety of plant and animal life in an area"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "\"habitat\" means the natural home of a species."
       },
       {
@@ -502,34 +502,34 @@ export default [
       {
         "q": "What does \"sustainable\" mean?",
         "options": [
-          "able to continue without exhausting resources",
           "compensate for an environmental impact",
           "using little water for a task",
-          "protection of nature and resources"
+          "protection of nature and resources",
+          "able to continue without exhausting resources"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "\"sustainable\" means able to continue without exhausting resources."
       },
       {
         "q": "What does \"waste management\" mean?",
         "options": [
-          "the collection and treatment of waste",
           "the process of becoming damaged",
           "the stages involved in producing and delivering goods",
+          "the collection and treatment of waste",
           "the removal of large areas of forest"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "\"waste management\" means the collection and treatment of waste."
       },
       {
         "q": "What does \"circular economy\" mean?",
         "options": [
-          "a system that reuses and recycles materials",
           "action to reduce the severity of a problem",
+          "a system that reuses and recycles materials",
           "the effect an activity has on nature",
           "gases released into the atmosphere"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "\"circular economy\" means a system that reuses and recycles materials."
       },
       {
@@ -546,34 +546,34 @@ export default [
       {
         "q": "What does \"drought\" mean?",
         "options": [
-          "a long period with very little rainfall",
           "using more resources than are needed",
           "the variety of plant and animal life in an area",
-          "the natural home of a species"
+          "the natural home of a species",
+          "a long period with very little rainfall"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "\"drought\" means a long period with very little rainfall."
       },
       {
         "q": "What does \"reforestation\" mean?",
         "options": [
-          "planting trees in an area where forests were lost",
           "a site where waste is buried",
           "the total greenhouse gases caused by an activity",
+          "planting trees in an area where forests were lost",
           "energy from sources that are naturally replaced"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "\"reforestation\" means planting trees in an area where forests were lost."
       },
       {
         "q": "What does \"scarcity\" mean?",
         "options": [
-          "a situation in which something is insufficient",
           "using little water for a task",
+          "a situation in which something is insufficient",
           "protection of nature and resources",
           "able to continue without exhausting resources"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "\"scarcity\" means a situation in which something is insufficient."
       },
       {
@@ -590,34 +590,34 @@ export default [
       {
         "q": "What does \"degradation\" mean?",
         "options": [
-          "the process of becoming damaged",
           "the effect an activity has on nature",
           "gases released into the atmosphere",
-          "a system that reuses and recycles materials"
+          "a system that reuses and recycles materials",
+          "the process of becoming damaged"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "\"degradation\" means the process of becoming damaged."
       },
       {
         "q": "What does \"mitigation\" mean?",
         "options": [
-          "action to reduce the severity of a problem",
           "a balance between greenhouse gases emitted and removed",
           "coal, oil and natural gas",
+          "action to reduce the severity of a problem",
           "organisms and their physical environment"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "\"mitigation\" means action to reduce the severity of a problem."
       },
       {
         "q": "What does \"adaptation\" mean?",
         "options": [
-          "adjustment to changing conditions",
           "the variety of plant and animal life in an area",
+          "adjustment to changing conditions",
           "the natural home of a species",
           "a long period with very little rainfall"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "\"adaptation\" means adjustment to changing conditions."
       },
       {
@@ -634,34 +634,34 @@ export default [
       {
         "q": "What does \"landfill\" mean?",
         "options": [
-          "a site where waste is buried",
           "protection of nature and resources",
           "able to continue without exhausting resources",
-          "a situation in which something is insufficient"
+          "a situation in which something is insufficient",
+          "a site where waste is buried"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "\"landfill\" means a site where waste is buried."
       },
       {
         "q": "What does \"water-efficient\" mean?",
         "options": [
-          "using little water for a task",
           "the removal of large areas of forest",
           "the collection and treatment of waste",
+          "using little water for a task",
           "compensate for an environmental impact"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "\"water-efficient\" means using little water for a task."
       },
       {
         "q": "What does \"supply chain\" mean?",
         "options": [
-          "the stages involved in producing and delivering goods",
           "gases released into the atmosphere",
+          "the stages involved in producing and delivering goods",
           "a system that reuses and recycles materials",
           "the process of becoming damaged"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "\"supply chain\" means the stages involved in producing and delivering goods."
       },
       {
@@ -678,12 +678,12 @@ export default [
       {
         "q": "What does \"net zero\" mean?",
         "options": [
-          "a balance between greenhouse gases emitted and removed",
           "the natural home of a species",
           "a long period with very little rainfall",
-          "adjustment to changing conditions"
+          "adjustment to changing conditions",
+          "a balance between greenhouse gases emitted and removed"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "\"net zero\" means a balance between greenhouse gases emitted and removed."
       }
     ]
@@ -703,51 +703,51 @@ export default [
           {
             "q": "What is the main purpose of the text?",
             "options": [
-              "To examine a specific issue and the response to it",
               "To advertise a commercial product",
-              "To tell an unrelated personal story"
+              "To tell an unrelated personal story",
+              "To examine a specific issue and the response to it"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The passage about restoring a damaged river presents an issue and evaluates a response."
           },
           {
             "q": "Which limitation is acknowledged?",
             "options": [
-              "The solution has limits and requires further attention",
               "The problem has disappeared completely",
-              "No evidence or practical difficulty is mentioned"
+              "No evidence or practical difficulty is mentioned",
+              "The solution has limits and requires further attention"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The passage avoids presenting the response as a complete solution."
           },
           {
             "q": "What does the text suggest about effective action?",
             "options": [
-              "It depends on evidence, context and continued evaluation",
               "It can be copied without considering local circumstances",
-              "It should be introduced without consultation"
+              "It should be introduced without consultation",
+              "It depends on evidence, context and continued evaluation"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The text highlights context and evaluation."
           },
           {
             "q": "Which statement best reflects the writer's position?",
             "options": [
-              "The issue requires a balanced and informed approach",
               "There is only one simple answer",
-              "The issue is not worth examining"
+              "The issue is not worth examining",
+              "The issue requires a balanced and informed approach"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The writer considers benefits as well as constraints."
           },
           {
             "q": "What is the tone of the text?",
             "options": [
-              "Analytical and measured",
               "Sarcastic and dismissive",
-              "Unreservedly promotional"
+              "Unreservedly promotional",
+              "Analytical and measured"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The writer presents evidence and recognises limitations."
           }
         ]
@@ -759,51 +759,51 @@ export default [
           {
             "q": "What is the main purpose of the text?",
             "options": [
-              "To examine a specific issue and the response to it",
               "To advertise a commercial product",
-              "To tell an unrelated personal story"
+              "To tell an unrelated personal story",
+              "To examine a specific issue and the response to it"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The passage about the limits of carbon labels presents an issue and evaluates a response."
           },
           {
             "q": "Which limitation is acknowledged?",
             "options": [
-              "The solution has limits and requires further attention",
               "The problem has disappeared completely",
-              "No evidence or practical difficulty is mentioned"
+              "No evidence or practical difficulty is mentioned",
+              "The solution has limits and requires further attention"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The passage avoids presenting the response as a complete solution."
           },
           {
             "q": "What does the text suggest about effective action?",
             "options": [
-              "It depends on evidence, context and continued evaluation",
               "It can be copied without considering local circumstances",
-              "It should be introduced without consultation"
+              "It should be introduced without consultation",
+              "It depends on evidence, context and continued evaluation"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The text highlights context and evaluation."
           },
           {
             "q": "Which statement best reflects the writer's position?",
             "options": [
-              "The issue requires a balanced and informed approach",
               "There is only one simple answer",
-              "The issue is not worth examining"
+              "The issue is not worth examining",
+              "The issue requires a balanced and informed approach"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The writer considers benefits as well as constraints."
           },
           {
             "q": "What is the tone of the text?",
             "options": [
-              "Analytical and measured",
               "Sarcastic and dismissive",
-              "Unreservedly promotional"
+              "Unreservedly promotional",
+              "Analytical and measured"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The writer presents evidence and recognises limitations."
           }
         ]
@@ -815,51 +815,51 @@ export default [
           {
             "q": "What is the main purpose of the text?",
             "options": [
-              "To examine a specific issue and the response to it",
               "To advertise a commercial product",
-              "To tell an unrelated personal story"
+              "To tell an unrelated personal story",
+              "To examine a specific issue and the response to it"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The passage about a city prepares for hotter summers presents an issue and evaluates a response."
           },
           {
             "q": "Which limitation is acknowledged?",
             "options": [
-              "The solution has limits and requires further attention",
               "The problem has disappeared completely",
-              "No evidence or practical difficulty is mentioned"
+              "No evidence or practical difficulty is mentioned",
+              "The solution has limits and requires further attention"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The passage avoids presenting the response as a complete solution."
           },
           {
             "q": "What does the text suggest about effective action?",
             "options": [
-              "It depends on evidence, context and continued evaluation",
               "It can be copied without considering local circumstances",
-              "It should be introduced without consultation"
+              "It should be introduced without consultation",
+              "It depends on evidence, context and continued evaluation"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The text highlights context and evaluation."
           },
           {
             "q": "Which statement best reflects the writer's position?",
             "options": [
-              "The issue requires a balanced and informed approach",
               "There is only one simple answer",
-              "The issue is not worth examining"
+              "The issue is not worth examining",
+              "The issue requires a balanced and informed approach"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The writer considers benefits as well as constraints."
           },
           {
             "q": "What is the tone of the text?",
             "options": [
-              "Analytical and measured",
               "Sarcastic and dismissive",
-              "Unreservedly promotional"
+              "Unreservedly promotional",
+              "Analytical and measured"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The writer presents evidence and recognises limitations."
           }
         ]
@@ -881,51 +881,51 @@ export default [
           {
             "q": "What is the speakers' main concern?",
             "options": [
-              "How to make the proposed action effective in practice",
               "How to promote an unrelated event",
-              "How to avoid sharing any information"
+              "How to avoid sharing any information",
+              "How to make the proposed action effective in practice"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The speakers discuss implementation and practical outcomes."
           },
           {
             "q": "What difficulty is mentioned?",
             "options": [
-              "A limitation that needs to be addressed",
               "There are no challenges",
-              "The plan has already solved every problem"
+              "The plan has already solved every problem",
+              "A limitation that needs to be addressed"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "One speaker identifies a practical limitation."
           },
           {
             "q": "What action is proposed?",
             "options": [
-              "Reviewing the approach and providing clearer information",
               "Cancelling all future discussion",
-              "Ignoring the available evidence"
+              "Ignoring the available evidence",
+              "Reviewing the approach and providing clearer information"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The speakers agree on a practical next step."
           },
           {
             "q": "What can be inferred?",
             "options": [
-              "The decision will depend on further information",
               "The outcome is guaranteed",
-              "No further review is necessary"
+              "No further review is necessary",
+              "The decision will depend on further information"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The conversation leaves room for evaluation."
           },
           {
             "q": "How do the speakers approach the issue?",
             "options": [
-              "Cooperatively and cautiously",
               "Aggressively",
-              "Without considering consequences"
+              "Without considering consequences",
+              "Cooperatively and cautiously"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "They exchange concerns and possible solutions."
           }
         ]
@@ -937,51 +937,51 @@ export default [
           {
             "q": "What is the speakers' main concern?",
             "options": [
-              "How to make the proposed action effective in practice",
               "How to promote an unrelated event",
-              "How to avoid sharing any information"
+              "How to avoid sharing any information",
+              "How to make the proposed action effective in practice"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The speakers discuss implementation and practical outcomes."
           },
           {
             "q": "What difficulty is mentioned?",
             "options": [
-              "A limitation that needs to be addressed",
               "There are no challenges",
-              "The plan has already solved every problem"
+              "The plan has already solved every problem",
+              "A limitation that needs to be addressed"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "One speaker identifies a practical limitation."
           },
           {
             "q": "What action is proposed?",
             "options": [
-              "Reviewing the approach and providing clearer information",
               "Cancelling all future discussion",
-              "Ignoring the available evidence"
+              "Ignoring the available evidence",
+              "Reviewing the approach and providing clearer information"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The speakers agree on a practical next step."
           },
           {
             "q": "What can be inferred?",
             "options": [
-              "The decision will depend on further information",
               "The outcome is guaranteed",
-              "No further review is necessary"
+              "No further review is necessary",
+              "The decision will depend on further information"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The conversation leaves room for evaluation."
           },
           {
             "q": "How do the speakers approach the issue?",
             "options": [
-              "Cooperatively and cautiously",
               "Aggressively",
-              "Without considering consequences"
+              "Without considering consequences",
+              "Cooperatively and cautiously"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "They exchange concerns and possible solutions."
           }
         ]
@@ -993,51 +993,51 @@ export default [
           {
             "q": "What is the speakers' main concern?",
             "options": [
-              "How to make the proposed action effective in practice",
               "How to promote an unrelated event",
-              "How to avoid sharing any information"
+              "How to avoid sharing any information",
+              "How to make the proposed action effective in practice"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The speakers discuss implementation and practical outcomes."
           },
           {
             "q": "What difficulty is mentioned?",
             "options": [
-              "A limitation that needs to be addressed",
               "There are no challenges",
-              "The plan has already solved every problem"
+              "The plan has already solved every problem",
+              "A limitation that needs to be addressed"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "One speaker identifies a practical limitation."
           },
           {
             "q": "What action is proposed?",
             "options": [
-              "Reviewing the approach and providing clearer information",
               "Cancelling all future discussion",
-              "Ignoring the available evidence"
+              "Ignoring the available evidence",
+              "Reviewing the approach and providing clearer information"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The speakers agree on a practical next step."
           },
           {
             "q": "What can be inferred?",
             "options": [
-              "The decision will depend on further information",
               "The outcome is guaranteed",
-              "No further review is necessary"
+              "No further review is necessary",
+              "The decision will depend on further information"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The conversation leaves room for evaluation."
           },
           {
             "q": "How do the speakers approach the issue?",
             "options": [
-              "Cooperatively and cautiously",
               "Aggressively",
-              "Without considering consequences"
+              "Without considering consequences",
+              "Cooperatively and cautiously"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "They exchange concerns and possible solutions."
           }
         ]
