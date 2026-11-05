@@ -1,5 +1,5 @@
-// B2 Unit 1 · Opinions and arguments
-// 25 grammar + 25 vocabulary + 3x5 reading + 3x5 listening + 5 writing + 5 speaking = 90 actividades.
+// B2 Unit 1 · Expanded practice
+// Correct-answer positions are distributed to avoid predictable answer patterns.
 export default [
   {
     "id": "b2-1",
@@ -38,34 +38,34 @@ export default [
       {
         "q": "___ the initial criticism, the project went ahead.",
         "options": [
-          "Despite",
           "Although",
           "Nevertheless",
-          "Whereas"
+          "Whereas",
+          "Despite"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "Despite takes a noun phrase."
       },
       {
         "q": "The first option is cheaper, ___ the second is more reliable.",
         "options": [
-          "whereas",
           "therefore",
           "moreover",
+          "whereas",
           "despite"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "Whereas contrasts clauses."
       },
       {
         "q": "The sample was too small; ___, the findings were treated cautiously.",
         "options": [
-          "therefore",
           "although",
+          "therefore",
           "whereas",
           "despite"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "Therefore shows a result."
       },
       {
@@ -82,34 +82,34 @@ export default [
       {
         "q": "The evidence is limited. ___, it raises an important question.",
         "options": [
-          "Nevertheless",
           "Consequently",
           "Because",
-          "Whereas"
+          "Whereas",
+          "Nevertheless"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "Nevertheless signals contrast."
       },
       {
         "q": "___ being widely supported, the measure remains controversial.",
         "options": [
-          "Despite",
           "Although",
           "However",
+          "Despite",
           "Whereas"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "Despite + -ing."
       },
       {
         "q": "The policy reduced costs; ___, service quality improved.",
         "options": [
-          "furthermore",
           "although",
+          "furthermore",
           "despite",
           "whereas"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "Furthermore adds a point."
       },
       {
@@ -126,34 +126,34 @@ export default [
       {
         "q": "___ the report was detailed, it did not address the main concern.",
         "options": [
-          "Although",
           "Despite",
           "In spite",
-          "Nevertheless"
+          "Nevertheless",
+          "Although"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "Although takes a clause."
       },
       {
         "q": "The costs were higher than expected; ___, the organisers changed the schedule.",
         "options": [
-          "as a result",
           "although",
           "whereas",
+          "as a result",
           "in spite"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "As a result shows consequence."
       },
       {
         "q": "___ the lack of funding, the team completed the research.",
         "options": [
-          "In spite of",
           "Although",
+          "In spite of",
           "Nevertheless",
           "Whereas"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "In spite of + noun phrase."
       },
       {
@@ -170,34 +170,34 @@ export default [
       {
         "q": "The claim was unsupported; ___, it was removed.",
         "options": [
-          "consequently",
           "although",
           "whereas",
-          "despite"
+          "despite",
+          "consequently"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "Consequently gives a result."
       },
       {
         "q": "The solution is not perfect. ___, it is better than doing nothing.",
         "options": [
-          "Even so",
           "Because",
           "Whereas",
+          "Even so",
           "Despite of"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "Even so introduces contrast."
       },
       {
         "q": "The speaker provided clear examples, ___ strengthening the argument.",
         "options": [
-          "thereby",
           "although",
+          "thereby",
           "despite",
           "whereas"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "Thereby + -ing indicates result."
       },
       {
@@ -214,34 +214,34 @@ export default [
       {
         "q": "The evidence is persuasive; ___, it comes from only one source.",
         "options": [
-          "nonetheless",
           "because",
           "therefore",
-          "whereas"
+          "whereas",
+          "nonetheless"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "Nonetheless qualifies the previous point."
       },
       {
         "q": "The proposal should be considered ___ its potential disadvantages.",
         "options": [
-          "alongside",
           "although",
           "therefore",
+          "alongside",
           "whereas"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "Alongside means together with."
       },
       {
         "q": "The more carefully we assess the data, ___ reliable our conclusions will be.",
         "options": [
-          "the more",
           "more",
+          "the more",
           "most",
           "the most"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "Correlative comparative."
       },
       {
@@ -258,34 +258,34 @@ export default [
       {
         "q": "The policy benefits businesses; ___, its effect on households is unclear.",
         "options": [
-          "by contrast",
           "as a result",
           "therefore",
-          "moreover"
+          "moreover",
+          "by contrast"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "By contrast introduces a different view."
       },
       {
         "q": "The argument is structured, ___ some evidence is missing.",
         "options": [
-          "even though",
           "despite",
           "therefore",
+          "even though",
           "whereas of"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "Even though + clause."
       },
       {
         "q": "The proposal was rejected, not ___ it lacked support, but because it was unaffordable.",
         "options": [
-          "because",
           "despite",
+          "because",
           "although of",
           "whereas"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "Because introduces a reason."
       },
       {
@@ -414,34 +414,34 @@ export default [
       {
         "q": "In this context, what does \"claim\" mean?",
         "options": [
-          "a statement that something is true",
           "a particular way of considering an issue",
           "very convincing",
-          "prove an argument wrong"
+          "prove an argument wrong",
+          "a statement that something is true"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "\"claim\" means a statement that something is true."
       },
       {
         "q": "In this context, what does \"evidence\" mean?",
         "options": [
-          "facts or information supporting a claim",
           "a possible effect or meaning",
           "having more than one possible meaning",
+          "facts or information supporting a claim",
           "be more important than something else"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "\"evidence\" means facts or information supporting a claim."
       },
       {
         "q": "In this context, what does \"counterargument\" mean?",
         "options": [
-          "an argument against another argument",
           "a reason supporting a decision",
+          "an argument against another argument",
           "a lack of agreement",
           "after considering all sides"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "\"counterargument\" means an argument against another argument."
       },
       {
@@ -458,34 +458,34 @@ export default [
       {
         "q": "In this context, what does \"bias\" mean?",
         "options": [
-          "an unfair preference for one side",
           "closely connected to the subject",
           "question whether something is correct",
-          "an opinion held by many"
+          "an opinion held by many",
+          "an unfair preference for one side"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "\"bias\" means an unfair preference for one side."
       },
       {
         "q": "In this context, what does \"assumption\" mean?",
         "options": [
-          "something accepted without proof",
           "causing disagreement",
           "accept or recognise a fact",
+          "something accepted without proof",
           "a logical and well-supported argument"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "\"assumption\" means something accepted without proof."
       },
       {
         "q": "In this context, what does \"perspective\" mean?",
         "options": [
-          "a particular way of considering an issue",
           "very convincing",
+          "a particular way of considering an issue",
           "prove an argument wrong",
           "a subject about which people disagree"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "\"perspective\" means a particular way of considering an issue."
       },
       {
@@ -502,34 +502,34 @@ export default [
       {
         "q": "In this context, what does \"justification\" mean?",
         "options": [
-          "a reason supporting a decision",
           "a lack of agreement",
           "after considering all sides",
-          "facts or information supporting a claim"
+          "facts or information supporting a claim",
+          "a reason supporting a decision"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "\"justification\" means a reason supporting a decision."
       },
       {
         "q": "In this context, what does \"validity\" mean?",
         "options": [
-          "the quality of being logically sound",
           "support a claim with evidence",
           "consider something",
+          "the quality of being logically sound",
           "an argument against another argument"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "\"validity\" means the quality of being logically sound."
       },
       {
         "q": "In this context, what does \"relevant\" mean?",
         "options": [
-          "closely connected to the subject",
           "question whether something is correct",
+          "closely connected to the subject",
           "an opinion held by many",
           "an acknowledgement that part of an opposing argument is valid"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "\"relevant\" means closely connected to the subject."
       },
       {
@@ -546,34 +546,34 @@ export default [
       {
         "q": "In this context, what does \"compelling\" mean?",
         "options": [
-          "very convincing",
           "prove an argument wrong",
           "a subject about which people disagree",
-          "something accepted without proof"
+          "something accepted without proof",
+          "very convincing"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "\"compelling\" means very convincing."
       },
       {
         "q": "In this context, what does \"ambiguous\" mean?",
         "options": [
-          "having more than one possible meaning",
           "be more important than something else",
           "a statement that something is true",
+          "having more than one possible meaning",
           "a particular way of considering an issue"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "\"ambiguous\" means having more than one possible meaning."
       },
       {
         "q": "In this context, what does \"inconsistency\" mean?",
         "options": [
-          "a lack of agreement",
           "after considering all sides",
+          "a lack of agreement",
           "facts or information supporting a claim",
           "a possible effect or meaning"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "\"inconsistency\" means a lack of agreement."
       },
       {
@@ -590,34 +590,34 @@ export default [
       {
         "q": "In this context, what does \"challenge\" mean?",
         "options": [
-          "question whether something is correct",
           "an opinion held by many",
           "an acknowledgement that part of an opposing argument is valid",
-          "the quality of being logically sound"
+          "the quality of being logically sound",
+          "question whether something is correct"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "\"challenge\" means question whether something is correct."
       },
       {
         "q": "In this context, what does \"acknowledge\" mean?",
         "options": [
-          "accept or recognise a fact",
           "a logical and well-supported argument",
           "an unfair preference for one side",
+          "accept or recognise a fact",
           "closely connected to the subject"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "\"acknowledge\" means accept or recognise a fact."
       },
       {
         "q": "In this context, what does \"refute\" mean?",
         "options": [
-          "prove an argument wrong",
           "a subject about which people disagree",
+          "prove an argument wrong",
           "something accepted without proof",
           "causing disagreement"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "\"refute\" means prove an argument wrong."
       },
       {
@@ -634,34 +634,34 @@ export default [
       {
         "q": "In this context, what does \"on balance\" mean?",
         "options": [
-          "after considering all sides",
           "facts or information supporting a claim",
           "a possible effect or meaning",
-          "having more than one possible meaning"
+          "having more than one possible meaning",
+          "after considering all sides"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "\"on balance\" means after considering all sides."
       },
       {
         "q": "In this context, what does \"take into account\" mean?",
         "options": [
-          "consider something",
           "an argument against another argument",
           "a reason supporting a decision",
+          "consider something",
           "a lack of agreement"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "\"take into account\" means consider something."
       },
       {
         "q": "In this context, what does \"widespread belief\" mean?",
         "options": [
-          "an opinion held by many",
           "an acknowledgement that part of an opposing argument is valid",
+          "an opinion held by many",
           "the quality of being logically sound",
           "support a claim with evidence"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "\"widespread belief\" means an opinion held by many."
       },
       {
@@ -678,12 +678,12 @@ export default [
       {
         "q": "In this context, what does \"matter of debate\" mean?",
         "options": [
-          "a subject about which people disagree",
           "something accepted without proof",
           "causing disagreement",
-          "accept or recognise a fact"
+          "accept or recognise a fact",
+          "a subject about which people disagree"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "\"matter of debate\" means a subject about which people disagree."
       }
     ]
@@ -703,51 +703,51 @@ export default [
           {
             "q": "What is the central issue explored?",
             "options": [
-              "How decisions or claims should be assessed using evidence",
               "How to promote a product",
+              "How decisions or claims should be assessed using evidence",
               "Why an individual became famous"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "The text examines evidence and consequences."
           },
           {
             "q": "Which limitation is identified?",
             "options": [
-              "The available information or process is incomplete",
               "There are no competing interests",
+              "The available information or process is incomplete",
               "The issue is fully resolved"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "A limitation affects interpretation."
           },
           {
             "q": "What response is described?",
             "options": [
-              "A more transparent or evidence-based approach",
               "A decision without consultation",
+              "A more transparent or evidence-based approach",
               "An attempt to hide the problem"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "The response involves review or further checking."
           },
           {
             "q": "What can be inferred?",
             "options": [
-              "Careful scrutiny can improve decisions without guaranteeing agreement",
               "All disagreement is harmful",
+              "Careful scrutiny can improve decisions without guaranteeing agreement",
               "Evidence removes every uncertainty"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "The outcome is balanced."
           },
           {
             "q": "Which best describes the writer's tone?",
             "options": [
-              "Analytical and balanced",
               "Emotional and dismissive",
+              "Analytical and balanced",
               "Entirely promotional"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "The writer recognises strengths and limitations."
           }
         ]
@@ -759,51 +759,51 @@ export default [
           {
             "q": "What is the central issue explored?",
             "options": [
-              "How decisions or claims should be assessed using evidence",
               "How to promote a product",
+              "How decisions or claims should be assessed using evidence",
               "Why an individual became famous"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "The text examines evidence and consequences."
           },
           {
             "q": "Which limitation is identified?",
             "options": [
-              "The available information or process is incomplete",
               "There are no competing interests",
+              "The available information or process is incomplete",
               "The issue is fully resolved"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "A limitation affects interpretation."
           },
           {
             "q": "What response is described?",
             "options": [
-              "A more transparent or evidence-based approach",
               "A decision without consultation",
+              "A more transparent or evidence-based approach",
               "An attempt to hide the problem"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "The response involves review or further checking."
           },
           {
             "q": "What can be inferred?",
             "options": [
-              "Careful scrutiny can improve decisions without guaranteeing agreement",
               "All disagreement is harmful",
+              "Careful scrutiny can improve decisions without guaranteeing agreement",
               "Evidence removes every uncertainty"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "The outcome is balanced."
           },
           {
             "q": "Which best describes the writer's tone?",
             "options": [
-              "Analytical and balanced",
               "Emotional and dismissive",
+              "Analytical and balanced",
               "Entirely promotional"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "The writer recognises strengths and limitations."
           }
         ]
@@ -815,51 +815,51 @@ export default [
           {
             "q": "What is the central issue explored?",
             "options": [
-              "How decisions or claims should be assessed using evidence",
               "How to promote a product",
+              "How decisions or claims should be assessed using evidence",
               "Why an individual became famous"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "The text examines evidence and consequences."
           },
           {
             "q": "Which limitation is identified?",
             "options": [
-              "The available information or process is incomplete",
               "There are no competing interests",
+              "The available information or process is incomplete",
               "The issue is fully resolved"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "A limitation affects interpretation."
           },
           {
             "q": "What response is described?",
             "options": [
-              "A more transparent or evidence-based approach",
               "A decision without consultation",
+              "A more transparent or evidence-based approach",
               "An attempt to hide the problem"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "The response involves review or further checking."
           },
           {
             "q": "What can be inferred?",
             "options": [
-              "Careful scrutiny can improve decisions without guaranteeing agreement",
               "All disagreement is harmful",
+              "Careful scrutiny can improve decisions without guaranteeing agreement",
               "Evidence removes every uncertainty"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "The outcome is balanced."
           },
           {
             "q": "Which best describes the writer's tone?",
             "options": [
-              "Analytical and balanced",
               "Emotional and dismissive",
+              "Analytical and balanced",
               "Entirely promotional"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "The writer recognises strengths and limitations."
           }
         ]
@@ -881,51 +881,51 @@ export default [
           {
             "q": "What is the central issue explored?",
             "options": [
-              "How decisions or claims should be assessed using evidence",
               "How to promote a product",
+              "How decisions or claims should be assessed using evidence",
               "Why an individual became famous"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "The text examines evidence and consequences."
           },
           {
             "q": "Which limitation is identified?",
             "options": [
-              "The available information or process is incomplete",
               "There are no competing interests",
+              "The available information or process is incomplete",
               "The issue is fully resolved"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "A limitation affects interpretation."
           },
           {
             "q": "What response is described?",
             "options": [
-              "A more transparent or evidence-based approach",
               "A decision without consultation",
+              "A more transparent or evidence-based approach",
               "An attempt to hide the problem"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "The response involves review or further checking."
           },
           {
             "q": "What can be inferred?",
             "options": [
-              "Careful scrutiny can improve decisions without guaranteeing agreement",
               "All disagreement is harmful",
+              "Careful scrutiny can improve decisions without guaranteeing agreement",
               "Evidence removes every uncertainty"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "The outcome is balanced."
           },
           {
             "q": "Which best describes the writer's tone?",
             "options": [
-              "Analytical and balanced",
               "Emotional and dismissive",
+              "Analytical and balanced",
               "Entirely promotional"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "The writer recognises strengths and limitations."
           }
         ]
@@ -937,51 +937,51 @@ export default [
           {
             "q": "What is the central issue explored?",
             "options": [
-              "How decisions or claims should be assessed using evidence",
               "How to promote a product",
+              "How decisions or claims should be assessed using evidence",
               "Why an individual became famous"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "The text examines evidence and consequences."
           },
           {
             "q": "Which limitation is identified?",
             "options": [
-              "The available information or process is incomplete",
               "There are no competing interests",
+              "The available information or process is incomplete",
               "The issue is fully resolved"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "A limitation affects interpretation."
           },
           {
             "q": "What response is described?",
             "options": [
-              "A more transparent or evidence-based approach",
               "A decision without consultation",
+              "A more transparent or evidence-based approach",
               "An attempt to hide the problem"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "The response involves review or further checking."
           },
           {
             "q": "What can be inferred?",
             "options": [
-              "Careful scrutiny can improve decisions without guaranteeing agreement",
               "All disagreement is harmful",
+              "Careful scrutiny can improve decisions without guaranteeing agreement",
               "Evidence removes every uncertainty"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "The outcome is balanced."
           },
           {
             "q": "Which best describes the writer's tone?",
             "options": [
-              "Analytical and balanced",
               "Emotional and dismissive",
+              "Analytical and balanced",
               "Entirely promotional"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "The writer recognises strengths and limitations."
           }
         ]
@@ -993,51 +993,51 @@ export default [
           {
             "q": "What is the central issue explored?",
             "options": [
-              "How decisions or claims should be assessed using evidence",
               "How to promote a product",
+              "How decisions or claims should be assessed using evidence",
               "Why an individual became famous"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "The text examines evidence and consequences."
           },
           {
             "q": "Which limitation is identified?",
             "options": [
-              "The available information or process is incomplete",
               "There are no competing interests",
+              "The available information or process is incomplete",
               "The issue is fully resolved"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "A limitation affects interpretation."
           },
           {
             "q": "What response is described?",
             "options": [
-              "A more transparent or evidence-based approach",
               "A decision without consultation",
+              "A more transparent or evidence-based approach",
               "An attempt to hide the problem"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "The response involves review or further checking."
           },
           {
             "q": "What can be inferred?",
             "options": [
-              "Careful scrutiny can improve decisions without guaranteeing agreement",
               "All disagreement is harmful",
+              "Careful scrutiny can improve decisions without guaranteeing agreement",
               "Evidence removes every uncertainty"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "The outcome is balanced."
           },
           {
             "q": "Which best describes the writer's tone?",
             "options": [
-              "Analytical and balanced",
               "Emotional and dismissive",
+              "Analytical and balanced",
               "Entirely promotional"
             ],
-            "answer": 0,
+            "answer": 1,
             "explanation": "The writer recognises strengths and limitations."
           }
         ]
