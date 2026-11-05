@@ -1,5 +1,5 @@
-// B2 Unit 3 · Society and social change
-// 25 grammar + 25 vocabulary + 3x5 reading + 3x5 listening + 5 writing + 5 speaking = 90 actividades.
+// B2 Unit 3 · Expanded practice
+// Correct-answer positions are distributed to avoid predictable answer patterns.
 export default [
   {
     "id": "b2-3",
@@ -38,34 +38,34 @@ export default [
       {
         "q": "Not until the figures were published ___ the scale of the problem.",
         "options": [
-          "did we understand",
           "we understood",
           "we did understand",
-          "understood we"
+          "understood we",
+          "did we understand"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "Not until requires inversion in the main clause."
       },
       {
         "q": "Only after the meeting ___ the final decision.",
         "options": [
-          "was announced",
           "the final decision announced",
           "announced the final decision",
+          "was announced",
           "did announced"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "Only after triggers inversion."
       },
       {
         "q": "Never ___ a more convincing explanation.",
         "options": [
-          "have I heard",
           "I have heard",
+          "have I heard",
           "I heard",
           "did I have heard"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "Never requires auxiliary before subject."
       },
       {
@@ -82,34 +82,34 @@ export default [
       {
         "q": "Hardly ___ when the alarm sounded.",
         "options": [
-          "had the presentation begun",
           "the presentation had begun",
           "did the presentation begin",
-          "began the presentation"
+          "began the presentation",
+          "had the presentation begun"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "Hardly + past perfect inversion."
       },
       {
         "q": "No sooner ___ than questions were raised.",
         "options": [
-          "had she finished",
           "she had finished",
           "did she finished",
+          "had she finished",
           "she finished"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "No sooner pairs with than."
       },
       {
         "q": "Little ___ that the data had been misinterpreted.",
         "options": [
-          "did they realise",
           "they realised",
+          "did they realise",
           "they did realised",
           "realised they"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "Little triggers inversion."
       },
       {
@@ -126,34 +126,34 @@ export default [
       {
         "q": "Only when the results were compared ___ the pattern.",
         "options": [
-          "did the researchers notice",
           "the researchers noticed",
           "noticed the researchers",
-          "the researchers did noticed"
+          "the researchers did noticed",
+          "did the researchers notice"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "Only when triggers inversion."
       },
       {
         "q": "What the community needs ___ better public transport.",
         "options": [
-          "is",
           "are",
           "be",
+          "is",
           "have"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "What-cleft takes singular verb here."
       },
       {
         "q": "It was the lack of consultation ___ caused criticism.",
         "options": [
-          "that",
           "what",
+          "that",
           "which",
           "who"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "It-cleft uses that."
       },
       {
@@ -170,34 +170,34 @@ export default [
       {
         "q": "Seldom ___ such a rapid change in public opinion.",
         "options": [
-          "do we witness",
           "we witness",
           "we do witness",
-          "witness we"
+          "witness we",
+          "do we witness"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "Seldom triggers inversion."
       },
       {
         "q": "Only by working together ___ achieve lasting change.",
         "options": [
-          "can communities",
           "communities can",
           "communities will can",
+          "can communities",
           "do communities can"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "Only by triggers inversion."
       },
       {
         "q": "So strong ___ that the proposal was accepted.",
         "options": [
-          "was the evidence",
           "the evidence was",
+          "was the evidence",
           "did the evidence",
           "the evidence did"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "So + adjective triggers inversion."
       },
       {
@@ -214,34 +214,34 @@ export default [
       {
         "q": "What matters most ___ whether the solution is fair.",
         "options": [
-          "is",
           "are",
           "be",
-          "have"
+          "have",
+          "is"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "What-cleft takes singular is."
       },
       {
         "q": "At no point ___ responsibility for the error.",
         "options": [
-          "did the company accept",
           "the company accepted",
           "the company did accepted",
+          "did the company accept",
           "accepted the company"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "At no point triggers inversion."
       },
       {
         "q": "Only then ___ the consequences.",
         "options": [
-          "did they recognise",
           "they recognised",
+          "did they recognise",
           "they did recognised",
           "recognised they"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "Only then triggers inversion."
       },
       {
@@ -258,34 +258,34 @@ export default [
       {
         "q": "Never before ___ such a divided response.",
         "options": [
-          "has the issue received",
           "the issue has received",
           "did the issue received",
-          "received the issue"
+          "received the issue",
+          "has the issue received"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "Never before triggers inversion."
       },
       {
         "q": "It is local residents ___ should be consulted first.",
         "options": [
-          "who",
           "which",
           "what",
+          "who",
           "where"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "Cleft for people uses who."
       },
       {
         "q": "Rarely ___ the long-term effects of a policy.",
         "options": [
-          "do decision-makers consider",
           "decision-makers consider",
+          "do decision-makers consider",
           "decision-makers do consider",
           "consider decision-makers"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "Rarely triggers inversion."
       },
       {
@@ -414,34 +414,34 @@ export default [
       {
         "q": "What does \"grassroots\" mean?",
         "options": [
-          "organised by ordinary people",
           "giving people control over decisions",
           "becoming part of a group",
-          "strength of relationships in a community"
+          "strength of relationships in a community",
+          "organised by ordinary people"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "\"grassroots\" means organised by ordinary people."
       },
       {
         "q": "What does \"marginalised\" mean?",
         "options": [
-          "treated as unimportant or excluded",
           "taking part in an activity",
           "basic systems and services",
+          "treated as unimportant or excluded",
           "progress meeting present needs without harming future generations"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "\"marginalised\" means treated as unimportant or excluded."
       },
       {
         "q": "What does \"disparity\" mean?",
         "options": [
-          "a significant, often unfair difference",
           "general agreement",
+          "a significant, often unfair difference",
           "an unfair difference in opportunity",
           "organise activities to achieve change"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "\"disparity\" means a significant, often unfair difference."
       },
       {
@@ -458,34 +458,34 @@ export default [
       {
         "q": "What does \"advocacy\" mean?",
         "options": [
-          "public support for a cause",
           "relating to population structure",
           "ability to change social or economic position",
-          "treat a group as less important"
+          "treat a group as less important",
+          "public support for a cause"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "\"advocacy\" means public support for a cause."
       },
       {
         "q": "What does \"accountability\" mean?",
         "options": [
-          "the obligation to explain decisions",
           "being forced to leave a home",
           "ability to recover from difficulty",
+          "the obligation to explain decisions",
           "put a plan into effect"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "\"accountability\" means the obligation to explain decisions."
       },
       {
         "q": "What does \"empowerment\" mean?",
         "options": [
-          "giving people control over decisions",
           "becoming part of a group",
+          "giving people control over decisions",
           "strength of relationships in a community",
           "take action to deal with a problem"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "\"empowerment\" means giving people control over decisions."
       },
       {
@@ -502,34 +502,34 @@ export default [
       {
         "q": "What does \"consensus\" mean?",
         "options": [
-          "general agreement",
           "an unfair difference in opportunity",
           "organise activities to achieve change",
-          "treated as unimportant or excluded"
+          "treated as unimportant or excluded",
+          "general agreement"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "\"consensus\" means general agreement."
       },
       {
         "q": "What does \"polarisation\" mean?",
         "options": [
-          "division into opposing groups",
           "laws considered collectively",
           "publicly support a cause",
+          "division into opposing groups",
           "a significant, often unfair difference"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "\"polarisation\" means division into opposing groups."
       },
       {
         "q": "What does \"demographic\" mean?",
         "options": [
-          "relating to population structure",
           "ability to change social or economic position",
+          "relating to population structure",
           "treat a group as less important",
           "the way people or groups are included"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "\"demographic\" means relating to population structure."
       },
       {
@@ -546,34 +546,34 @@ export default [
       {
         "q": "What does \"integration\" mean?",
         "options": [
-          "becoming part of a group",
           "strength of relationships in a community",
           "take action to deal with a problem",
-          "the obligation to explain decisions"
+          "the obligation to explain decisions",
+          "becoming part of a group"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "\"integration\" means becoming part of a group."
       },
       {
         "q": "What does \"infrastructure\" mean?",
         "options": [
-          "basic systems and services",
           "progress meeting present needs without harming future generations",
           "organised by ordinary people",
+          "basic systems and services",
           "giving people control over decisions"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "\"infrastructure\" means basic systems and services."
       },
       {
         "q": "What does \"inequality\" mean?",
         "options": [
-          "an unfair difference in opportunity",
           "organise activities to achieve change",
+          "an unfair difference in opportunity",
           "treated as unimportant or excluded",
           "taking part in an activity"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "\"inequality\" means an unfair difference in opportunity."
       },
       {
@@ -590,34 +590,34 @@ export default [
       {
         "q": "What does \"mobility\" mean?",
         "options": [
-          "ability to change social or economic position",
           "treat a group as less important",
           "the way people or groups are included",
-          "division into opposing groups"
+          "division into opposing groups",
+          "ability to change social or economic position"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "\"mobility\" means ability to change social or economic position."
       },
       {
         "q": "What does \"resilience\" mean?",
         "options": [
-          "ability to recover from difficulty",
           "put a plan into effect",
           "public support for a cause",
+          "ability to recover from difficulty",
           "relating to population structure"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "\"resilience\" means ability to recover from difficulty."
       },
       {
         "q": "What does \"social cohesion\" mean?",
         "options": [
-          "strength of relationships in a community",
           "take action to deal with a problem",
+          "strength of relationships in a community",
           "the obligation to explain decisions",
           "being forced to leave a home"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "\"social cohesion\" means strength of relationships in a community."
       },
       {
@@ -634,34 +634,34 @@ export default [
       {
         "q": "What does \"campaign\" mean?",
         "options": [
-          "organise activities to achieve change",
           "treated as unimportant or excluded",
           "taking part in an activity",
-          "basic systems and services"
+          "basic systems and services",
+          "organise activities to achieve change"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "\"campaign\" means organise activities to achieve change."
       },
       {
         "q": "What does \"advocate\" mean?",
         "options": [
-          "publicly support a cause",
           "a significant, often unfair difference",
           "general agreement",
+          "publicly support a cause",
           "an unfair difference in opportunity"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "\"advocate\" means publicly support a cause."
       },
       {
         "q": "What does \"marginalise\" mean?",
         "options": [
-          "treat a group as less important",
           "the way people or groups are included",
+          "treat a group as less important",
           "division into opposing groups",
           "laws considered collectively"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "\"marginalise\" means treat a group as less important."
       },
       {
@@ -678,12 +678,12 @@ export default [
       {
         "q": "What does \"address an issue\" mean?",
         "options": [
-          "take action to deal with a problem",
           "the obligation to explain decisions",
           "being forced to leave a home",
-          "ability to recover from difficulty"
+          "ability to recover from difficulty",
+          "take action to deal with a problem"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "\"address an issue\" means take action to deal with a problem."
       }
     ]
