@@ -1,5 +1,5 @@
-// B1 Unit 8 · Relationships and people
-// 25 grammar + 25 vocabulary + 3x5 reading + 3x5 listening + 5 writing + 5 speaking = 90 actividades.
+// B1 Unit 8 · Expanded practice
+// Correct-answer positions are distributed to avoid predictable answer patterns.
 export default [
   {
     "id": "b1-u08-grammar",
@@ -38,34 +38,34 @@ export default [
       {
         "q": "They agreed ___ the issue calmly.",
         "options": [
-          "to discuss",
           "discussing",
           "discuss",
-          "discussed"
+          "discussed",
+          "to discuss"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "Agree takes a to-infinitive."
       },
       {
         "q": "He avoided ___ about the argument.",
         "options": [
-          "speaking",
           "to speak",
           "speak",
+          "speaking",
           "spoke"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "Avoid takes a gerund."
       },
       {
         "q": "I hope ___ my cousin this weekend.",
         "options": [
-          "to visit",
           "visiting",
+          "to visit",
           "visit",
           "visited"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "Hope takes a to-infinitive."
       },
       {
@@ -82,34 +82,34 @@ export default [
       {
         "q": "We managed ___ friends after the disagreement.",
         "options": [
-          "to remain",
           "remaining",
           "remain",
-          "remained"
+          "remained",
+          "to remain"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "Manage takes a to-infinitive."
       },
       {
         "q": "She is interested in ___ new people.",
         "options": [
-          "meeting",
           "to meet",
           "meet",
+          "meeting",
           "met"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "A preposition is followed by a gerund."
       },
       {
         "q": "He promised ___ the truth.",
         "options": [
-          "to tell",
           "telling",
+          "to tell",
           "tell",
           "told"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "Promise takes a to-infinitive."
       },
       {
@@ -126,34 +126,34 @@ export default [
       {
         "q": "Remember ___ your friend about the change.",
         "options": [
-          "to tell",
           "telling",
           "tell",
-          "told"
+          "told",
+          "to tell"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "Remember to do means do not forget."
       },
       {
         "q": "He stopped ___ because he was getting angry.",
         "options": [
-          "shouting",
           "to shout",
           "shout",
+          "shouting",
           "shouted"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "Stop doing means end an activity."
       },
       {
         "q": "We stopped ___ a message on our way home.",
         "options": [
-          "to send",
           "sending",
+          "to send",
           "send",
           "sent"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "Stop to do means pause another activity."
       },
       {
@@ -170,34 +170,34 @@ export default [
       {
         "q": "They decided ___ after the meeting.",
         "options": [
-          "to apologise",
           "apologising",
           "apologise",
-          "apologised"
+          "apologised",
+          "to apologise"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "Decide takes a to-infinitive."
       },
       {
         "q": "He admitted ___ the invitation.",
         "options": [
-          "forgetting",
           "to forget",
           "forget",
+          "forgetting",
           "forgot"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "Admit takes a gerund."
       },
       {
         "q": "I can't afford ___ everyone to dinner.",
         "options": [
-          "to invite",
           "inviting",
+          "to invite",
           "invite",
           "invited"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "Afford takes a to-infinitive."
       },
       {
@@ -214,34 +214,34 @@ export default [
       {
         "q": "They offered ___ us move house.",
         "options": [
-          "to help",
           "helping",
           "help",
-          "helped"
+          "helped",
+          "to help"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "Offer takes a to-infinitive."
       },
       {
         "q": "I can't help ___ when he tells that story.",
         "options": [
-          "laughing",
           "to laugh",
           "laugh",
+          "laughing",
           "laughed"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "Can't help takes a gerund."
       },
       {
         "q": "We expect ___ the problem soon.",
         "options": [
-          "to solve",
           "solving",
+          "to solve",
           "solve",
           "solved"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "Expect takes a to-infinitive."
       },
       {
@@ -258,34 +258,34 @@ export default [
       {
         "q": "She considered ___ a message to explain.",
         "options": [
-          "writing",
           "to write",
           "write",
-          "wrote"
+          "wrote",
+          "writing"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "Consider takes a gerund."
       },
       {
         "q": "They seem ___ more confident now.",
         "options": [
-          "to be",
           "being",
           "be",
+          "to be",
           "been"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "Seem takes a to-infinitive."
       },
       {
         "q": "I look forward to ___ you again.",
         "options": [
-          "seeing",
           "see",
+          "seeing",
           "to see",
           "saw"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "In look forward to, to is a preposition."
       },
       {
@@ -414,34 +414,34 @@ export default [
       {
         "q": "What does \"get on with\" mean?",
         "options": [
-          "have a friendly relationship with",
           "become familiar with someone",
           "thinking mainly about yourself",
-          "say you are sorry for something"
+          "say you are sorry for something",
+          "have a friendly relationship with"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "\"get on with\" means have a friendly relationship with."
       },
       {
         "q": "What does \"fall out with\" mean?",
         "options": [
-          "have an argument and stop being friendly",
           "continue communicating",
           "willing to consider different ideas",
+          "have an argument and stop being friendly",
           "recognise the value of someone or something"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "\"fall out with\" means have an argument and stop being friendly."
       },
       {
         "q": "What does \"make up\" mean?",
         "options": [
-          "become friends again after an argument",
           "stop communicating regularly",
+          "become friends again after an argument",
           "unwilling to change your opinion",
           "tell someone private information because you trust them"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "\"make up\" means become friends again after an argument."
       },
       {
@@ -458,34 +458,34 @@ export default [
       {
         "q": "What does \"rely on\" mean?",
         "options": [
-          "trust or depend on someone",
           "able to be trusted",
           "a failure to understand someone correctly",
-          "a close connection between people"
+          "a close connection between people",
+          "trust or depend on someone"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "\"rely on\" means trust or depend on someone."
       },
       {
         "q": "What does \"get to know\" mean?",
         "options": [
-          "become familiar with someone",
           "thinking about other people's feelings",
           "an agreement where each side accepts less",
+          "become familiar with someone",
           "influence from people in a similar age group"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "\"get to know\" means become familiar with someone."
       },
       {
         "q": "What does \"keep in touch\" mean?",
         "options": [
-          "continue communicating",
           "thinking mainly about yourself",
+          "continue communicating",
           "say you are sorry for something",
           "a limit that protects someone's needs or comfort"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "\"keep in touch\" means continue communicating."
       },
       {
@@ -502,34 +502,34 @@ export default [
       {
         "q": "What does \"supportive\" mean?",
         "options": [
-          "giving help and encouragement",
           "unwilling to change your opinion",
           "tell someone private information because you trust them",
-          "have a friendly relationship with"
+          "have a friendly relationship with",
+          "giving help and encouragement"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "\"supportive\" means giving help and encouragement."
       },
       {
         "q": "What does \"trustworthy\" mean?",
         "options": [
-          "able to be trusted",
           "able to understand another person's feelings",
           "share interests or characteristics",
+          "able to be trusted",
           "have an argument and stop being friendly"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "\"trustworthy\" means able to be trusted."
       },
       {
         "q": "What does \"considerate\" mean?",
         "options": [
-          "thinking about other people's feelings",
           "a failure to understand someone correctly",
+          "thinking about other people's feelings",
           "a close connection between people",
           "become friends again after an argument"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "\"considerate\" means thinking about other people's feelings."
       },
       {
@@ -546,34 +546,34 @@ export default [
       {
         "q": "What does \"open-minded\" mean?",
         "options": [
-          "willing to consider different ideas",
           "say you are sorry for something",
           "a limit that protects someone's needs or comfort",
-          "trust or depend on someone"
+          "trust or depend on someone",
+          "willing to consider different ideas"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "\"open-minded\" means willing to consider different ideas."
       },
       {
         "q": "What does \"stubborn\" mean?",
         "options": [
-          "unwilling to change your opinion",
           "recognise the value of someone or something",
           "find a solution to a disagreement",
+          "unwilling to change your opinion",
           "become familiar with someone"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "\"stubborn\" means unwilling to change your opinion."
       },
       {
         "q": "What does \"empathetic\" mean?",
         "options": [
-          "able to understand another person's feelings",
           "tell someone private information because you trust them",
+          "able to understand another person's feelings",
           "have a friendly relationship with",
           "continue communicating"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "\"empathetic\" means able to understand another person's feelings."
       },
       {
@@ -590,34 +590,34 @@ export default [
       {
         "q": "What does \"compromise\" mean?",
         "options": [
-          "an agreement where each side accepts less",
           "a close connection between people",
           "become friends again after an argument",
-          "giving help and encouragement"
+          "giving help and encouragement",
+          "an agreement where each side accepts less"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "\"compromise\" means an agreement where each side accepts less."
       },
       {
         "q": "What does \"apologise\" mean?",
         "options": [
-          "say you are sorry for something",
           "influence from people in a similar age group",
           "admire and respect someone",
+          "say you are sorry for something",
           "able to be trusted"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "\"apologise\" means say you are sorry for something."
       },
       {
         "q": "What does \"appreciate\" mean?",
         "options": [
-          "recognise the value of someone or something",
           "a limit that protects someone's needs or comfort",
+          "recognise the value of someone or something",
           "trust or depend on someone",
           "thinking about other people's feelings"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "\"appreciate\" means recognise the value of someone or something."
       },
       {
@@ -634,34 +634,34 @@ export default [
       {
         "q": "What does \"have in common\" mean?",
         "options": [
-          "share interests or characteristics",
           "have a friendly relationship with",
           "continue communicating",
-          "willing to consider different ideas"
+          "willing to consider different ideas",
+          "share interests or characteristics"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "\"have in common\" means share interests or characteristics."
       },
       {
         "q": "What does \"bond\" mean?",
         "options": [
-          "a close connection between people",
           "have an argument and stop being friendly",
           "stop communicating regularly",
+          "a close connection between people",
           "unwilling to change your opinion"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "\"bond\" means a close connection between people."
       },
       {
         "q": "What does \"peer pressure\" mean?",
         "options": [
-          "influence from people in a similar age group",
           "become friends again after an argument",
+          "influence from people in a similar age group",
           "giving help and encouragement",
           "able to understand another person's feelings"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "\"peer pressure\" means influence from people in a similar age group."
       },
       {
@@ -678,12 +678,12 @@ export default [
       {
         "q": "What does \"resolve a conflict\" mean?",
         "options": [
-          "find a solution to a disagreement",
           "trust or depend on someone",
           "thinking about other people's feelings",
-          "an agreement where each side accepts less"
+          "an agreement where each side accepts less",
+          "find a solution to a disagreement"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "\"resolve a conflict\" means find a solution to a disagreement."
       }
     ]
@@ -703,51 +703,51 @@ export default [
           {
             "q": "What is the main idea of the text about relationships?",
             "options": [
-              "Respectful communication helps people understand one another",
               "Arguments should always be ignored",
-              "People should avoid different opinions"
+              "People should avoid different opinions",
+              "Respectful communication helps people understand one another"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The text emphasises communication and understanding."
           },
           {
             "q": "What difficulty is described?",
             "options": [
-              "Different expectations or assumptions",
               "A lack of available technology",
-              "An unexpected journey"
+              "An unexpected journey",
+              "Different expectations or assumptions"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The situation includes a misunderstanding or differing expectations."
           },
           {
             "q": "What action helped the people involved?",
             "options": [
-              "They explained their feelings and listened",
               "They stopped speaking permanently",
-              "They asked someone else to decide"
+              "They asked someone else to decide",
+              "They explained their feelings and listened"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "Open discussion helped them move forward."
           },
           {
             "q": "What can be inferred from the outcome?",
             "options": [
-              "Trust can grow when disagreements are handled well",
               "Good relationships never involve disagreement",
-              "One person must always be right"
+              "One person must always be right",
+              "Trust can grow when disagreements are handled well"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The outcome shows that conflict can be managed constructively."
           },
           {
             "q": "Which title best summarises the text?",
             "options": [
-              "Building stronger relationships",
               "Avoiding every difficult conversation",
-              "The importance of winning arguments"
+              "The importance of winning arguments",
+              "Building stronger relationships"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The text is about developing and maintaining relationships."
           }
         ]
@@ -759,51 +759,51 @@ export default [
           {
             "q": "What is the main idea of the text about relationships?",
             "options": [
-              "Respectful communication helps people understand one another",
               "Arguments should always be ignored",
-              "People should avoid different opinions"
+              "People should avoid different opinions",
+              "Respectful communication helps people understand one another"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The text emphasises communication and understanding."
           },
           {
             "q": "What difficulty is described?",
             "options": [
-              "Different expectations or assumptions",
               "A lack of available technology",
-              "An unexpected journey"
+              "An unexpected journey",
+              "Different expectations or assumptions"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The situation includes a misunderstanding or differing expectations."
           },
           {
             "q": "What action helped the people involved?",
             "options": [
-              "They explained their feelings and listened",
               "They stopped speaking permanently",
-              "They asked someone else to decide"
+              "They asked someone else to decide",
+              "They explained their feelings and listened"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "Open discussion helped them move forward."
           },
           {
             "q": "What can be inferred from the outcome?",
             "options": [
-              "Trust can grow when disagreements are handled well",
               "Good relationships never involve disagreement",
-              "One person must always be right"
+              "One person must always be right",
+              "Trust can grow when disagreements are handled well"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The outcome shows that conflict can be managed constructively."
           },
           {
             "q": "Which title best summarises the text?",
             "options": [
-              "Building stronger relationships",
               "Avoiding every difficult conversation",
-              "The importance of winning arguments"
+              "The importance of winning arguments",
+              "Building stronger relationships"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The text is about developing and maintaining relationships."
           }
         ]
@@ -815,51 +815,51 @@ export default [
           {
             "q": "What is the main idea of the text about relationships?",
             "options": [
-              "Respectful communication helps people understand one another",
               "Arguments should always be ignored",
-              "People should avoid different opinions"
+              "People should avoid different opinions",
+              "Respectful communication helps people understand one another"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The text emphasises communication and understanding."
           },
           {
             "q": "What difficulty is described?",
             "options": [
-              "Different expectations or assumptions",
               "A lack of available technology",
-              "An unexpected journey"
+              "An unexpected journey",
+              "Different expectations or assumptions"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The situation includes a misunderstanding or differing expectations."
           },
           {
             "q": "What action helped the people involved?",
             "options": [
-              "They explained their feelings and listened",
               "They stopped speaking permanently",
-              "They asked someone else to decide"
+              "They asked someone else to decide",
+              "They explained their feelings and listened"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "Open discussion helped them move forward."
           },
           {
             "q": "What can be inferred from the outcome?",
             "options": [
-              "Trust can grow when disagreements are handled well",
               "Good relationships never involve disagreement",
-              "One person must always be right"
+              "One person must always be right",
+              "Trust can grow when disagreements are handled well"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The outcome shows that conflict can be managed constructively."
           },
           {
             "q": "Which title best summarises the text?",
             "options": [
-              "Building stronger relationships",
               "Avoiding every difficult conversation",
-              "The importance of winning arguments"
+              "The importance of winning arguments",
+              "Building stronger relationships"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The text is about developing and maintaining relationships."
           }
         ]
@@ -881,51 +881,51 @@ export default [
           {
             "q": "What is the main idea of the text about the conversation?",
             "options": [
-              "Respectful communication helps people understand one another",
               "Arguments should always be ignored",
-              "People should avoid different opinions"
+              "People should avoid different opinions",
+              "Respectful communication helps people understand one another"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The text emphasises communication and understanding."
           },
           {
             "q": "What difficulty is described?",
             "options": [
-              "Different expectations or assumptions",
               "A lack of available technology",
-              "An unexpected journey"
+              "An unexpected journey",
+              "Different expectations or assumptions"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The situation includes a misunderstanding or differing expectations."
           },
           {
             "q": "What action helped the people involved?",
             "options": [
-              "They explained their feelings and listened",
               "They stopped speaking permanently",
-              "They asked someone else to decide"
+              "They asked someone else to decide",
+              "They explained their feelings and listened"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "Open discussion helped them move forward."
           },
           {
             "q": "What can be inferred from the outcome?",
             "options": [
-              "Trust can grow when disagreements are handled well",
               "Good relationships never involve disagreement",
-              "One person must always be right"
+              "One person must always be right",
+              "Trust can grow when disagreements are handled well"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The outcome shows that conflict can be managed constructively."
           },
           {
             "q": "Which title best summarises the text?",
             "options": [
-              "Building stronger relationships",
               "Avoiding every difficult conversation",
-              "The importance of winning arguments"
+              "The importance of winning arguments",
+              "Building stronger relationships"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The text is about developing and maintaining relationships."
           }
         ]
@@ -937,51 +937,51 @@ export default [
           {
             "q": "What is the main idea of the text about the conversation?",
             "options": [
-              "Respectful communication helps people understand one another",
               "Arguments should always be ignored",
-              "People should avoid different opinions"
+              "People should avoid different opinions",
+              "Respectful communication helps people understand one another"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The text emphasises communication and understanding."
           },
           {
             "q": "What difficulty is described?",
             "options": [
-              "Different expectations or assumptions",
               "A lack of available technology",
-              "An unexpected journey"
+              "An unexpected journey",
+              "Different expectations or assumptions"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The situation includes a misunderstanding or differing expectations."
           },
           {
             "q": "What action helped the people involved?",
             "options": [
-              "They explained their feelings and listened",
               "They stopped speaking permanently",
-              "They asked someone else to decide"
+              "They asked someone else to decide",
+              "They explained their feelings and listened"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "Open discussion helped them move forward."
           },
           {
             "q": "What can be inferred from the outcome?",
             "options": [
-              "Trust can grow when disagreements are handled well",
               "Good relationships never involve disagreement",
-              "One person must always be right"
+              "One person must always be right",
+              "Trust can grow when disagreements are handled well"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The outcome shows that conflict can be managed constructively."
           },
           {
             "q": "Which title best summarises the text?",
             "options": [
-              "Building stronger relationships",
               "Avoiding every difficult conversation",
-              "The importance of winning arguments"
+              "The importance of winning arguments",
+              "Building stronger relationships"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The text is about developing and maintaining relationships."
           }
         ]
@@ -993,51 +993,51 @@ export default [
           {
             "q": "What is the main idea of the text about the conversation?",
             "options": [
-              "Respectful communication helps people understand one another",
               "Arguments should always be ignored",
-              "People should avoid different opinions"
+              "People should avoid different opinions",
+              "Respectful communication helps people understand one another"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The text emphasises communication and understanding."
           },
           {
             "q": "What difficulty is described?",
             "options": [
-              "Different expectations or assumptions",
               "A lack of available technology",
-              "An unexpected journey"
+              "An unexpected journey",
+              "Different expectations or assumptions"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The situation includes a misunderstanding or differing expectations."
           },
           {
             "q": "What action helped the people involved?",
             "options": [
-              "They explained their feelings and listened",
               "They stopped speaking permanently",
-              "They asked someone else to decide"
+              "They asked someone else to decide",
+              "They explained their feelings and listened"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "Open discussion helped them move forward."
           },
           {
             "q": "What can be inferred from the outcome?",
             "options": [
-              "Trust can grow when disagreements are handled well",
               "Good relationships never involve disagreement",
-              "One person must always be right"
+              "One person must always be right",
+              "Trust can grow when disagreements are handled well"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The outcome shows that conflict can be managed constructively."
           },
           {
             "q": "Which title best summarises the text?",
             "options": [
-              "Building stronger relationships",
               "Avoiding every difficult conversation",
-              "The importance of winning arguments"
+              "The importance of winning arguments",
+              "Building stronger relationships"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The text is about developing and maintaining relationships."
           }
         ]
