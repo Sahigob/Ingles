@@ -1,5 +1,5 @@
-// B1 Unit 11 · Society and daily life
-// 25 grammar + 25 vocabulary + 3x5 reading + 3x5 listening + 5 writing + 5 speaking = 90 actividades.
+// B1 Unit 11 · Expanded practice
+// Correct-answer positions are distributed to avoid predictable answer patterns.
 export default [
   {
     "id": "b1-u11-grammar",
@@ -39,34 +39,34 @@ export default [
       {
         "q": "You ___ pay to enter; the exhibition is free.",
         "options": [
-          "don't have to",
           "mustn't",
           "can't",
-          "shouldn't have"
+          "shouldn't have",
+          "don't have to"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "Don't have to means it is not necessary."
       },
       {
         "q": "Visitors ___ feed the animals. It is prohibited.",
         "options": [
-          "mustn't",
           "don't have to",
           "might",
+          "mustn't",
           "could"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "Mustn't expresses prohibition."
       },
       {
         "q": "You ___ ask the local council for advice.",
         "options": [
-          "should",
           "mustn't",
+          "should",
           "can't",
           "wouldn't"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "Should gives advice."
       },
       {
@@ -83,34 +83,34 @@ export default [
       {
         "q": "She isn't answering. She ___ be in a meeting.",
         "options": [
-          "might",
           "mustn't",
           "can't to",
-          "has"
+          "has",
+          "might"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "Might expresses possibility."
       },
       {
         "q": "That ___ be the right bus; the number is different.",
         "options": [
-          "can't",
           "must",
           "should",
+          "can't",
           "has to"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "Can't expresses a strong negative deduction."
       },
       {
         "q": "Residents ___ park here after six; the restriction ends then.",
         "options": [
-          "are allowed to",
           "mustn't",
+          "are allowed to",
           "don't have",
           "should"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "Be allowed to expresses permission."
       },
       {
@@ -127,34 +127,34 @@ export default [
       {
         "q": "You ___ bring your own chair; there are plenty here.",
         "options": [
-          "don't have to",
           "mustn't",
           "can't",
-          "shouldn't"
+          "shouldn't",
+          "don't have to"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "No necessity, not prohibition."
       },
       {
         "q": "He ___ have forgotten the meeting; he usually arrives early.",
         "options": [
-          "may",
           "mustn't",
           "can't to",
+          "may",
           "shouldn't"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "May have + past participle expresses a possibility about the past."
       },
       {
         "q": "They ___ have missed the train because they arrived before it left.",
         "options": [
-          "can't",
           "must",
+          "can't",
           "should",
           "might"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "Can't have expresses an impossible or very unlikely past deduction."
       },
       {
@@ -171,34 +171,34 @@ export default [
       {
         "q": "You ___ speak to people respectfully in a public meeting.",
         "options": [
-          "should",
           "mustn't",
           "mightn't",
-          "can't"
+          "can't",
+          "should"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "Should expresses expected good behaviour."
       },
       {
         "q": "Employees ___ wear an identification badge inside the building.",
         "options": [
-          "have to",
           "might",
           "couldn't",
+          "have to",
           "would"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "Have to expresses an external rule."
       },
       {
         "q": "You ___ use your phone during the performance.",
         "options": [
-          "mustn't",
           "don't have to",
+          "mustn't",
           "might",
           "should"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "Mustn't means it is forbidden."
       },
       {
@@ -215,34 +215,34 @@ export default [
       {
         "q": "The new neighbour ___ be a doctor; I saw a medical uniform.",
         "options": [
-          "could",
           "mustn't",
           "can't to",
-          "has"
+          "has",
+          "could"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "Could expresses a possible deduction."
       },
       {
         "q": "You ___ take part in the survey if you prefer not to.",
         "options": [
-          "don't have to",
           "must",
           "mustn't",
+          "don't have to",
           "have to"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "Participation is optional."
       },
       {
         "q": "The council ___ provide safe access to public buildings.",
         "options": [
-          "should",
           "mightn't",
+          "should",
           "can't",
           "wouldn't"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "Should expresses a recommendation or responsibility."
       },
       {
@@ -259,34 +259,34 @@ export default [
       {
         "q": "You ___ apply for a resident parking permit online.",
         "options": [
-          "can",
           "mustn't",
           "shouldn't have",
-          "has"
+          "has",
+          "can"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "Can expresses possibility or permission."
       },
       {
         "q": "That ___ be our bus: the destination display matches.",
         "options": [
-          "must",
           "can't",
           "might not",
+          "must",
           "shouldn't"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "Must expresses a strong deduction."
       },
       {
         "q": "People ___ queue here; the signs show the entrance is elsewhere.",
         "options": [
-          "mustn't",
           "don't have to",
+          "mustn't",
           "may",
           "should"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "Mustn't expresses a prohibition."
       },
       {
@@ -415,34 +415,34 @@ export default [
       {
         "q": "What does \"volunteer\" mean?",
         "options": [
-          "a person who offers to help without being paid",
           "the amount of money needed for everyday expenses",
           "easy to reach or use, including for disabled people",
-          "help and support for people's health and basic needs"
+          "help and support for people's health and basic needs",
+          "a person who offers to help without being paid"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "\"volunteer\" means a person who offers to help without being paid."
       },
       {
         "q": "What does \"charity\" mean?",
         "options": [
-          "an organisation that helps people or causes",
           "shared passenger services such as buses and trains",
           "a person who lives in a particular place",
+          "an organisation that helps people or causes",
           "work scheduled at different times of the day"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "\"charity\" means an organisation that helps people or causes."
       },
       {
         "q": "What does \"community\" mean?",
         "options": [
-          "people living in the same area or sharing interests",
           "travel regularly between home and work",
+          "people living in the same area or sharing interests",
           "the rights and responsibilities of belonging to a country",
           "the busiest time for traffic and public transport"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "\"community\" means people living in the same area or sharing interests."
       },
       {
@@ -459,34 +459,34 @@ export default [
       {
         "q": "What does \"public service\" mean?",
         "options": [
-          "a service provided for the community",
           "an unfair difference in opportunities or treatment",
           "money or goods given to help a person or cause",
-          "an official rule"
+          "an official rule",
+          "a service provided for the community"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "\"public service\" means a service provided for the community."
       },
       {
         "q": "What does \"local authority\" mean?",
         "options": [
-          "an organisation responsible for local government",
           "making sure everyone can participate",
           "the situation of having no permanent home",
+          "an organisation responsible for local government",
           "participate in an activity"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "\"local authority\" means an organisation responsible for local government."
       },
       {
         "q": "What does \"housing\" mean?",
         "options": [
-          "buildings or places where people live",
           "easy to reach or use, including for disabled people",
+          "buildings or places where people live",
           "help and support for people's health and basic needs",
           "a person who offers to help without being paid"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "\"housing\" means buildings or places where people live."
       },
       {
@@ -503,34 +503,34 @@ export default [
       {
         "q": "What does \"public transport\" mean?",
         "options": [
-          "shared passenger services such as buses and trains",
           "the rights and responsibilities of belonging to a country",
           "the busiest time for traffic and public transport",
-          "people living in the same area or sharing interests"
+          "people living in the same area or sharing interests",
+          "shared passenger services such as buses and trains"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "\"public transport\" means shared passenger services such as buses and trains."
       },
       {
         "q": "What does \"commute\" mean?",
         "options": [
-          "travel regularly between home and work",
           "organised activities to achieve a change",
           "all the people living in one home",
+          "travel regularly between home and work",
           "the area around where someone lives"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "\"commute\" means travel regularly between home and work."
       },
       {
         "q": "What does \"facilities\" mean?",
         "options": [
-          "services or equipment available for public use",
           "money or goods given to help a person or cause",
+          "services or equipment available for public use",
           "an official rule",
           "a service provided for the community"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "\"facilities\" means services or equipment available for public use."
       },
       {
@@ -547,34 +547,34 @@ export default [
       {
         "q": "What does \"inclusion\" mean?",
         "options": [
-          "making sure everyone can participate",
           "help and support for people's health and basic needs",
           "a person who offers to help without being paid",
-          "buildings or places where people live"
+          "buildings or places where people live",
+          "making sure everyone can participate"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "\"inclusion\" means making sure everyone can participate."
       },
       {
         "q": "What does \"accessible\" mean?",
         "options": [
-          "easy to reach or use, including for disabled people",
           "work scheduled at different times of the day",
           "an organisation that helps people or causes",
+          "easy to reach or use, including for disabled people",
           "the amount of money needed for everyday expenses"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "\"accessible\" means easy to reach or use, including for disabled people."
       },
       {
         "q": "What does \"resident\" mean?",
         "options": [
-          "a person who lives in a particular place",
           "the busiest time for traffic and public transport",
+          "a person who lives in a particular place",
           "people living in the same area or sharing interests",
           "shared passenger services such as buses and trains"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "\"resident\" means a person who lives in a particular place."
       },
       {
@@ -591,34 +591,34 @@ export default [
       {
         "q": "What does \"campaign\" mean?",
         "options": [
-          "organised activities to achieve a change",
           "an official rule",
           "a service provided for the community",
-          "services or equipment available for public use"
+          "services or equipment available for public use",
+          "organised activities to achieve a change"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "\"campaign\" means organised activities to achieve a change."
       },
       {
         "q": "What does \"donation\" mean?",
         "options": [
-          "money or goods given to help a person or cause",
           "participate in an activity",
           "an organisation responsible for local government",
+          "money or goods given to help a person or cause",
           "an unfair difference in opportunities or treatment"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "\"donation\" means money or goods given to help a person or cause."
       },
       {
         "q": "What does \"homelessness\" mean?",
         "options": [
-          "the situation of having no permanent home",
           "a person who offers to help without being paid",
+          "the situation of having no permanent home",
           "buildings or places where people live",
           "making sure everyone can participate"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "\"homelessness\" means the situation of having no permanent home."
       },
       {
@@ -635,34 +635,34 @@ export default [
       {
         "q": "What does \"shift work\" mean?",
         "options": [
-          "work scheduled at different times of the day",
           "people living in the same area or sharing interests",
           "shared passenger services such as buses and trains",
-          "a person who lives in a particular place"
+          "a person who lives in a particular place",
+          "work scheduled at different times of the day"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "\"shift work\" means work scheduled at different times of the day."
       },
       {
         "q": "What does \"rush hour\" mean?",
         "options": [
-          "the busiest time for traffic and public transport",
           "the area around where someone lives",
           "travel regularly between home and work",
+          "the busiest time for traffic and public transport",
           "the rights and responsibilities of belonging to a country"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "\"rush hour\" means the busiest time for traffic and public transport."
       },
       {
         "q": "What does \"household\" mean?",
         "options": [
-          "all the people living in one home",
           "a service provided for the community",
+          "all the people living in one home",
           "services or equipment available for public use",
           "organised activities to achieve a change"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "\"household\" means all the people living in one home."
       },
       {
@@ -679,12 +679,12 @@ export default [
       {
         "q": "What does \"take part\" mean?",
         "options": [
-          "participate in an activity",
           "buildings or places where people live",
           "making sure everyone can participate",
-          "the situation of having no permanent home"
+          "the situation of having no permanent home",
+          "participate in an activity"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "\"take part\" means participate in an activity."
       }
     ]
@@ -704,51 +704,51 @@ export default [
           {
             "q": "What is the main purpose of the text?",
             "options": [
-              "To explain an issue and a considered response",
               "To advertise a product",
-              "To tell an imaginary adventure"
+              "To tell an imaginary adventure",
+              "To explain an issue and a considered response"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The text presents an issue and explains how people responded."
           },
           {
             "q": "Which challenge is mentioned?",
             "options": [
-              "There are practical limits or competing needs",
               "There are no possible solutions",
-              "Everyone has exactly the same opinion"
+              "Everyone has exactly the same opinion",
+              "There are practical limits or competing needs"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "A real-world difficulty is identified."
           },
           {
             "q": "What action was taken?",
             "options": [
-              "People gathered information before making changes",
               "They acted without checking facts",
-              "They ignored the situation"
+              "They ignored the situation",
+              "People gathered information before making changes"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The text describes a measured response."
           },
           {
             "q": "What does the text suggest about the result?",
             "options": [
-              "There was progress, although some challenges remain",
               "Every difficulty disappeared immediately",
-              "The effort had no value"
+              "The effort had no value",
+              "There was progress, although some challenges remain"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The conclusion is balanced."
           },
           {
             "q": "Which description best matches the writer's attitude?",
             "options": [
-              "Informative and cautiously positive",
               "Entirely dismissive",
-              "Uncritically enthusiastic"
+              "Uncritically enthusiastic",
+              "Informative and cautiously positive"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The writer recognises both benefits and limitations."
           }
         ]
@@ -760,51 +760,51 @@ export default [
           {
             "q": "What is the main purpose of the text?",
             "options": [
-              "To explain an issue and a considered response",
               "To advertise a product",
-              "To tell an imaginary adventure"
+              "To tell an imaginary adventure",
+              "To explain an issue and a considered response"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The text presents an issue and explains how people responded."
           },
           {
             "q": "Which challenge is mentioned?",
             "options": [
-              "There are practical limits or competing needs",
               "There are no possible solutions",
-              "Everyone has exactly the same opinion"
+              "Everyone has exactly the same opinion",
+              "There are practical limits or competing needs"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "A real-world difficulty is identified."
           },
           {
             "q": "What action was taken?",
             "options": [
-              "People gathered information before making changes",
               "They acted without checking facts",
-              "They ignored the situation"
+              "They ignored the situation",
+              "People gathered information before making changes"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The text describes a measured response."
           },
           {
             "q": "What does the text suggest about the result?",
             "options": [
-              "There was progress, although some challenges remain",
               "Every difficulty disappeared immediately",
-              "The effort had no value"
+              "The effort had no value",
+              "There was progress, although some challenges remain"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The conclusion is balanced."
           },
           {
             "q": "Which description best matches the writer's attitude?",
             "options": [
-              "Informative and cautiously positive",
               "Entirely dismissive",
-              "Uncritically enthusiastic"
+              "Uncritically enthusiastic",
+              "Informative and cautiously positive"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The writer recognises both benefits and limitations."
           }
         ]
@@ -816,51 +816,51 @@ export default [
           {
             "q": "What is the main purpose of the text?",
             "options": [
-              "To explain an issue and a considered response",
               "To advertise a product",
-              "To tell an imaginary adventure"
+              "To tell an imaginary adventure",
+              "To explain an issue and a considered response"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The text presents an issue and explains how people responded."
           },
           {
             "q": "Which challenge is mentioned?",
             "options": [
-              "There are practical limits or competing needs",
               "There are no possible solutions",
-              "Everyone has exactly the same opinion"
+              "Everyone has exactly the same opinion",
+              "There are practical limits or competing needs"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "A real-world difficulty is identified."
           },
           {
             "q": "What action was taken?",
             "options": [
-              "People gathered information before making changes",
               "They acted without checking facts",
-              "They ignored the situation"
+              "They ignored the situation",
+              "People gathered information before making changes"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The text describes a measured response."
           },
           {
             "q": "What does the text suggest about the result?",
             "options": [
-              "There was progress, although some challenges remain",
               "Every difficulty disappeared immediately",
-              "The effort had no value"
+              "The effort had no value",
+              "There was progress, although some challenges remain"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The conclusion is balanced."
           },
           {
             "q": "Which description best matches the writer's attitude?",
             "options": [
-              "Informative and cautiously positive",
               "Entirely dismissive",
-              "Uncritically enthusiastic"
+              "Uncritically enthusiastic",
+              "Informative and cautiously positive"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The writer recognises both benefits and limitations."
           }
         ]
@@ -882,51 +882,51 @@ export default [
           {
             "q": "What are the speakers mainly discussing?",
             "options": [
-              "A practical situation and a possible response",
               "A fictional story",
-              "A sporting result"
+              "A sporting result",
+              "A practical situation and a possible response"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The speakers focus on a real decision or issue."
           },
           {
             "q": "What problem or need is mentioned?",
             "options": [
-              "A specific difficulty that requires attention",
               "A completed celebration",
-              "A holiday destination"
+              "A holiday destination",
+              "A specific difficulty that requires attention"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The issue is introduced in the exchange."
           },
           {
             "q": "What does one speaker suggest?",
             "options": [
-              "A realistic next step",
               "Ignoring the matter",
-              "Making an immediate unsupported decision"
+              "Making an immediate unsupported decision",
+              "A realistic next step"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The suggestion is practical."
           },
           {
             "q": "What do the speakers decide or recommend?",
             "options": [
-              "To check information or communicate before proceeding",
               "To avoid any further discussion",
-              "To abandon every option"
+              "To abandon every option",
+              "To check information or communicate before proceeding"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "Their response involves a clear next step."
           },
           {
             "q": "What is the overall tone?",
             "options": [
-              "Practical and cooperative",
               "Hostile and insulting",
-              "Uninterested"
+              "Uninterested",
+              "Practical and cooperative"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The speakers exchange information constructively."
           }
         ]
@@ -938,51 +938,51 @@ export default [
           {
             "q": "What are the speakers mainly discussing?",
             "options": [
-              "A practical situation and a possible response",
               "A fictional story",
-              "A sporting result"
+              "A sporting result",
+              "A practical situation and a possible response"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The speakers focus on a real decision or issue."
           },
           {
             "q": "What problem or need is mentioned?",
             "options": [
-              "A specific difficulty that requires attention",
               "A completed celebration",
-              "A holiday destination"
+              "A holiday destination",
+              "A specific difficulty that requires attention"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The issue is introduced in the exchange."
           },
           {
             "q": "What does one speaker suggest?",
             "options": [
-              "A realistic next step",
               "Ignoring the matter",
-              "Making an immediate unsupported decision"
+              "Making an immediate unsupported decision",
+              "A realistic next step"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The suggestion is practical."
           },
           {
             "q": "What do the speakers decide or recommend?",
             "options": [
-              "To check information or communicate before proceeding",
               "To avoid any further discussion",
-              "To abandon every option"
+              "To abandon every option",
+              "To check information or communicate before proceeding"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "Their response involves a clear next step."
           },
           {
             "q": "What is the overall tone?",
             "options": [
-              "Practical and cooperative",
               "Hostile and insulting",
-              "Uninterested"
+              "Uninterested",
+              "Practical and cooperative"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The speakers exchange information constructively."
           }
         ]
@@ -994,51 +994,51 @@ export default [
           {
             "q": "What are the speakers mainly discussing?",
             "options": [
-              "A practical situation and a possible response",
               "A fictional story",
-              "A sporting result"
+              "A sporting result",
+              "A practical situation and a possible response"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The speakers focus on a real decision or issue."
           },
           {
             "q": "What problem or need is mentioned?",
             "options": [
-              "A specific difficulty that requires attention",
               "A completed celebration",
-              "A holiday destination"
+              "A holiday destination",
+              "A specific difficulty that requires attention"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The issue is introduced in the exchange."
           },
           {
             "q": "What does one speaker suggest?",
             "options": [
-              "A realistic next step",
               "Ignoring the matter",
-              "Making an immediate unsupported decision"
+              "Making an immediate unsupported decision",
+              "A realistic next step"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The suggestion is practical."
           },
           {
             "q": "What do the speakers decide or recommend?",
             "options": [
-              "To check information or communicate before proceeding",
               "To avoid any further discussion",
-              "To abandon every option"
+              "To abandon every option",
+              "To check information or communicate before proceeding"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "Their response involves a clear next step."
           },
           {
             "q": "What is the overall tone?",
             "options": [
-              "Practical and cooperative",
               "Hostile and insulting",
-              "Uninterested"
+              "Uninterested",
+              "Practical and cooperative"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The speakers exchange information constructively."
           }
         ]
