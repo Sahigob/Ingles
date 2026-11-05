@@ -1,5 +1,5 @@
-// B2 Unit 6 · Education and research
-// 25 grammar + 25 vocabulary + 3x5 reading + 3x5 listening + 5 writing + 5 speaking = 90 actividades.
+// B2 Unit 6 · Expanded practice
+// Correct-answer positions are distributed to avoid predictable answer patterns.
 export default [
   {
     "id": "b2-6",
@@ -38,34 +38,34 @@ export default [
       {
         "q": "The evidence ___ during the interviews was anonymised.",
         "options": [
-          "collected",
           "collecting",
           "to collect",
-          "collect"
+          "collect",
+          "collected"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "Past participle reduces a passive relative clause."
       },
       {
         "q": "___ the literature, the researcher identified a gap.",
         "options": [
-          "Having reviewed",
           "Reviewed having",
           "To reviewing",
+          "Having reviewed",
           "Have reviewed"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "Perfect participle shows an earlier completed action."
       },
       {
         "q": "The professor ___ the conference is an expert in linguistics.",
         "options": [
-          "addressing",
           "addressed",
+          "addressing",
           "to addressing",
           "address"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "Active participle clause."
       },
       {
@@ -82,34 +82,34 @@ export default [
       {
         "q": "___ the sample, the team began the analysis.",
         "options": [
-          "Having selected",
           "Selected having",
           "To selected",
-          "Have selecting"
+          "Have selecting",
+          "Having selected"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "Earlier action uses having + past participle."
       },
       {
         "q": "The students ___ the survey were invited to a follow-up interview.",
         "options": [
-          "completing",
           "completed",
           "to completing",
+          "completing",
           "completion"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "Active reduced relative clause."
       },
       {
         "q": "The method ___ in the paper can be replicated.",
         "options": [
-          "described",
           "describing",
+          "described",
           "describe",
           "to describing"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "Passive reduced relative clause."
       },
       {
@@ -126,34 +126,34 @@ export default [
       {
         "q": "The data ___ from three schools showed similar patterns.",
         "options": [
-          "obtained",
           "obtaining",
           "obtain",
-          "to obtaining"
+          "to obtaining",
+          "obtained"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "Past participle has passive meaning."
       },
       {
         "q": "___ the consent forms, the researcher started recording.",
         "options": [
-          "Having checked",
           "Checked having",
           "To check",
+          "Having checked",
           "Have checking"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "Perfect participle marks completed prior action."
       },
       {
         "q": "The students ___ abroad reported greater confidence.",
         "options": [
-          "studying",
           "studied",
+          "studying",
           "to studied",
           "study"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "Active participle clause."
       },
       {
@@ -170,34 +170,34 @@ export default [
       {
         "q": "___ carefully, the instructions are easy to follow.",
         "options": [
-          "Written",
           "Writing",
           "To write",
-          "Having write"
+          "Having write",
+          "Written"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "Past participle clause with passive meaning."
       },
       {
         "q": "The researcher ___ the interviews noticed a recurring theme.",
         "options": [
-          "conducting",
           "conducted",
           "to conduct",
+          "conducting",
           "conduct"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "Active participle clause."
       },
       {
         "q": "The participants ___ in the first stage were contacted again.",
         "options": [
-          "included",
           "including",
+          "included",
           "include",
           "to include"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "Passive reduced relative clause."
       },
       {
@@ -214,34 +214,34 @@ export default [
       {
         "q": "The article ___ yesterday has already received comments.",
         "options": [
-          "published",
           "publishing",
           "publish",
-          "to publishing"
+          "to publishing",
+          "published"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "Past participle modifies article."
       },
       {
         "q": "Researchers ___ the same method reached different conclusions.",
         "options": [
-          "using",
           "used",
           "to use",
+          "using",
           "use"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "Active participle clause."
       },
       {
         "q": "___ by the findings, the committee requested further evidence.",
         "options": [
-          "Concerned",
           "Concerning",
+          "Concerned",
           "Concern",
           "To concern"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "Past participle expresses state/reason."
       },
       {
@@ -258,34 +258,34 @@ export default [
       {
         "q": "The documents ___ by the ethics board are available online.",
         "options": [
-          "approved",
           "approving",
           "approve",
-          "to approve"
+          "to approve",
+          "approved"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "Passive reduced relative clause."
       },
       {
         "q": "___ the pilot study, the team revised its questions.",
         "options": [
-          "Having completed",
           "Completed having",
           "To completing",
+          "Having completed",
           "Have completed"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "Perfect participle."
       },
       {
         "q": "The lecturer ___ the seminar encouraged debate.",
         "options": [
-          "leading",
           "led",
+          "leading",
           "to lead",
           "lead"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "Active participle clause."
       },
       {
@@ -414,34 +414,34 @@ export default [
       {
         "q": "What does \"academic integrity\" mean?",
         "options": [
-          "honesty and responsibility in academic work",
           "an area that has not been studied enough",
           "based on numbers and measurement",
-          "research carried out over an extended period"
+          "research carried out over an extended period",
+          "honesty and responsibility in academic work"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "\"academic integrity\" means honesty and responsibility in academic work."
       },
       {
         "q": "What does \"citation\" mean?",
         "options": [
-          "a reference to a source",
           "relating to serious academic study",
           "a proposed explanation to be tested",
+          "a reference to a source",
           "research examining a group at one point in time"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "\"citation\" means a reference to a source."
       },
       {
         "q": "What does \"dissertation\" mean?",
         "options": [
-          "a long piece of research writing",
           "ideas used to guide research",
+          "a long piece of research writing",
           "using another person's work without credit",
           "principles protecting research participants"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "\"dissertation\" means a long piece of research writing."
       },
       {
@@ -458,34 +458,34 @@ export default [
       {
         "q": "What does \"fieldwork\" mean?",
         "options": [
-          "research carried out outside a laboratory or library",
           "the number of people or items studied",
           "whether a method measures what it intends to",
-          "reach a judgement based on evidence"
+          "reach a judgement based on evidence",
+          "research carried out outside a laboratory or library"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "\"fieldwork\" means research carried out outside a laboratory or library."
       },
       {
         "q": "What does \"methodology\" mean?",
         "options": [
-          "the system of methods used in research",
           "based on descriptions and non-numerical information",
           "consistency of a measurement or result",
+          "the system of methods used in research",
           "a publication containing scholarly articles"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "\"methodology\" means the system of methods used in research."
       },
       {
         "q": "What does \"peer review\" mean?",
         "options": [
-          "evaluation by other specialists",
           "based on numbers and measurement",
+          "evaluation by other specialists",
           "research carried out over an extended period",
           "honesty and responsibility in academic work"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "\"peer review\" means evaluation by other specialists."
       },
       {
@@ -502,34 +502,34 @@ export default [
       {
         "q": "What does \"scholarly\" mean?",
         "options": [
-          "relating to serious academic study",
           "using another person's work without credit",
           "principles protecting research participants",
-          "a long piece of research writing"
+          "a long piece of research writing",
+          "relating to serious academic study"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "\"scholarly\" means relating to serious academic study."
       },
       {
         "q": "What does \"theoretical framework\" mean?",
         "options": [
-          "ideas used to guide research",
           "able to be repeated with similar results",
           "the results of an investigation",
+          "ideas used to guide research",
           "information gathered through observation or experiment"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "\"theoretical framework\" means ideas used to guide research."
       },
       {
         "q": "What does \"literature review\" mean?",
         "options": [
-          "a critical overview of existing research",
           "whether a method measures what it intends to",
+          "a critical overview of existing research",
           "reach a judgement based on evidence",
           "research carried out outside a laboratory or library"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "\"literature review\" means a critical overview of existing research."
       },
       {
@@ -546,34 +546,34 @@ export default [
       {
         "q": "What does \"qualitative\" mean?",
         "options": [
-          "based on descriptions and non-numerical information",
           "research carried out over an extended period",
           "honesty and responsibility in academic work",
-          "evaluation by other specialists"
+          "evaluation by other specialists",
+          "based on descriptions and non-numerical information"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "\"qualitative\" means based on descriptions and non-numerical information."
       },
       {
         "q": "What does \"quantitative\" mean?",
         "options": [
-          "based on numbers and measurement",
           "research examining a group at one point in time",
           "a reference to a source",
+          "based on numbers and measurement",
           "an area that has not been studied enough"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "\"quantitative\" means based on numbers and measurement."
       },
       {
         "q": "What does \"hypothesis\" mean?",
         "options": [
-          "a proposed explanation to be tested",
           "principles protecting research participants",
+          "a proposed explanation to be tested",
           "a long piece of research writing",
           "relating to serious academic study"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "\"hypothesis\" means a proposed explanation to be tested."
       },
       {
@@ -590,34 +590,34 @@ export default [
       {
         "q": "What does \"replicable\" mean?",
         "options": [
-          "able to be repeated with similar results",
           "reach a judgement based on evidence",
           "research carried out outside a laboratory or library",
-          "a critical overview of existing research"
+          "a critical overview of existing research",
+          "able to be repeated with similar results"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "\"replicable\" means able to be repeated with similar results."
       },
       {
         "q": "What does \"validity\" mean?",
         "options": [
-          "whether a method measures what it intends to",
           "a publication containing scholarly articles",
           "the system of methods used in research",
+          "whether a method measures what it intends to",
           "the number of people or items studied"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "\"validity\" means whether a method measures what it intends to."
       },
       {
         "q": "What does \"reliability\" mean?",
         "options": [
-          "consistency of a measurement or result",
           "honesty and responsibility in academic work",
+          "consistency of a measurement or result",
           "evaluation by other specialists",
           "based on descriptions and non-numerical information"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "\"reliability\" means consistency of a measurement or result."
       },
       {
@@ -634,34 +634,34 @@ export default [
       {
         "q": "What does \"cross-sectional study\" mean?",
         "options": [
-          "research examining a group at one point in time",
           "a long piece of research writing",
           "relating to serious academic study",
-          "a proposed explanation to be tested"
+          "a proposed explanation to be tested",
+          "research examining a group at one point in time"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "\"cross-sectional study\" means research examining a group at one point in time."
       },
       {
         "q": "What does \"research ethics\" mean?",
         "options": [
-          "principles protecting research participants",
           "information gathered through observation or experiment",
           "ideas used to guide research",
+          "principles protecting research participants",
           "using another person's work without credit"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "\"research ethics\" means principles protecting research participants."
       },
       {
         "q": "What does \"findings\" mean?",
         "options": [
-          "the results of an investigation",
           "research carried out outside a laboratory or library",
+          "the results of an investigation",
           "a critical overview of existing research",
           "able to be repeated with similar results"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "\"findings\" means the results of an investigation."
       },
       {
@@ -678,12 +678,12 @@ export default [
       {
         "q": "What does \"academic journal\" mean?",
         "options": [
-          "a publication containing scholarly articles",
           "evaluation by other specialists",
           "based on descriptions and non-numerical information",
-          "consistency of a measurement or result"
+          "consistency of a measurement or result",
+          "a publication containing scholarly articles"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "\"academic journal\" means a publication containing scholarly articles."
       }
     ]
