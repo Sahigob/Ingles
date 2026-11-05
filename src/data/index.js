@@ -14,6 +14,10 @@ import b2u01 from "./b2-u01.js";
 import b2u02 from "./b2-u02.js";
 import b2u03 from "./b2-u03.js";
 import b2u04 from "./b2-u04.js";
+import b2u05 from "./b2-u05.js";
+import b2u06 from "./b2-u06.js";
+import b2u07 from "./b2-u07.js";
+import b2u08 from "./b2-u08.js";
 
 export const expansions = {
   B1: {
@@ -22,6 +26,7 @@ export const expansions = {
     8: b1u09, 9: b1u10, 10: b1u11, 11: b1u12
   },
   B2: {
-    0: b2u01, 1: b2u02, 2: b2u03, 3: b2u04
+    0: b2u01, 1: b2u02, 2: b2u03, 3: b2u04,
+    4: b2u05, 5: b2u06, 6: b2u07, 7: b2u08
   }
 };
