@@ -29,10 +29,11 @@
       </select>
 
       <div class="exam-info">
-        <div><strong>20 min</strong><span>Tiempo orientativo</span></div>
-        <div><strong>4 skills</strong><span>Destrezas</span></div>
-        <div><strong>Test + tareas</strong><span>Formato de práctica</span></div>
+        <div><strong>45 min</strong><span>Tiempo orientativo</span></div>
+        <div><strong>40 preguntas</strong><span>Corrección automática</span></div>
+        <div><strong>4 skills</strong><span>Destrezas evaluadas</span></div>
       </div>
+      <p class="exam-note">Cada intento selecciona preguntas de distintas unidades del curso. Writing y Speaking se guardan para revisión personal; no se incluyen en la nota automática.</p>
 
       <button id="begin-exam" class="button primary">Comenzar examen →</button>
       <p class="exam-note">Este examen es una práctica didáctica, no una prueba oficial ni una certificación de nivel.</p>
@@ -67,7 +68,11 @@
         <span>Preguntas tipo test correctas</span>
       </div>
       <p id="result-message"></p>
+      <h3>Resultado por destreza</h3>
+      <div id="result-skills"></div>
+      <h3>Resultado por parte</h3>
       <div id="result-breakdown"></div>
+      <details class="writing-review"><summary>Revisar respuestas y explicaciones</summary><div id="result-review"></div></details>
       <div class="writing-review">
         <h3>Revisión de Writing y Speaking</h3>
         <p>Estas tareas requieren valoración personal. No se incluyen en el porcentaje automático.</p>
@@ -75,6 +80,12 @@
       </div>
       <button id="retry-exam" class="button primary">Hacer otro examen</button>
       <a href="./index.html" class="button outline">Volver a la academia</a>
+    </section>
+
+    <section id="exam-history" class="exam-card history-card">
+      <h2>Mis últimos exámenes</h2>
+      <p class="exam-note">Historial personal de tus intentos guardados en tu cuenta.</p>
+      <div id="exam-history-list"><p class="exam-note">Inicia sesión para consultar tu historial.</p></div>
     </section>
   </main>
 

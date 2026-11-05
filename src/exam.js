@@ -1,20 +1,8 @@
+import { initializeApp } from "https://www.gstatic.com/firebasejs/10.14.1/firebase-app.js";
+import { getAuth, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/10.14.1/firebase-auth.js";
+import { getFirestore, doc, setDoc, serverTimestamp, collection, getDocs, query, orderBy, limit } from "https://www.gstatic.com/firebasejs/10.14.1/firebase-firestore.js";
+import { courseData } from "./content.js";
 
-import { initializeApp } from
-  "https://www.gstatic.com/firebasejs/10.14.1/firebase-app.js";
-
-import {
-  getAuth,
-  onAuthStateChanged
-} from "https://www.gstatic.com/firebasejs/10.14.1/firebase-auth.js";
-
-import {
-  getFirestore,
-  doc,
-  setDoc,
-  serverTimestamp
-} from "https://www.gstatic.com/firebasejs/10.14.1/firebase-firestore.js";
-
-// Utiliza aquí la MISMA configuración de Firebase que en src/main.js.
 const firebaseConfig = {
   apiKey: "AIzaSyCOlt2USTexZl1IJSYZreZ61npgdGEOpNk",
   authDomain: "ingles-2905b.firebaseapp.com",
@@ -25,521 +13,165 @@ const firebaseConfig = {
   measurementId: "G-G992ZDLH12"
 };
 
-let auth = null;
-let db = null;
-let currentUser = null;
-let resolveAuthReady;
-let authReadyResolved = false;
-let authReady = new Promise(resolve => { resolveAuthReady = resolve; });
-let isFinishing = false;
-
-const $ = id => document.getElementById(id);
-
-const exams = {
-  B1: [
-    {
-      title: "Reading",
-      skill: "Reading",
-      type: "reading",
-      passage: "Last summer, Daniel decided to spend two weeks volunteering in Ireland. At first, he found it difficult to understand the local accent. However, after a few days, he became more confident. He helped at a community garden and met people from several countries. He says the experience improved both his English and his independence.",
-      questions: [
-        {
-          q: "Why did Daniel initially find communication difficult?",
-          options: ["He didn't know anyone.", "He found the local accent difficult.", "He didn't speak any English."],
-          answer: 1,
-          explanation: "El texto indica que al principio le costaba entender el acento local."
-        },
-        {
-          q: "What did Daniel do during his stay?",
-          options: ["Worked in a hotel.", "Helped in a community garden.", "Studied at university."],
-          answer: 1,
-          explanation: "Ayudó en un huerto comunitario."
-        },
-        {
-          q: "What did the experience improve?",
-          options: ["His English and independence.", "His driving skills.", "His cooking skills."],
-          answer: 0,
-          explanation: "El texto menciona su inglés y su independencia."
-        }
-      ]
-    },
-    {
-      title: "Listening",
-      skill: "Listening",
-      type: "listening",
-      audio: "Hello, this is a message for Mr Brown. Your appointment has been changed from Tuesday morning to Wednesday at half past three in the afternoon. Please arrive ten minutes early and bring your identification.",
-      questions: [
-        {
-          q: "When is the new appointment?",
-          options: ["Tuesday morning.", "Wednesday at 3:30 pm.", "Wednesday at 10 am."],
-          answer: 1,
-          explanation: "La cita se ha cambiado al miércoles a las tres y media."
-        },
-        {
-          q: "What should Mr Brown bring?",
-          options: ["His passport photograph.", "His identification.", "A medical report."],
-          answer: 1,
-          explanation: "El mensaje le pide que lleve su identificación."
-        }
-      ]
-    },
-    {
-      title: "Grammar and vocabulary",
-      skill: "Use of English",
-      type: "grammar",
-      questions: [
-        {
-          q: "She ____ in Madrid since 2021.",
-          options: ["lives", "has lived", "lived"],
-          answer: 1,
-          explanation: "Since 2021 indica una situación que continúa: present perfect."
-        },
-        {
-          q: "If I have time, I ____ you tomorrow.",
-          options: ["will call", "called", "would called"],
-          answer: 0,
-          explanation: "First conditional: If + present simple, will + infinitive."
-        },
-        {
-          q: "I'm interested ____ learning English.",
-          options: ["on", "at", "in"],
-          answer: 2,
-          explanation: "La expresión correcta es interested in."
-        }
-      ]
-    },
-    {
-      title: "Writing",
-      skill: "Writing",
-      type: "writing",
-      prompt: "Write an email to an English-speaking friend. Tell them about a trip you took recently, explain what you enjoyed and invite them to visit you. Write approximately 100–120 words."
-    },
-    {
-      title: "Speaking",
-      skill: "Speaking",
-      type: "speaking",
-      prompt: "Talk about a memorable experience. Explain what happened, where you were, who was with you and why it was important. Try to speak for 1–2 minutes."
-    }
-  ],
-
-  B2: [
-    {
-      title: "Reading",
-      skill: "Reading",
-      type: "reading",
-      passage: "Many companies have adopted flexible working arrangements. Supporters argue that employees are often more productive when they can organise their own schedules. Nevertheless, critics point out that remote work may reduce informal communication and make it harder for new employees to integrate into a team. The most successful organisations tend to combine flexibility with clear communication policies.",
-      questions: [
-        {
-          q: "What is one advantage of flexible working?",
-          options: ["It removes all meetings.", "It allows employees to organise their schedules.", "It guarantees promotion."],
-          answer: 1,
-          explanation: "El texto señala que pueden organizar sus propios horarios."
-        },
-        {
-          q: "What concern do critics express?",
-          options: ["Less informal communication.", "Higher office rent.", "More commuting."],
-          answer: 0,
-          explanation: "Los críticos mencionan la posible reducción de comunicación informal."
-        },
-        {
-          q: "What approach is described as successful?",
-          options: ["Remote work without rules.", "A return to traditional offices only.", "Flexibility combined with clear communication."],
-          answer: 2,
-          explanation: "El texto destaca la flexibilidad junto a políticas claras de comunicación."
-        }
-      ]
-    },
-    {
-      title: "Listening",
-      skill: "Listening",
-      type: "listening",
-      audio: "Although the new transport scheme was initially welcomed by residents, the results have been mixed. Journey times have improved in the city centre, but people living in the surrounding areas have complained about reduced services. The council has promised to review the timetable before the end of the year.",
-      questions: [
-        {
-          q: "What has improved?",
-          options: ["Services in every area.", "Journey times in the city centre.", "Parking facilities."],
-          answer: 1,
-          explanation: "Han mejorado los tiempos de viaje en el centro."
-        },
-        {
-          q: "What has the council promised?",
-          options: ["To review the timetable.", "To cancel the scheme.", "To build a new airport."],
-          answer: 0,
-          explanation: "El ayuntamiento ha prometido revisar los horarios."
-        }
-      ]
-    },
-    {
-      title: "Grammar and vocabulary",
-      skill: "Use of English",
-      type: "grammar",
-      questions: [
-        {
-          q: "Had I known about the delay, I ____ earlier.",
-          options: ["would leave", "would have left", "will leave"],
-          answer: 1,
-          explanation: "La estructura condicional irreal del pasado utiliza would have + participio."
-        },
-        {
-          q: "The proposal was rejected, ____ several people supported it.",
-          options: ["despite", "although", "because"],
-          answer: 1,
-          explanation: "Although introduce una oración con sujeto y verbo."
-        },
-        {
-          q: "The new policy is likely ____ significant changes.",
-          options: ["to cause", "causing", "cause"],
-          answer: 0,
-          explanation: "La estructura correcta es be likely to + infinitivo."
-        }
-      ]
-    },
-    {
-      title: "Writing",
-      skill: "Writing",
-      type: "writing",
-      prompt: "Write an essay discussing whether working from home is better than working in an office. Present arguments on both sides and give your own opinion. Write approximately 180–220 words."
-    },
-    {
-      title: "Speaking",
-      skill: "Speaking",
-      type: "speaking",
-      prompt: "Discuss the advantages and disadvantages of technology in education. Give examples, compare different points of view and reach a conclusion. Try to speak for 2 minutes."
-    }
-  ]
-};
-
-let level = "B1";
-let currentPart = 0;
-let answers = {};
-let writtenWork = {};
-let remainingSeconds = 20 * 60;
-let timerInterval = null;
-
-function configureFirebase() {
-  try {
-    const app = initializeApp(firebaseConfig);
-    auth = getAuth(app);
-    db = getFirestore(app);
-
-    onAuthStateChanged(
-      auth,
-      user => {
-        currentUser = user;
-        if (!authReadyResolved) {
-          authReadyResolved = true;
-          resolveAuthReady(user);
-        }
-        if (!user && authReadyResolved && !isFinishing) {
-          clearInterval(timerInterval);
-          timerInterval = null;
-          window.location.replace("./index.html");
-        }
-      },
-      error => {
-        console.error("No se pudo comprobar la sesión de Firebase:", error);
-        currentUser = null;
-        if (!authReadyResolved) {
-          authReadyResolved = true;
-          resolveAuthReady(null);
-        }
-      }
-    );
-  } catch (error) {
-    console.error("Error inicializando Firebase:", error);
-    currentUser = null;
-    if (!authReadyResolved) {
-      authReadyResolved = true;
-      resolveAuthReady(null);
-    }
-  }
+let auth=null,db=null,currentUser=null,resolveAuthReady;
+const authReady=new Promise(resolve=>{resolveAuthReady=resolve;});
+let authResolved=false,isFinishing=false,level="B1",parts=[],currentPart=0,answers={},writtenWork={},selfAssessment={},startedAt=0,remainingSeconds=45*60,timerInterval=null;
+const $=id=>document.getElementById(id);
+const escapeHtml=value=>String(value??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+function shuffle(items){const a=[...items];for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;}
+function pick(items,n){return shuffle(items).slice(0,n);}
+function collectPools(selectedLevel){
+ const units=courseData[selectedLevel].units;
+ const reading=[],listening=[],grammar=[],vocabulary=[],writing=[],speaking=[];
+ units.forEach((unit,unitIndex)=>unit.lessons.forEach(lesson=>{
+  if(lesson.skill==="Grammar")grammar.push(...(lesson.questions||[]).map(q=>({...q,source:unit.title})));
+  if(lesson.skill==="Vocabulary")vocabulary.push(...(lesson.questions||[]).map(q=>({...q,source:unit.title})));
+  (lesson.texts||[]).forEach(t=>reading.push({title:t.title,passage:t.passage,questions:(t.questions||[]).map(q=>({...q,source:t.title}))}));
+  (lesson.tracks||[]).forEach(t=>listening.push({title:t.title,transcript:t.transcript,questions:(t.questions||[]).map(q=>({...q,source:t.title}))}));
+  (lesson.tasks||[]).forEach(t=>writing.push({...t,source:unit.title}));
+  (lesson.situations||[]).forEach(s=>speaking.push({...s,source:unit.title}));
+  if(lesson.type==="writing"&&lesson.prompt)writing.push({title:lesson.title,prompt:lesson.prompt,source:unit.title,wordCount:"Según la consigna",tips:[]});
+  if(lesson.type==="speaking"&&lesson.prompt)speaking.push({title:lesson.title,prompt:lesson.prompt,source:unit.title,usefulPhrases:[]});
+ }));
+ return {reading:reading.filter(x=>x.questions.length),listening:listening.filter(x=>x.questions.length),grammar,vocabulary,writing,speaking};
 }
-
-async function requireSignedIn() {
-  await authReady;
-  if (currentUser && db) return true;
-  alert("Para realizar un examen, primero debes iniciar sesión en la academia.");
-  window.location.href = "./index.html";
-  return false;
+function buildExam(selectedLevel){
+ const p=collectPools(selectedLevel);
+ const readTexts=pick(p.reading,2),listenTracks=pick(p.listening,2);
+ const readingQs=readTexts.flatMap(t=>t.questions),listeningQs=listenTracks.flatMap(t=>t.questions);
+ const grammarQs=pick(p.grammar,10),vocabQs=pick(p.vocabulary,10);
+ const writing=pick(p.writing,1)[0],speaking=pick(p.speaking,1)[0];
+ if(readingQs.length<10||listeningQs.length<10||grammarQs.length<10||vocabQs.length<10||!writing||!speaking)throw new Error("No hay suficientes actividades en el banco para generar el examen.");
+ return [
+  {title:"Reading",skill:"Reading",type:"reading",texts:readTexts,questions:readingQs.slice(0,10)},
+  {title:"Listening",skill:"Listening",type:"listening",tracks:listenTracks,questions:listeningQs.slice(0,10)},
+  {title:"Grammar and Vocabulary",skill:"Use of English",type:"objective",groups:[{name:"Grammar",questions:grammarQs},{name:"Vocabulary",questions:vocabQs}],questions:[...grammarQs,...vocabQs]},
+  {title:"Writing",skill:"Writing",type:"writing",task:writing},
+  {title:"Speaking",skill:"Speaking",type:"speaking",task:speaking}
+ ];
 }
-
-async function startExam() {
-  if (!(await requireSignedIn())) return;
-  level = $("exam-level").value;
-  currentPart = 0;
-  answers = {};
-  writtenWork = {};
-  remainingSeconds = 20 * 60;
-  isFinishing = false;
-
-  $("exam-start").classList.add("hidden");
-  $("exam-results").classList.add("hidden");
-  $("exam-work").classList.remove("hidden");
-
-  $("exam-level-label").textContent = `${level} EXAM`;
-  renderPart();
-  startTimer();
+function configureFirebase(){
+ try{
+  const app=initializeApp(firebaseConfig);auth=getAuth(app);db=getFirestore(app);
+  onAuthStateChanged(auth,user=>{
+   currentUser=user;
+   if(!authResolved){authResolved=true;resolveAuthReady(user);}
+   if(user)loadHistory();else if(!isFinishing){clearInterval(timerInterval);timerInterval=null;window.location.replace("./index.html");}
+  },error=>{console.error(error);if(!authResolved){authResolved=true;resolveAuthReady(null);}});
+ }catch(error){console.error(error);if(!authResolved){authResolved=true;resolveAuthReady(null);}}
 }
-
-function startTimer() {
-  clearInterval(timerInterval);
-
-  timerInterval = setInterval(() => {
-    remainingSeconds--;
-
-    const minutes = Math.floor(remainingSeconds / 60);
-    const seconds = remainingSeconds % 60;
-
-    $("exam-timer").textContent =
-      `${String(minutes).padStart(2, "0")}:${String(seconds).padStart(2, "0")}`;
-
-    if (remainingSeconds <= 0) {
-      finishExam();
-    }
-  }, 1000);
+async function requireSignedIn(){await authReady;if(currentUser&&db)return true;alert("Inicia sesión en la academia antes de realizar un examen.");window.location.href="./index.html";return false;}
+async function loadHistory(){
+ if(!currentUser||!db)return;
+ const host=$("exam-history-list");if(!host)return;
+ host.innerHTML='<p class="exam-note">Cargando historial…</p>';
+ try{
+  const q=query(collection(db,"users",currentUser.uid,"examResults"),orderBy("completedAt","desc"),limit(10));
+  const snap=await getDocs(q);
+  if(!currentUser)return;
+  if(snap.empty){host.innerHTML='<p class="exam-note">Todavía no hay exámenes guardados.</p>';return;}
+  host.innerHTML=snap.docs.map(d=>{
+   const x=d.data(),date=x.completedAt?.toDate?x.completedAt.toDate().toLocaleString("es-ES"):"Fecha no disponible";
+   return '<article class="history-row"><div><strong>'+escapeHtml(x.level||"")+' · '+escapeHtml(date)+'</strong><span>'+escapeHtml(String(x.correct??0))+' / '+escapeHtml(String(x.total??0))+' preguntas correctas</span></div><strong>'+escapeHtml(String(x.percentage??0))+'%</strong></article>';
+  }).join("");
+ }catch(e){console.error("Historial de exámenes",e);host.innerHTML='<p class="exam-note">No se pudo cargar el historial. Comprueba los permisos de lectura de examResults.</p>';}
 }
-
-function renderPart() {
-  const part = exams[level][currentPart];
-
-  $("exam-section-title").textContent = part.title;
-  $("question-counter").textContent =
-    `Parte ${currentPart + 1} de ${exams[level].length}`;
-
-  $("exam-progress-bar").style.width =
-    `${((currentPart + 1) / exams[level].length) * 100}%`;
-
-  const content = $("exam-content");
-
-  if (part.type === "writing" || part.type === "speaking") {
-    content.innerHTML = `
-      <p class="eyebrow">${part.skill.toUpperCase()}</p>
-      <h3>${part.title}</h3>
-      <p>${part.prompt}</p>
-      <label for="written-answer">
-        ${part.type === "writing" ? "Tu texto" : "Notas para preparar tu intervención"}
-      </label>
-      <textarea id="written-answer" rows="9"
-        placeholder="Escribe aquí tu respuesta..."></textarea>
-      ${part.type === "speaking" ? `
-        <button id="speak-prompt" class="button outline">
-          🔊 Escuchar la consigna
-        </button>
-      ` : ""}
-      <p class="exam-note">
-        Esta actividad se revisará por separado. No recibe una nota automática.
-      </p>
-    `;
-
-    $("written-answer").value = writtenWork[currentPart] || "";
-
-    $("written-answer").addEventListener("input", event => {
-      writtenWork[currentPart] = event.target.value;
-    });
-
-    const speakButton = $("speak-prompt");
-    if (speakButton) {
-      speakButton.addEventListener("click", () => speak(part.prompt));
-    }
-  } else {
-    content.innerHTML = `
-      <p class="eyebrow">${part.skill.toUpperCase()}</p>
-      <h3>${part.title}</h3>
-      ${part.passage ? `<div class="reading-text">${part.passage}</div>` : ""}
-      ${part.audio ? `
-        <div class="listening-box">
-          <p>Escucha el mensaje antes de responder.</p>
-          <button id="play-audio" class="button outline">▶ Escuchar audio</button>
-          <p class="exam-note">Puedes escucharlo de nuevo si lo necesitas.</p>
-        </div>
-      ` : ""}
-      ${part.questions.map((question, index) => `
-        <div class="exam-question">
-          <h4>${index + 1}. ${question.q}</h4>
-          ${question.options.map((option, optionIndex) => `
-            <label>
-              <input type="radio"
-                name="q-${currentPart}-${index}"
-                value="${optionIndex}"
-                ${answers[`${currentPart}-${index}`] === optionIndex ? "checked" : ""}>
-              ${option}
-            </label>
-          `).join("")}
-        </div>
-      `).join("")}
-    `;
-
-    part.questions.forEach((question, index) => {
-      document.querySelectorAll(`input[name="q-${currentPart}-${index}"]`)
-        .forEach(input => {
-          input.addEventListener("change", event => {
-            answers[`${currentPart}-${index}`] = Number(event.target.value);
-          });
-        });
-    });
-
-    const audioButton = $("play-audio");
-    if (audioButton) {
-      audioButton.addEventListener("click", () => speak(part.audio));
-    }
-  }
-
-  $("previous-question").disabled = currentPart === 0;
-  $("next-question").textContent =
-    currentPart === exams[level].length - 1 ? "Ver resultados →" : "Siguiente →";
+function speak(text){
+ if(!("speechSynthesis"in window)){alert("Este navegador no dispone de síntesis de voz.");return;}
+ speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(String(text));u.lang="en-GB";u.rate=.86;speechSynthesis.speak(u);
 }
-
-function speak(text) {
-  if (!("speechSynthesis" in window)) {
-    alert("Este navegador no dispone de síntesis de voz.");
-    return;
-  }
-
-  window.speechSynthesis.cancel();
-
-  const utterance = new SpeechSynthesisUtterance(text);
-  utterance.lang = "en-GB";
-  utterance.rate = 0.85;
-
-  window.speechSynthesis.speak(utterance);
+function startTimer(){
+ clearInterval(timerInterval);
+ timerInterval=setInterval(()=>{
+  remainingSeconds--;const mm=Math.floor(remainingSeconds/60),ss=remainingSeconds%60;
+  $("exam-timer").textContent=String(mm).padStart(2,"0")+":"+String(ss).padStart(2,"0");
+  if(remainingSeconds<=0)finishExam();
+ },1000);
 }
-
-function calculateResults() {
-  let total = 0;
-  let correct = 0;
-  const breakdown = [];
-
-  exams[level].forEach((part, partIndex) => {
-    if (!part.questions) return;
-
-    let partCorrect = 0;
-
-    part.questions.forEach((question, questionIndex) => {
-      total++;
-
-      if (answers[`${partIndex}-${questionIndex}`] === question.answer) {
-        correct++;
-        partCorrect++;
-      }
-    });
-
-    breakdown.push({
-      title: part.title,
-      correct: partCorrect,
-      total: part.questions.length
-    });
+async function startExam(){
+ if(!(await requireSignedIn()))return;
+ level=$("exam-level").value;
+ try{parts=buildExam(level);}catch(e){alert(e.message);return;}
+ currentPart=0;answers={};writtenWork={};selfAssessment={};remainingSeconds=45*60;startedAt=Date.now();isFinishing=false;
+ $("exam-start").classList.add("hidden");$("exam-results").classList.add("hidden");$("exam-work").classList.remove("hidden");
+ $("exam-level-label").textContent=level+" · EXAM";renderPart();startTimer();
+}
+function renderQuestion(q,index,partIndex){
+ const key=partIndex+"-"+index,selected=answers[key];
+ return '<div class="exam-question"><h4>'+(index+1)+'. '+escapeHtml(q.q)+'</h4>'+q.options.map((o,j)=>'<label><input type="radio" name="q-'+key+'" value="'+j+'" '+(selected===j?"checked":"")+'> '+escapeHtml(o)+'</label>').join("")+'</div>';
+}
+function renderPart(){
+ const part=parts[currentPart];$("exam-section-title").textContent=part.title;
+ $("question-counter").textContent="Parte "+(currentPart+1)+" de "+parts.length;
+ $("exam-progress-bar").style.width=((currentPart+1)/parts.length*100)+"%";
+ const host=$("exam-content");let content='<p class="eyebrow">'+escapeHtml(part.skill.toUpperCase())+'</p><h3>'+escapeHtml(part.title)+'</h3>';
+ if(part.type==="reading"){
+  part.texts.forEach((t,i)=>{content+='<div class="reading-text"><h4>Text '+(i+1)+': '+escapeHtml(t.title)+'</h4><p>'+escapeHtml(t.passage)+'</p></div>';});
+  content+='<h4>Comprehension questions</h4>'+part.questions.map((q,i)=>renderQuestion(q,i,currentPart)).join("");
+ }else if(part.type==="listening"){
+  part.tracks.forEach((t,i)=>{content+='<div class="listening-box"><h4>Listening '+(i+1)+': '+escapeHtml(t.title)+'</h4><p>Listen carefully and answer the questions. You may replay the audio.</p><button type="button" class="button outline" data-play-track="'+i+'">▶ Listen</button></div>';});
+  content+='<h4>Listening questions</h4>'+part.questions.map((q,i)=>renderQuestion(q,i,currentPart)).join("");
+ }else if(part.type==="objective"){
+  part.groups.forEach((g,groupIndex)=>{content+='<h4>'+g.name+'</h4>'+g.questions.map((q,i)=>renderQuestion(q,groupIndex*10+i,currentPart)).join("");});
+ }else{
+  const t=part.task;const taskText=t.prompt||t.title||"Complete the task.";
+  content+='<div class="writing-task"><h4>'+escapeHtml(t.title||part.title)+'</h4><p>'+escapeHtml(taskText)+'</p>';
+  if(t.wordCount)content+='<p><strong>Suggested length:</strong> '+escapeHtml(t.wordCount)+'</p>';
+  if(t.tips?.length)content+='<ul>'+t.tips.map(x=>'<li>'+escapeHtml(x)+'</li>').join("")+'</ul>';
+  if(t.usefulPhrases?.length)content+='<h4>Useful phrases</h4><ul>'+t.usefulPhrases.map(x=>'<li>'+escapeHtml(x)+'</li>').join("")+'</ul>';
+  content+='<label for="exam-response">Your response / preparation notes</label><textarea id="exam-response" rows="10" placeholder="Write your response or speaking notes…">'+escapeHtml(writtenWork[currentPart]||"")+'</textarea>';
+  if(part.type==="speaking")content+='<p class="exam-note">Graba tu respuesta con un dispositivo si deseas conservar audio; esta academia guarda aquí tus notas, no una grabación.</p>';
+  content+='<label for="self-rating">Autoevaluación (1 = necesito practicar, 5 = lo domino)</label><select id="self-rating"><option value="">Selecciona…</option>'+[1,2,3,4,5].map(n=>'<option value="'+n+'" '+(selfAssessment[currentPart]===n?"selected":"")+'>'+n+'</option>').join("")+'</select></div>';
+ }
+ host.innerHTML=content;
+ host.querySelectorAll('input[type="radio"]').forEach(input=>input.addEventListener("change",e=>{answers[e.target.name.slice(2)]=Number(e.target.value);}));
+ $("exam-response")?.addEventListener("input",e=>writtenWork[currentPart]=e.target.value);
+ $("self-rating")?.addEventListener("change",e=>selfAssessment[currentPart]=e.target.value?Number(e.target.value):null);
+ host.querySelectorAll("[data-play-track]").forEach(b=>b.addEventListener("click",()=>speak(part.tracks[Number(b.dataset.playTrack)].transcript)));
+ $("previous-question").disabled=currentPart===0;
+ $("next-question").textContent=currentPart===parts.length-1?"Ver resultados →":"Siguiente →";
+}
+function calculateResults(){
+ const details=[],bySkill={},breakdown=[];let total=0,correct=0;
+ parts.forEach((part,partIndex)=>{
+  if(!part.questions)return;
+  let partCorrect=0;
+  part.questions.forEach((q,i)=>{
+   const selected=answers[partIndex+"-"+i],ok=selected===q.answer;
+   total++;if(ok){correct++;partCorrect++;}
+   const skill=part.type==="objective"?(i<10?"Grammar":"Vocabulary"):part.skill;
+   bySkill[skill]??={correct:0,total:0};bySkill[skill].total++;if(ok)bySkill[skill].correct++;
+   details.push({part:part.title,skill,question:q.q,options:q.options,selected:selected??null,correctAnswer:q.answer,isCorrect:ok,explanation:q.explanation||"",source:q.source||""});
   });
-
-  return {
-    total,
-    correct,
-    percentage: total ? Math.round(correct / total * 100) : 0,
-    breakdown
-  };
+  breakdown.push({title:part.title,correct:partCorrect,total:part.questions.length});
+ });
+ const skillResults=Object.entries(bySkill).map(([skill,x])=>({skill,...x,percentage:Math.round(x.correct/x.total*100)}));
+ return {total,correct,percentage:total?Math.round(correct/total*100):0,breakdown,skillResults,details};
 }
-
-async function finishExam() {
-  // Evita que el botón y el temporizador finalicen o guarden el examen dos veces.
-  if (isFinishing) return;
-  isFinishing = true;
-
-  clearInterval(timerInterval);
-  timerInterval = null;
-  window.speechSynthesis?.cancel();
-
-  // No mostrar ni guardar resultados si la sesión ya no está activa.
-  await authReady;
-  if (!currentUser || !db) {
-    isFinishing = false;
-    alert("Tu sesión ha terminado. Inicia sesión de nuevo para continuar.");
-    window.location.href = "./index.html";
-    return;
-  }
-
-  const userAtStart = currentUser;
-  const result = calculateResults();
-
-  $("exam-work").classList.add("hidden");
-  $("exam-results").classList.remove("hidden");
-
-  $("result-score").textContent = `${result.percentage}%`;
-
-  $("result-message").textContent =
-    result.percentage >= 80
-      ? "Muy buen resultado en las preguntas tipo test."
-      : result.percentage >= 60
-        ? "Buen comienzo. Repasa los errores y sigue practicando."
-        : "Conviene repasar los contenidos y repetir el examen.";
-
-  $("result-breakdown").innerHTML = result.breakdown.map(item => `
-    <div class="result-row">
-      <span>${item.title}</span>
-      <strong>${item.correct} / ${item.total}</strong>
-    </div>
-  `).join("");
-
-  $("result-writing").innerHTML = [3, 4].map(index => `
-    <div class="result-row">
-      <span>${exams[level][index].title}</span>
-      <strong>${(writtenWork[index] || "").trim().length} caracteres</strong>
-    </div>
-  `).join("");
-
-  if (currentUser && db) {
-    try {
-      const examId = `${level}-${Date.now()}`;
-
-      await setDoc(
-        doc(db, "users", currentUser.uid, "examResults", examId),
-        {
-          level,
-          percentage: result.percentage,
-          correct: result.correct,
-          total: result.total,
-          breakdown: result.breakdown,
-          completedAt: serverTimestamp()
-        }
-      );
-
-      $("result-message").textContent += " Resultado guardado en tu cuenta.";
-    } catch (error) {
-      console.error("No se pudo guardar el examen:", error);
-      $("result-message").textContent +=
-        " No se pudo guardar el resultado en Firebase.";
-    }
-  } else {
-    $("result-message").textContent +=
-      " La sesión ha cambiado y el resultado no se ha guardado.";
-  }
+async function finishExam(){
+ if(isFinishing)return;isFinishing=true;clearInterval(timerInterval);timerInterval=null;window.speechSynthesis?.cancel();
+ await authReady;
+ if(!currentUser||!db){isFinishing=false;alert("Tu sesión ha terminado. Vuelve a iniciar sesión.");window.location.href="./index.html";return;}
+ const user=currentUser,result=calculateResults(),durationSeconds=Math.max(0,Math.round((Date.now()-startedAt)/1000));
+ $("exam-work").classList.add("hidden");$("exam-results").classList.remove("hidden");
+ $("result-score").textContent=result.percentage+"%";
+ $("result-message").textContent=result.percentage>=80?"Muy buen resultado en las preguntas objetivas.":result.percentage>=60?"Buen trabajo. Revisa los errores por destreza.":"Conviene repasar las destrezas con menor puntuación y repetir el examen.";
+ $("result-skills").innerHTML=result.skillResults.map(x=>'<div class="result-row"><span>'+escapeHtml(x.skill)+'</span><strong>'+x.correct+'/'+x.total+' · '+x.percentage+'%</strong></div>').join("");
+ $("result-breakdown").innerHTML=result.breakdown.map(x=>'<div class="result-row"><span>'+escapeHtml(x.title)+'</span><strong>'+x.correct+' / '+x.total+'</strong></div>').join("");
+ $("result-review").innerHTML=result.details.map((x,i)=>'<article class="review-item"><p><strong>'+escapeHtml(x.skill)+' · '+(i+1)+'. '+escapeHtml(x.question)+'</strong></p><p class="'+(x.isCorrect?"review-correct":"review-wrong")+'">'+(x.isCorrect?"Correct":"Incorrect / unanswered")+' · Correct answer: '+escapeHtml(x.options[x.correctAnswer])+(x.selected===null?" · No contestada":"")+'</p><p>'+escapeHtml(x.explanation)+'</p></article>').join("");
+ const writingParts=parts.filter(x=>x.type==="writing"||x.type==="speaking");
+ $("result-writing").innerHTML=writingParts.map(x=>{const idx=parts.indexOf(x),v=writtenWork[idx]||"";return '<div class="result-row"><span>'+escapeHtml(x.skill)+' · '+escapeHtml(x.task.title||x.title)+'</span><strong>'+v.trim().length+' caracteres · Autoevaluación '+(selfAssessment[idx]||"—")+'/5</strong></div><details><summary>Ver respuesta / notas</summary><p>'+escapeHtml(v)+'</p></details>';}).join("");
+ const record={level,percentage:result.percentage,correct:result.correct,total:result.total,breakdown:result.breakdown,skillResults:result.skillResults,answerReview:result.details.map(({options,...x})=>x),writtenWork:Object.fromEntries(writingParts.map(x=>{const i=parts.indexOf(x);return [x.skill,{title:x.task.title||x.title,response:writtenWork[i]||"",selfAssessment:selfAssessment[i]||null}];})),durationSeconds,completedAt:serverTimestamp(),schemaVersion:2};
+ try{
+  const examId=level+"-"+Date.now();
+  await setDoc(doc(db,"users",user.uid,"examResults",examId),record);
+  $("result-message").textContent+=" Resultado detallado guardado en tu cuenta.";
+  await loadHistory();
+ }catch(error){console.error("No se pudo guardar el examen:",error);$("result-message").textContent+=" No se pudo guardar el resultado en Firebase.";}
 }
-
-$("begin-exam").addEventListener("click", () => { startExam(); });
-
-$("previous-question").addEventListener("click", () => {
-  if (currentPart > 0) {
-    currentPart--;
-    renderPart();
-  }
-});
-
-$("next-question").addEventListener("click", () => {
-  if (currentPart < exams[level].length - 1) {
-    currentPart++;
-    renderPart();
-  } else {
-    finishExam();
-  }
-});
-
-$("finish-exam").addEventListener("click", () => {
-  if (confirm("¿Quieres finalizar el examen y ver tus resultados?")) {
-    finishExam();
-  }
-});
-
-$("retry-exam").addEventListener("click", () => {
-  $("exam-results").classList.add("hidden");
-  $("exam-start").classList.remove("hidden");
-});
-
+$("begin-exam").addEventListener("click",startExam);
+$("previous-question").addEventListener("click",()=>{if(currentPart>0){currentPart--;renderPart();}});
+$("next-question").addEventListener("click",()=>{if(currentPart<parts.length-1){currentPart++;renderPart();}else finishExam();});
+$("finish-exam").addEventListener("click",()=>{if(confirm("¿Quieres finalizar el examen y ver tus resultados? Las preguntas sin contestar contarán como incorrectas."))finishExam();});
+$("retry-exam").addEventListener("click",()=>{$("exam-results").classList.add("hidden");$("exam-start").classList.remove("hidden");loadHistory();});
 configureFirebase();
