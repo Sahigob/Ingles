@@ -1,5 +1,5 @@
-// B2 Unit 11 · Global issues
-// 25 grammar + 25 vocabulary + 3x5 reading + 3x5 listening + 5 writing + 5 speaking = 90 actividades.
+// B2 Unit 11 · Expanded practice
+// Correct-answer positions are distributed to avoid predictable answer patterns.
 export default [
   {
     "id": "b2-11",
@@ -38,34 +38,34 @@ export default [
       {
         "q": "___ the high cost, the project was approved.",
         "options": [
-          "Despite",
           "Although",
           "However",
-          "Whereas"
+          "Whereas",
+          "Despite"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "Despite is followed by a noun phrase."
       },
       {
         "q": "The first option is cheaper; ___, it is less reliable.",
         "options": [
-          "however",
           "although",
           "despite",
+          "however",
           "whereas"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "However links contrasting independent clauses."
       },
       {
         "q": "___ the evidence was limited, the team published a cautious conclusion.",
         "options": [
-          "Even though",
           "In spite of",
+          "Even though",
           "Despite",
           "Nevertheless"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "Even though + clause."
       },
       {
@@ -82,34 +82,34 @@ export default [
       {
         "q": "___ working with limited resources, the team completed the project.",
         "options": [
-          "In spite of",
           "Although",
           "However",
-          "Whereas"
+          "Whereas",
+          "In spite of"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "In spite of + gerund."
       },
       {
         "q": "The policy is ambitious. ___, its implementation will take time.",
         "options": [
-          "Nevertheless",
           "Although",
           "Despite",
+          "Nevertheless",
           "Whereas"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "Nevertheless links contrasting sentences."
       },
       {
         "q": "Much as I ___ the urgency, I believe consultation is necessary.",
         "options": [
-          "recognise",
           "recognising",
+          "recognise",
           "recognised to",
           "am recognise"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "Much as + subject + verb expresses concession."
       },
       {
@@ -126,34 +126,34 @@ export default [
       {
         "q": "The proposal was rejected ___ its apparent advantages.",
         "options": [
-          "despite",
           "although",
           "whereas",
-          "however"
+          "however",
+          "despite"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "Despite + noun phrase."
       },
       {
         "q": "___ carefully the plan is designed, unexpected problems may arise.",
         "options": [
-          "However",
           "Although",
           "Despite",
+          "However",
           "Nevertheless"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "However + adverb + clause."
       },
       {
         "q": "The two regions face similar challenges, ___ their resources differ.",
         "options": [
-          "although",
           "despite",
+          "although",
           "however",
           "nevertheless"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "Although + clause."
       },
       {
@@ -170,34 +170,34 @@ export default [
       {
         "q": "The evidence is incomplete; ___, it provides a useful starting point.",
         "options": [
-          "nonetheless",
           "although",
           "despite",
-          "whereas"
+          "whereas",
+          "nonetheless"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "Nonetheless is a sentence connector."
       },
       {
         "q": "___ the measures were costly, they prevented further disruption.",
         "options": [
-          "Although",
           "Despite",
           "However",
+          "Although",
           "In spite"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "Although + clause."
       },
       {
         "q": "The organisation expanded, ___ its budget remained unchanged.",
         "options": [
-          "while",
           "despite",
+          "while",
           "nevertheless",
           "however"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "While contrasts two clauses."
       },
       {
@@ -214,34 +214,34 @@ export default [
       {
         "q": "The scheme was popular. It was, ___, difficult to maintain.",
         "options": [
-          "however",
           "although",
           "despite",
-          "whereas"
+          "whereas",
+          "however"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "However can interrupt a clause."
       },
       {
         "q": "___ the limitations, the findings are valuable.",
         "options": [
-          "Notwithstanding",
           "Although",
           "Nevertheless",
+          "Notwithstanding",
           "Whereas"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "Notwithstanding + noun phrase."
       },
       {
         "q": "The team met its target, ___ the original forecast had been lower.",
         "options": [
-          "even though",
           "despite",
+          "even though",
           "however",
           "nevertheless"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "Even though + clause."
       },
       {
@@ -258,34 +258,34 @@ export default [
       {
         "q": "___ being under pressure, she remained diplomatic.",
         "options": [
-          "Despite",
           "Although",
           "However",
-          "Whereas"
+          "Whereas",
+          "Despite"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "Despite + gerund."
       },
       {
         "q": "The policy may be effective; ___, further evaluation is required.",
         "options": [
-          "even so",
           "although",
           "despite",
+          "even so",
           "whereas"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "Even so links contrasting statements."
       },
       {
         "q": "___ I agree with the objective, I question the proposed method.",
         "options": [
-          "While",
           "Despite",
+          "While",
           "Nevertheless",
           "However"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "While can introduce a concessive clause."
       },
       {
@@ -414,34 +414,34 @@ export default [
       {
         "q": "What does \"humanitarian aid\" mean?",
         "options": [
-          "assistance provided to people in crisis",
           "the way an organisation or country is managed",
           "involving several countries or organisations",
-          "a system that alerts people to possible danger"
+          "a system that alerts people to possible danger",
+          "assistance provided to people in crisis"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "\"humanitarian aid\" means assistance provided to people in crisis."
       },
       {
         "q": "What does \"displacement\" mean?",
         "options": [
-          "being forced to leave one's home",
           "dishonest use of power for personal gain",
           "a country's authority over its own affairs",
+          "being forced to leave one's home",
           "efforts to maintain peace in conflict areas"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "\"displacement\" means being forced to leave one's home."
       },
       {
         "q": "What does \"food insecurity\" mean?",
         "options": [
-          "limited or uncertain access to sufficient food",
           "an unfair difference in status or opportunity",
+          "limited or uncertain access to sufficient food",
           "an interruption to the delivery of goods",
           "official measures restricting trade or activity"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "\"food insecurity\" means limited or uncertain access to sufficient food."
       },
       {
@@ -458,34 +458,34 @@ export default [
       {
         "q": "What does \"ceasefire\" mean?",
         "options": [
-          "an agreement to stop fighting",
           "ability to withstand and recover from crises",
           "an epidemic spreading across countries or continents",
-          "countries working together on shared problems"
+          "countries working together on shared problems",
+          "an agreement to stop fighting"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "\"ceasefire\" means an agreement to stop fighting."
       },
       {
         "q": "What does \"refugee\" mean?",
         "options": [
-          "a person forced to leave their country for safety",
           "managing relations between countries through discussion",
           "the state of being exposed to harm",
+          "a person forced to leave their country for safety",
           "assistance provided to people in crisis"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "\"refugee\" means a person forced to leave their country for safety."
       },
       {
         "q": "What does \"asylum seeker\" mean?",
         "options": [
-          "a person requesting protection in another country",
           "involving several countries or organisations",
+          "a person requesting protection in another country",
           "a system that alerts people to possible danger",
           "being forced to leave one's home"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "\"asylum seeker\" means a person requesting protection in another country."
       },
       {
@@ -502,34 +502,34 @@ export default [
       {
         "q": "What does \"governance\" mean?",
         "options": [
-          "the way an organisation or country is managed",
           "an interruption to the delivery of goods",
           "official measures restricting trade or activity",
-          "systems for safe disposal of waste and sewage"
+          "systems for safe disposal of waste and sewage",
+          "the way an organisation or country is managed"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "\"governance\" means the way an organisation or country is managed."
       },
       {
         "q": "What does \"corruption\" mean?",
         "options": [
-          "dishonest use of power for personal gain",
           "the health of a population",
           "gases released that contribute to climate change",
+          "dishonest use of power for personal gain",
           "an agreement to stop fighting"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "\"corruption\" means dishonest use of power for personal gain."
       },
       {
         "q": "What does \"inequality\" mean?",
         "options": [
-          "an unfair difference in status or opportunity",
           "an epidemic spreading across countries or continents",
+          "an unfair difference in status or opportunity",
           "countries working together on shared problems",
           "a person forced to leave their country for safety"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "\"inequality\" means an unfair difference in status or opportunity."
       },
       {
@@ -546,34 +546,34 @@ export default [
       {
         "q": "What does \"resilience\" mean?",
         "options": [
-          "ability to withstand and recover from crises",
           "a system that alerts people to possible danger",
           "being forced to leave one's home",
-          "moving people to a new place to live"
+          "moving people to a new place to live",
+          "ability to withstand and recover from crises"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "\"resilience\" means ability to withstand and recover from crises."
       },
       {
         "q": "What does \"diplomacy\" mean?",
         "options": [
-          "managing relations between countries through discussion",
           "efforts to maintain peace in conflict areas",
           "limited or uncertain access to sufficient food",
+          "managing relations between countries through discussion",
           "the way an organisation or country is managed"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "\"diplomacy\" means managing relations between countries through discussion."
       },
       {
         "q": "What does \"multilateral\" mean?",
         "options": [
-          "involving several countries or organisations",
           "official measures restricting trade or activity",
+          "involving several countries or organisations",
           "systems for safe disposal of waste and sewage",
           "dishonest use of power for personal gain"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "\"multilateral\" means involving several countries or organisations."
       },
       {
@@ -590,34 +590,34 @@ export default [
       {
         "q": "What does \"supply disruption\" mean?",
         "options": [
-          "an interruption to the delivery of goods",
           "countries working together on shared problems",
           "a person forced to leave their country for safety",
-          "support intended to improve living conditions"
+          "support intended to improve living conditions",
+          "an interruption to the delivery of goods"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "\"supply disruption\" means an interruption to the delivery of goods."
       },
       {
         "q": "What does \"public health\" mean?",
         "options": [
-          "the health of a population",
           "assistance provided to people in crisis",
           "a person requesting protection in another country",
+          "the health of a population",
           "ability to withstand and recover from crises"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "\"public health\" means the health of a population."
       },
       {
         "q": "What does \"pandemic\" mean?",
         "options": [
-          "an epidemic spreading across countries or continents",
           "being forced to leave one's home",
+          "an epidemic spreading across countries or continents",
           "moving people to a new place to live",
           "managing relations between countries through discussion"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "\"pandemic\" means an epidemic spreading across countries or continents."
       },
       {
@@ -634,34 +634,34 @@ export default [
       {
         "q": "What does \"early warning system\" mean?",
         "options": [
-          "a system that alerts people to possible danger",
           "systems for safe disposal of waste and sewage",
           "dishonest use of power for personal gain",
-          "a country's authority over its own affairs"
+          "a country's authority over its own affairs",
+          "a system that alerts people to possible danger"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "\"early warning system\" means a system that alerts people to possible danger."
       },
       {
         "q": "What does \"peacekeeping\" mean?",
         "options": [
-          "efforts to maintain peace in conflict areas",
           "an agreement to stop fighting",
           "an unfair difference in status or opportunity",
+          "efforts to maintain peace in conflict areas",
           "an interruption to the delivery of goods"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "\"peacekeeping\" means efforts to maintain peace in conflict areas."
       },
       {
         "q": "What does \"sanctions\" mean?",
         "options": [
-          "official measures restricting trade or activity",
           "a person forced to leave their country for safety",
+          "official measures restricting trade or activity",
           "support intended to improve living conditions",
           "the health of a population"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "\"sanctions\" means official measures restricting trade or activity."
       },
       {
@@ -678,12 +678,12 @@ export default [
       {
         "q": "What does \"international cooperation\" mean?",
         "options": [
-          "countries working together on shared problems",
           "moving people to a new place to live",
           "managing relations between countries through discussion",
-          "the state of being exposed to harm"
+          "the state of being exposed to harm",
+          "countries working together on shared problems"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "\"international cooperation\" means countries working together on shared problems."
       }
     ]
@@ -703,51 +703,51 @@ export default [
           {
             "q": "What is the main purpose of the text?",
             "options": [
-              "To examine an issue, its consequences and possible responses",
               "To advertise a service",
-              "To describe an unrelated personal event"
+              "To describe an unrelated personal event",
+              "To examine an issue, its consequences and possible responses"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The text about why emergency aid is not enough presents an issue and considers its implications."
           },
           {
             "q": "Which difficulty is highlighted?",
             "options": [
-              "A practical or structural limitation",
               "The complete absence of any challenge",
-              "A problem that has already disappeared"
+              "A problem that has already disappeared",
+              "A practical or structural limitation"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The writer identifies a limitation rather than claiming the issue is solved."
           },
           {
             "q": "What approach is recommended or described?",
             "options": [
-              "A measured response based on evidence and review",
               "An immediate decision without consultation",
-              "Ignoring the people affected"
+              "Ignoring the people affected",
+              "A measured response based on evidence and review"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The text favours a considered approach."
           },
           {
             "q": "What can be inferred?",
             "options": [
-              "Outcomes depend on context and implementation",
               "One solution will work everywhere",
-              "Further information is never necessary"
+              "Further information is never necessary",
+              "Outcomes depend on context and implementation"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The conclusion recognises that context matters."
           },
           {
             "q": "What is the writer's tone?",
             "options": [
-              "Balanced and analytical",
               "Aggressive and sarcastic",
-              "Entirely promotional"
+              "Entirely promotional",
+              "Balanced and analytical"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The text weighs different considerations."
           }
         ]
@@ -759,51 +759,51 @@ export default [
           {
             "q": "What is the main purpose of the text?",
             "options": [
-              "To examine an issue, its consequences and possible responses",
               "To advertise a service",
-              "To describe an unrelated personal event"
+              "To describe an unrelated personal event",
+              "To examine an issue, its consequences and possible responses"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The text about the difficulty of sharing responsibility presents an issue and considers its implications."
           },
           {
             "q": "Which difficulty is highlighted?",
             "options": [
-              "A practical or structural limitation",
               "The complete absence of any challenge",
-              "A problem that has already disappeared"
+              "A problem that has already disappeared",
+              "A practical or structural limitation"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The writer identifies a limitation rather than claiming the issue is solved."
           },
           {
             "q": "What approach is recommended or described?",
             "options": [
-              "A measured response based on evidence and review",
               "An immediate decision without consultation",
-              "Ignoring the people affected"
+              "Ignoring the people affected",
+              "A measured response based on evidence and review"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The text favours a considered approach."
           },
           {
             "q": "What can be inferred?",
             "options": [
-              "Outcomes depend on context and implementation",
               "One solution will work everywhere",
-              "Further information is never necessary"
+              "Further information is never necessary",
+              "Outcomes depend on context and implementation"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The conclusion recognises that context matters."
           },
           {
             "q": "What is the writer's tone?",
             "options": [
-              "Balanced and analytical",
               "Aggressive and sarcastic",
-              "Entirely promotional"
+              "Entirely promotional",
+              "Balanced and analytical"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The text weighs different considerations."
           }
         ]
@@ -815,51 +815,51 @@ export default [
           {
             "q": "What is the main purpose of the text?",
             "options": [
-              "To examine an issue, its consequences and possible responses",
               "To advertise a service",
-              "To describe an unrelated personal event"
+              "To describe an unrelated personal event",
+              "To examine an issue, its consequences and possible responses"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The text about preparing for a public-health emergency presents an issue and considers its implications."
           },
           {
             "q": "Which difficulty is highlighted?",
             "options": [
-              "A practical or structural limitation",
               "The complete absence of any challenge",
-              "A problem that has already disappeared"
+              "A problem that has already disappeared",
+              "A practical or structural limitation"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The writer identifies a limitation rather than claiming the issue is solved."
           },
           {
             "q": "What approach is recommended or described?",
             "options": [
-              "A measured response based on evidence and review",
               "An immediate decision without consultation",
-              "Ignoring the people affected"
+              "Ignoring the people affected",
+              "A measured response based on evidence and review"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The text favours a considered approach."
           },
           {
             "q": "What can be inferred?",
             "options": [
-              "Outcomes depend on context and implementation",
               "One solution will work everywhere",
-              "Further information is never necessary"
+              "Further information is never necessary",
+              "Outcomes depend on context and implementation"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The conclusion recognises that context matters."
           },
           {
             "q": "What is the writer's tone?",
             "options": [
-              "Balanced and analytical",
               "Aggressive and sarcastic",
-              "Entirely promotional"
+              "Entirely promotional",
+              "Balanced and analytical"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The text weighs different considerations."
           }
         ]
@@ -881,51 +881,51 @@ export default [
           {
             "q": "What are the speakers mainly discussing?",
             "options": [
-              "A practical issue and how it should be handled",
               "An unrelated leisure activity",
-              "A product advertisement"
+              "A product advertisement",
+              "A practical issue and how it should be handled"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The conversation focuses on a decision or problem."
           },
           {
             "q": "What concern is raised?",
             "options": [
-              "A limitation or possible unintended consequence",
               "The fact that no action is needed",
-              "A problem that has already been resolved"
+              "A problem that has already been resolved",
+              "A limitation or possible unintended consequence"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "One speaker identifies a concern."
           },
           {
             "q": "What next step is mentioned?",
             "options": [
-              "Further checking, consultation or a review",
               "Ending communication",
-              "Publishing unverified information"
+              "Publishing unverified information",
+              "Further checking, consultation or a review"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The speakers identify a follow-up action."
           },
           {
             "q": "What is the likely outcome?",
             "options": [
-              "The decision will be informed by additional evidence",
               "Success is guaranteed immediately",
-              "No review will take place"
+              "No review will take place",
+              "The decision will be informed by additional evidence"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The discussion suggests a continuing process."
           },
           {
             "q": "How do the speakers interact?",
             "options": [
-              "They exchange views and seek a workable response",
               "They refuse to listen",
-              "They change to an unrelated subject"
+              "They change to an unrelated subject",
+              "They exchange views and seek a workable response"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "Their exchange is cooperative."
           }
         ]
@@ -937,51 +937,51 @@ export default [
           {
             "q": "What are the speakers mainly discussing?",
             "options": [
-              "A practical issue and how it should be handled",
               "An unrelated leisure activity",
-              "A product advertisement"
+              "A product advertisement",
+              "A practical issue and how it should be handled"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The conversation focuses on a decision or problem."
           },
           {
             "q": "What concern is raised?",
             "options": [
-              "A limitation or possible unintended consequence",
               "The fact that no action is needed",
-              "A problem that has already been resolved"
+              "A problem that has already been resolved",
+              "A limitation or possible unintended consequence"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "One speaker identifies a concern."
           },
           {
             "q": "What next step is mentioned?",
             "options": [
-              "Further checking, consultation or a review",
               "Ending communication",
-              "Publishing unverified information"
+              "Publishing unverified information",
+              "Further checking, consultation or a review"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The speakers identify a follow-up action."
           },
           {
             "q": "What is the likely outcome?",
             "options": [
-              "The decision will be informed by additional evidence",
               "Success is guaranteed immediately",
-              "No review will take place"
+              "No review will take place",
+              "The decision will be informed by additional evidence"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The discussion suggests a continuing process."
           },
           {
             "q": "How do the speakers interact?",
             "options": [
-              "They exchange views and seek a workable response",
               "They refuse to listen",
-              "They change to an unrelated subject"
+              "They change to an unrelated subject",
+              "They exchange views and seek a workable response"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "Their exchange is cooperative."
           }
         ]
@@ -993,51 +993,51 @@ export default [
           {
             "q": "What are the speakers mainly discussing?",
             "options": [
-              "A practical issue and how it should be handled",
               "An unrelated leisure activity",
-              "A product advertisement"
+              "A product advertisement",
+              "A practical issue and how it should be handled"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The conversation focuses on a decision or problem."
           },
           {
             "q": "What concern is raised?",
             "options": [
-              "A limitation or possible unintended consequence",
               "The fact that no action is needed",
-              "A problem that has already been resolved"
+              "A problem that has already been resolved",
+              "A limitation or possible unintended consequence"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "One speaker identifies a concern."
           },
           {
             "q": "What next step is mentioned?",
             "options": [
-              "Further checking, consultation or a review",
               "Ending communication",
-              "Publishing unverified information"
+              "Publishing unverified information",
+              "Further checking, consultation or a review"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The speakers identify a follow-up action."
           },
           {
             "q": "What is the likely outcome?",
             "options": [
-              "The decision will be informed by additional evidence",
               "Success is guaranteed immediately",
-              "No review will take place"
+              "No review will take place",
+              "The decision will be informed by additional evidence"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "The discussion suggests a continuing process."
           },
           {
             "q": "How do the speakers interact?",
             "options": [
-              "They exchange views and seek a workable response",
               "They refuse to listen",
-              "They change to an unrelated subject"
+              "They change to an unrelated subject",
+              "They exchange views and seek a workable response"
             ],
-            "answer": 0,
+            "answer": 2,
             "explanation": "Their exchange is cooperative."
           }
         ]
