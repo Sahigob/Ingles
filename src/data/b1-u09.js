@@ -1,5 +1,5 @@
-// B1 Unit 9 · Money and shopping
-// 25 grammar + 25 vocabulary + 3x5 reading + 3x5 listening + 5 writing + 5 speaking = 90 actividades.
+// B1 Unit 9 · Expanded practice
+// Correct-answer positions are distributed to avoid predictable answer patterns.
 export default [
   {
     "id": "b1-u09-grammar",
@@ -39,34 +39,34 @@ export default [
       {
         "q": "The new shopping centre ___ last year.",
         "options": [
-          "was opened",
           "opened by",
           "has opening",
-          "is open"
+          "is open",
+          "was opened"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "Past passive: was + past participle."
       },
       {
         "q": "All payments ___ securely by the website.",
         "options": [
-          "are processed",
           "process",
           "is processing",
+          "are processed",
           "processed"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "Present passive: are + past participle."
       },
       {
         "q": "My laptop is broken, so I'm going to ___ tomorrow.",
         "options": [
-          "have it repaired",
           "repair it have",
+          "have it repaired",
           "have repaired it",
           "it repaired"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "Have + object + past participle describes a service."
       },
       {
@@ -83,34 +83,34 @@ export default [
       {
         "q": "The shop ___ by the manager every evening.",
         "options": [
-          "is closed",
           "closes",
           "is closing by",
-          "closed"
+          "closed",
+          "is closed"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "The shop receives the action: passive voice."
       },
       {
         "q": "These shoes ___ in Portugal.",
         "options": [
-          "are made",
           "make",
           "are making",
+          "are made",
           "made"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "Products are made: present passive."
       },
       {
         "q": "The refund ___ within five working days.",
         "options": [
-          "will be issued",
           "will issue",
+          "will be issued",
           "will be issuing",
           "issued"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "Future passive: will be + past participle."
       },
       {
@@ -127,34 +127,34 @@ export default [
       {
         "q": "A new payment system ___ at the moment.",
         "options": [
-          "is being tested",
           "tests",
           "has tested",
-          "is testing"
+          "is testing",
+          "is being tested"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "Present continuous passive: is being + past participle."
       },
       {
         "q": "The receipt ___ with the order.",
         "options": [
-          "was included",
           "included",
           "is including",
+          "was included",
           "has include"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "Past passive uses was + past participle."
       },
       {
         "q": "You should ___ your card by the bank if it is stolen.",
         "options": [
-          "have it cancelled",
           "cancel it have",
+          "have it cancelled",
           "have cancelled it",
           "it cancelling"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "Have + object + past participle."
       },
       {
@@ -171,34 +171,34 @@ export default [
       {
         "q": "The product ___ because it did not meet safety standards.",
         "options": [
-          "was recalled",
           "recalled it",
           "has recalling",
-          "is recall"
+          "is recall",
+          "was recalled"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "Past passive: was recalled."
       },
       {
         "q": "The money ___ to your account tomorrow.",
         "options": [
-          "will be transferred",
           "will transfer",
           "transfers",
+          "will be transferred",
           "is transferring by"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "Future passive."
       },
       {
         "q": "The shop assistant ___ the damaged item.",
         "options": [
-          "replaced",
           "was replaced",
+          "replaced",
           "is replacing by",
           "has been replace"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "The assistant performs the action: active past simple."
       },
       {
@@ -215,34 +215,34 @@ export default [
       {
         "q": "My watch ___ at the moment.",
         "options": [
-          "is being repaired",
           "repairs",
           "has repaired",
-          "is repairing"
+          "is repairing",
+          "is being repaired"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "Present continuous passive."
       },
       {
         "q": "The bill must ___ before you leave.",
         "options": [
-          "be paid",
           "pay",
           "paid",
+          "be paid",
           "being pay"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "Modal passive: modal + be + past participle."
       },
       {
         "q": "The goods ___ before they are sent to customers.",
         "options": [
-          "are checked",
           "check",
+          "are checked",
           "are checking",
           "checked by"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "Present passive for a regular process."
       },
       {
@@ -259,34 +259,34 @@ export default [
       {
         "q": "The customer was asked ___ the form.",
         "options": [
-          "to complete",
           "completing",
           "complete",
-          "completed"
+          "completed",
+          "to complete"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "Passive reporting verb + to-infinitive."
       },
       {
         "q": "This item can ___ online or in store.",
         "options": [
-          "be returned",
           "return",
           "returned",
+          "be returned",
           "being return"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "Modal passive: can be + past participle."
       },
       {
         "q": "We had the kitchen ___ last summer.",
         "options": [
-          "painted",
           "to paint",
+          "painted",
           "painting",
           "paint"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "Have + object + past participle."
       },
       {
@@ -415,34 +415,34 @@ export default [
       {
         "q": "What does \"bargain\" mean?",
         "options": [
-          "something bought for a price lower than usual",
           "money that you owe",
           "the value of one currency compared with another",
-          "legal protections for people who buy goods or services"
+          "legal protections for people who buy goods or services",
+          "something bought for a price lower than usual"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "\"bargain\" means something bought for a price lower than usual."
       },
       {
         "q": "What does \"refund\" mean?",
         "options": [
-          "money returned to a customer",
           "the percentage charged or paid for borrowing or saving money",
           "using electronic payments rather than cash",
+          "money returned to a customer",
           "a regular payment for continued access to a service"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "\"refund\" means money returned to a customer."
       },
       {
         "q": "What does \"receipt\" mean?",
         "options": [
-          "a document proving that you paid",
           "a plan for how to spend money",
+          "a document proving that you paid",
           "allowing payment by tapping a card or device",
           "money charged to bring an order to you"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "\"receipt\" means a document proving that you paid."
       },
       {
@@ -459,34 +459,34 @@ export default [
       {
         "q": "What does \"installment\" mean?",
         "options": [
-          "one of several regular payments",
           "take money out of a bank account",
           "owned or used by someone before",
-          "something bought suddenly without planning"
+          "something bought suddenly without planning",
+          "one of several regular payments"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "\"installment\" means one of several regular payments."
       },
       {
         "q": "What does \"overdraft\" mean?",
         "options": [
-          "money borrowed by spending more than is in a bank account",
           "put money into a bank account",
           "a business that sells goods to the public",
+          "money borrowed by spending more than is in a bank account",
           "giving good value for the money spent"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "\"overdraft\" means money borrowed by spending more than is in a bank account."
       },
       {
         "q": "What does \"savings\" mean?",
         "options": [
-          "money kept for future use",
           "the value of one currency compared with another",
+          "money kept for future use",
           "legal protections for people who buy goods or services",
           "something bought for a price lower than usual"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "\"savings\" means money kept for future use."
       },
       {
@@ -503,34 +503,34 @@ export default [
       {
         "q": "What does \"interest rate\" mean?",
         "options": [
-          "the percentage charged or paid for borrowing or saving money",
           "allowing payment by tapping a card or device",
           "money charged to bring an order to you",
-          "a document proving that you paid"
+          "a document proving that you paid",
+          "the percentage charged or paid for borrowing or saving money"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "\"interest rate\" means the percentage charged or paid for borrowing or saving money."
       },
       {
         "q": "What does \"budget\" mean?",
         "options": [
-          "a plan for how to spend money",
           "made to look genuine in order to deceive",
           "a label showing how much an item costs",
+          "a plan for how to spend money",
           "a promise to repair or replace a product for a period"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "\"budget\" means a plan for how to spend money."
       },
       {
         "q": "What does \"afford\" mean?",
         "options": [
-          "have enough money to pay for something",
           "owned or used by someone before",
+          "have enough money to pay for something",
           "something bought suddenly without planning",
           "one of several regular payments"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "\"afford\" means have enough money to pay for something."
       },
       {
@@ -547,34 +547,34 @@ export default [
       {
         "q": "What does \"deposit\" mean?",
         "options": [
-          "put money into a bank account",
           "legal protections for people who buy goods or services",
           "something bought for a price lower than usual",
-          "money kept for future use"
+          "money kept for future use",
+          "put money into a bank account"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "\"deposit\" means put money into a bank account."
       },
       {
         "q": "What does \"exchange rate\" mean?",
         "options": [
-          "the value of one currency compared with another",
           "a regular payment for continued access to a service",
           "money returned to a customer",
+          "the value of one currency compared with another",
           "money that you owe"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "\"exchange rate\" means the value of one currency compared with another."
       },
       {
         "q": "What does \"cashless\" mean?",
         "options": [
-          "using electronic payments rather than cash",
           "money charged to bring an order to you",
+          "using electronic payments rather than cash",
           "a document proving that you paid",
           "the percentage charged or paid for borrowing or saving money"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "\"cashless\" means using electronic payments rather than cash."
       },
       {
@@ -591,34 +591,34 @@ export default [
       {
         "q": "What does \"counterfeit\" mean?",
         "options": [
-          "made to look genuine in order to deceive",
           "something bought suddenly without planning",
           "one of several regular payments",
-          "have enough money to pay for something"
+          "have enough money to pay for something",
+          "made to look genuine in order to deceive"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "\"counterfeit\" means made to look genuine in order to deceive."
       },
       {
         "q": "What does \"second-hand\" mean?",
         "options": [
-          "owned or used by someone before",
           "giving good value for the money spent",
           "money borrowed by spending more than is in a bank account",
+          "owned or used by someone before",
           "take money out of a bank account"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "\"second-hand\" means owned or used by someone before."
       },
       {
         "q": "What does \"retailer\" mean?",
         "options": [
-          "a business that sells goods to the public",
           "something bought for a price lower than usual",
+          "a business that sells goods to the public",
           "money kept for future use",
           "put money into a bank account"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "\"retailer\" means a business that sells goods to the public."
       },
       {
@@ -635,34 +635,34 @@ export default [
       {
         "q": "What does \"subscription\" mean?",
         "options": [
-          "a regular payment for continued access to a service",
           "a document proving that you paid",
           "the percentage charged or paid for borrowing or saving money",
-          "using electronic payments rather than cash"
+          "using electronic payments rather than cash",
+          "a regular payment for continued access to a service"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "\"subscription\" means a regular payment for continued access to a service."
       },
       {
         "q": "What does \"delivery fee\" mean?",
         "options": [
-          "money charged to bring an order to you",
           "a promise to repair or replace a product for a period",
           "a plan for how to spend money",
+          "money charged to bring an order to you",
           "allowing payment by tapping a card or device"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "\"delivery fee\" means money charged to bring an order to you."
       },
       {
         "q": "What does \"price tag\" mean?",
         "options": [
-          "a label showing how much an item costs",
           "one of several regular payments",
+          "a label showing how much an item costs",
           "have enough money to pay for something",
           "made to look genuine in order to deceive"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "\"price tag\" means a label showing how much an item costs."
       },
       {
@@ -679,12 +679,12 @@ export default [
       {
         "q": "What does \"cost-effective\" mean?",
         "options": [
-          "giving good value for the money spent",
           "money kept for future use",
           "put money into a bank account",
-          "a business that sells goods to the public"
+          "a business that sells goods to the public",
+          "giving good value for the money spent"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "\"cost-effective\" means giving good value for the money spent."
       }
     ]
