@@ -586,3 +586,32 @@ dialog .primary { width: 100%; }
 .speaking-topic span { color: var(--blue); }
 .speaking-topic:hover { color: var(--blue); }
 @media (max-width: 760px) { .speaking-entry { grid-template-columns: 1fr; padding: 20px; gap: 16px; } }
+
+
+/* Exámenes ampliados: revisión, progreso e historial */
+.exam-question { padding: 15px; margin: 12px 0; border: 1px solid var(--line); border-radius: 10px; }
+.exam-question h4 { margin: 0 0 12px; font-size: 14px; }
+.exam-question label { display: flex; align-items: flex-start; gap: 9px; padding: 8px 10px; margin: 5px 0; border-radius: 7px; background: #f8faff; font-size: 13px; line-height: 1.5; cursor: pointer; }
+.exam-question input { margin-top: 3px; flex: 0 0 auto; }
+#exam-response, #self-rating { width: 100%; max-width: 100%; padding: 12px; border: 1px solid var(--line); border-radius: 8px; font: inherit; }
+#self-rating { max-width: 180px; margin: 8px 0 15px; }
+.history-card { margin-top: 25px; }
+.history-card h2 { color: var(--navy); font-size: 22px; }
+.history-row { display: flex; align-items: center; justify-content: space-between; gap: 15px; padding: 14px 0; border-bottom: 1px solid var(--line); }
+.history-row div { display: grid; gap: 5px; }
+.history-row strong { font-size: 13px; }
+.history-row span { color: var(--muted); font-size: 11px; }
+.result-row { display: flex; justify-content: space-between; gap: 15px; padding: 11px 0; border-bottom: 1px solid var(--line); font-size: 13px; }
+.review-item { padding: 12px 0; border-bottom: 1px solid var(--line); font-size: 12px; line-height: 1.6; }
+.review-correct { color: #23856d; font-weight: 700; }
+.review-wrong { color: #b34d4d; font-weight: 700; }
+.writing-review details { margin: 12px 0; }
+.writing-review summary, .review-item summary { cursor: pointer; color: var(--blue); font-weight: 700; padding: 8px 0; }
+#exam-results h3 { margin-top: 25px; font-size: 16px; }
+@media(max-width:600px) {
+ .exam-page { padding: 30px 12px 60px; }
+ .exam-card { padding: 19px; }
+ .exam-info { grid-template-columns: 1fr; }
+ .exam-toolbar { align-items: flex-start; gap: 12px; }
+ .history-row { align-items: flex-start; }
+}
